@@ -1,8 +1,8 @@
-name: Verified extended ETHUSDT history
+name: Sourced ETHUSDT history with explicit mark gaps
 on:
   push:
     branches: [research/history-recovery]
-    paths: [tools/acquire_history.py, tools/acquire_with_repairs.py, .github/workflows/extended-history.yml]
+    paths: [tools/acquire_history.py, tools/acquire_with_repairs.py, tools/export_with_mark_gaps.py, .github/workflows/extended-history.yml]
   workflow_dispatch:
 permissions:
   contents: read
@@ -16,13 +16,13 @@ jobs:
           persist-credentials: false
       - name: Install bounded data dependencies
         run: python -m pip install numpy==2.3.5 pandas==2.2.3
-      - name: Fetch and verify archives; repair only from matching daily observations
-        run: python tools/acquire_with_repairs.py
-      - name: Export verified inputs and data-quality receipt
+      - name: Preserve missing marks as nulls and export independent observed bounds
+        run: python tools/export_with_mark_gaps.py
+      - name: Export sourced inputs and explicit coverage limitations
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: verified-extended-eth-history
+          name: eth-history-observed-with-mark-gaps
           path: history_output/
           retention-days: 1
           compression-level: 0
