@@ -1,0 +1,14 @@
+{
+  "original_source_unchanged": true,
+  "changed_config_field_only": "target_r",
+  "two_r_total_gain_exceeds_four_r": false,
+  "two_r_better_months_including_partial": 5,
+  "paired_month_segments": 12,
+  "two_r_better_complete_months": 4,
+  "complete_months": 11,
+  "two_r_beats_four_r_every_month": false,
+  "observed_full_calendar_year_or_12_month_yoy_available": false,
+  "yoy_limitation": "Exactly 52 weeks is 364 days; calendar-year rows are partial. No complete 12-month YoY comparison is claimed.",
+  "create_4550_gain_variant_folder": false,
+  "decision": "Do not create a performance-named 2R folder: its total gain is lower than unchanged 4R."
+}

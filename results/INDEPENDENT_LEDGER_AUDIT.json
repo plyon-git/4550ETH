@@ -1,0 +1,44 @@
+{
+  "4.0": {
+    "passed": true,
+    "trades_checked": 222,
+    "minute_rows_checked": 524160,
+    "equity_series_independently_reconstructed": 2,
+    "max_close_equity_error": 3.637978807091713e-11,
+    "max_open_equity_error": 3.637978807091713e-11,
+    "sum_gross_pnl": 6497.4449799999975,
+    "sum_entry_exit_fees": 1874.03913146,
+    "sum_funding_paid": 73.00324485064898,
+    "sum_net_pnl": 4550.402603689349,
+    "wins_net_of_costs": 70,
+    "losses_net_of_costs": 152
+  },
+  "1.75": {
+    "passed": true,
+    "trades_checked": 311,
+    "minute_rows_checked": 524160,
+    "equity_series_independently_reconstructed": 2,
+    "max_close_equity_error": 2.9103830456733704e-11,
+    "max_open_equity_error": 2.9103830456733704e-11,
+    "sum_gross_pnl": 1696.9501900000043,
+    "sum_entry_exit_fees": 2072.105089665,
+    "sum_funding_paid": 51.490809947784314,
+    "sum_net_pnl": -426.6457096127806,
+    "wins_net_of_costs": 124,
+    "losses_net_of_costs": 187
+  },
+  "2.0": {
+    "passed": true,
+    "trades_checked": 293,
+    "minute_rows_checked": 524160,
+    "equity_series_independently_reconstructed": 2,
+    "max_close_equity_error": 1.4551915228366852e-11,
+    "max_open_equity_error": 1.4551915228366852e-11,
+    "sum_gross_pnl": 2461.4555100000007,
+    "sum_entry_exit_fees": 2101.470229985,
+    "sum_funding_paid": 57.759883981395944,
+    "sum_net_pnl": 302.22539603360406,
+    "wins_net_of_costs": 108,
+    "losses_net_of_costs": 185
+  }
+}
