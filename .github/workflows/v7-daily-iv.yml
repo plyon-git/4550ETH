@@ -1,0 +1,93 @@
+name: V7 daily IV one-trade-per-day reproduction
+on:
+  push:
+    branches: [daily-iv-v7]
+    paths: ['daily_iv_v7/*.py', 'daily_iv_v7/requirements.txt', '.github/workflows/v7-daily-iv.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-iv-v7-research
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: daily-iv-v7
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Restore only the previously archived daily IV inputs
+        run: |
+          mkdir -p daily_iv_v7/context
+          cp -a qqqwave_v6/context/iv_data daily_iv_v7/context/iv_data
+      - name: Test causal daily horizon and independent accounting
+        working-directory: daily_iv_v7
+        run: |
+          python -m pip install -r requirements.txt
+          mkdir -p checks
+          python -m pytest -q --junitxml=checks/tests.xml | tee checks/tests.txt
+      - name: Retrieve and hash-check the unchanged BTC and ETH minute data
+        run: |
+          mkdir -p "$RUNNER_TEMP/v7-inputs"
+          for symbol in BTCUSDT ETHUSDT; do
+            gh release download v4-research-20260922 --pattern "${symbol}_aligned_repaired.npz" --dir "$RUNNER_TEMP/v7-inputs"
+            mkdir -p "daily_iv_v7/data/$symbol"
+            mv "$RUNNER_TEMP/v7-inputs/${symbol}_aligned_repaired.npz" "daily_iv_v7/data/$symbol/aligned_repaired.npz"
+          done
+      - name: Recompute every daily trade and separate 250-week result
+        working-directory: daily_iv_v7
+        run: |
+          python -u research.py --data-root data | tee checks/research.txt
+          python -u adaptive.py --data-root data | tee checks/adaptive.txt
+          python finalize.py --zip-out "$RUNNER_TEMP/Daily_IV_V7_Research.zip" > "$RUNNER_TEMP/V7_RECEIPT.json"
+      - name: Confirm separate local-reference reproduction and actual trade counts
+        working-directory: daily_iv_v7
+        run: |
+          python - <<'PY'
+          import json,numpy as np
+          from pathlib import Path
+          expected={'BTCUSDT':(-.8799619260452858,-.7509392169181941),'ETHUSDT':(-.757650779833623,-.7079370836252588)}
+          for s,(fixed,adaptive) in expected.items():
+              for name,gain in [('PRIMARY_DAILY',fixed),('ADAPTIVE_DAILY',adaptive)]:
+                  r=json.loads((Path('results')/s/name/'METRICS.json').read_text())
+                  assert r['trades']==1826 and r['skipped_days']==0
+                  np.testing.assert_allclose(r['net_return'],gain,rtol=1e-9,atol=1e-9)
+          a=json.load(open('ASSESSMENT.json'))
+          assert a['audits']==42 and a['primary_count_requirement_met']
+          print('Both markets: 1826 real simulated round trips each, all counts and local-reference metrics reproduced.')
+          PY
+      - name: Commit all code, inputs, selections, trades, days and audits
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add daily_iv_v7
+          if ! git diff --cached --quiet; then
+            git commit -m 'Preserve Parrish Lyon V7 daily-IV trades, one-per-day audits, five-year and 250-week results'
+            git push origin HEAD:daily-iv-v7
+          fi
+      - name: Publish verified research archive
+        run: |
+          printf '%s\n' 'Parrish Lyon V7: daily BTC/ETH IV, one entry per UTC day, same-day exit.' 'Each scheduled market case has1826 completed trades; all42 case audits passed.' 'No tested65% annual strategy. Historical research; no live V7 order submission.' > "$RUNNER_TEMP/v7-notes.md"
+          if ! gh release view v7-daily-iv-20260922 >/dev/null 2>&1; then
+            gh release create v7-daily-iv-20260922 --target "$(git rev-parse HEAD)" --prerelease --title 'Daily IV: BTC and ETH one-trade-per-day research' --notes-file "$RUNNER_TEMP/v7-notes.md"
+          fi
+          gh release upload v7-daily-iv-20260922 "$RUNNER_TEMP/Daily_IV_V7_Research.zip" "$RUNNER_TEMP/V7_RECEIPT.json" --clobber
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: daily-iv-v7-research-and-audit
+          retention-days: 30
+          compression-level: 0
+          path: |
+            ${{ runner.temp }}/Daily_IV_V7_Research.zip
+            ${{ runner.temp }}/V7_RECEIPT.json
+            daily_iv_v7/checks
