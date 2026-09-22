@@ -1,0 +1,101 @@
+name: V8 72-hour 5R 30x daily-weekly IV research
+on:
+  push:
+    branches: [hold72-iv-v8]
+    paths:
+      - 'hold72_iv_v8/*.py'
+      - 'hold72_iv_v8/tests/**'
+      - 'hold72_iv_v8/requirements.txt'
+      - '.github/workflows/v8-iv-carry.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: hold72-iv-v8-publication
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: hold72-iv-v8
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Restore previously archived IV inputs and run causal/carry tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p hold72_iv_v8/context hold72_iv_v8/checks
+          cp -a daily_iv_v7/context/iv_data hold72_iv_v8/context/
+          cd hold72_iv_v8
+          python -m pip install -r requirements.txt
+          python -m pytest -q --junitxml=checks/tests.xml | tee checks/tests.txt
+      - name: Retrieve hash-pinned public BTC and ETH minute inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/v8-data"
+          for symbol in ETHUSDT BTCUSDT; do
+            gh release download v4-research-20260922 --pattern "${symbol}_aligned_repaired.npz" --dir "$RUNNER_TEMP/v8-data"
+            mkdir -p "hold72_iv_v8/data/$symbol"
+            mv "$RUNNER_TEMP/v8-data/${symbol}_aligned_repaired.npz" "hold72_iv_v8/data/$symbol/aligned_repaired.npz"
+          done
+      - name: Reproduce fixed search and purged five-year/test accounts
+        working-directory: hold72_iv_v8
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u research.py --symbol ETHUSDT --data data/ETHUSDT/aligned_repaired.npz | tee checks/ETH_fixed.txt
+          python -u research.py --symbol BTCUSDT --data data/BTCUSDT/aligned_repaired.npz | tee checks/BTC_fixed.txt
+      - name: Reproduce causal walk-forward labels, numerical models and all trades
+        working-directory: hold72_iv_v8
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u learning.py --symbol ETHUSDT --data data/ETHUSDT/aligned_repaired.npz | tee checks/ETH_learning.txt
+          python -u learning.py --symbol BTCUSDT --data data/BTCUSDT/aligned_repaired.npz | tee checks/BTC_learning.txt
+          python -u sensitivity.py --symbol ETHUSDT --data data/ETHUSDT/aligned_repaired.npz | tee checks/ETH_sensitivity.txt
+      - name: Verify independent case audits and separately run local reference results
+        working-directory: hold72_iv_v8
+        shell: bash
+        run: |
+          set -euo pipefail
+          python finalize.py --verify-reference --zip-out "$RUNNER_TEMP/IV_Carry_V8_Research.zip" > "$RUNNER_TEMP/IV_Carry_V8_Receipt.json"
+      - name: Commit all fitted models, forecast candidates, trades and audits
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add hold72_iv_v8/context hold72_iv_v8/results hold72_iv_v8/checks hold72_iv_v8/ASSESSMENT.json hold72_iv_v8/RESULTS.md hold72_iv_v8/VERIFICATION.json hold72_iv_v8/MANIFEST.json hold72_iv_v8/MODEL_INVENTORY.json hold72_iv_v8/ALL_CASES.csv
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save Parrish Lyon V8 72h/5R/30x models, every trade, five annual periods and independent audits'
+            git push origin HEAD:hold72-iv-v8
+          fi
+      - name: Publish the complete research archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf '%s\n' 'Parrish Lyon V8: 72h maximum hold, 5R targets, 30x nominal with explicit collateral.' 'All 100 case audits and 28 tests passed. No V8 live orders.' 'Arithmetic annual averages must not be confused with CAGR; no base-cost tested case establishes CAGR above 45%.' 'Source, models, every trade and reports are committed; large raw data remain in V4 release assets.' > "$RUNNER_TEMP/v8-notes.md"
+          if ! gh release view v8-iv-carry-20260922 >/dev/null 2>&1; then
+            gh release create v8-iv-carry-20260922 --target "$(git rev-parse HEAD)" --prerelease --title 'V8 overnight IV carry research and audited ledgers' --notes-file "$RUNNER_TEMP/v8-notes.md"
+          fi
+          gh release upload v8-iv-carry-20260922 "$RUNNER_TEMP/IV_Carry_V8_Research.zip" "$RUNNER_TEMP/IV_Carry_V8_Receipt.json" --clobber
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: iv-carry-v8-program-and-verification
+          retention-days: 30
+          compression-level: 0
+          path: |
+            ${{ runner.temp }}/IV_Carry_V8_Research.zip
+            ${{ runner.temp }}/IV_Carry_V8_Receipt.json
+            hold72_iv_v8/checks
