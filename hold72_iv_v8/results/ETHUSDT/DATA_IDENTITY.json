@@ -1,0 +1,38 @@
+{
+  "source_file_sha256": "b6a9f20924ad42d8ea802404f5640356fc42c6301b98ed64ad161a576c71e46d",
+  "iv": {
+    "rows": 1987,
+    "csv_sha256": "2070bb20b006dc9187d20174fe937ac2329c1ee760a440a4bef06b59d4bb5892",
+    "source_receipts": [
+      {
+        "url": "https://www.deribit.com/api/v2/public/get_volatility_index_data?currency=ETH&start_timestamp=1609459200000&end_timestamp=1788220800000&resolution=1D",
+        "currency": "ETH",
+        "resolution": "1D",
+        "page": 0,
+        "downloaded_at_utc": "2026-09-22T17:33:31.518911+00:00",
+        "sha256": "6f2f9cec91ba750fb5b0414768e254090faef6e910675a9ec46e2e84a65185bb",
+        "bytes": 39741,
+        "success": true,
+        "rows": 1000,
+        "continuation": 1701820800000
+      },
+      {
+        "url": "https://www.deribit.com/api/v2/public/get_volatility_index_data?currency=ETH&start_timestamp=1609459200000&end_timestamp=1701820800000&resolution=1D",
+        "currency": "ETH",
+        "resolution": "1D",
+        "page": 1,
+        "downloaded_at_utc": "2026-09-22T17:33:31.942784+00:00",
+        "sha256": "adff7659852def77545a63b8255f728f738aa6228f498fac6c680912ea22f204",
+        "bytes": 40598,
+        "success": true,
+        "rows": 988,
+        "continuation": null
+      }
+    ],
+    "first_candle_utc": "2021-03-24 00:00:00+00:00",
+    "last_candle_utc": "2026-08-31 00:00:00+00:00",
+    "index_tenor": "30-day forward annualized DVOL, observed daily; not a 1D-tenor option chain"
+  },
+  "missing_mark_count": 66,
+  "missing_mark_model": "Prior observed close plus previously sourced 15-minute bounds; otherwise explicitly hypothetical +/-5% mark envelope. Not exact historical liquidation prices."
+}

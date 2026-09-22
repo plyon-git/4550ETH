@@ -1,0 +1,254 @@
+[
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20241127.json",
+    "sha256": "54d8fc2bca6a3218b40c8d77887539e9ca4454dd2f85717d88943a1b335952da",
+    "cutoff_ms": 1732665600000,
+    "samples": 10546
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20240828.json",
+    "sha256": "46fa1f650ab7bc4e005b4fb69c914ba51f939480acaf696b134d3b2730a5edbe",
+    "cutoff_ms": 1724803200000,
+    "samples": 9750
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20260225.json",
+    "sha256": "4b0582799c1a152819759a5de434c8fdf54fdaa53617bb3e8480e573f003cd8d",
+    "cutoff_ms": 1771977600000,
+    "samples": 13080
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20220302.json",
+    "sha256": "1c25ee992fb260d79ca564aa64cfd9a3ebdb097efdf410ff651879c89afb4105",
+    "cutoff_ms": 1646179200000,
+    "samples": 5865
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20230301.json",
+    "sha256": "1816e19c2feb648c482654f02076f69f38a41a558660fa00171ec665c2de32cb",
+    "cutoff_ms": 1677628800000,
+    "samples": 10412
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20210901.json",
+    "sha256": "e0e1c8d29bae229ce895f1cd50f802402a85fc9c74e8ab736e3e80a65c4e7390",
+    "cutoff_ms": 1630454400000,
+    "samples": 3126
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20260826.json",
+    "sha256": "8fd4bf52bb8eed4184ac9b97e53c1f3bcaa063617caa1c0c2ced92d468127105",
+    "cutoff_ms": 1787702400000,
+    "samples": 12101
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20211201.json",
+    "sha256": "b3752166c87cdd29d2035dc92686e20abffb792568f4e156dda5921989e4c79d",
+    "cutoff_ms": 1638316800000,
+    "samples": 4193
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20221130.json",
+    "sha256": "2557896008af2ed3ffe674643d08cf9aa67986c7d4722f530f2793a759d23616",
+    "cutoff_ms": 1669766400000,
+    "samples": 9638
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20231129.json",
+    "sha256": "ad2b7c96f8a4e28fe31423df4367ae9a55bbf0f8a1bbc3239ee9b63b4a0d7eb0",
+    "cutoff_ms": 1701216000000,
+    "samples": 9417
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20240529.json",
+    "sha256": "4cb84f3aa6144e697132d241cf0caec3dfa0aa07e00b41e25c8c30709dbc94a3",
+    "cutoff_ms": 1716940800000,
+    "samples": 9431
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20240228.json",
+    "sha256": "23930472847f9c916b4a81c60e251dc4fbab97e2b046dc88b07e4c1303cdecda",
+    "cutoff_ms": 1709078400000,
+    "samples": 9274
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20220831.json",
+    "sha256": "9df22c129d348ef51a43724e76d84f33bf3c23f6ce8c574c92bd0de73efbf9c7",
+    "cutoff_ms": 1661904000000,
+    "samples": 8790
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20250528.json",
+    "sha256": "49b21fc363bfd0eb1b1fd4e73eac7f9012e9fe0633eaff763dcf029e21f7f959",
+    "cutoff_ms": 1748390400000,
+    "samples": 12074
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20250226.json",
+    "sha256": "ea00eb2267509123e74ad18ed0f7fd2aa0d2873c020513fb0d98700bdb39990b",
+    "cutoff_ms": 1740528000000,
+    "samples": 11493
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20260527.json",
+    "sha256": "4d5952d6e8ca0996f64e917c838fc112f5abe1a553401b5272ef9e26b5dd3b6b",
+    "cutoff_ms": 1779840000000,
+    "samples": 12494
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20250827.json",
+    "sha256": "9be1bbac77f911739ef470a55a79fc8200803340b144b16e6dd70bffc7d3d168",
+    "cutoff_ms": 1756252800000,
+    "samples": 12727
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20230531.json",
+    "sha256": "13605794b7c8ebe2c3f2bab46032153afddc4a46ff30c328662ade071365a3f4",
+    "cutoff_ms": 1685491200000,
+    "samples": 9919
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20251126.json",
+    "sha256": "6d764ebdc3de5e5bac642dca8ecb9e9dd421b845a8e24f7a969720254ef5238a",
+    "cutoff_ms": 1764115200000,
+    "samples": 13267
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20220601.json",
+    "sha256": "b92d6b5d9394aa0111219b756a9289f025808b9b543cca33d2e1b9f8b5f5bb88",
+    "cutoff_ms": 1654041600000,
+    "samples": 7416
+  },
+  {
+    "path": "results/ETHUSDT/LEARNING/models/20230830.json",
+    "sha256": "1aad123b570d08a7a3f975a1a3c6635b0aa1caf72b855f7aa40c8f819e25bc7b",
+    "cutoff_ms": 1693353600000,
+    "samples": 9320
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20241127.json",
+    "sha256": "d9e4a9131c7a9ecbbe0bacc28553a451c730a42a0cd4aaba9454c0344c9a3668",
+    "cutoff_ms": 1732665600000,
+    "samples": 9736
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20240828.json",
+    "sha256": "a724daae51c3c6b3b035bc8bd916e868aa5173a8bf40210f7f481409c944a700",
+    "cutoff_ms": 1724803200000,
+    "samples": 9103
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20260225.json",
+    "sha256": "a536ffb7a81abb931f80be8de98e5c48198c8d334a2324d4d2f26c21ba19005e",
+    "cutoff_ms": 1771977600000,
+    "samples": 11611
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20220302.json",
+    "sha256": "eafd5d772101561f772678cc8319f9246f2cf9d27b7f5ec6b6584281c3015bc6",
+    "cutoff_ms": 1646179200000,
+    "samples": 4323
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20230301.json",
+    "sha256": "4f661a5648eec4e4b3b47a429f138bd237afba5389e31cdbde9b786e3933b636",
+    "cutoff_ms": 1677628800000,
+    "samples": 8406
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20210901.json",
+    "sha256": "0b2eb99b53ecb2b80e9fe7fd84c45486ff1d347ef0c88964c7133bbb40d2fafc",
+    "cutoff_ms": 1630454400000,
+    "samples": 2441
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20260826.json",
+    "sha256": "51b1636d05b580dca5420fd1ef47b3704815230bbc686c0b40a571ca073076d0",
+    "cutoff_ms": 1787702400000,
+    "samples": 11420
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20211201.json",
+    "sha256": "b2c462b75dc0f670124045a00e4304d2254e1e3eafb5c8705d1254bcbfbbcee6",
+    "cutoff_ms": 1638316800000,
+    "samples": 3353
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20221130.json",
+    "sha256": "5b35dc428a526237f9b606e73ec7d8abcdb33fdd93dfdd1a7620b25d9e36f79e",
+    "cutoff_ms": 1669766400000,
+    "samples": 7618
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20231129.json",
+    "sha256": "1b99b8ee27b4952f0b5a51f75a556e592c8d76bd2a66473db107074d523df20e",
+    "cutoff_ms": 1701216000000,
+    "samples": 8297
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20240529.json",
+    "sha256": "571a941b43f2ed497d0d45565388068fba28da3fcd8d719b8a1d045c205c24ca",
+    "cutoff_ms": 1716940800000,
+    "samples": 8567
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20240228.json",
+    "sha256": "9b0f7fd7a490b2123758cc02f16daf1c95c2711b182e76c33e13102c367a57be",
+    "cutoff_ms": 1709078400000,
+    "samples": 8503
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20220831.json",
+    "sha256": "4c7b10283325c9ef3fb4f5eec2890bae981dbb7fc0b92f6af8d06640f9983a3a",
+    "cutoff_ms": 1661904000000,
+    "samples": 6888
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20250528.json",
+    "sha256": "d0465a95671f8cb07758c1cb6a474fe61d069b4043bd77976b22d08a21212c01",
+    "cutoff_ms": 1748390400000,
+    "samples": 10184
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20250226.json",
+    "sha256": "8fbf89b94290cba6106bd08f0039123d5ba19d37c3df0dbb582b4000410018ba",
+    "cutoff_ms": 1740528000000,
+    "samples": 10132
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20260527.json",
+    "sha256": "0c2bcd77814efe545820ab57251d07415923f34ce981c87f3f1b7228f2798902",
+    "cutoff_ms": 1779840000000,
+    "samples": 11808
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20250827.json",
+    "sha256": "0df5e2fb95eeb6f1e6685fa04e09329c9cb7a0d3bf2207d2ee16c99260e36a69",
+    "cutoff_ms": 1756252800000,
+    "samples": 10451
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20230531.json",
+    "sha256": "e4060d7766a3c021820757b8dbad7d65dd3f1383d376ed2a4ad8441c6c602fd9",
+    "cutoff_ms": 1685491200000,
+    "samples": 8545
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20251126.json",
+    "sha256": "66ecadb9a9203f0b83f85603580bf37f933f82b867392b84a30a5546aff9e3b1",
+    "cutoff_ms": 1764115200000,
+    "samples": 11076
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20220601.json",
+    "sha256": "56b1693d7b15ec84d73f365b31ab51058467c39160c365749ea6bc52d6cd870b",
+    "cutoff_ms": 1654041600000,
+    "samples": 5731
+  },
+  {
+    "path": "results/BTCUSDT/LEARNING/models/20230830.json",
+    "sha256": "e09c1899e0a82e2995d57a75bca3df29a7b5c09d10f7e821b29990e94149273b",
+    "cutoff_ms": 1693353600000,
+    "samples": 8104
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "selected": {
+    "learning_threshold": 0.5,
+    "post_evaluation": true,
+    "execution": {
+      "risk": 0.02,
+      "cap": 5.0,
+      "contract_leverage": 30,
+      "reward_risk": 5.0,
+      "max_hold_hours": 72,
+      "fee_bps": 5.0,
+      "slip_bps": 2.0,
+      "participation": 0.01,
+      "cooldown_minutes": 60,
+      "max_entries_day": 4,
+      "daily_loss": 0.08,
+      "weekly_loss": 0.15,
+      "maintenance": 0.01,
+      "collateral_buffer": 0.01,
+      "funded_collateral": true,
+      "delay_minutes": 0,
+      "initial": 10000.0
+    }
+  },
+  "actual_execution": {
+    "risk": 0.02,
+    "cap": 5.0,
+    "contract_leverage": 30,
+    "reward_risk": 5.0,
+    "max_hold_hours": 72,
+    "fee_bps": 5.0,
+    "slip_bps": 2.0,
+    "participation": 0.01,
+    "cooldown_minutes": 60,
+    "max_entries_day": 4,
+    "daily_loss": 0.08,
+    "weekly_loss": 0.15,
+    "maintenance": 0.01,
+    "collateral_buffer": 0.01,
+    "funded_collateral": true,
+    "delay_minutes": 0,
+    "initial": 10000.0
+  },
+  "symbol": "ETHUSDT"
+}

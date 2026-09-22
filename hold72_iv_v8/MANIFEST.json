@@ -1,0 +1,4014 @@
+{
+  ".gitignore": {
+    "sha256": "2a8ce6a0f774bb7540bb37a0175570c30b48151b80d7afffcced25190fcb6d0e",
+    "bytes": 71
+  },
+  "ALL_CASES.csv": {
+    "sha256": "ac3bb8eac59e877c81c3688bb06cd464e84f4160ca30fb01facc6c0873ad997c",
+    "bytes": 42935
+  },
+  "ASSESSMENT.json": {
+    "sha256": "96dc2e2fada8372a604c24d72ace91ce5f1092028ba8bff63b78490cd5fa9684",
+    "bytes": 10350
+  },
+  "MODEL_INVENTORY.json": {
+    "sha256": "e63370f00e661ac2cd94b6c4634ce210068992f145c99d9d7b354435edd5b295",
+    "bytes": 8587
+  },
+  "README.md": {
+    "sha256": "55b16a7be9e637012cbc66182b1d2fb083d0698f1e7fee4d71b6c0dd64347fc7",
+    "bytes": 1778
+  },
+  "RESULTS.md": {
+    "sha256": "0f256082bf04285ea3ccfedb738f47a912a48f66fb694ec4797b3124f8dae362",
+    "bytes": 4299
+  },
+  "USERINSTRUCTIONS.md": {
+    "sha256": "74b8d822b1de42e0b3284295057657185b50ef4bd6d408406ac101e6df505f60",
+    "bytes": 6993
+  },
+  "VERIFICATION.json": {
+    "sha256": "47889f2e45abd96b48919edd1a620c2dd0e84f9a276097020a31e484a9f69307",
+    "bytes": 433
+  },
+  "checks/BTC_fixed.txt": {
+    "sha256": "6cbdd8f10179118d36d7b5f0afc7a6fa5dd49fa641ca6a16f3b2dcab48b454b0",
+    "bytes": 2247
+  },
+  "checks/BTC_learning.txt": {
+    "sha256": "c098684f92e7416e13a2c6e8639b4c6ca44d825839a14cf33e8051d56165c41b",
+    "bytes": 937
+  },
+  "checks/ETH_fixed.txt": {
+    "sha256": "da058768b80ae79f29dba53d6146be1f464d3483693ba5f84c0bf774349cb860",
+    "bytes": 1873
+  },
+  "checks/ETH_learning.txt": {
+    "sha256": "318a6c02122ad90425f8299bd1a0c8cc4077c482071900fdab9db4ca0df1b7bd",
+    "bytes": 919
+  },
+  "checks/ETH_sensitivity.txt": {
+    "sha256": "790dd5453e7d78f575ca0cb3bfea545495e87a9b6692b2ba56a08a10016acef7",
+    "bytes": 1875
+  },
+  "checks/tests.txt": {
+    "sha256": "34ac7bfe57a323e885bf6a902618d5338d3853fd8004f3895b3c1b93e3bc7197",
+    "bytes": 99
+  },
+  "checks/tests.xml": {
+    "sha256": "de31faf48e35fae90ce6794e21908cfd4ff7743ad5b10756f790372792dc2fcb",
+    "bytes": 3044
+  },
+  "context/iv_data/BTC_1D.csv": {
+    "sha256": "d55d308002a9cc9035d4122cdae40dba0d0d1427fec300c3926c8838a7c83837",
+    "bytes": 76982
+  },
+  "context/iv_data/BTC_1D_000.json": {
+    "sha256": "6fd073055106988c8f413a6a9cccd3f5fdd6cb97ef56f4f2fce9b3bfa7dcbd10",
+    "bytes": 39774
+  },
+  "context/iv_data/BTC_1D_001.json": {
+    "sha256": "d0098963123515e61a9b9ab6c18e91448fa053945135c1266107847e1241e3f9",
+    "bytes": 39487
+  },
+  "context/iv_data/ETH_1D.csv": {
+    "sha256": "2070bb20b006dc9187d20174fe937ac2329c1ee760a440a4bef06b59d4bb5892",
+    "bytes": 78061
+  },
+  "context/iv_data/ETH_1D_000.json": {
+    "sha256": "6f2f9cec91ba750fb5b0414768e254090faef6e910675a9ec46e2e84a65185bb",
+    "bytes": 39741
+  },
+  "context/iv_data/ETH_1D_001.json": {
+    "sha256": "adff7659852def77545a63b8255f728f738aa6228f498fac6c680912ea22f204",
+    "bytes": 40598
+  },
+  "context/iv_data/PROVENANCE.json": {
+    "sha256": "a347b019deaf25efefc99ba29164461199875b3f1bc9d93ae4cad37f0d74ce46",
+    "bytes": 47641
+  },
+  "core.py": {
+    "sha256": "f7667597f0a13f4bc075ff236e8aa34f0b918ab8b28e4cc213fffbb9ee7d500f",
+    "bytes": 16476
+  },
+  "finalize.py": {
+    "sha256": "0197ed5a0727c18c6e4fac499e0cfd16e7a4bb34e03010805f8ad9ed05de8f3d",
+    "bytes": 11815
+  },
+  "input_v7.py": {
+    "sha256": "4940669e7e67d90205e662f6314961017ff2ea2a7c4ed3530e643a743401ffa0",
+    "bytes": 15011
+  },
+  "learning.py": {
+    "sha256": "4624a31ff4f7fd921a2953da75088f2965c4f5bee4616a4a156335cd151e0d0c",
+    "bytes": 9923
+  },
+  "report.py": {
+    "sha256": "b54bad12c098564939a042351d566d5447dd68c017c98efc7b9dc274c3891064",
+    "bytes": 6111
+  },
+  "requirements.txt": {
+    "sha256": "bbb38f301f1eee9b5e6a8123b9d036ef06f9ab185e283c35c9e4da89ce280807",
+    "bytes": 75
+  },
+  "research.py": {
+    "sha256": "be500f43db88c3ee7e40c794a3ce2227a3356c49aad83ee40b649b27abaa5b82",
+    "bytes": 7446
+  },
+  "results/BTCUSDT/DAILY_WEEKLY_LEVEL_INPUTS.csv": {
+    "sha256": "ac1ef28ca42053a3c76c4f35f2562f1cb250e5d0238ef1bc1f2e045323cf93bd",
+    "bytes": 672900
+  },
+  "results/BTCUSDT/DATA_IDENTITY.json": {
+    "sha256": "0015e49661c8d60f8fff89ebe251db81ecf2bb13b425c2c9d8253e19945bf4fe",
+    "bytes": 1687
+  },
+  "results/BTCUSDT/DEVELOPMENT.json": {
+    "sha256": "d135ee64413e3d812741a4da3b6e19a061eba5887cf8f2df747815c3cafffd71",
+    "bytes": 2112355
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "661fba5093cc1c2a8ae73ad58fb18fcce6bdd5b0b96280e7d9fbe5fca2bc0621",
+    "bytes": 263
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_five_years/DAILY_EQUITY.csv": {
+    "sha256": "ccbd8b030983a1582d2ccdb81fe0b331fe5ff7f75bb481eec042cc6f2617f615",
+    "bytes": 81265
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "6185aa1335661101a571c3a0fc0ba78e9baaa637a4635044dd9a161435ec37e1",
+    "bytes": 121201
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "7d9a4136635832a49ecbb6102104af6cf34079a46cc41d30a2966523f809f8bd",
+    "bytes": 509
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_five_years/METRICS.json": {
+    "sha256": "42de6bc385090ebf4725c527b06b1f43e5ce885867e60d0e62827fab988d392c",
+    "bytes": 1197
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "a1a6bcecbc5226848ce9af2d85f1010f6d1975841c4ffe31d31c50745778fcdf",
+    "bytes": 4346
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_five_years/PARAMETERS.json": {
+    "sha256": "65ec5f3a9d65e1b005415e2da8f8c8db7102a59803a6459f45fdd147cecff3f2",
+    "bytes": 2132
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_five_years/ROLLING_365D.csv": {
+    "sha256": "584711cd60a482ac9169f58ecfc94f64d8eceb19cd23ee8b83b4a2cd787a8b21",
+    "bytes": 67097
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "82a7e9edad9fc4586e53d5d114d3b6be61f84aea49503d517df36ee242b50fd9",
+    "bytes": 9909
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_test/ANNUAL_RETURNS.json": {
+    "sha256": "1e6b5945aeb4a6d198f4e3556ae46cd7f3575673ea66973071eb3374a45d1972",
+    "bytes": 202
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_test/DAILY_EQUITY.csv": {
+    "sha256": "f96443a94b50f89ba3403119e06610829682d48d912260ffd179be0ee7021b0a",
+    "bytes": 48628
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "f64f0ae5039997d115f0b3017bc834602478707aa1b181bfe5e785edd0315228",
+    "bytes": 79473
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "68d6a8802092a41b810b448d38837103b6b87d59e26002bc6ec41f6b7d87c6d0",
+    "bytes": 504
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_test/METRICS.json": {
+    "sha256": "09438eeddc7f3f7332fe7e6ba733711d8bc3b7bbeb32c56070bc0af6a810f209",
+    "bytes": 1129
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_test/MONTHLY_RETURNS.csv": {
+    "sha256": "1c193ccc82ab364489d7aa7eee62741bfa4c8e6864e9fc4c11ec16e825c52031",
+    "bytes": 2636
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_test/PARAMETERS.json": {
+    "sha256": "65ec5f3a9d65e1b005415e2da8f8c8db7102a59803a6459f45fdd147cecff3f2",
+    "bytes": 2132
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_test/ROLLING_365D.csv": {
+    "sha256": "a7b61ea07e3eb68e697b7e45298181de1a2344055c8127caaaf63712dfc49c5a",
+    "bytes": 34056
+  },
+  "results/BTCUSDT/DIAGNOSTIC_25ef8654f22867_risk0.04_test/WEEKLY_RETURNS.csv": {
+    "sha256": "a751982b6394ed178e7649039a6f51f7f9066f9fd6b20aae47f2d96c5bcb153b",
+    "bytes": 6043
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "b3fac50e088ed088ad3adcdf157a8c7eafc853da4c92be94afe1007c50374b77",
+    "bytes": 271
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_five_years/DAILY_EQUITY.csv": {
+    "sha256": "c070e8d5bfc31744588160a64b16d7853575ed5169fdcbbfac993b4c3c879b6f",
+    "bytes": 81029
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "182c196a7784fae6ac17d57ebd56ad5ebbd7d2bda314672ba33913ea59278112",
+    "bytes": 179473
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "5148682afe0a84d644b5f0856fbfd910d8559dbcfce305084c8b150193816f88",
+    "bytes": 499
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_five_years/METRICS.json": {
+    "sha256": "86a772eb1a153e869f0e6db2da160d692b0aa5771b9d6b42afa8809337554e59",
+    "bytes": 1197
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "763333ca3e7b258a572821abce065b8fd7257661010725be111059831c31e32b",
+    "bytes": 4408
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_five_years/PARAMETERS.json": {
+    "sha256": "b0aad382f4e0684687f9c98165a832e0fa7c355dc41265e332beb54428107a66",
+    "bytes": 2156
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_five_years/ROLLING_365D.csv": {
+    "sha256": "7d3c9e4bfca76a4855b6c4948f92f8a19d7c4d41d90a5cab49b9636cfe531cf1",
+    "bytes": 68479
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "d18ef4159d53b429d2cff34b9d088bce821e9d015602e221b39fe8092dac0f0e",
+    "bytes": 10790
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_test/ANNUAL_RETURNS.json": {
+    "sha256": "3a61c45555e5e0728fd6117e4e3796f1253d4d90fd0a8a08b7576e6a3a669f04",
+    "bytes": 202
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_test/DAILY_EQUITY.csv": {
+    "sha256": "4394ee54589b01a1a47797da7cb8c40ae9824b77df22475ea96d663fa2532c70",
+    "bytes": 47971
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "ddffdf384a4aedb432dbb37e528196dc7e201dad27bb72bb67e8913c3684df98",
+    "bytes": 118862
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "b2ba46a128d180a48817a15e2de54178e8938ffaa9963f30a81def0b03ac89cd",
+    "bytes": 513
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_test/METRICS.json": {
+    "sha256": "6772c12138d04c0b530960afa0396939c374d1e972a1a8bf3e01ac6061145410",
+    "bytes": 1138
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_test/MONTHLY_RETURNS.csv": {
+    "sha256": "6d16acfe278f5ac6977ce6ff025ff80b8a37fa535c9266216c3792287f3cd55d",
+    "bytes": 2668
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_test/PARAMETERS.json": {
+    "sha256": "b0aad382f4e0684687f9c98165a832e0fa7c355dc41265e332beb54428107a66",
+    "bytes": 2156
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_test/ROLLING_365D.csv": {
+    "sha256": "345d7e60d089c8aa7e071289f1f12bbbcdddc8211f142607b44bee50919c2a3d",
+    "bytes": 34367
+  },
+  "results/BTCUSDT/DIAGNOSTIC_274e0c339024f0_risk0.005_test/WEEKLY_RETURNS.csv": {
+    "sha256": "8711f067f85e1a6160bdf6039306af26791b752e52ed68b7494859ca472fc7cf",
+    "bytes": 6578
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "8890e46186f81d132a0fe647ad082567166dc641a18167824800a7beac456bc7",
+    "bytes": 273
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_five_years/DAILY_EQUITY.csv": {
+    "sha256": "104f59f63c496a6a778a7d8fc66b2ec016db5dcecca4aa8d872517b0d0c7c886",
+    "bytes": 81599
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "f369c4f3c604e662c8871152e38d0c002f176a1d347db15545003fe3c8b19693",
+    "bytes": 152574
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "32e32761b79cf7a82ac29b3e7c7340a2924c30151b57965b360b31fcdc185c34",
+    "bytes": 506
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_five_years/METRICS.json": {
+    "sha256": "5554246ed2763f373815b2b6fa98785d050ea63d344ae7a655ec8729f6e746d5",
+    "bytes": 1212
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "da31b514cdb4889f71c69a8df8d70cf18089a513999809fe02b3c8fc7fa9489a",
+    "bytes": 4436
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_five_years/PARAMETERS.json": {
+    "sha256": "b022d3b37e119af5f2d3a1f47b716b11b6a6591e884d550e2e89d6973c2f8d64",
+    "bytes": 2149
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_five_years/ROLLING_365D.csv": {
+    "sha256": "9c1b2f260be4987a3e6c9c8fae881de2d8a9ab3ea923dd6cc734fa616bd8ea6e",
+    "bytes": 68658
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "18841c824612ee6532acbc969515377f40b0023cadd24c8077bcd8b8f47f6175",
+    "bytes": 10836
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_test/ANNUAL_RETURNS.json": {
+    "sha256": "faf1b12d4579057a72a49dfec7e5aac84245506c269f029280dc211a630e3a8b",
+    "bytes": 204
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_test/DAILY_EQUITY.csv": {
+    "sha256": "a8b1d90a2cd1b5940111b1e952515f622b18babbf690f16407ef540b3068d05c",
+    "bytes": 47678
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "669a38ce08536b657158f0e8aad5a62fc6721b58cdc0b0bec414ce32291ea4a2",
+    "bytes": 105566
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "ee680b5ce704ff5a4accf5ed0d53393bca96ed2088ec90a45173d96512b97273",
+    "bytes": 513
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_test/METRICS.json": {
+    "sha256": "1935167f748b83c0f5303855811b2dbb8725ddd4bd470c8a2b502e5af905b4b8",
+    "bytes": 1143
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_test/MONTHLY_RETURNS.csv": {
+    "sha256": "7dc767c6aa6e348b72cd790651a36dd97f5a39d9eedf29012f359af997c2b7aa",
+    "bytes": 2672
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_test/PARAMETERS.json": {
+    "sha256": "b022d3b37e119af5f2d3a1f47b716b11b6a6591e884d550e2e89d6973c2f8d64",
+    "bytes": 2149
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_test/ROLLING_365D.csv": {
+    "sha256": "13b4cecf0b4bde6572a7258eb49e090be8d9749825033f732708c78e306b4373",
+    "bytes": 34645
+  },
+  "results/BTCUSDT/DIAGNOSTIC_6b5e4bbe5cc832_risk0.005_test/WEEKLY_RETURNS.csv": {
+    "sha256": "7c616bf090ddc96b370a1d47678d879a7c7d202d88a43767055f7af5be92f44b",
+    "bytes": 6665
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "e942f1019050e35d184ad1dbdc767d6a55e97b0c55263be40b08dac28f65959a",
+    "bytes": 264
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_five_years/DAILY_EQUITY.csv": {
+    "sha256": "4102b0e3eb8281b8fd84c0cda6ee94cce1512d1ff3e9e6b5f128e2a73ece7ddc",
+    "bytes": 81413
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "c7c85257b5fa4de1acf68b2914312e65052c8ac1fe87086fb904709d181e8726",
+    "bytes": 101439
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "6f7efd36273fea4c87e7a453cc40d6778217f7d2831436526dfeecf5952d16d5",
+    "bytes": 502
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_five_years/METRICS.json": {
+    "sha256": "7af24c24a645b663f7b32e92bfe1f5e0067797ceb6eb034401c737b3bbde5318",
+    "bytes": 1196
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "4626fd9099d9f82fade715c6330d46ee371aa8cf0945902608c640cc1b4d3579",
+    "bytes": 4372
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_five_years/PARAMETERS.json": {
+    "sha256": "af09a2110432d852799ad083e72c1063321a3c906240be87ffbad17621d52c53",
+    "bytes": 2124
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_five_years/ROLLING_365D.csv": {
+    "sha256": "2725dbc0a78b68de6af6c4eb990833e08908ecfb7d911134cefe6d05503f8945",
+    "bytes": 67486
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "64bf7121ed5db873d88906d340871c931861053f81467454ce86b703c8ec8110",
+    "bytes": 10475
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_test/ANNUAL_RETURNS.json": {
+    "sha256": "00dd6c7699347ff0d5d6979cdc64a27a0b313d5713193610b003a8f4338848d4",
+    "bytes": 201
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_test/DAILY_EQUITY.csv": {
+    "sha256": "4c05fc8ea3b39988ea2f3546e994f5033aedba63d4f7cde234aad1820623e402",
+    "bytes": 48240
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "c52fd345c8624c34967a1435d2ff87f35bd899fef8b04e3d9bf84f6e405ba126",
+    "bytes": 70423
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "b5256e41f80f49ca96f484f5956de0d1b55a0d7ba32d81bf54d12430bda736c1",
+    "bytes": 496
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_test/METRICS.json": {
+    "sha256": "51bfe223de86b1b41c8ba0e6b12f3a7db890ca910afbd4dfd2101b51da5cc961",
+    "bytes": 1118
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_test/MONTHLY_RETURNS.csv": {
+    "sha256": "ec6d4839f8fd77dd3b6749bd5ea1c2f00f3344b7b872cd4e53173a73deae99ea",
+    "bytes": 2661
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_test/PARAMETERS.json": {
+    "sha256": "af09a2110432d852799ad083e72c1063321a3c906240be87ffbad17621d52c53",
+    "bytes": 2124
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_test/ROLLING_365D.csv": {
+    "sha256": "a08415fd2f76aafc4f4a0061906e90d66564cbea6bf245a63b69aacc772c7bf9",
+    "bytes": 33958
+  },
+  "results/BTCUSDT/DIAGNOSTIC_74b5b744f65e49_risk0.04_test/WEEKLY_RETURNS.csv": {
+    "sha256": "d585ddda73b8b74f000bbc6dfeaeaa507f7b6a6804e4580d8c68efa986aa3574",
+    "bytes": 6493
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "b4b59cfcc0bf7a44ee78801ecfd510061b68ffb9abd6e8885ea47cc3b1fd0606",
+    "bytes": 267
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_five_years/DAILY_EQUITY.csv": {
+    "sha256": "aa34c7cc8e03470b0443ff23aa9d777515f4e721e77542688edb2b45d7d9198a",
+    "bytes": 81561
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "7e53ec0d1417653f3de6610c7ca1e691e5e8ba5622599075143f03a35e0c3469",
+    "bytes": 127893
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "26f8663215641065ce79df7c4ed1caeb145117969e55c03afd89b6221558a93e",
+    "bytes": 510
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_five_years/METRICS.json": {
+    "sha256": "d9633b63cde204f2e8d3517a0326f42311e36dea1521dd8552b9abb0decafec1",
+    "bytes": 1200
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "cd61d5b288aaebc50917999738a272afd88b89364391d506284928e3a4404266",
+    "bytes": 4379
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_five_years/PARAMETERS.json": {
+    "sha256": "20f17ec2e526b68b482a5a5df0ba8ceaa314bb719530f4aa5aa64032cc7f1379",
+    "bytes": 2125
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_five_years/ROLLING_365D.csv": {
+    "sha256": "db5d89b5fc78da354b1b209ac803a8a12cf2e29e10c32f71c5f255ea1b2a203b",
+    "bytes": 67799
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "30b4c795825d12f694d68e528b00a74901f2c996f7eb72e63cd62a036d55afc6",
+    "bytes": 10861
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_test/ANNUAL_RETURNS.json": {
+    "sha256": "05e62f71c895ae2f00eed92963fa8a93caf7d5e9baf47ceb9ee05473d3fa15cd",
+    "bytes": 202
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_test/DAILY_EQUITY.csv": {
+    "sha256": "d2c6bf182de64b36d4917c7bdc54bb834d44cb08bb411c2f9207a53d7f140e2e",
+    "bytes": 48109
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "8a338d7bd53d580415b2023b1723a18a46d98f0e6260522569a607f6b84b2a14",
+    "bytes": 89665
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "1b238976060661412ae6e5195990dc0bdd6f617b4a3083b7ab71920a9a16e410",
+    "bytes": 499
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_test/METRICS.json": {
+    "sha256": "cf16939aa9d75ac40abb4bb934c4e71bb8c8b3d7e15f20574e7eb733ecde094e",
+    "bytes": 1122
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_test/MONTHLY_RETURNS.csv": {
+    "sha256": "fa4eba89a22de94c5157ff864acf4978a4afcd836acfcbb775f5b7c0b1bb1de3",
+    "bytes": 2648
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_test/PARAMETERS.json": {
+    "sha256": "20f17ec2e526b68b482a5a5df0ba8ceaa314bb719530f4aa5aa64032cc7f1379",
+    "bytes": 2125
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_test/ROLLING_365D.csv": {
+    "sha256": "c9a7f2e32c8cc205ede4c9a0450f79658ef94082634b6d082feb155ef6ddb58f",
+    "bytes": 34104
+  },
+  "results/BTCUSDT/DIAGNOSTIC_a48f25d7f2ee8b_risk0.04_test/WEEKLY_RETURNS.csv": {
+    "sha256": "7bdeefdc31df97037f28341d7f140afa9de1cc511096681cc633e429754a2199",
+    "bytes": 6733
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "b590b49d3284c629ce7d771f3b1e14ad0b2bdbdcf77e2ef48af16f314a969f37",
+    "bytes": 276
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_five_years/DAILY_EQUITY.csv": {
+    "sha256": "cb7d94081aa2eb189579a7404c0492762c3527ce9f59e518c49474d9e5b4146a",
+    "bytes": 81409
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "22b708b683a738ab014bd36ee237025dd6f5c444773140bf9c549505f1c76b7c",
+    "bytes": 83538
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "c26adc852534ba96209302eb316503ede8a68d279bf8850aef060d9cfba7c87c",
+    "bytes": 491
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_five_years/METRICS.json": {
+    "sha256": "382a4128cca1030981f873532b0e1b958443d4bc8261817f9dca2bc27601b659",
+    "bytes": 1202
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "a68f3c0807e423a889bfeb5fe60406194597949629bc67310c6eabc57fa1efa2",
+    "bytes": 4397
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_five_years/PARAMETERS.json": {
+    "sha256": "6af3910f4373233f4875b97848ad08e4e8de2a34395bf00d27f9d27821266afa",
+    "bytes": 2151
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_five_years/ROLLING_365D.csv": {
+    "sha256": "fbc184545dd3febf50379c709388b6d46b911c3375f9b012d8223af3504a7306",
+    "bytes": 69111
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "6fd869f24afd2cc4ec3dbfff159bdc936a486746ea2db9d9dbaa24c2fc0b10f4",
+    "bytes": 9932
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_test/ANNUAL_RETURNS.json": {
+    "sha256": "7d28d946b910cfae37fdcfb5f5375335c99e22870af9e7305514bb248d418470",
+    "bytes": 207
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_test/DAILY_EQUITY.csv": {
+    "sha256": "69eef3b1a285fdfa48fbb4be41ad490b25e9548032243f14f253d2700d2d9ffb",
+    "bytes": 47911
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "3397e66bc7be20cb2ac773b575293da7d62bb7fce83b6902f9462cb0011d62d6",
+    "bytes": 50628
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "2a7a1668b6b6b30af1c53630c949bb5835d153c918115a2967c7d184eab9c787",
+    "bytes": 505
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_test/METRICS.json": {
+    "sha256": "37a657ec5f67eff917fe8fad01b036b66f55321fc69de53b9a25ad440d3d8e90",
+    "bytes": 1140
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_test/MONTHLY_RETURNS.csv": {
+    "sha256": "eec550210c494105dbc8cfa7863b0296e6ca9d8665e0527521f81b6e63ef2aef",
+    "bytes": 2674
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_test/PARAMETERS.json": {
+    "sha256": "6af3910f4373233f4875b97848ad08e4e8de2a34395bf00d27f9d27821266afa",
+    "bytes": 2151
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_test/ROLLING_365D.csv": {
+    "sha256": "79aec19780fda648bfb80098ae844aa6d1c77f498e0e276e27944f82d6df75b4",
+    "bytes": 34550
+  },
+  "results/BTCUSDT/DIAGNOSTIC_b85aa3a171e831_risk0.005_test/WEEKLY_RETURNS.csv": {
+    "sha256": "bc3fabdd705bd8ba119cfcf634a06caa8cdced5f0c73fb985f3c05de59167bd0",
+    "bytes": 5933
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "0c67f632224c198ee74fbbb5ca4681f05c583bf21129668d407e1a6461e8e25c",
+    "bytes": 271
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_five_years/DAILY_EQUITY.csv": {
+    "sha256": "70cc1cb7afcc7e0f7918888d55191205579f6dc9d89060563aa636d98101eb6a",
+    "bytes": 81362
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "3816ba58b9d443aa7d25388a8ac967406f5686da59813bca1abae06e7f1db7f2",
+    "bytes": 98373
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "ad65525f24868188618704fd11e4585265a8c5b03ddb0e429dbfaf309333cecb",
+    "bytes": 497
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_five_years/METRICS.json": {
+    "sha256": "a798ef2dc5867249f7cedc91d1e16bc4b4f031e46d54dfeb08b36f21d0486e8f",
+    "bytes": 1201
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "0ddaa78aad1d20d7120e5d7a0593f27b4a63f7379bc6ec7293abad8295e3430a",
+    "bytes": 4395
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_five_years/PARAMETERS.json": {
+    "sha256": "eb30328b111478c07ff0af4ec11bf6094b6421050f06602bd5996e99123bca19",
+    "bytes": 2155
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_five_years/ROLLING_365D.csv": {
+    "sha256": "3ed41c9d007b14547b321987dc0fbac57a8e8a13b6c31dbf96ddca5ad6fce7b3",
+    "bytes": 68326
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "f3c33b367180695b052ae784a6d280fb1f9d3d05e454d63ff49ad519fe81fb64",
+    "bytes": 10187
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_test/ANNUAL_RETURNS.json": {
+    "sha256": "83e1b39b2af68e5b0f8c28a794338078d8ed5f68c17956b2ab0eeda59919a5ef",
+    "bytes": 203
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_test/DAILY_EQUITY.csv": {
+    "sha256": "69350571fdc4980a529037ffeb7a7e21edba3c0491dfd05743d5840ba2fe83b2",
+    "bytes": 48169
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "272f1d53017b0559e97d5900b193e18e71ea95d7c67bdae4de010089c356769e",
+    "bytes": 66642
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "3ac97d46e383d50a5d05b828caff97d5a9c9be59664dfb41a10ab9c27dcc5584",
+    "bytes": 498
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_test/METRICS.json": {
+    "sha256": "161ca64a6099010f0afe4a560a2c2846b315a358396bfce451cac6c9f5d04fb5",
+    "bytes": 1111
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_test/MONTHLY_RETURNS.csv": {
+    "sha256": "17e116a8f1e85bea92991afed7b5e1fbef24b5ef34f725fbd7597c27f2fe7510",
+    "bytes": 2664
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_test/PARAMETERS.json": {
+    "sha256": "eb30328b111478c07ff0af4ec11bf6094b6421050f06602bd5996e99123bca19",
+    "bytes": 2155
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_test/ROLLING_365D.csv": {
+    "sha256": "5e57c8ef4a3b68b1e15ffd22fa38ec44c19538fe1f79eba224ecf079ba926558",
+    "bytes": 34308
+  },
+  "results/BTCUSDT/DIAGNOSTIC_f129ba7fc3d54b_risk0.005_test/WEEKLY_RETURNS.csv": {
+    "sha256": "b7dd3b4f451e04f274df80482c93c9a09298e5c24a37464d1bd125e2f050902e",
+    "bytes": 6215
+  },
+  "results/BTCUSDT/FROZEN_SELECTION.json": {
+    "sha256": "3d207fa61583e940e2acbc4f8efadea2b48cec207798c2890d06691b569d0cae",
+    "bytes": 15945
+  },
+  "results/BTCUSDT/LEARNING/CANDIDATE_POLICIES.json": {
+    "sha256": "ba2794a82a0ea061a4f235aca71700d005b5693f77a5035e03e4c6ec5f8ce6a5",
+    "bytes": 5949
+  },
+  "results/BTCUSDT/LEARNING/MODEL_RECEIPTS.json": {
+    "sha256": "508fd02a0189bc061b0d05d8228f371479b3988c40a0523ef101baf55c53a0e9",
+    "bytes": 5680
+  },
+  "results/BTCUSDT/LEARNING/PREDICTIONS.npz": {
+    "sha256": "9980232bf738033c3e8920bdffe30b1af01fda9b3358bbadef03a7f3404b1791",
+    "bytes": 2191239
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY/ANNUAL_RETURNS.json": {
+    "sha256": "9048ad1fc0b086b104286789b2d9255c44e2dd65354452a4470b4c5daa5b68c4",
+    "bytes": 270
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY/DAILY_EQUITY.csv": {
+    "sha256": "b553cac35fe10c92ce3ea647c681ddcb4391263b6824409b5986731b141ea85d",
+    "bytes": 80436
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY/EVERY_TRADE_UTC.csv": {
+    "sha256": "6eae42b2a0de8d5b87fe8be6f3dab0e9d967b9e8769447c3591c3756510275ea",
+    "bytes": 300073
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY/INDEPENDENT_AUDIT.json": {
+    "sha256": "e0edfac1eeeffd8523d1a2d5af3fea8a8b7a658641bc4bfe648092cfdbfb4e7a",
+    "bytes": 507
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY/METRICS.json": {
+    "sha256": "0f6a628545700f043974ed7df73840ea6e63072bffd16668a56a71abd54f736b",
+    "bytes": 1204
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY/MONTHLY_RETURNS.csv": {
+    "sha256": "4f80ddf082cdf2123b3f371b2089b47395a301adc6d0fb5b6847cc4b8c0699a8",
+    "bytes": 4392
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY/PARAMETERS.json": {
+    "sha256": "cc019a8d54d0a76880bf6f565d5add95f371bc2368530616cb0dcb95c6a148fb",
+    "bytes": 588
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY/ROLLING_365D.csv": {
+    "sha256": "88b3dcccd1426a9c4a95adb5cc52ba8ab641f4987cf9c53707b3c30af067bc8a",
+    "bytes": 68238
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY/WEEKLY_RETURNS.csv": {
+    "sha256": "234c61c625fc1b6cdb0b7bc1c3baf83dacaa03f438321bc0a86e0b1693815e21",
+    "bytes": 11728
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_3YEAR_TEST/ANNUAL_RETURNS.json": {
+    "sha256": "9b311bd6108121f0634f31706187fba95bc90b521ff2d7d299ff50646d25fb0b",
+    "bytes": 204
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_3YEAR_TEST/DAILY_EQUITY.csv": {
+    "sha256": "c3fc2d2af217487fdad17d11bcc0479ee80d32022317eb325b41313ec0acd1d1",
+    "bytes": 48425
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_3YEAR_TEST/EVERY_TRADE_UTC.csv": {
+    "sha256": "7b25cbdc83fa3e2702d1dd62c8c4000f321e947faed83e179d6083062e1154cb",
+    "bytes": 156351
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_3YEAR_TEST/INDEPENDENT_AUDIT.json": {
+    "sha256": "97ffadd342d8253284c15ae3f318caa1f3cfa6ab9f8badfbcbbd9cfc74a399c2",
+    "bytes": 489
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_3YEAR_TEST/METRICS.json": {
+    "sha256": "916ab3acfb0769b395a5fa5529c1bea9c3feba309caf209112414513652fe4b3",
+    "bytes": 1129
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_3YEAR_TEST/MONTHLY_RETURNS.csv": {
+    "sha256": "a680dccb823ce6de714a8a3b0d61b69d77ea6fb648fe4c265eab984aa82ace20",
+    "bytes": 2645
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_3YEAR_TEST/PARAMETERS.json": {
+    "sha256": "a370c2f558261e2fbb477e20c4db4fe03d8fbb177acc103b34d11dbc682e12dd",
+    "bytes": 544
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_3YEAR_TEST/ROLLING_365D.csv": {
+    "sha256": "b89d364ec266098d4cd4a83c183ba49baf8f5d5dff0ebf3f35edfc29b862a3f0",
+    "bytes": 34245
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_3YEAR_TEST/WEEKLY_RETURNS.csv": {
+    "sha256": "b371135aa7b3cdf8c5757ad3c6c3fcc010a5ee87fb4bb9e8e17d8c328204dacc",
+    "bytes": 7032
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD24/ANNUAL_RETURNS.json": {
+    "sha256": "b9bb1fcd3cdf8b10409582f22fa8ffecb4a330d88c5108bb71d6cf34d353b7df",
+    "bytes": 271
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD24/DAILY_EQUITY.csv": {
+    "sha256": "ece6e9a99f0ca7ebb20a6a72a255e4a17d7909f6b7d0912843e8076927619dc3",
+    "bytes": 80287
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD24/EVERY_TRADE_UTC.csv": {
+    "sha256": "f58e32fdcfe70601ecb172419373e8a262b237bd392ee0a1c44cc6baa95072aa",
+    "bytes": 359184
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD24/INDEPENDENT_AUDIT.json": {
+    "sha256": "e3f3e72059c4c26d3141158ad645cae698015a81db49e90d4e2df2c1f77b215c",
+    "bytes": 492
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD24/METRICS.json": {
+    "sha256": "866e4ec90e5460941984f70868980a12c3f4f844eb2629b33e3d0bee457178ba",
+    "bytes": 1189
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD24/MONTHLY_RETURNS.csv": {
+    "sha256": "32a81367ab6bff52ffa83f28e183b629a31efdae26c57c3e59ca29d55ec0b7f2",
+    "bytes": 4405
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD24/PARAMETERS.json": {
+    "sha256": "a28ef69941f0101e6879e274052dd3b4c570dfb3af831a0b326563f51ca877fa",
+    "bytes": 544
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD24/ROLLING_365D.csv": {
+    "sha256": "0ba1088407e44d74e7996bd255bfae5eb285cf2ff57422f7eb0d80ba3f27a72f",
+    "bytes": 68174
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD24/WEEKLY_RETURNS.csv": {
+    "sha256": "908bc5c83fda0f7328b47f08cce9ad61e9102e3ae91bd2215a1998485a5ed3e5",
+    "bytes": 11683
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD48/ANNUAL_RETURNS.json": {
+    "sha256": "f2fb3169df1d196cbecea708ca597c78e5ac999b8da3ace9f0b2714b969dac5a",
+    "bytes": 271
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD48/DAILY_EQUITY.csv": {
+    "sha256": "4a2642bc3b417e65f1183be619d82839e163ebf8d933dc5699aadb5790590b15",
+    "bytes": 80485
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD48/EVERY_TRADE_UTC.csv": {
+    "sha256": "66db5f9defa99060ab723e6397793eb45a0b8174cc823e9a0ec85cd480e29901",
+    "bytes": 315945
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD48/INDEPENDENT_AUDIT.json": {
+    "sha256": "fa1b2ddf16f28898d85e1d32bef6d228c1de11a4738102643a8daf8f13be9187",
+    "bytes": 512
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD48/METRICS.json": {
+    "sha256": "a87b1807b065346071eaeaf99bcf224e2cd1b16831a747ac7551c7e0a5bc4397",
+    "bytes": 1209
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD48/MONTHLY_RETURNS.csv": {
+    "sha256": "a1078c365789ab5d2512045521d1b3f94d0fee2d1c34002e3dccd36716f83b90",
+    "bytes": 4399
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD48/PARAMETERS.json": {
+    "sha256": "a7ed6f92bebabefb0e5cf73a1c9f3ac76228afec22e057b56e480424217f7d60",
+    "bytes": 544
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD48/ROLLING_365D.csv": {
+    "sha256": "0155bdd323a881d699435d971dea178f465a43e109e447969b15b985da67dba1",
+    "bytes": 68417
+  },
+  "results/BTCUSDT/LEARNING/PRIMARY_HOLD48/WEEKLY_RETURNS.csv": {
+    "sha256": "852df18269d5785014a9906df3dc10725b956f633ef8f3d3ded4f23a2bfd8e09",
+    "bytes": 11681
+  },
+  "results/BTCUSDT/LEARNING/PROTOCOL.json": {
+    "sha256": "f0a3e26905d68f15e46000067bf518f75a3b2c9e91d9893c6981545ba77254e9",
+    "bytes": 543
+  },
+  "results/BTCUSDT/LEARNING/SUMMARY.json": {
+    "sha256": "083ce79a0fb2d322bddf7f07e1229d6ec100c02d763aa4f15113bfaf222368f8",
+    "bytes": 15984
+  },
+  "results/BTCUSDT/LEARNING/models/20210901.json": {
+    "sha256": "0b2eb99b53ecb2b80e9fe7fd84c45486ff1d347ef0c88964c7133bbb40d2fafc",
+    "bytes": 180281
+  },
+  "results/BTCUSDT/LEARNING/models/20211201.json": {
+    "sha256": "b2c462b75dc0f670124045a00e4304d2254e1e3eafb5c8705d1254bcbfbbcee6",
+    "bytes": 189487
+  },
+  "results/BTCUSDT/LEARNING/models/20220302.json": {
+    "sha256": "eafd5d772101561f772678cc8319f9246f2cf9d27b7f5ec6b6584281c3015bc6",
+    "bytes": 209777
+  },
+  "results/BTCUSDT/LEARNING/models/20220601.json": {
+    "sha256": "56b1693d7b15ec84d73f365b31ab51058467c39160c365749ea6bc52d6cd870b",
+    "bytes": 242248
+  },
+  "results/BTCUSDT/LEARNING/models/20220831.json": {
+    "sha256": "4c7b10283325c9ef3fb4f5eec2890bae981dbb7fc0b92f6af8d06640f9983a3a",
+    "bytes": 223545
+  },
+  "results/BTCUSDT/LEARNING/models/20221130.json": {
+    "sha256": "5b35dc428a526237f9b606e73ec7d8abcdb33fdd93dfdd1a7620b25d9e36f79e",
+    "bytes": 224897
+  },
+  "results/BTCUSDT/LEARNING/models/20230301.json": {
+    "sha256": "4f661a5648eec4e4b3b47a429f138bd237afba5389e31cdbde9b786e3933b636",
+    "bytes": 200053
+  },
+  "results/BTCUSDT/LEARNING/models/20230531.json": {
+    "sha256": "e4060d7766a3c021820757b8dbad7d65dd3f1383d376ed2a4ad8441c6c602fd9",
+    "bytes": 216594
+  },
+  "results/BTCUSDT/LEARNING/models/20230830.json": {
+    "sha256": "e09c1899e0a82e2995d57a75bca3df29a7b5c09d10f7e821b29990e94149273b",
+    "bytes": 222427
+  },
+  "results/BTCUSDT/LEARNING/models/20231129.json": {
+    "sha256": "1b99b8ee27b4952f0b5a51f75a556e592c8d76bd2a66473db107074d523df20e",
+    "bytes": 217704
+  },
+  "results/BTCUSDT/LEARNING/models/20240228.json": {
+    "sha256": "9b0f7fd7a490b2123758cc02f16daf1c95c2711b182e76c33e13102c367a57be",
+    "bytes": 215906
+  },
+  "results/BTCUSDT/LEARNING/models/20240529.json": {
+    "sha256": "571a941b43f2ed497d0d45565388068fba28da3fcd8d719b8a1d045c205c24ca",
+    "bytes": 214126
+  },
+  "results/BTCUSDT/LEARNING/models/20240828.json": {
+    "sha256": "a724daae51c3c6b3b035bc8bd916e868aa5173a8bf40210f7f481409c944a700",
+    "bytes": 218504
+  },
+  "results/BTCUSDT/LEARNING/models/20241127.json": {
+    "sha256": "d9e4a9131c7a9ecbbe0bacc28553a451c730a42a0cd4aaba9454c0344c9a3668",
+    "bytes": 212639
+  },
+  "results/BTCUSDT/LEARNING/models/20250226.json": {
+    "sha256": "8fbf89b94290cba6106bd08f0039123d5ba19d37c3df0dbb582b4000410018ba",
+    "bytes": 213987
+  },
+  "results/BTCUSDT/LEARNING/models/20250528.json": {
+    "sha256": "d0465a95671f8cb07758c1cb6a474fe61d069b4043bd77976b22d08a21212c01",
+    "bytes": 218632
+  },
+  "results/BTCUSDT/LEARNING/models/20250827.json": {
+    "sha256": "0df5e2fb95eeb6f1e6685fa04e09329c9cb7a0d3bf2207d2ee16c99260e36a69",
+    "bytes": 233655
+  },
+  "results/BTCUSDT/LEARNING/models/20251126.json": {
+    "sha256": "66ecadb9a9203f0b83f85603580bf37f933f82b867392b84a30a5546aff9e3b1",
+    "bytes": 211966
+  },
+  "results/BTCUSDT/LEARNING/models/20260225.json": {
+    "sha256": "a536ffb7a81abb931f80be8de98e5c48198c8d334a2324d4d2f26c21ba19005e",
+    "bytes": 206773
+  },
+  "results/BTCUSDT/LEARNING/models/20260527.json": {
+    "sha256": "0c2bcd77814efe545820ab57251d07415923f34ce981c87f3f1b7228f2798902",
+    "bytes": 208676
+  },
+  "results/BTCUSDT/LEARNING/models/20260826.json": {
+    "sha256": "51b1636d05b580dca5420fd1ef47b3704815230bbc686c0b40a571ca073076d0",
+    "bytes": 230907
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.02/ANNUAL_RETURNS.json": {
+    "sha256": "c03fdb5cd079bfdb27f5730fcc2672be8a81cf62a560c651e7e27e8486520b8d",
+    "bytes": 269
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.02/DAILY_EQUITY.csv": {
+    "sha256": "17262b4966268ae5e131fc84c3aa04e7e04993e0689497aa4b6a6244a411166d",
+    "bytes": 80410
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.02/EVERY_TRADE_UTC.csv": {
+    "sha256": "bcaadc8324a0d745d4e8fa1f65d2030c755c9579b9af3e40e2575f65e680ab76",
+    "bytes": 300954
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.02/INDEPENDENT_AUDIT.json": {
+    "sha256": "de2f57a825f8b42aae25e3f5e217f105364b0727a36d1f2f8fb98e918bfeb50b",
+    "bytes": 505
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.02/METRICS.json": {
+    "sha256": "cbff14e794438ba153291ad71a0ae7144c9e7c33aa96fe8693c2a47d272bc3b3",
+    "bytes": 1200
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.02/MONTHLY_RETURNS.csv": {
+    "sha256": "1c54c58ef522eb4e6c221ccba406b74fa7aa7535d504cd533175a4bac77e1155",
+    "bytes": 4384
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.02/PARAMETERS.json": {
+    "sha256": "6329fe8784d4cbfc55b3f4599ac6f27cf799eb31cc755a1a288b05fca94aa040",
+    "bytes": 589
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.02/ROLLING_365D.csv": {
+    "sha256": "651f3397d47fea41379973614ee5be71182667153c6e9e65312eeadf62c35827",
+    "bytes": 67985
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.02/WEEKLY_RETURNS.csv": {
+    "sha256": "357d7f56fd16370d9bc74261577ee096d87bfd1095db6fb4dc113820d358fc37",
+    "bytes": 11648
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.04/ANNUAL_RETURNS.json": {
+    "sha256": "0205916939a68a15bce7622008cbb29d728311e8d5c4a81050cac6a0e4d4b2c9",
+    "bytes": 269
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.04/DAILY_EQUITY.csv": {
+    "sha256": "29c051b44cbc1dfe5c66ddd8beefc2298ffc8d9d41e20d80abc534beb047e3fb",
+    "bytes": 80768
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.04/EVERY_TRADE_UTC.csv": {
+    "sha256": "29f97c67fd9ab3a8fcc61db2387d8ea028e8c5760ec07e04b33cca04049f8b0e",
+    "bytes": 298768
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.04/INDEPENDENT_AUDIT.json": {
+    "sha256": "0f858d98ff39693c0a6e56c1eff1b9c83bce980570882b0fd4b78dfc0d3cf45d",
+    "bytes": 503
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.04/METRICS.json": {
+    "sha256": "dd36d741644e37b7ae3423cd821a6c308fdbb15bb3c59813ac30f4495e92d182",
+    "bytes": 1202
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.04/MONTHLY_RETURNS.csv": {
+    "sha256": "aa2429a1a53c7c0b7c25224d6daaa370c177cbe0d9c95cd3f9313d18ff0e6ee6",
+    "bytes": 4363
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.04/PARAMETERS.json": {
+    "sha256": "2c4bbd62128fdac7c98d4271d44d10f51b4ff14881a5a4d719ed800e11e4997e",
+    "bytes": 589
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.04/ROLLING_365D.csv": {
+    "sha256": "c2bcc5bd55189ea5c23828060923aded8ba41d6832e46a8bdf22824ef9310f0a",
+    "bytes": 67676
+  },
+  "results/BTCUSDT/LEARNING/threshold0.25_risk0.04/WEEKLY_RETURNS.csv": {
+    "sha256": "55ff3b742f80612ef2dd7886d4adda769dfe12a38a97dc7abc77a0207f821b7a",
+    "bytes": 11591
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.01/ANNUAL_RETURNS.json": {
+    "sha256": "0849d4237431abb740a87337a3cbff9a63617676899cdf251d17704b2f48c834",
+    "bytes": 269
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.01/DAILY_EQUITY.csv": {
+    "sha256": "716a573de93dba67aa9bd2e751a5a4e1a3514d34b6637b631598161d0acd5b40",
+    "bytes": 81402
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.01/EVERY_TRADE_UTC.csv": {
+    "sha256": "49c5ec8741991148382001a55e2e09345c868691ffa06bd6d05ac037a0d906ed",
+    "bytes": 195636
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.01/INDEPENDENT_AUDIT.json": {
+    "sha256": "e3d69eb43d685b53e4453278f4ee73c5ee9c4017b6ed1d4fc12dff296e506a72",
+    "bytes": 496
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.01/METRICS.json": {
+    "sha256": "64ce9eac85eccae85ac8ac12c7581fb632b53cac48f00091fcd6a19e240e57ec",
+    "bytes": 1196
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.01/MONTHLY_RETURNS.csv": {
+    "sha256": "2b7040dcbc431f8733c1d2aa51d7fd5407fb1438a3b34e5abfefb31ddaf69591",
+    "bytes": 4403
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.01/PARAMETERS.json": {
+    "sha256": "8438236d8bfd5b34ef1278cea1bff5fdd704b7e29118ef8698123b7445b4ec1e",
+    "bytes": 588
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.01/ROLLING_365D.csv": {
+    "sha256": "33ec8e78be223b21fc5c7cbf1e18de99535e765b3c323ab5e8a6367690f4dff3",
+    "bytes": 67978
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.01/WEEKLY_RETURNS.csv": {
+    "sha256": "dc6fc3bbf55ad953c5c500847dafab7bcf9edc0f83faba977e155d81b2d3a1ad",
+    "bytes": 10808
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.02/ANNUAL_RETURNS.json": {
+    "sha256": "dabc59ded31b4aca77fc5e695e4acb4df991e3e741b6c38d224ebe7041c29f0f",
+    "bytes": 269
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.02/DAILY_EQUITY.csv": {
+    "sha256": "da8a8f6b9f7e147ff96a55fa3f3841bdf118b1d35e9ac1734619e3cab2d7d76a",
+    "bytes": 81148
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.02/EVERY_TRADE_UTC.csv": {
+    "sha256": "e9ba1d0f64b636ba2bcfcdcbc7e36dfcd00039c25a06992408de77454b533cc4",
+    "bytes": 195211
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.02/INDEPENDENT_AUDIT.json": {
+    "sha256": "7ff60bbd9b74aece13fa4c5caa62ef4e7bfc47be131142fe6a4a1b5bc52ddc4b",
+    "bytes": 496
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.02/METRICS.json": {
+    "sha256": "79402985e61f5621533c6933d3160ca1bf55219c107698af9edb2589386b9959",
+    "bytes": 1178
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.02/MONTHLY_RETURNS.csv": {
+    "sha256": "42eea0fcab00b90d353b6704dddf12f760a780a9e5c5d7729f3b5cc56d5a50d8",
+    "bytes": 4393
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.02/PARAMETERS.json": {
+    "sha256": "49c8208aee7c1d054b0db619269321f594905fd4ad86e9badbe89847c156d406",
+    "bytes": 588
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.02/ROLLING_365D.csv": {
+    "sha256": "5898991d2020940ad6eaa5ae9619f5304891c1904523de9aa90ee9f9868e6f47",
+    "bytes": 67659
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.02/WEEKLY_RETURNS.csv": {
+    "sha256": "bd015935720f7e2865cdb9775ac24f83246282db08f673f9801262d64f7dd8d8",
+    "bytes": 10764
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.04/ANNUAL_RETURNS.json": {
+    "sha256": "2920f9987f80d820d63d733116da70d7a5511058d22f8e76dd6cbd853ef5c6ec",
+    "bytes": 271
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.04/DAILY_EQUITY.csv": {
+    "sha256": "0e31bc77f15138a3bb0fca104f786dd814dce9286128ff916382552d72734219",
+    "bytes": 80947
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.04/EVERY_TRADE_UTC.csv": {
+    "sha256": "e5068071dfcfff81417824c00eaf8a8b2844611c9f9dc995a1233a0456409745",
+    "bytes": 194978
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.04/INDEPENDENT_AUDIT.json": {
+    "sha256": "731e7ea44cca8c809fdb5b1a680c56c83886dcbef6705afa8b8a85f379178707",
+    "bytes": 510
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.04/METRICS.json": {
+    "sha256": "e687da9e08dcaabd7158c2a4f7c49dc90995f9b38f796b10ff19bec6f0fec4d3",
+    "bytes": 1205
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.04/MONTHLY_RETURNS.csv": {
+    "sha256": "163be72671178f70f2ddec9c1c154774222164ab4a5ee3e19749c7a966b89f6e",
+    "bytes": 4375
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.04/PARAMETERS.json": {
+    "sha256": "b5274d0fb572c75d02dd4f8b5dd712367ae2c795ec834df4ee3f8192ebdb1751",
+    "bytes": 588
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.04/ROLLING_365D.csv": {
+    "sha256": "74f38b2cd5a5d4f61a8231f9da53623602f3f7d1771f6c019778af770b6de3d4",
+    "bytes": 67310
+  },
+  "results/BTCUSDT/LEARNING/threshold0.5_risk0.04/WEEKLY_RETURNS.csv": {
+    "sha256": "62bdaf0ef46bfd352f938fdcdaf53d389a8fdbbff62b93f2c8d670c0897ab8b8",
+    "bytes": 10705
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.01/ANNUAL_RETURNS.json": {
+    "sha256": "deda1cf3156469654f5618a0895c69741ca3dfe113e4e48fd9da30153800f477",
+    "bytes": 268
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.01/DAILY_EQUITY.csv": {
+    "sha256": "5b6871c251d17f9028b832644f0ddb80bf0abf38d9a321819c4a9b3a1f2910f0",
+    "bytes": 80906
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.01/EVERY_TRADE_UTC.csv": {
+    "sha256": "64abb7de9d1bd6a66a733915e2fdc31aec5ce1fda3c877c7ff90e2eece839f53",
+    "bytes": 454180
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.01/INDEPENDENT_AUDIT.json": {
+    "sha256": "176ca5ad7a5cad9be41c5a4316d5a0cff0ab341064f2f40a5e2e27046d9603fe",
+    "bytes": 509
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.01/METRICS.json": {
+    "sha256": "e82de441ca3c789f963bf7cb681edbefb38ca50242ae07a6cdd7080db0a0939f",
+    "bytes": 1202
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.01/MONTHLY_RETURNS.csv": {
+    "sha256": "f0a030c08df7a191782bc6085c164bf3b4a4fc8d940923eede5c6bd4ca4c2eca",
+    "bytes": 4422
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.01/PARAMETERS.json": {
+    "sha256": "75e6685177e5231e326c6ed960d2c3bb734c174818b0e710a72a51faac940f99",
+    "bytes": 586
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.01/ROLLING_365D.csv": {
+    "sha256": "56f40ef5a375f67a8f2f2c9d899e690bfcf87e43055fa6ada9ad11bd06e492a9",
+    "bytes": 68024
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.01/WEEKLY_RETURNS.csv": {
+    "sha256": "52d4926f32971b999e303f73b08959f42f1b002020f68b0ce37034b254dc174e",
+    "bytes": 12167
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.02/ANNUAL_RETURNS.json": {
+    "sha256": "32d74b82019903d10eca78f3a0147372a797d61bf2a95d857bf87308fff40a8b",
+    "bytes": 266
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.02/DAILY_EQUITY.csv": {
+    "sha256": "28c3eb040192409c662bd8da0412ab80d609c289eb76dd18a5e11beda4038963",
+    "bytes": 81122
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.02/EVERY_TRADE_UTC.csv": {
+    "sha256": "6f0f7be1b83eec044a8c92c4dd85263f73d514cbd815a368bca97840c9e24195",
+    "bytes": 455029
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.02/INDEPENDENT_AUDIT.json": {
+    "sha256": "ac923a1e088d4ab1f6ba091edf66726363616a4eed2c291862843db438bb8a4a",
+    "bytes": 507
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.02/METRICS.json": {
+    "sha256": "fb987b4507fc7461d5e09246e388ba2d8e577a8614f2ca218eb471c453960278",
+    "bytes": 1199
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.02/MONTHLY_RETURNS.csv": {
+    "sha256": "f772dbc1d14444272fb82f3698744501aaff94437307ee825df8a22a0e48d5a4",
+    "bytes": 4395
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.02/PARAMETERS.json": {
+    "sha256": "7fa56ce9fde387c8c7863efa8b0108d9d64758d9b8557cb04c72f67a2e39b5b3",
+    "bytes": 586
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.02/ROLLING_365D.csv": {
+    "sha256": "15bb3cf27d955d88ae76746b3fbdcfa52078084186ff8ad8ce8769f7b6feaa3c",
+    "bytes": 67463
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.02/WEEKLY_RETURNS.csv": {
+    "sha256": "86c3c50447c052b5086627b753a11d2ef55c58361c38b1782180392ee88c836e",
+    "bytes": 12092
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.04/ANNUAL_RETURNS.json": {
+    "sha256": "97661f3b2ff37b2333ca4175ee9ad6681e43784130116888b201cd5228090817",
+    "bytes": 267
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.04/DAILY_EQUITY.csv": {
+    "sha256": "cb58a3ba7bb859cc4cc7795d8c475e996726019934d57506553939e7fb3f894e",
+    "bytes": 80885
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.04/EVERY_TRADE_UTC.csv": {
+    "sha256": "5098b68a550df1d07be6587715c7ca08bb1a3cbadfd2794c0e1935105936a6ae",
+    "bytes": 451172
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.04/INDEPENDENT_AUDIT.json": {
+    "sha256": "d0564ce0a5c1aca81119c15c80fd84ef708f3e43332ef28e5272e608590addb0",
+    "bytes": 493
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.04/METRICS.json": {
+    "sha256": "0afefd80571d85d2655967d8fa0814856301d47800c92ada720ace7df8831684",
+    "bytes": 1186
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.04/MONTHLY_RETURNS.csv": {
+    "sha256": "3522885287fec9c48dd97de5dd9420deba3bfd361b97157fe268d40cd10ab840",
+    "bytes": 4389
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.04/PARAMETERS.json": {
+    "sha256": "d6f344ee28587d5d4e83abdfd8ed6c26e70cc8a9e7c0f853df9dfe54192d633e",
+    "bytes": 586
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.04/ROLLING_365D.csv": {
+    "sha256": "388b908c6dbeb14627ffd8dda801dda1aab6c1084f6c5fc847140c46862241f9",
+    "bytes": 67380
+  },
+  "results/BTCUSDT/LEARNING/threshold0_risk0.04/WEEKLY_RETURNS.csv": {
+    "sha256": "cb1db03f97c92d9ee2655d6bcf3a6d34be02c66d210f5f1483b697866563fd6c",
+    "bytes": 12040
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.01/ANNUAL_RETURNS.json": {
+    "sha256": "815072680fd55fd7b0f6bddcb6d8b53ee7ab53ce55057c944b88a29735ad827e",
+    "bytes": 274
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.01/DAILY_EQUITY.csv": {
+    "sha256": "094c9ed50057f601313811fd39b5281808c08083cf6b0b2c33b551add1ef900c",
+    "bytes": 80819
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.01/EVERY_TRADE_UTC.csv": {
+    "sha256": "5b256aa178f8351747ec1b29daafbf1ead99b1cb51d40122cf76ed59be68c48c",
+    "bytes": 64225
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.01/INDEPENDENT_AUDIT.json": {
+    "sha256": "2b6b5e08e1efa272689560fa7ed3405e410131ed8ac3cd5a58cddaeb3823c867",
+    "bytes": 492
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.01/METRICS.json": {
+    "sha256": "7aaa9a8f866506418f74b7767c0aefb1505e24fa3b5efae50fd46dfff4d378cd",
+    "bytes": 1183
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.01/MONTHLY_RETURNS.csv": {
+    "sha256": "dff695e4b3df272f7aaf512e132952130d585bb808b34a2da891f8864c39d946",
+    "bytes": 4070
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.01/PARAMETERS.json": {
+    "sha256": "ef5ba0ff57fd8bd49f95824cb9673642c6d6145f3d5f022eee3b91e5f8e953e4",
+    "bytes": 588
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.01/ROLLING_365D.csv": {
+    "sha256": "89313fd7b6b36465b63725cfff260c04ea590fde4d60227edc5fe42065612877",
+    "bytes": 68090
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.01/WEEKLY_RETURNS.csv": {
+    "sha256": "68832b5d8f58c8130198128aa5392f52dd249a11736f5015509c387de6773eb6",
+    "bytes": 9255
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.02/ANNUAL_RETURNS.json": {
+    "sha256": "ad6e8f6e697b87c5ebcce086a9c7b53bca9ef6b5d84202ae58ff750c121c22c3",
+    "bytes": 272
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.02/DAILY_EQUITY.csv": {
+    "sha256": "bbef8d0a5b7f6e32f9f57b55a47239cba68bb797f6b3bb271bff4de8e4fa14ab",
+    "bytes": 80788
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.02/EVERY_TRADE_UTC.csv": {
+    "sha256": "b5c5d668f0458e1e5d73077960c57942b197a4396bd880b6054fe8324e4570a4",
+    "bytes": 64429
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.02/INDEPENDENT_AUDIT.json": {
+    "sha256": "996275df5673ae6a88effedfb44e8abaeb1bd44f6523629ecebca06563416df3",
+    "bytes": 496
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.02/METRICS.json": {
+    "sha256": "62e404478ace00f4fa70e4e76536efd2c85fab47e005290f114f98a921edfd3e",
+    "bytes": 1181
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.02/MONTHLY_RETURNS.csv": {
+    "sha256": "8778c10e10418cab2f8adef83ef19476715b69950b9c373caebf8aca50e9db6a",
+    "bytes": 4058
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.02/PARAMETERS.json": {
+    "sha256": "427a28d59b4f45804fe113bdab24e296b8d9f309087d0f4568729d57ae09fedb",
+    "bytes": 588
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.02/ROLLING_365D.csv": {
+    "sha256": "dc0496b25b88ef2df27bc53a1932ec8ed1b0ae41841430c4af2e922e03bbc8c4",
+    "bytes": 67927
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.02/WEEKLY_RETURNS.csv": {
+    "sha256": "331894ea5bd3f32100daf106fa77a3e52dacbeb05ab5008485985bdfd8cd5986",
+    "bytes": 9227
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.04/ANNUAL_RETURNS.json": {
+    "sha256": "c26947a659950f8fe29e257c78fc5ef8be63e685c62d12e5f1c05c9012d34e89",
+    "bytes": 270
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.04/DAILY_EQUITY.csv": {
+    "sha256": "d1a8700587639abcda6197ba079c0cfb21947599a3eb030db8c84a6455ae4243",
+    "bytes": 80562
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.04/EVERY_TRADE_UTC.csv": {
+    "sha256": "262515befdc2cf581c575447ca5618fb0b28d5508cca9a8b81f7b9bd8451214e",
+    "bytes": 64564
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.04/INDEPENDENT_AUDIT.json": {
+    "sha256": "66576148174f8f464069f36e9b7345ce68784bed34d03ab88bd01b8524522400",
+    "bytes": 498
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.04/METRICS.json": {
+    "sha256": "e69af9e8421e23263b7923bf30210bde2ae71aba4a100c94c49c8c04b10cb1cf",
+    "bytes": 1184
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.04/MONTHLY_RETURNS.csv": {
+    "sha256": "c5cfc816cb6ae322603c23bf81f8a2380416c111c8eb1f0a4a4c5823fd140d86",
+    "bytes": 4046
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.04/PARAMETERS.json": {
+    "sha256": "8679a09f3312c330856f1fc9b59c15e27811cf4f24be6b2db4c93c6d098194a1",
+    "bytes": 588
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.04/ROLLING_365D.csv": {
+    "sha256": "147f9515eca985f9e33a02c95a8820f5794f78a4821dfc27b031e12ea224952c",
+    "bytes": 67222
+  },
+  "results/BTCUSDT/LEARNING/threshold1.0_risk0.04/WEEKLY_RETURNS.csv": {
+    "sha256": "8fe8ef861d5166acbe220258e0cdea964daadf1897a063f85ad126ffadc98efe",
+    "bytes": 9190
+  },
+  "results/BTCUSDT/PRIMARY_250weeks/ANNUAL_RETURNS.json": {
+    "sha256": "f9bc7155c64a5e280505aff65c78d64648ee62962ffcc25c9c58082f25c800f6",
+    "bytes": 221
+  },
+  "results/BTCUSDT/PRIMARY_250weeks/DAILY_EQUITY.csv": {
+    "sha256": "0bf35ccc379f9f952c35932dfc5804ed7ebd626ed0f4d24d304fbec70856d754",
+    "bytes": 77909
+  },
+  "results/BTCUSDT/PRIMARY_250weeks/EVERY_TRADE_UTC.csv": {
+    "sha256": "fbcb2aa763616fb417e82a9bfc4b2d4e18ccac0988f388173d103adbe146502e",
+    "bytes": 99288
+  },
+  "results/BTCUSDT/PRIMARY_250weeks/INDEPENDENT_AUDIT.json": {
+    "sha256": "42aec8303aa7ca7c6edde297b6248e9c01b8b535a384983150ce0ce3abe5f51b",
+    "bytes": 510
+  },
+  "results/BTCUSDT/PRIMARY_250weeks/METRICS.json": {
+    "sha256": "e958dfbe24c51916e01f7e114fb5d6edfdf62345c32e0ef6405cdf7e25d31830",
+    "bytes": 1152
+  },
+  "results/BTCUSDT/PRIMARY_250weeks/MONTHLY_RETURNS.csv": {
+    "sha256": "2a509d659aad9f8df768bf9c35ad925559c345e0b191e9cdc985dff7cd52c3f4",
+    "bytes": 4192
+  },
+  "results/BTCUSDT/PRIMARY_250weeks/PARAMETERS.json": {
+    "sha256": "d5bdf292b68df216dd378035c51d1f7f70f3912b490390bb241d97365c34193a",
+    "bytes": 2144
+  },
+  "results/BTCUSDT/PRIMARY_250weeks/ROLLING_365D.csv": {
+    "sha256": "f6d2e6d2e12afbf9cfd5311988f0ecf538183969c90e4f130b1ad9d404f9ff05",
+    "bytes": 63824
+  },
+  "results/BTCUSDT/PRIMARY_250weeks/WEEKLY_RETURNS.csv": {
+    "sha256": "f74f1a9aecb87eeb027c40ea1f80c739ad06a3540defc96d43af1ac98828225d",
+    "bytes": 9390
+  },
+  "results/BTCUSDT/PRIMARY_CANDIDATES.csv.gz": {
+    "sha256": "03e1f50767fef9f23c7ad78d589578d28ba53399d77cc93292a2fff1044a470e",
+    "bytes": 9010
+  },
+  "results/BTCUSDT/PRIMARY_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "cd5b9fa778f589584f3e23bb1dc28231cdae516044a6aa12ee521c0395209155",
+    "bytes": 265
+  },
+  "results/BTCUSDT/PRIMARY_five_years/DAILY_EQUITY.csv": {
+    "sha256": "92cb70b7fc5701cf9254f9c919af7908f332aedc6d7eb115c050fe7f0410a6d2",
+    "bytes": 81432
+  },
+  "results/BTCUSDT/PRIMARY_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "1619ac92362fbc217ceb6de3c369b10a0e582e4ffc77fd06226c5f6f5cb93cf5",
+    "bytes": 102321
+  },
+  "results/BTCUSDT/PRIMARY_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "639e429cdd0a435c1a0dd4c782ddcadc2cccc5babd4fce36395e9b5729b44816",
+    "bytes": 508
+  },
+  "results/BTCUSDT/PRIMARY_five_years/METRICS.json": {
+    "sha256": "3f3a2ca6661c342418a274d76607406ea37d787d30d6a81edbc3fd8796e68ce0",
+    "bytes": 1195
+  },
+  "results/BTCUSDT/PRIMARY_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "85d5c419fe5eb8ec037ac27680153de91382a09c92958830d5b8d91d33daefc3",
+    "bytes": 4340
+  },
+  "results/BTCUSDT/PRIMARY_five_years/PARAMETERS.json": {
+    "sha256": "d5bdf292b68df216dd378035c51d1f7f70f3912b490390bb241d97365c34193a",
+    "bytes": 2144
+  },
+  "results/BTCUSDT/PRIMARY_five_years/ROLLING_365D.csv": {
+    "sha256": "adca14400e8fb72cc5d10001d4fc23269a6ce4c715a2e7c01ba3c4c5c43cb93a",
+    "bytes": 67159
+  },
+  "results/BTCUSDT/PRIMARY_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "2ee8b19964188013b8604c303f80550ff73f8a6e787a81e9fab997cb6b1c67ed",
+    "bytes": 9742
+  },
+  "results/BTCUSDT/PRIMARY_test/ANNUAL_RETURNS.json": {
+    "sha256": "15701f05794010e04a8908a54649cfd0b46c70e47e41faf70602de807d17c3f1",
+    "bytes": 201
+  },
+  "results/BTCUSDT/PRIMARY_test/DAILY_EQUITY.csv": {
+    "sha256": "1c7b4c39da2be972c15a3b9cb97571c41cacdd2f07c116f4c53164bdad05a3e8",
+    "bytes": 48663
+  },
+  "results/BTCUSDT/PRIMARY_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "127320993dedb129c04f3d345cca816582de1cf0db3e7efc870c1b29ddeeb663",
+    "bytes": 68087
+  },
+  "results/BTCUSDT/PRIMARY_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "f422215661ac35516b22d6aff8e97f693db55dde0df8a6ab5dee90af56bb6fbe",
+    "bytes": 511
+  },
+  "results/BTCUSDT/PRIMARY_test/METRICS.json": {
+    "sha256": "62eddb8cd80179e3891f3ae6720908dfeff24d162b73aa2516f8a72467361fab",
+    "bytes": 1133
+  },
+  "results/BTCUSDT/PRIMARY_test/MONTHLY_RETURNS.csv": {
+    "sha256": "09e66ed3d34befbecfa562e3a3202de224ab50b0f63791688cef270a52a413f0",
+    "bytes": 2641
+  },
+  "results/BTCUSDT/PRIMARY_test/PARAMETERS.json": {
+    "sha256": "d5bdf292b68df216dd378035c51d1f7f70f3912b490390bb241d97365c34193a",
+    "bytes": 2144
+  },
+  "results/BTCUSDT/PRIMARY_test/ROLLING_365D.csv": {
+    "sha256": "5a16a3be511a60ead7858734ba30c6fda75a7cf27c937b3567715342c86b3728",
+    "bytes": 34057
+  },
+  "results/BTCUSDT/PRIMARY_test/WEEKLY_RETURNS.csv": {
+    "sha256": "2d439a3b3ad500c9331f216cad369bac988629be01361b4c450fe5e69a8bac4a",
+    "bytes": 5910
+  },
+  "results/BTCUSDT/PROTOCOL.json": {
+    "sha256": "4c4e74bf133b115e79c3a4723114a34fad3dc016c9d929fd7d9000e2edf0f9d8",
+    "bytes": 326081
+  },
+  "results/BTCUSDT/STRESSES.json": {
+    "sha256": "21ad55bc3271fa69f1fdb4d5efa65d0a02dae1a43f280527adf00eb858b64333",
+    "bytes": 11754
+  },
+  "results/BTCUSDT/STRESS_30x_initial_margin_only/ANNUAL_RETURNS.json": {
+    "sha256": "ef3318b394f1ac9b7c9c60cd882c11ca7131db1101c5fb3ebd6a971e4e88c23a",
+    "bytes": 263
+  },
+  "results/BTCUSDT/STRESS_30x_initial_margin_only/DAILY_EQUITY.csv": {
+    "sha256": "23d0d4390bb26a16e5b80f076a700e5fd75ac60444211e7c9ece79e29a1429f7",
+    "bytes": 81189
+  },
+  "results/BTCUSDT/STRESS_30x_initial_margin_only/EVERY_TRADE_UTC.csv": {
+    "sha256": "baf9b9a63d464a4fbccdd943db94bdb83889cc7f9a0240cdb1866bc367b3bce8",
+    "bytes": 101770
+  },
+  "results/BTCUSDT/STRESS_30x_initial_margin_only/INDEPENDENT_AUDIT.json": {
+    "sha256": "06b9b60cd9167a2a930051800f8bdcc61cd2ceb99f009039cd2cf7398ffbb5f8",
+    "bytes": 509
+  },
+  "results/BTCUSDT/STRESS_30x_initial_margin_only/METRICS.json": {
+    "sha256": "13a77ca598a291176aeb8c969063364b4cb897cfe30809e8a93e043fae4d4103",
+    "bytes": 1191
+  },
+  "results/BTCUSDT/STRESS_30x_initial_margin_only/MONTHLY_RETURNS.csv": {
+    "sha256": "ee77f34bbaaf9bc1fcb58b58cc9aa2270fb5ebf2b2f444ffb4b8b907cd1d675a",
+    "bytes": 4341
+  },
+  "results/BTCUSDT/STRESS_30x_initial_margin_only/PARAMETERS.json": {
+    "sha256": "35489218bae9a180a7898ea8572af636677628647e2545095ca7fbeb621622f0",
+    "bytes": 2145
+  },
+  "results/BTCUSDT/STRESS_30x_initial_margin_only/ROLLING_365D.csv": {
+    "sha256": "2cb5e5f6c734e3c2c89bc6816f612eaf5fcaee26f1c2faef782a91ec7b85549f",
+    "bytes": 67063
+  },
+  "results/BTCUSDT/STRESS_30x_initial_margin_only/WEEKLY_RETURNS.csv": {
+    "sha256": "4d0f91dfe02e6d653dfba35e07757a61c9fbaf0b5b2c7d84786a45b9dfafd746",
+    "bytes": 9739
+  },
+  "results/BTCUSDT/STRESS_delay_2_minutes/ANNUAL_RETURNS.json": {
+    "sha256": "67efb962f2d620f96a17c9c6e738f71aa6a37d3a340f63f519019cc9237cdf77",
+    "bytes": 262
+  },
+  "results/BTCUSDT/STRESS_delay_2_minutes/DAILY_EQUITY.csv": {
+    "sha256": "8c221ef229e8973f055ac6376d67a3c3a4b1d4f5bbfd620a44f14b8543c3f5cd",
+    "bytes": 81224
+  },
+  "results/BTCUSDT/STRESS_delay_2_minutes/EVERY_TRADE_UTC.csv": {
+    "sha256": "2a94e5eedf60195a270a819b21b8bf2ebfa9f129e27738b653f04783b98c2af0",
+    "bytes": 102454
+  },
+  "results/BTCUSDT/STRESS_delay_2_minutes/INDEPENDENT_AUDIT.json": {
+    "sha256": "f81a780295028bfe77280da49ab5a9ec8abb0f68fbfde1a1dfb72aea9a02b8ef",
+    "bytes": 505
+  },
+  "results/BTCUSDT/STRESS_delay_2_minutes/METRICS.json": {
+    "sha256": "ec45bb8e39fe1e1dd39fcffdf9b1057e490164345eab7c8d06cb7338f4bd38d1",
+    "bytes": 1193
+  },
+  "results/BTCUSDT/STRESS_delay_2_minutes/MONTHLY_RETURNS.csv": {
+    "sha256": "9af2072243d256b21cf8f63d967eff5eeef0e000aee12a1929ce0a7e80a3bdf2",
+    "bytes": 4336
+  },
+  "results/BTCUSDT/STRESS_delay_2_minutes/PARAMETERS.json": {
+    "sha256": "67085a1cad8219416f4b7f73481c6a2dc24e14d1c35a7f61e87b429cef438e3a",
+    "bytes": 2144
+  },
+  "results/BTCUSDT/STRESS_delay_2_minutes/ROLLING_365D.csv": {
+    "sha256": "c56f06044a5647e42ed3e6b346f1ddcc4bcc9c18b63466bfb9d6222cddd35660",
+    "bytes": 66860
+  },
+  "results/BTCUSDT/STRESS_delay_2_minutes/WEEKLY_RETURNS.csv": {
+    "sha256": "6a65972b1b17c1382ef78d5277438e50a3ae12e948cb18dcf7e718a695ecdf43",
+    "bytes": 9742
+  },
+  "results/BTCUSDT/STRESS_double_cost/ANNUAL_RETURNS.json": {
+    "sha256": "087b94ac88cc5e8a97d3c3e6ed1102ac2e040627fb64bc1eea6a55d82a286254",
+    "bytes": 264
+  },
+  "results/BTCUSDT/STRESS_double_cost/DAILY_EQUITY.csv": {
+    "sha256": "5da92b82fe078f0ce33113052ed64d79274ccf2af58382ffd5165da60b01094d",
+    "bytes": 81049
+  },
+  "results/BTCUSDT/STRESS_double_cost/EVERY_TRADE_UTC.csv": {
+    "sha256": "a80fbe7320655226418bf13a3bb76250aebc7458453a397ccb91dcce7955d38c",
+    "bytes": 102159
+  },
+  "results/BTCUSDT/STRESS_double_cost/INDEPENDENT_AUDIT.json": {
+    "sha256": "f49c40451ac10c980c83f7d8233637c64fe760441ee832914cc918281f79270f",
+    "bytes": 505
+  },
+  "results/BTCUSDT/STRESS_double_cost/METRICS.json": {
+    "sha256": "d658062b15c42cb7382b3fa72fd6f3f35fdd7621f09e60287c26060704e1c26f",
+    "bytes": 1195
+  },
+  "results/BTCUSDT/STRESS_double_cost/MONTHLY_RETURNS.csv": {
+    "sha256": "e1d64d77cf52496a686866215dfc0f43e7d00452431f27c994bb71824538b7d1",
+    "bytes": 4347
+  },
+  "results/BTCUSDT/STRESS_double_cost/PARAMETERS.json": {
+    "sha256": "da4110d33ae93bb998cada20e224574dfacdf62a51237f026d18968adf7324e0",
+    "bytes": 2141
+  },
+  "results/BTCUSDT/STRESS_double_cost/ROLLING_365D.csv": {
+    "sha256": "1e7653ccb046f7e51aed0adc37adcbcb764c1db2ccbfb7b0926f08e90359bbb6",
+    "bytes": 67099
+  },
+  "results/BTCUSDT/STRESS_double_cost/WEEKLY_RETURNS.csv": {
+    "sha256": "f97df3e341ebe46e47a19a98b4e503b27f2aef1636ce0a83f70750379d17aa94",
+    "bytes": 9747
+  },
+  "results/BTCUSDT/STRESS_hold24h/ANNUAL_RETURNS.json": {
+    "sha256": "5f55dac28a5e6258f1d074269a85089dfe2a15317ff63f968293a4eb280a2748",
+    "bytes": 264
+  },
+  "results/BTCUSDT/STRESS_hold24h/DAILY_EQUITY.csv": {
+    "sha256": "3561d1879a0da15fbf0858580c66ecb9d2c3f4ddd5d981c43dbfa08e12b8023d",
+    "bytes": 81344
+  },
+  "results/BTCUSDT/STRESS_hold24h/EVERY_TRADE_UTC.csv": {
+    "sha256": "777c1ab20156beb0837f9a9da48863e7b39bd25214faed724daed74e0a5e37fe",
+    "bytes": 103841
+  },
+  "results/BTCUSDT/STRESS_hold24h/INDEPENDENT_AUDIT.json": {
+    "sha256": "bfaebadefde915f10fe4cad6b8f1ea55a4b1a86c76e427efaddfcccc3ad39b28",
+    "bytes": 511
+  },
+  "results/BTCUSDT/STRESS_hold24h/METRICS.json": {
+    "sha256": "ae86d154a9659ca58c4cb21081d357122fa0c69899680739f0632e2d8ce182f7",
+    "bytes": 1195
+  },
+  "results/BTCUSDT/STRESS_hold24h/MONTHLY_RETURNS.csv": {
+    "sha256": "ddf3370b4d754528edd18634846330b0cd97f5643f0da42fddfecb0c76be4722",
+    "bytes": 4345
+  },
+  "results/BTCUSDT/STRESS_hold24h/PARAMETERS.json": {
+    "sha256": "c7bd2aaf328d608813d4bfa8366afc5fa9e4841aefd5ad238f03d462de4e1dbd",
+    "bytes": 2144
+  },
+  "results/BTCUSDT/STRESS_hold24h/ROLLING_365D.csv": {
+    "sha256": "87c2af722c8447af6205162f14d3e0f2908b516cdaf0df975fea001c38495e20",
+    "bytes": 67076
+  },
+  "results/BTCUSDT/STRESS_hold24h/WEEKLY_RETURNS.csv": {
+    "sha256": "f18c55326b13c5e7ed94cea098c30a9fd15d2b5502f7e7b44fe6d3577035bc5b",
+    "bytes": 9710
+  },
+  "results/BTCUSDT/STRESS_hold48h/ANNUAL_RETURNS.json": {
+    "sha256": "08ec34f05bd89c8124d520e0894d54c0754d3532874f7171d166464874e5862b",
+    "bytes": 265
+  },
+  "results/BTCUSDT/STRESS_hold48h/DAILY_EQUITY.csv": {
+    "sha256": "86baa117e3008fe715076a54b5afb6f533c196ef6cb2075260bbe3de5693b11c",
+    "bytes": 80969
+  },
+  "results/BTCUSDT/STRESS_hold48h/EVERY_TRADE_UTC.csv": {
+    "sha256": "92c55fd9452998fc66bf10227152d5203f7fc85d381fef073c522b9195abcd3d",
+    "bytes": 102573
+  },
+  "results/BTCUSDT/STRESS_hold48h/INDEPENDENT_AUDIT.json": {
+    "sha256": "0a00b90e7b1af9bb2ffdd19f6b9d36ace4c06d9fd6abc503b33fc0433afb696a",
+    "bytes": 510
+  },
+  "results/BTCUSDT/STRESS_hold48h/METRICS.json": {
+    "sha256": "0285a7332b54e9daae6d0a533d3c37ece30c8a1875634f63456ebdc97d74e1f5",
+    "bytes": 1196
+  },
+  "results/BTCUSDT/STRESS_hold48h/MONTHLY_RETURNS.csv": {
+    "sha256": "034b51e6b76960e0f68884c8051b48c86b663a5059687e323f793fca6e1a42f0",
+    "bytes": 4339
+  },
+  "results/BTCUSDT/STRESS_hold48h/PARAMETERS.json": {
+    "sha256": "82ba0eb8df8f084e1ae410319693d29dac1e84bc03d206e27e1ca03e446a1b5d",
+    "bytes": 2144
+  },
+  "results/BTCUSDT/STRESS_hold48h/ROLLING_365D.csv": {
+    "sha256": "5d78f174967a19a42cb3c333725aee3d3ac00f83478beb1d1f677cc5b3d74ffd",
+    "bytes": 66999
+  },
+  "results/BTCUSDT/STRESS_hold48h/WEEKLY_RETURNS.csv": {
+    "sha256": "9c1c27f5a6e861b82a500aa7bd634219a11dae4d1a8b2416cf85eca88324bd5b",
+    "bytes": 9719
+  },
+  "results/BTCUSDT/STRESS_initial100k/ANNUAL_RETURNS.json": {
+    "sha256": "5f3af8f0988906226eeb096158940c8d7fa8412c85e4715a778aed6ed89edd3f",
+    "bytes": 266
+  },
+  "results/BTCUSDT/STRESS_initial100k/DAILY_EQUITY.csv": {
+    "sha256": "d0d08827f6c8a4011ba9bef0fbec8b999c1c8da663cba8d4ac18cf2ba3c07a18",
+    "bytes": 81356
+  },
+  "results/BTCUSDT/STRESS_initial100k/EVERY_TRADE_UTC.csv": {
+    "sha256": "01588f3daba71da69fb66b8c1d559344d204a1e0d6f160c0413b4ae221b1f0d9",
+    "bytes": 102467
+  },
+  "results/BTCUSDT/STRESS_initial100k/INDEPENDENT_AUDIT.json": {
+    "sha256": "0c3f562b3d75302f47b1fae7bf9ce04be39839c99d5de0ef724de3a6c8bcdd81",
+    "bytes": 504
+  },
+  "results/BTCUSDT/STRESS_initial100k/METRICS.json": {
+    "sha256": "af514c5a1d9b755585b93280f51954c1dbbc17128c3711bcdb650a65dace2d8e",
+    "bytes": 1198
+  },
+  "results/BTCUSDT/STRESS_initial100k/MONTHLY_RETURNS.csv": {
+    "sha256": "7c51730a4c6b8fd98e03e7b7d7b60c1bebb04a8513fb5802d1f0388c1965e0d9",
+    "bytes": 4360
+  },
+  "results/BTCUSDT/STRESS_initial100k/PARAMETERS.json": {
+    "sha256": "d6e8faae2ce34ffa2e421025458c8f352cb5969b29277f7e76fede2674dd3143",
+    "bytes": 2143
+  },
+  "results/BTCUSDT/STRESS_initial100k/ROLLING_365D.csv": {
+    "sha256": "6505b016f065bfc913ead993eaa7b8e79317a3c8515288c62c3c785c8099626a",
+    "bytes": 67377
+  },
+  "results/BTCUSDT/STRESS_initial100k/WEEKLY_RETURNS.csv": {
+    "sha256": "6f79b7278e58fa20f8303b419027819508af4e4bfe7195e7adfe5aa44ac6dc9e",
+    "bytes": 9787
+  },
+  "results/BTCUSDT/STRESS_risk1pct/ANNUAL_RETURNS.json": {
+    "sha256": "b07e8f1aca96c3f8ca4128cdfb387f4376df6b5ae368569415d2d438db8a8d2a",
+    "bytes": 270
+  },
+  "results/BTCUSDT/STRESS_risk1pct/DAILY_EQUITY.csv": {
+    "sha256": "49201f4e9ab37c1681cb85c24b6bcc60702b44ccd5c18ddefb5d4102e69a86fb",
+    "bytes": 81725
+  },
+  "results/BTCUSDT/STRESS_risk1pct/EVERY_TRADE_UTC.csv": {
+    "sha256": "14712edafd1bf8b3b1f35591257ed5021778e96bd5749e7e289879041fb981c2",
+    "bytes": 101771
+  },
+  "results/BTCUSDT/STRESS_risk1pct/INDEPENDENT_AUDIT.json": {
+    "sha256": "49b1b9ae45cfd0b90af7e3405eff16ec1e0e14890514fd8013070c21fb97d942",
+    "bytes": 505
+  },
+  "results/BTCUSDT/STRESS_risk1pct/METRICS.json": {
+    "sha256": "1ca3b72982c0921bf76927c3bcd0156a17c9de894744f4f3603155881ff03d74",
+    "bytes": 1203
+  },
+  "results/BTCUSDT/STRESS_risk1pct/MONTHLY_RETURNS.csv": {
+    "sha256": "dc44cbc021992b84f0933ecfca5eae1c3eed33912e94081ca384e98a9228ecdb",
+    "bytes": 4376
+  },
+  "results/BTCUSDT/STRESS_risk1pct/PARAMETERS.json": {
+    "sha256": "759377c40c2dacdf3678b5aea6c4660b431f5fb3e685005fbd903488b456006d",
+    "bytes": 2144
+  },
+  "results/BTCUSDT/STRESS_risk1pct/ROLLING_365D.csv": {
+    "sha256": "101086f320afbee861894f0cbd224d2374bbe10704121aca731f4249bedd77de",
+    "bytes": 67736
+  },
+  "results/BTCUSDT/STRESS_risk1pct/WEEKLY_RETURNS.csv": {
+    "sha256": "2fe44e56c405845ed2de11ed5ce6fc7da2015f360caabe8d2e6a1cd861583cd7",
+    "bytes": 9815
+  },
+  "results/BTCUSDT/STRESS_risk4pct/ANNUAL_RETURNS.json": {
+    "sha256": "cd5b9fa778f589584f3e23bb1dc28231cdae516044a6aa12ee521c0395209155",
+    "bytes": 265
+  },
+  "results/BTCUSDT/STRESS_risk4pct/DAILY_EQUITY.csv": {
+    "sha256": "92cb70b7fc5701cf9254f9c919af7908f332aedc6d7eb115c050fe7f0410a6d2",
+    "bytes": 81432
+  },
+  "results/BTCUSDT/STRESS_risk4pct/EVERY_TRADE_UTC.csv": {
+    "sha256": "1619ac92362fbc217ceb6de3c369b10a0e582e4ffc77fd06226c5f6f5cb93cf5",
+    "bytes": 102321
+  },
+  "results/BTCUSDT/STRESS_risk4pct/INDEPENDENT_AUDIT.json": {
+    "sha256": "639e429cdd0a435c1a0dd4c782ddcadc2cccc5babd4fce36395e9b5729b44816",
+    "bytes": 508
+  },
+  "results/BTCUSDT/STRESS_risk4pct/METRICS.json": {
+    "sha256": "3f3a2ca6661c342418a274d76607406ea37d787d30d6a81edbc3fd8796e68ce0",
+    "bytes": 1195
+  },
+  "results/BTCUSDT/STRESS_risk4pct/MONTHLY_RETURNS.csv": {
+    "sha256": "85d5c419fe5eb8ec037ac27680153de91382a09c92958830d5b8d91d33daefc3",
+    "bytes": 4340
+  },
+  "results/BTCUSDT/STRESS_risk4pct/PARAMETERS.json": {
+    "sha256": "d5bdf292b68df216dd378035c51d1f7f70f3912b490390bb241d97365c34193a",
+    "bytes": 2144
+  },
+  "results/BTCUSDT/STRESS_risk4pct/ROLLING_365D.csv": {
+    "sha256": "adca14400e8fb72cc5d10001d4fc23269a6ce4c715a2e7c01ba3c4c5c43cb93a",
+    "bytes": 67159
+  },
+  "results/BTCUSDT/STRESS_risk4pct/WEEKLY_RETURNS.csv": {
+    "sha256": "2ee8b19964188013b8604c303f80550ff73f8a6e787a81e9fab997cb6b1c67ed",
+    "bytes": 9742
+  },
+  "results/BTCUSDT/STRESS_zero_cost/ANNUAL_RETURNS.json": {
+    "sha256": "95de49a76ca4e618dd1ab846a43aa5a4b562313f045251c7bf38b23db3f50fc9",
+    "bytes": 263
+  },
+  "results/BTCUSDT/STRESS_zero_cost/DAILY_EQUITY.csv": {
+    "sha256": "2f96bf3a768b0e510e86c9a08cf97384f1470d408b9044755d2b999e9722cfdc",
+    "bytes": 80980
+  },
+  "results/BTCUSDT/STRESS_zero_cost/EVERY_TRADE_UTC.csv": {
+    "sha256": "4e60587e0755a9b2eba526e48e0a7939a3f284f59ba8c2fbac2a8c49eb73f2ea",
+    "bytes": 95030
+  },
+  "results/BTCUSDT/STRESS_zero_cost/INDEPENDENT_AUDIT.json": {
+    "sha256": "010daa56607b410bf718ad71963dd4fe8ae30f829d055ae57a40d14e0f354249",
+    "bytes": 494
+  },
+  "results/BTCUSDT/STRESS_zero_cost/METRICS.json": {
+    "sha256": "55be80ccec2d9184d36504ee114d9494403d1c874f89db906752dcd610eb5894",
+    "bytes": 1177
+  },
+  "results/BTCUSDT/STRESS_zero_cost/MONTHLY_RETURNS.csv": {
+    "sha256": "8eb4a969eb736ee39bd60d011a40097fb36951efd66b3e780ba0662fc560b034",
+    "bytes": 4342
+  },
+  "results/BTCUSDT/STRESS_zero_cost/PARAMETERS.json": {
+    "sha256": "b02b4690ae5db3c5421f489f20f20f95b1e4b8388d3e6b01dfe457009c55a6ec",
+    "bytes": 2140
+  },
+  "results/BTCUSDT/STRESS_zero_cost/ROLLING_365D.csv": {
+    "sha256": "5212826eceeb92fc66c45eddbae48f105915df9d4d4cb0ad7960774ca39ad396",
+    "bytes": 66782
+  },
+  "results/BTCUSDT/STRESS_zero_cost/WEEKLY_RETURNS.csv": {
+    "sha256": "2b3284f5d0a9bd6c1b18fe17b27eeff5fcd55e28ba8a952d26b0427ba6851198",
+    "bytes": 9729
+  },
+  "results/BTCUSDT/SUMMARY.json": {
+    "sha256": "77757a445ad36bfd21c2b60fb6f88c55efbb000c12a6b2402c35eddf4e822eff",
+    "bytes": 21933
+  },
+  "results/BTCUSDT/VALIDATION.json": {
+    "sha256": "aefddb485d892bf517143e549a30caf93998b8b1c06e3d0c39b59ce71a8b6f3b",
+    "bytes": 179401
+  },
+  "results/ETHUSDT/DAILY_WEEKLY_LEVEL_INPUTS.csv": {
+    "sha256": "386cde808c47062baac113e9d0cf960c5aeb8c6cb7efe833e98c745c6e7b7725",
+    "bytes": 664301
+  },
+  "results/ETHUSDT/DATA_IDENTITY.json": {
+    "sha256": "521b70e36c3f78b1c1318f099cb420facdd538eaff6166fd24c92efd8ccd3316",
+    "bytes": 1687
+  },
+  "results/ETHUSDT/DEVELOPMENT.json": {
+    "sha256": "cb96a77f9d3f3bce9b49aa4b977dc8547cb915f4e48dca856f6d2cdc4dcbfd47",
+    "bytes": 2115824
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "1f696ee0fb676a395c558e786ced836117c006e6679e19874c21022adc882098",
+    "bytes": 275
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_five_years/DAILY_EQUITY.csv": {
+    "sha256": "6451077c902eb058d59b425e3740b09ff31743f3034f22354dae059404412fb1",
+    "bytes": 81100
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "e535a40c3745ca519d0491da25f719f26a15ce0e7c6937e718bbe97f54e99df3",
+    "bytes": 160204
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "8ef36dbaf9185a5fe562251a57bcd3d9f5408c46e1e52ad50579d9bb595cce34",
+    "bytes": 506
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_five_years/METRICS.json": {
+    "sha256": "655b15f37d3708e93f7b4c4ca158d3a2acfe70968771a0b32fc65b709715f163",
+    "bytes": 1215
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "d34d8fb0fb281b9f562da1625ba346cfd9c4abd566a2e0b5a4bf58ee442be826",
+    "bytes": 4428
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_five_years/PARAMETERS.json": {
+    "sha256": "7dfdeaf6e331fa9f2b9cc69385bca1c60ed18999fe306966fc7f2843e381a691",
+    "bytes": 2158
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_five_years/ROLLING_365D.csv": {
+    "sha256": "02ba1904a4f94521135e3dcc3921760cb7c775ab8cfb5401ae2f09ae667dec80",
+    "bytes": 68293
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "29be6bd030ccea7d6a7f80fe61d8d7986534e920633a5d0de1c673c92ad5eb1f",
+    "bytes": 11033
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_test/ANNUAL_RETURNS.json": {
+    "sha256": "66ed520e46a64b913f9b33467c93bda9722ce7bce1c7f0e54ca3ae813a0b7182",
+    "bytes": 205
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_test/DAILY_EQUITY.csv": {
+    "sha256": "4eced3fcef80e9a8f7a282f60abbdc61a5085f7f9ad6a4af1832255f42d5d1ce",
+    "bytes": 48056
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "1f1d56ae23d4c770766281eff7692143eea69e9eebd14f3dfbf2eeecf1e42191",
+    "bytes": 93288
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "a2d28c834b6b7d6056c237e5759012405fcf82edc566e371989a1db10f0be9fa",
+    "bytes": 499
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_test/METRICS.json": {
+    "sha256": "8ef97104d5078ac0987508b87be595e8eb5d691ea70e91b43a66368e418a3892",
+    "bytes": 1132
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_test/MONTHLY_RETURNS.csv": {
+    "sha256": "42e856f8035c8ed8029aee00d485f2a65fca481ae1710639b523eacda25a3bce",
+    "bytes": 2675
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_test/PARAMETERS.json": {
+    "sha256": "7dfdeaf6e331fa9f2b9cc69385bca1c60ed18999fe306966fc7f2843e381a691",
+    "bytes": 2158
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_test/ROLLING_365D.csv": {
+    "sha256": "fb49eef554e625038cb0f25925c3d74efc6170091f0f4f7fc2272d9eb5bc01fa",
+    "bytes": 34446
+  },
+  "results/ETHUSDT/DIAGNOSTIC_1ca63c7c5b06b2_risk0.005_test/WEEKLY_RETURNS.csv": {
+    "sha256": "4c402563214a51af5af9fe356929768aa5f4f7a961187edca5a19b9803466939",
+    "bytes": 6608
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "ce7a42a9b54badc7dd2ff51c1565dbc35747de41d1e8a9212cdd73af52a99e4e",
+    "bytes": 273
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_five_years/DAILY_EQUITY.csv": {
+    "sha256": "9b7a30d15d458647b8484be450d3555d8600f1431f8d52e5eb800e1d782a0291",
+    "bytes": 80705
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "9f60693da3584f9ee0751485a3375ae52b8d3ffa02257a270c3ac2e191a4f131",
+    "bytes": 154599
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "604fa447f6bd78decdc8ec6b64df10267af45a48cdddffa7ca04260f702c2e90",
+    "bytes": 510
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_five_years/METRICS.json": {
+    "sha256": "d9c61d608232ae19a29d2543b44fe7b9750c286fd922b6a5836b73d741e3709d",
+    "bytes": 1209
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "524608554e9264abad8dda4b88983c90be898b542254b7b91d0fba877bbdf4b4",
+    "bytes": 4311
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_five_years/PARAMETERS.json": {
+    "sha256": "b40a075e6f23eedbd6e289544398b31bce2729e7f5caf63924020494eb5e24ad",
+    "bytes": 2143
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_five_years/ROLLING_365D.csv": {
+    "sha256": "3a66e9f8a3196a2dfdc7d88a4669c94a466af5a340c5a95996745b26f4855a31",
+    "bytes": 68513
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "b46408d899c56a649b3c1ef36a07e808e3c63664c01c95699fc1511e419bf99c",
+    "bytes": 9415
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_test/ANNUAL_RETURNS.json": {
+    "sha256": "c18f05b141dc4e3f8d786fc1803183bd8aab725460c47f27cc55a92c7096847c",
+    "bytes": 204
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_test/DAILY_EQUITY.csv": {
+    "sha256": "1b05bc36a6232e9eac87fddedd794e3bbb9946100d8f6a51e522ed0943df17aa",
+    "bytes": 47766
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "ec7569e123c2e274098ee14ffa46f3b75ca627875c75cefb52384386e7405e2b",
+    "bytes": 103134
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "bd6bd8b9d2a329340d3b146480ea50d172ef129eea07ffbcabad41afd6836b03",
+    "bytes": 508
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_test/METRICS.json": {
+    "sha256": "ea10a4102216318b3efb86c253a9297b8c8567e7f1b2351b3e8831e64675a08b",
+    "bytes": 1139
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_test/MONTHLY_RETURNS.csv": {
+    "sha256": "60a5a506076b35d2e46b43ae19cdc02259b042b1fe62ca8e6a0e12c03c65cdba",
+    "bytes": 2655
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_test/PARAMETERS.json": {
+    "sha256": "b40a075e6f23eedbd6e289544398b31bce2729e7f5caf63924020494eb5e24ad",
+    "bytes": 2143
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_test/ROLLING_365D.csv": {
+    "sha256": "0befcbfba52b9d4d7571735e62af9be36320118725a2043283c1db4369b81ba2",
+    "bytes": 34428
+  },
+  "results/ETHUSDT/DIAGNOSTIC_2825efe8ce75fa_risk0.005_test/WEEKLY_RETURNS.csv": {
+    "sha256": "5e220dd1c0413502f13d5d62f71196669e74c39a1f1f212c087739d5a6eddc39",
+    "bytes": 5769
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "7dcf32c4362bfbe462e72bf35a6c3e47e73128f02c72759f3b4450a658abff20",
+    "bytes": 270
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_five_years/DAILY_EQUITY.csv": {
+    "sha256": "6debd20503c3b7860ae6988e3db7b27d45878147857115813c6d90e4631abc08",
+    "bytes": 80000
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "f7c9a997a8b8be964f02db642106854e9627eff601d1906c49f48d8a924cf4f0",
+    "bytes": 85003
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "716c34ff353d1c25a280927d40455e548f231c622d658106b2b08fe5e2a63f40",
+    "bytes": 514
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_five_years/METRICS.json": {
+    "sha256": "0f36512475cd3ceb371c9e8e9a1920312bb4a0856f20de548e79664723cce241",
+    "bytes": 1211
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "ba28f101eb9b5adc8b8f9beda253ffae61871c5b8ad736176cfabb433d967bb7",
+    "bytes": 4398
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_five_years/PARAMETERS.json": {
+    "sha256": "f1b6b80797cf030688f0889f05e7ff4c4d59301ce3c21fe3f52d107b05ac717d",
+    "bytes": 2159
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_five_years/ROLLING_365D.csv": {
+    "sha256": "4293fd89375e86efab3d733a05a04621a3ae0a711eb0f1d2de7729111aeb56f5",
+    "bytes": 68945
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "97b3c3090334e890dbeb723d189d94fbc33a3cd4e00c32d3c6c695e4bab9322a",
+    "bytes": 9962
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_test/ANNUAL_RETURNS.json": {
+    "sha256": "6cd2b5d10827c5daae2540bbe36add38cb2d1eda691f62bc8d8c9ca73d4821d3",
+    "bytes": 204
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_test/DAILY_EQUITY.csv": {
+    "sha256": "33f8e8a4416a2493bf931a6af796f08cb47e3cc82bb9daac14e15bd709b33997",
+    "bytes": 47785
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "a1eec044a9b14af63533072f5a55abc079290dd4b1a5d325d28ab89a272e7f47",
+    "bytes": 52544
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "5753f18e05efb248fabcaa6a4a6ea2da87135f3c9c3682396c1f2210447ff135",
+    "bytes": 513
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_test/METRICS.json": {
+    "sha256": "94accb3c536112f806e04b8a4459ab532071735323ce903eb21d44ec6986ecc7",
+    "bytes": 1143
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_test/MONTHLY_RETURNS.csv": {
+    "sha256": "4aa8daa0ce389f7791909c94fc5908f97647a1e1ed05906a63a5ce2848a51df7",
+    "bytes": 2640
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_test/PARAMETERS.json": {
+    "sha256": "f1b6b80797cf030688f0889f05e7ff4c4d59301ce3c21fe3f52d107b05ac717d",
+    "bytes": 2159
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_test/ROLLING_365D.csv": {
+    "sha256": "91d9ecd3c78c43a4210bd4dda7b94e5899a54afe3812531a55302e13c6d309a6",
+    "bytes": 34557
+  },
+  "results/ETHUSDT/DIAGNOSTIC_d4819ca0e4df48_risk0.005_test/WEEKLY_RETURNS.csv": {
+    "sha256": "1dbf9bda6f7f5790c81f12133ade57435dd8eae4834e46be734fef0806e08e65",
+    "bytes": 6077
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "678c95db552ae50cdcaa693c58e16e5dee6716427c1fdbdc62163bff92ca1483",
+    "bytes": 270
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_five_years/DAILY_EQUITY.csv": {
+    "sha256": "40cce58ea8f9ed6e0bf7b583461e900e4a9ac73474df9644a0378e4397985b16",
+    "bytes": 80362
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "4f8b858a824150567157d232ad54ee49240e64c8e2564c3984a24d71f5f419ac",
+    "bytes": 172012
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "3df14ada83d92996c9b9058b621c71578b8bfc43231d6920063e781899fbeedf",
+    "bytes": 491
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_five_years/METRICS.json": {
+    "sha256": "65d4da1c5fc85e8b7091fdd809452263b3932226df7d54049cc6a72627cc9f72",
+    "bytes": 1190
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "4403f60d0af09d4f6011b127eff025e300e11a79509521af1f0f09e28fa315b8",
+    "bytes": 4440
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_five_years/PARAMETERS.json": {
+    "sha256": "00f7b1321269c37c8e47ddbfef97dc1135068e530c13ba20f46b7afdc783f909",
+    "bytes": 2147
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_five_years/ROLLING_365D.csv": {
+    "sha256": "228224c49f80bedfe48d7c2591b3a40133c58eeb4c68efcb2962085ca2bb9b36",
+    "bytes": 68898
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "ea8a2c273dcfd368f57c2bbef541a1d4b57bfb35bcb24487f18edf9edcfd07e6",
+    "bytes": 11297
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_test/ANNUAL_RETURNS.json": {
+    "sha256": "2d8fba1fa54bea1dd873793ce1aa7a798f514ad40e6b7fc24a7cd0857c4eb050",
+    "bytes": 203
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_test/DAILY_EQUITY.csv": {
+    "sha256": "0641328638efca338254fca083a4ac43321fcb96ca89eace9da311c356920251",
+    "bytes": 48269
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "2473f0a0c66c25b7e66df8e232f68ca4a68411fbb4ca4d204a70637704c24777",
+    "bytes": 120247
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "5c5d0b4eccc54adb774235c3e24c020235bb8818fd20a8240ffc66e1abdcab22",
+    "bytes": 495
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_test/METRICS.json": {
+    "sha256": "a81bd3e17b460cef927e94aaff92654311a9f4baa99ef358be6ec195bb9cdbbc",
+    "bytes": 1120
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_test/MONTHLY_RETURNS.csv": {
+    "sha256": "5b3be722fc72161e66697c7704d0d399fc486ea6eb58abe9c00bbddfc7d34383",
+    "bytes": 2670
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_test/PARAMETERS.json": {
+    "sha256": "00f7b1321269c37c8e47ddbfef97dc1135068e530c13ba20f46b7afdc783f909",
+    "bytes": 2147
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_test/ROLLING_365D.csv": {
+    "sha256": "91fddc672af45293fc088c33d3534151aefc5dbae93791bdafa7252761a762b3",
+    "bytes": 34145
+  },
+  "results/ETHUSDT/DIAGNOSTIC_ec291d675090a6_risk0.005_test/WEEKLY_RETURNS.csv": {
+    "sha256": "52c70ca807038e7034c3d1dc566c581cd28fc134060435e38aa64d5c9293fda7",
+    "bytes": 7019
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "a9ee20c06c3c964dfdaa2458c14327fff1f4ec3e1c3642af7e609434db2aad32",
+    "bytes": 276
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_five_years/DAILY_EQUITY.csv": {
+    "sha256": "547d6a5bbb6d6e803a32deb0f18431ff1ebcfa066b861b50f1331af5b1421e75",
+    "bytes": 80860
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "10873131fee4892d733725b93ed0d8590246af990d28825b4a46a822c2195bc6",
+    "bytes": 94643
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "b1a0cccb92abd84a51252c20d5cd6d025bf3def7b3c15ab413cc6be1ec493f52",
+    "bytes": 512
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_five_years/METRICS.json": {
+    "sha256": "62733cdece88bc3ab23b8f7897997767453842c73b37b4cf1b291852f478c4a7",
+    "bytes": 1219
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "fd95bc586249eb4b7887ce889a7d795d660d976a29bb066e15debc004a43c78d",
+    "bytes": 4390
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_five_years/PARAMETERS.json": {
+    "sha256": "13b9692aa7da26b96c95b92996f685108a5b182c11719acff49010f5850a571a",
+    "bytes": 2164
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_five_years/ROLLING_365D.csv": {
+    "sha256": "d0f644ee647bb7d554de5f28e7b5dd81a21e7c40d1272259138bd0435c3e8e77",
+    "bytes": 68836
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "93401eac941495c190e132f0cf437f1c46edd0f112f0cc98d9e1af999aecfcf3",
+    "bytes": 10118
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_test/ANNUAL_RETURNS.json": {
+    "sha256": "cb4f51da7ce4714ba7606763c203b4349bc0ba07ec841ed95d1f00ebbbfd033b",
+    "bytes": 205
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_test/DAILY_EQUITY.csv": {
+    "sha256": "ec34545566c5e567bfff2ef476f0f89587724402faac8f5f3fdc139441c0bfed",
+    "bytes": 47820
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "6efb16098de8ee652512fbb861a7c5f53ad5309c33129c5bc6dfd2ff4931ea4a",
+    "bytes": 58554
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "a9bf66336017867cc5da11312c26ffc784024830e6c84773122d59c3db332aa2",
+    "bytes": 513
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_test/METRICS.json": {
+    "sha256": "82f740d38afcffb311ec16b1ac741c91c84f885873c990e897ba44a2c9a596fc",
+    "bytes": 1140
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_test/MONTHLY_RETURNS.csv": {
+    "sha256": "d481fe11e2f78134d4f443f1034969061ac9a7d8aea220c3f848b61b06f17d02",
+    "bytes": 2668
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_test/PARAMETERS.json": {
+    "sha256": "13b9692aa7da26b96c95b92996f685108a5b182c11719acff49010f5850a571a",
+    "bytes": 2164
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_test/ROLLING_365D.csv": {
+    "sha256": "a2eef76311b5505bee609b3f2945c98b07776b78b719f3a3eedc317298cd4870",
+    "bytes": 34618
+  },
+  "results/ETHUSDT/DIAGNOSTIC_f1da01cdfa7533_risk0.005_test/WEEKLY_RETURNS.csv": {
+    "sha256": "e3f5b2e5a2de47d5c2e7488a48c77bcb38b468b6158deecad6e3ee1715febb6f",
+    "bytes": 6100
+  },
+  "results/ETHUSDT/FROZEN_SELECTION.json": {
+    "sha256": "77ac7b78674ac2cbad4a4a3aaa9daf0f6247ebe065711770cc313f11ed5db2d5",
+    "bytes": 12493
+  },
+  "results/ETHUSDT/LEARNING/CANDIDATE_POLICIES.json": {
+    "sha256": "ba2794a82a0ea061a4f235aca71700d005b5693f77a5035e03e4c6ec5f8ce6a5",
+    "bytes": 5949
+  },
+  "results/ETHUSDT/LEARNING/MODEL_RECEIPTS.json": {
+    "sha256": "3d05431e78b3a8d9d26ea0efe49942f60ef780ac9699af01094de7a08971fc51",
+    "bytes": 5682
+  },
+  "results/ETHUSDT/LEARNING/PREDICTIONS.npz": {
+    "sha256": "8ddd0664053bcdc4a02a42d89445c52400a922962c9030233f97aca4a94ac64d",
+    "bytes": 2491235
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY/ANNUAL_RETURNS.json": {
+    "sha256": "d4f4e9c9fd4bd5e0c4eef37bfa6fad61442eb775c539ebb52ef3a113bbf1c6bf",
+    "bytes": 271
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY/DAILY_EQUITY.csv": {
+    "sha256": "ab291fdb85bc32aff33cb9b5053257999eb0d97e238ed57d2749810704450664",
+    "bytes": 80656
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY/EVERY_TRADE_UTC.csv": {
+    "sha256": "df468867b49dd55f22bffaae3b5a0dd5bd42f1544ad671da70d9e6b9bdc4e166",
+    "bytes": 344317
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY/INDEPENDENT_AUDIT.json": {
+    "sha256": "5a692394647b52f3689838fc451b1ad3fab95e966dd544c1d88f249719aca7da",
+    "bytes": 507
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY/METRICS.json": {
+    "sha256": "f55ce8e57e517fdb40281293eb89ecf31bd2bce40f37ca87611ca796b4908f86",
+    "bytes": 1204
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY/MONTHLY_RETURNS.csv": {
+    "sha256": "2dc60a5a020c2f193ae797bf0ba8987f068615510dfa3dee717c36b5dedb5120",
+    "bytes": 4410
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY/PARAMETERS.json": {
+    "sha256": "33ea55f422fd2a15827755854ebf44d0af461edd0d5644c18593d00c2c25f9f9",
+    "bytes": 588
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY/ROLLING_365D.csv": {
+    "sha256": "3e2309280fb4d096ab353882e3be9f42136497a7bf2d99e39817b56a79e3b706",
+    "bytes": 67637
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY/WEEKLY_RETURNS.csv": {
+    "sha256": "c0a257e9c78213dc790f13715038ed8b3013555e703594b4d8807218662e9c89",
+    "bytes": 11627
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_3YEAR_TEST/ANNUAL_RETURNS.json": {
+    "sha256": "993c713faa9fefb1d94ff334a3dac107376b6bed0563ce245cdb2c4344001a8e",
+    "bytes": 203
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_3YEAR_TEST/DAILY_EQUITY.csv": {
+    "sha256": "bb77acf05b1d29f0b2b33ab3e96dcb067ad4509e06e99486c7099534f6761762",
+    "bytes": 48747
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_3YEAR_TEST/EVERY_TRADE_UTC.csv": {
+    "sha256": "91b2763ae1fdb1ad13ed95cc61127149acaea51ba3985161c015f1db02fb8032",
+    "bytes": 181888
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_3YEAR_TEST/INDEPENDENT_AUDIT.json": {
+    "sha256": "e904ad8ba6e543a99bb77d5f6c5af61e30dadb4e1e0411d77f01531d92028550",
+    "bytes": 506
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_3YEAR_TEST/METRICS.json": {
+    "sha256": "9ed8f7738b3ca90f5f00e3a5d65337435512cc607ea3857f6f560819fceb946d",
+    "bytes": 1135
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_3YEAR_TEST/MONTHLY_RETURNS.csv": {
+    "sha256": "356bec05f707ca6a3af94d1d94b1d62d48dd0a2162b25cc87de305918e863b31",
+    "bytes": 2667
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_3YEAR_TEST/PARAMETERS.json": {
+    "sha256": "b4b9b07fd0a85833a9aad199d950676fa1f51f67cbd9dc7863170cb287809af6",
+    "bytes": 544
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_3YEAR_TEST/ROLLING_365D.csv": {
+    "sha256": "729e0daa9b5a471e53a21e207f317b1f0143b26e353444a4b887f9fa23e09ff1",
+    "bytes": 33578
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_3YEAR_TEST/WEEKLY_RETURNS.csv": {
+    "sha256": "fcbc7328dbb9ab8a292b5b914bb7a6642eaa8b10cd45310694f84205af5d335f",
+    "bytes": 6934
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD24/ANNUAL_RETURNS.json": {
+    "sha256": "9cd442b0ae6e3d6bd1c3902f7faf2d01f42195b6882b704be0342339de40a84f",
+    "bytes": 272
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD24/DAILY_EQUITY.csv": {
+    "sha256": "e2de4fb65790bd690249a18ac62a05625c2b35c7d7f79d9c2f9838ec6aec24b2",
+    "bytes": 80396
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD24/EVERY_TRADE_UTC.csv": {
+    "sha256": "79f62d5506b78dbf27b07b4881e37e899786471393539bdb12bf5c575decbeab",
+    "bytes": 396848
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD24/INDEPENDENT_AUDIT.json": {
+    "sha256": "2e9bc7cdd83b9af08c3cbf95e525e5b155c924db7ebf0258ccbf72c3fcdc89ba",
+    "bytes": 504
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD24/METRICS.json": {
+    "sha256": "d1f7afe87402ac3aead0854519db4e0b34545581ae120db5b5188e77a7cef973",
+    "bytes": 1204
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD24/MONTHLY_RETURNS.csv": {
+    "sha256": "c161bb2454b8ee219a83ae33187e3dec2e220683eec19604f47c7db7c108e2ce",
+    "bytes": 4423
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD24/PARAMETERS.json": {
+    "sha256": "c23b884b7d3a9601025a30f61567d61d40efbd9bf2705a4a4ef67c96493ed41c",
+    "bytes": 544
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD24/ROLLING_365D.csv": {
+    "sha256": "f29cf771f50f626706f62b1e11d176c2c51a6849a714532bac588b83daa86008",
+    "bytes": 68282
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD24/WEEKLY_RETURNS.csv": {
+    "sha256": "1721de8bda42f8ad6a024071d152895192f889736d91ce467a1afc259fe8f757",
+    "bytes": 11591
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD48/ANNUAL_RETURNS.json": {
+    "sha256": "72e61abddefcdcff5cb0bc42534c5f322d629e087bc68cee1e7ceba39f51de19",
+    "bytes": 269
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD48/DAILY_EQUITY.csv": {
+    "sha256": "2ecfdc61d387db544c115636bd9b10ba5a71f7f5bb6d22c41e03d4372735b425",
+    "bytes": 80539
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD48/EVERY_TRADE_UTC.csv": {
+    "sha256": "c49d0572afa8960c614adfa6a81a642226bfcb461f7a98c382e6f3a8a0024c36",
+    "bytes": 362479
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD48/INDEPENDENT_AUDIT.json": {
+    "sha256": "1e1791ba8b699d6b2c2df8f2d77cbaa2b3a8df393ea2d74684eaed7ecb3a616c",
+    "bytes": 505
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD48/METRICS.json": {
+    "sha256": "5b26f25ad62c664081e788f89d4f40881a2236f8ea174b428593752ce49fc745",
+    "bytes": 1203
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD48/MONTHLY_RETURNS.csv": {
+    "sha256": "b129207efb2175adfdc29d517933feb7cf5a5dbcf1870c2a9fd88c1c2ad577d2",
+    "bytes": 4413
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD48/PARAMETERS.json": {
+    "sha256": "c42399e497f01789c96c1824009f3ce2eae45bc9721f282653c09e9b1c7285b7",
+    "bytes": 544
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD48/ROLLING_365D.csv": {
+    "sha256": "27d7bafea2405211c7ffd98ddd3782b0e9624c1794ec23738495de890d632ebb",
+    "bytes": 67773
+  },
+  "results/ETHUSDT/LEARNING/PRIMARY_HOLD48/WEEKLY_RETURNS.csv": {
+    "sha256": "3284cf00565580df711d91d57cd0ba5edb5e4b217ba755b5a1e5af8d8fd83222",
+    "bytes": 11645
+  },
+  "results/ETHUSDT/LEARNING/PROTOCOL.json": {
+    "sha256": "77c71b9a3020e64999d1e0d7b776827a3f5e3d12d8cf85dba249fb3e2d21f756",
+    "bytes": 543
+  },
+  "results/ETHUSDT/LEARNING/SUMMARY.json": {
+    "sha256": "f6cab181f77174058026307b19c3e998c1372566fb6bc21492ac9f7b372af14d",
+    "bytes": 15999
+  },
+  "results/ETHUSDT/LEARNING/models/20210901.json": {
+    "sha256": "e0e1c8d29bae229ce895f1cd50f802402a85fc9c74e8ab736e3e80a65c4e7390",
+    "bytes": 213110
+  },
+  "results/ETHUSDT/LEARNING/models/20211201.json": {
+    "sha256": "b3752166c87cdd29d2035dc92686e20abffb792568f4e156dda5921989e4c79d",
+    "bytes": 225421
+  },
+  "results/ETHUSDT/LEARNING/models/20220302.json": {
+    "sha256": "1c25ee992fb260d79ca564aa64cfd9a3ebdb097efdf410ff651879c89afb4105",
+    "bytes": 230703
+  },
+  "results/ETHUSDT/LEARNING/models/20220601.json": {
+    "sha256": "b92d6b5d9394aa0111219b756a9289f025808b9b543cca33d2e1b9f8b5f5bb88",
+    "bytes": 227850
+  },
+  "results/ETHUSDT/LEARNING/models/20220831.json": {
+    "sha256": "9df22c129d348ef51a43724e76d84f33bf3c23f6ce8c574c92bd0de73efbf9c7",
+    "bytes": 234753
+  },
+  "results/ETHUSDT/LEARNING/models/20221130.json": {
+    "sha256": "2557896008af2ed3ffe674643d08cf9aa67986c7d4722f530f2793a759d23616",
+    "bytes": 238984
+  },
+  "results/ETHUSDT/LEARNING/models/20230301.json": {
+    "sha256": "1816e19c2feb648c482654f02076f69f38a41a558660fa00171ec665c2de32cb",
+    "bytes": 245669
+  },
+  "results/ETHUSDT/LEARNING/models/20230531.json": {
+    "sha256": "13605794b7c8ebe2c3f2bab46032153afddc4a46ff30c328662ade071365a3f4",
+    "bytes": 237866
+  },
+  "results/ETHUSDT/LEARNING/models/20230830.json": {
+    "sha256": "1aad123b570d08a7a3f975a1a3c6635b0aa1caf72b855f7aa40c8f819e25bc7b",
+    "bytes": 226175
+  },
+  "results/ETHUSDT/LEARNING/models/20231129.json": {
+    "sha256": "ad2b7c96f8a4e28fe31423df4367ae9a55bbf0f8a1bbc3239ee9b63b4a0d7eb0",
+    "bytes": 217071
+  },
+  "results/ETHUSDT/LEARNING/models/20240228.json": {
+    "sha256": "23930472847f9c916b4a81c60e251dc4fbab97e2b046dc88b07e4c1303cdecda",
+    "bytes": 224650
+  },
+  "results/ETHUSDT/LEARNING/models/20240529.json": {
+    "sha256": "4cb84f3aa6144e697132d241cf0caec3dfa0aa07e00b41e25c8c30709dbc94a3",
+    "bytes": 227225
+  },
+  "results/ETHUSDT/LEARNING/models/20240828.json": {
+    "sha256": "46fa1f650ab7bc4e005b4fb69c914ba51f939480acaf696b134d3b2730a5edbe",
+    "bytes": 235182
+  },
+  "results/ETHUSDT/LEARNING/models/20241127.json": {
+    "sha256": "54d8fc2bca6a3218b40c8d77887539e9ca4454dd2f85717d88943a1b335952da",
+    "bytes": 228722
+  },
+  "results/ETHUSDT/LEARNING/models/20250226.json": {
+    "sha256": "ea00eb2267509123e74ad18ed0f7fd2aa0d2873c020513fb0d98700bdb39990b",
+    "bytes": 235496
+  },
+  "results/ETHUSDT/LEARNING/models/20250528.json": {
+    "sha256": "49b21fc363bfd0eb1b1fd4e73eac7f9012e9fe0633eaff763dcf029e21f7f959",
+    "bytes": 233568
+  },
+  "results/ETHUSDT/LEARNING/models/20250827.json": {
+    "sha256": "9be1bbac77f911739ef470a55a79fc8200803340b144b16e6dd70bffc7d3d168",
+    "bytes": 221766
+  },
+  "results/ETHUSDT/LEARNING/models/20251126.json": {
+    "sha256": "6d764ebdc3de5e5bac642dca8ecb9e9dd421b845a8e24f7a969720254ef5238a",
+    "bytes": 234496
+  },
+  "results/ETHUSDT/LEARNING/models/20260225.json": {
+    "sha256": "4b0582799c1a152819759a5de434c8fdf54fdaa53617bb3e8480e573f003cd8d",
+    "bytes": 244387
+  },
+  "results/ETHUSDT/LEARNING/models/20260527.json": {
+    "sha256": "4d5952d6e8ca0996f64e917c838fc112f5abe1a553401b5272ef9e26b5dd3b6b",
+    "bytes": 216821
+  },
+  "results/ETHUSDT/LEARNING/models/20260826.json": {
+    "sha256": "8fd4bf52bb8eed4184ac9b97e53c1f3bcaa063617caa1c0c2ced92d468127105",
+    "bytes": 228212
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.02/ANNUAL_RETURNS.json": {
+    "sha256": "44be02a38728fccddbfa8140d8abb732f2307d8b0c162371aa91b954bf126afb",
+    "bytes": 269
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.02/DAILY_EQUITY.csv": {
+    "sha256": "22abda23f850a6468b869dd02a9ebbd560edca575249a096877a45a8bd910caa",
+    "bytes": 80598
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.02/EVERY_TRADE_UTC.csv": {
+    "sha256": "fe7e86abcd8d7a6a1d2a51e508fff5d6deda9b0917b3b21ed77309419f01df8e",
+    "bytes": 341630
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.02/INDEPENDENT_AUDIT.json": {
+    "sha256": "aa9ab5c4a2c444fce3ec795252d318d55fd414f9504ee162050121af103dcdf5",
+    "bytes": 491
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.02/METRICS.json": {
+    "sha256": "8190c97b70c99e0b146d792c9876e1d914124c14a84d300c662df4c105e5a9ab",
+    "bytes": 1189
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.02/MONTHLY_RETURNS.csv": {
+    "sha256": "d61b9e71853a4640285b471399bb27d978731e9c5af27e4c4b49e649dd15242d",
+    "bytes": 4388
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.02/PARAMETERS.json": {
+    "sha256": "3a0f1385c96e23683e7da7b62509a45cc06a2a403e4d9471b5d0b70a1893e81d",
+    "bytes": 589
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.02/ROLLING_365D.csv": {
+    "sha256": "20601af8fcfd52080c4ea41eda6f0150ef003341ec580d7393e6292771dd99c8",
+    "bytes": 67390
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.02/WEEKLY_RETURNS.csv": {
+    "sha256": "4361bea66a98cc876d6b645cfd9fb251f45cb10ccf19c610d3746cb41e9a1e1e",
+    "bytes": 11569
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.04/ANNUAL_RETURNS.json": {
+    "sha256": "d47e5b6639c191b155e6573210365400efc602f9680e258d8c9ff87e714c3828",
+    "bytes": 267
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.04/DAILY_EQUITY.csv": {
+    "sha256": "ab9e128df1a86a776ba1c361cdb675e027ec7a3c7e366cb866a9c5c5a43fd096",
+    "bytes": 80795
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.04/EVERY_TRADE_UTC.csv": {
+    "sha256": "ea6fe5334e92bc8bec72b8e81c2d47f4408d1997873e0b600f6b7185cdedbdb4",
+    "bytes": 337784
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.04/INDEPENDENT_AUDIT.json": {
+    "sha256": "ee5338268698df14f7b41488352e09c755ef57a963fc925d51881054760f2c26",
+    "bytes": 507
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.04/METRICS.json": {
+    "sha256": "548db164bd155609c061f3d30f74f74e9b11e23ac2609a4a8560c9287805d014",
+    "bytes": 1199
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.04/MONTHLY_RETURNS.csv": {
+    "sha256": "e22c9973bc903fe9fa23a55699fc88e3919ae339f0db90aeb9be3ee801d3b3c6",
+    "bytes": 4385
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.04/PARAMETERS.json": {
+    "sha256": "b9c66759955802f79a33a7f28a3eded7fd73eb26fff6f6f0ca6d1beb649ff2de",
+    "bytes": 589
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.04/ROLLING_365D.csv": {
+    "sha256": "3ca456407b8791595789f3e69328034767cbc2054a2943b67bb9f93e5d7e0401",
+    "bytes": 67119
+  },
+  "results/ETHUSDT/LEARNING/threshold0.25_risk0.04/WEEKLY_RETURNS.csv": {
+    "sha256": "1ac45ec6a48db53b05e279f67ef592d48e2828aeca3fda8230e26f18287e6846",
+    "bytes": 11507
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.01/ANNUAL_RETURNS.json": {
+    "sha256": "262c648c406c625bba24405089d9ad58cdd90ae32813b5349938f6a9c06bac9a",
+    "bytes": 266
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.01/DAILY_EQUITY.csv": {
+    "sha256": "97c6f3b28fa0a020b2fef55ba3d91d6b7c4859630c26c81cca3be9cfa7e1ed0f",
+    "bytes": 81712
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.01/EVERY_TRADE_UTC.csv": {
+    "sha256": "66e420d9143c34098822293cc93f6faf6d0dc0029e221cb35f73f7731b94474b",
+    "bytes": 183314
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.01/INDEPENDENT_AUDIT.json": {
+    "sha256": "ac18517f22977ab6c338a00a42baddb0ebd7633f73fd5e661004feb3c31bef9d",
+    "bytes": 503
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.01/METRICS.json": {
+    "sha256": "524e38fb95875e4cb0116ae377ae8b1db945ba49fc9487f95a5742f0726364ba",
+    "bytes": 1199
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.01/MONTHLY_RETURNS.csv": {
+    "sha256": "34598958836da29f11e30d83e7355c01d2ca4a2e2d92becc5cd7a22412762738",
+    "bytes": 4335
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.01/PARAMETERS.json": {
+    "sha256": "410ec4a60a2d88b1a8d78551a3126cdd31d288b8efa4aed84c8e9ce5ce2ff0e6",
+    "bytes": 588
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.01/ROLLING_365D.csv": {
+    "sha256": "df7e32bfec84ca2ceb0b228999cead552a68e61b221c781abf9837f1cfff72d5",
+    "bytes": 67830
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.01/WEEKLY_RETURNS.csv": {
+    "sha256": "2e688251760fbae4438f460fe73cd2077ec12bf6686c1ee5e65a05e6b9596beb",
+    "bytes": 10574
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.02/ANNUAL_RETURNS.json": {
+    "sha256": "3e2b1577b9983ce2c5a813c4ec34835eb235e3a7c7f79893971bbb1f96fd5787",
+    "bytes": 266
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.02/DAILY_EQUITY.csv": {
+    "sha256": "beab2070a42caac46b5d411210eb71f6f8e7a8c5233e78b0edd42e011cbe02d5",
+    "bytes": 81798
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.02/EVERY_TRADE_UTC.csv": {
+    "sha256": "5c534922ee7e880af5115fea8dde2ee615794ae3d20f4212138b3bc06a105851",
+    "bytes": 182945
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.02/INDEPENDENT_AUDIT.json": {
+    "sha256": "6d1721b9e4f7b0c7db7ceee884bf4bcaf73c8ae1b9d90cdbe71a210445dd8de7",
+    "bytes": 504
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.02/METRICS.json": {
+    "sha256": "f242becf778af998e611dd3927383453ed1ef1b7c2c2ae1d9513f52c58c49dba",
+    "bytes": 1199
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.02/MONTHLY_RETURNS.csv": {
+    "sha256": "02de99b4fb6706cab98e1d38863ac5878fc824b79d19ddddbacde4064f71034e",
+    "bytes": 4327
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.02/PARAMETERS.json": {
+    "sha256": "0a16a8a43e3fffae54f340d27f7f63315b151e67f1142311cb9d47470927101a",
+    "bytes": 588
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.02/ROLLING_365D.csv": {
+    "sha256": "91aa3961a45662c8d9acb9f4c31104a212dd252660a379f5f18831a48c035411",
+    "bytes": 67426
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.02/WEEKLY_RETURNS.csv": {
+    "sha256": "6b734a992bb30f0f7439bc5ed0ea722067cf7910578a5ab3306cb372fad1e54c",
+    "bytes": 10537
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.04/ANNUAL_RETURNS.json": {
+    "sha256": "5bf3adc51ed6cf11b3101011ca7d78e39428773db83c55fb3e06b55dd62371e2",
+    "bytes": 263
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.04/DAILY_EQUITY.csv": {
+    "sha256": "708c9052255356f254c5c801a0c0bfdcabd3220215ecaabe49dbc7fda35066ec",
+    "bytes": 81224
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.04/EVERY_TRADE_UTC.csv": {
+    "sha256": "ead2f40c9eb7a4044e02cae44aeab404aa8f3704479438022cf39265293d2ded",
+    "bytes": 183372
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.04/INDEPENDENT_AUDIT.json": {
+    "sha256": "bfee647f347bfacc8563811da5a508c650b1c33a14ee0c686540694d6b6f1505",
+    "bytes": 507
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.04/METRICS.json": {
+    "sha256": "4664a2b33c07dd3e1895fba89a4251eb5a470f3531f5767dcea87407b65dd6a5",
+    "bytes": 1192
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.04/MONTHLY_RETURNS.csv": {
+    "sha256": "40c902b43c0944a90ef84065dc7682a5a39dabcfb29b162f88fb776b6dcbfa9a",
+    "bytes": 4318
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.04/PARAMETERS.json": {
+    "sha256": "9e764039d43107cb847efcbe55ad82c7253ab1239acb3ade7ebd21c8f4ae6232",
+    "bytes": 588
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.04/ROLLING_365D.csv": {
+    "sha256": "1110709e24d27086308ed29faa48cb90b455565b8fda1917e36cc52c82d16cc1",
+    "bytes": 67077
+  },
+  "results/ETHUSDT/LEARNING/threshold0.5_risk0.04/WEEKLY_RETURNS.csv": {
+    "sha256": "13c214f535d5c976a9348c53c08fe78e73247d397607cc0eeffffcfac8aa6874",
+    "bytes": 10514
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.01/ANNUAL_RETURNS.json": {
+    "sha256": "4a2780745db5f90745febc837cc5a8488d290cb17c720dfdb516fef45d8239e8",
+    "bytes": 269
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.01/DAILY_EQUITY.csv": {
+    "sha256": "a01ec53bfacb685ad8c6328afae80d02864999b42cbbea914405f9b3eb323dd4",
+    "bytes": 80450
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.01/EVERY_TRADE_UTC.csv": {
+    "sha256": "c368a915566e796311d693442e7a3da29aa19d2735d70c035a82ae86b07fd7da",
+    "bytes": 555771
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.01/INDEPENDENT_AUDIT.json": {
+    "sha256": "683ca67fe3728b6f9bed539af5def2e656418a70c5d5f933245331fec0eed53e",
+    "bytes": 498
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.01/METRICS.json": {
+    "sha256": "77831a786b3b580c79caef9a2b011d6f0e84f027573e1339ada1108dd9134273",
+    "bytes": 1190
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.01/MONTHLY_RETURNS.csv": {
+    "sha256": "9d6030f2874c12990439caa896b5f9570368dbb4212bf32021224022aeae7917",
+    "bytes": 4411
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.01/PARAMETERS.json": {
+    "sha256": "fac46bbba3b8cfa5d838bff2ce27a6cf57f0cb946a67de76944f26773d85c378",
+    "bytes": 586
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.01/ROLLING_365D.csv": {
+    "sha256": "8bb1b85f1e380c78e202ab9a96416ea97ed4e645bf51fc1e9f19d4fbc1786dc7",
+    "bytes": 68378
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.01/WEEKLY_RETURNS.csv": {
+    "sha256": "fa16446d85aae6c00eb124c6d5cc6e0d67a2067a50f2ef931bf8f10a2e08e471",
+    "bytes": 12172
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.02/ANNUAL_RETURNS.json": {
+    "sha256": "2e1ae309dcffd0870de962b51a5eb446850dd3ccb416efa51b004cefe9308de3",
+    "bytes": 266
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.02/DAILY_EQUITY.csv": {
+    "sha256": "8ecc0980f8d3678b0e4e403e1796c7ce3aa1f1bb7fec435f190420f5629722bb",
+    "bytes": 80965
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.02/EVERY_TRADE_UTC.csv": {
+    "sha256": "99908054685b5ab46ec15ea24cf9c65a9f791d15f43ea7a1d55d27f0de1979c7",
+    "bytes": 552938
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.02/INDEPENDENT_AUDIT.json": {
+    "sha256": "62181b69fed76452f0b5c3d336897f990416b8f24422056671f0324fb7114a1b",
+    "bytes": 508
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.02/METRICS.json": {
+    "sha256": "3b43ba4ba6cfd3b223cd02e5591cf05aa5a3c2628c6447af45636d53fba301fc",
+    "bytes": 1194
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.02/MONTHLY_RETURNS.csv": {
+    "sha256": "70c92c1229c8c68368bf2239f7945b95c1adabfbee7db63a9a2c5df471b111d4",
+    "bytes": 4392
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.02/PARAMETERS.json": {
+    "sha256": "ad02de54582fe328e07f6fd84b466092f15e8fd5538466bff4828866f5510a4d",
+    "bytes": 586
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.02/ROLLING_365D.csv": {
+    "sha256": "8c0a1148fff770a03b455cbbd101abc0181795a5ec1c7840fb6cf6aaabe4a5ce",
+    "bytes": 68045
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.02/WEEKLY_RETURNS.csv": {
+    "sha256": "c91d2adb1a22a2c095b79ffb262f871f72d7607febfed665c9c7b4933faf0429",
+    "bytes": 12094
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.04/ANNUAL_RETURNS.json": {
+    "sha256": "220730eada91b15c867aca7c43474a1ea1b35a198560d59df2cbec47a0f73145",
+    "bytes": 265
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.04/DAILY_EQUITY.csv": {
+    "sha256": "953390e62233f868abfa899b909d8feb70d423e906057eb65d4c9f9349d5a830",
+    "bytes": 81262
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.04/EVERY_TRADE_UTC.csv": {
+    "sha256": "37457a7f13fb38e521acb110e4ed0e03034b7144c7ebc01bc999fa40f2a8f427",
+    "bytes": 544668
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.04/INDEPENDENT_AUDIT.json": {
+    "sha256": "fc01599b12a47cd7b76ac5eeb761ffc68c026755a373cf4327a55f02079c57aa",
+    "bytes": 507
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.04/METRICS.json": {
+    "sha256": "671b58bf02e36cf4f5fda123df809bd9c39a9c3213d9f698e0f24662fff577c7",
+    "bytes": 1197
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.04/MONTHLY_RETURNS.csv": {
+    "sha256": "4e55554d3637b013b8d821e86da834a5b1e86e7a84fdf7d09d11367d0274f53b",
+    "bytes": 4378
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.04/PARAMETERS.json": {
+    "sha256": "9dedccef12ca4f164123dfdfc7b3a8c0e8a9268eac6c0dd14dcddd79795f6ebb",
+    "bytes": 586
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.04/ROLLING_365D.csv": {
+    "sha256": "e839807d89951c12987bc590bb87949250c25522e239a8e4930d32b0293461ec",
+    "bytes": 67449
+  },
+  "results/ETHUSDT/LEARNING/threshold0_risk0.04/WEEKLY_RETURNS.csv": {
+    "sha256": "01bf5a1cfaaaab08b5816cc66a44fa2029bb602b42912c09354b8dceecc0d8a9",
+    "bytes": 12032
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.01/ANNUAL_RETURNS.json": {
+    "sha256": "b9ce592404a695823ebd613c1cdd1734cb30ba880a0d4c17515e1c995d9f62cd",
+    "bytes": 277
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.01/DAILY_EQUITY.csv": {
+    "sha256": "e3a7cc9f40526f0d57fb0d0a0284692091a77ec8a4133a353dc21443566a1374",
+    "bytes": 80079
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.01/EVERY_TRADE_UTC.csv": {
+    "sha256": "effb653d8ccc68b028ba05a1490ccb5b0a22483ceddf0ead66e720f496248c20",
+    "bytes": 36764
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.01/INDEPENDENT_AUDIT.json": {
+    "sha256": "6c3b70e18eb1e80de4428366746e6a8b245e1d23978bf8ff20e30ab20bb34e95",
+    "bytes": 491
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.01/METRICS.json": {
+    "sha256": "3cecad0f9559e3b959eecb18267e4f288756cb364cce564e1742f6448803697d",
+    "bytes": 1198
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.01/MONTHLY_RETURNS.csv": {
+    "sha256": "de48f28c50b789f0fda5b86a298b244a934673f07d9e15a096c07a7841a4e32f",
+    "bytes": 3893
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.01/PARAMETERS.json": {
+    "sha256": "2134abb290dc9acffa62b737c974a26e75b4e0e6202a317f524e4d3c6f7987b7",
+    "bytes": 588
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.01/ROLLING_365D.csv": {
+    "sha256": "6a028dd3afd49c4d0d636b2957493ca99c0de880bb1f2d2c502eab1e737295ac",
+    "bytes": 68857
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.01/WEEKLY_RETURNS.csv": {
+    "sha256": "38d1d503587e1e262983bf37e69e874d474b25bc6a5c5798eecd858218a817b6",
+    "bytes": 8676
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.02/ANNUAL_RETURNS.json": {
+    "sha256": "d7902f82901f361cfdb05e39fe37deddab50ad78967d89658eb418f4da318160",
+    "bytes": 270
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.02/DAILY_EQUITY.csv": {
+    "sha256": "f46062407660fc79197e72fce464406c1caf81cc0259ebb9856b2c6d5ceaeb6b",
+    "bytes": 80267
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.02/EVERY_TRADE_UTC.csv": {
+    "sha256": "5af5bc02f926c4190371205bfa60484b2812d3849b819c6e99f7f878ed4b00e7",
+    "bytes": 36895
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.02/INDEPENDENT_AUDIT.json": {
+    "sha256": "43ab47a9aa30188e5ba2de42271b00db052d724213fc625a4a6c5fdac4520005",
+    "bytes": 497
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.02/METRICS.json": {
+    "sha256": "d3ad5322ec6c9eaf20d39d0832f76de73e538b204b593c4f56c41c0e672c3885",
+    "bytes": 1191
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.02/MONTHLY_RETURNS.csv": {
+    "sha256": "0f5494f8854630559041ce415129c24d04e58899b49643260b2174e8956e6399",
+    "bytes": 3880
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.02/PARAMETERS.json": {
+    "sha256": "28eaedbc52ce1461d088ef8992dbd077fd54d0dcf3538986f8462cb67ae36bc6",
+    "bytes": 588
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.02/ROLLING_365D.csv": {
+    "sha256": "9d349f34db88d62c883193cbef65beb5fd6bc97437067f366ad6604803dbf8e7",
+    "bytes": 68366
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.02/WEEKLY_RETURNS.csv": {
+    "sha256": "16c7f7bca64a76a9d7cdb579b2c9fa16e6e8b1fe8f79e7e1e219d7516d19705c",
+    "bytes": 8655
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.04/ANNUAL_RETURNS.json": {
+    "sha256": "a72e1d61a25c7b0f186ccb13d4494f9c016f98cfb9ce46fe9bd5080e50c01e93",
+    "bytes": 268
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.04/DAILY_EQUITY.csv": {
+    "sha256": "7658eca78cf51a88ddb4c209f777d2c43029b064a15c9235d62ba074d24b44b3",
+    "bytes": 80491
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.04/EVERY_TRADE_UTC.csv": {
+    "sha256": "31c14bbe0c28712a57e245eeed24fee3a7503b1f60fbe1ac862d68b91a954edb",
+    "bytes": 37033
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.04/INDEPENDENT_AUDIT.json": {
+    "sha256": "2cf2dd108fe87b68f4c5a99f9ce0c8cd97ea657b6ee362fcc2b9b621e3e2a213",
+    "bytes": 492
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.04/METRICS.json": {
+    "sha256": "42dd29dcbac2b404a22aa86e55bbaf92cd2465f7b7de14b24560f1b66b0a4e6b",
+    "bytes": 1183
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.04/MONTHLY_RETURNS.csv": {
+    "sha256": "371d6a2f0b8df9c021c18c802c91596a34f0f207bd56293cce1fd73ab004408b",
+    "bytes": 3875
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.04/PARAMETERS.json": {
+    "sha256": "d72077410308c2b718179ad8359132a7cf01c99f7c7a0455094d09af11ce1f3d",
+    "bytes": 588
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.04/ROLLING_365D.csv": {
+    "sha256": "61f0be089a663d9d4672da0bde737fc031374f2e3a48d7ae6450b845068ca585",
+    "bytes": 67775
+  },
+  "results/ETHUSDT/LEARNING/threshold1.0_risk0.04/WEEKLY_RETURNS.csv": {
+    "sha256": "62ef88f54b710c2134c9120f5dd05149a7ae0ff591f9ae9b2a08e70ffa0889b5",
+    "bytes": 8644
+  },
+  "results/ETHUSDT/PRIMARY_250weeks/ANNUAL_RETURNS.json": {
+    "sha256": "8e7bfb9f3189a89fac259c02df0bf2a2f7fb30d800016d9812c884ddae1255e3",
+    "bytes": 232
+  },
+  "results/ETHUSDT/PRIMARY_250weeks/DAILY_EQUITY.csv": {
+    "sha256": "bfc1ebdb521901702fc5a4014abdf8b81eb1458674d43a073625da0ce9823165",
+    "bytes": 78012
+  },
+  "results/ETHUSDT/PRIMARY_250weeks/EVERY_TRADE_UTC.csv": {
+    "sha256": "6cc5e559af19a986c6da06476546cd5c82c0aff30371b83ddada142ea0295bb2",
+    "bytes": 120664
+  },
+  "results/ETHUSDT/PRIMARY_250weeks/INDEPENDENT_AUDIT.json": {
+    "sha256": "1f1c53f780426262df3b7425bb43671d2f739bd8fab6041a895511d371fa2ac5",
+    "bytes": 511
+  },
+  "results/ETHUSDT/PRIMARY_250weeks/METRICS.json": {
+    "sha256": "3d668d2a10a667936ec31f64f6cb3bcab6c11c7c2f589d179fec488949e88ea0",
+    "bytes": 1171
+  },
+  "results/ETHUSDT/PRIMARY_250weeks/MONTHLY_RETURNS.csv": {
+    "sha256": "3067c34a80c3c779d641ec4fdab4eae82d5fb0f1424799e58b74819a5bb065e3",
+    "bytes": 4283
+  },
+  "results/ETHUSDT/PRIMARY_250weeks/PARAMETERS.json": {
+    "sha256": "e649e129114de4ae87102b72cf7cfd2bdfd89ea28e525acd6775d46a0d6542d1",
+    "bytes": 2163
+  },
+  "results/ETHUSDT/PRIMARY_250weeks/ROLLING_365D.csv": {
+    "sha256": "9834860fd7f032df0ef6dbdf2fc32da66a3ce6bfe0705319cc02690ae5035984",
+    "bytes": 65050
+  },
+  "results/ETHUSDT/PRIMARY_250weeks/WEEKLY_RETURNS.csv": {
+    "sha256": "1e812157e7459729f916b295edca27aa042bf7ac64e80507f596725dbf66cbbe",
+    "bytes": 10281
+  },
+  "results/ETHUSDT/PRIMARY_CANDIDATES.csv.gz": {
+    "sha256": "7d6e7e969fc5930fb5d0ca0ac5af6a94933fcf8a6a0160023934a3d1682b821b",
+    "bytes": 13845
+  },
+  "results/ETHUSDT/PRIMARY_five_years/ANNUAL_RETURNS.json": {
+    "sha256": "795946c63fa06ae5810623dd4e928e0ee489557ff9533ad4177488a517530fd4",
+    "bytes": 274
+  },
+  "results/ETHUSDT/PRIMARY_five_years/DAILY_EQUITY.csv": {
+    "sha256": "de9f43dcf6a62afbd100106f0d3ec28f776ac696dc56f21dab99bcc03f596451",
+    "bytes": 81316
+  },
+  "results/ETHUSDT/PRIMARY_five_years/EVERY_TRADE_UTC.csv": {
+    "sha256": "6b394969e432a25656be3683bf84f73234905138fd3e6f567eca98c637b24361",
+    "bytes": 122697
+  },
+  "results/ETHUSDT/PRIMARY_five_years/INDEPENDENT_AUDIT.json": {
+    "sha256": "09c44d8cb86e5791dc03c9053379d8348aa9f743b03555d3b35f7de966087d5e",
+    "bytes": 498
+  },
+  "results/ETHUSDT/PRIMARY_five_years/METRICS.json": {
+    "sha256": "a821c696361ea8d8a245a71a403a0957e7dd95410fa8c5cbd5f87191bf069549",
+    "bytes": 1197
+  },
+  "results/ETHUSDT/PRIMARY_five_years/MONTHLY_RETURNS.csv": {
+    "sha256": "1eaa55ca581b759f8995c5e32d42625c70d257682f78b525678a514fa704e7d9",
+    "bytes": 4433
+  },
+  "results/ETHUSDT/PRIMARY_five_years/PARAMETERS.json": {
+    "sha256": "e649e129114de4ae87102b72cf7cfd2bdfd89ea28e525acd6775d46a0d6542d1",
+    "bytes": 2163
+  },
+  "results/ETHUSDT/PRIMARY_five_years/ROLLING_365D.csv": {
+    "sha256": "a3e4110ef41dbadd2dedaf262b2c995a314b64f5a51e0912cc9f66a9648ec176",
+    "bytes": 68591
+  },
+  "results/ETHUSDT/PRIMARY_five_years/WEEKLY_RETURNS.csv": {
+    "sha256": "f7e63184a29be59c1436e508e7c6ee4356e3c9aef93093c85820ed7ed9eb76af",
+    "bytes": 10625
+  },
+  "results/ETHUSDT/PRIMARY_test/ANNUAL_RETURNS.json": {
+    "sha256": "1505c1c2e7bf1710c04619a816df665e2ce2420989f04e6172ebcb149ed2e4e7",
+    "bytes": 205
+  },
+  "results/ETHUSDT/PRIMARY_test/DAILY_EQUITY.csv": {
+    "sha256": "167219704c5d1bc8fc9ac5d73ed3b89b62f8b4156680e599997296e9fac4ca70",
+    "bytes": 48007
+  },
+  "results/ETHUSDT/PRIMARY_test/EVERY_TRADE_UTC.csv": {
+    "sha256": "ab220ce220d6274308f5805a2539ec39b7ce70e3feca13c6fe712dbefec5be47",
+    "bytes": 72787
+  },
+  "results/ETHUSDT/PRIMARY_test/INDEPENDENT_AUDIT.json": {
+    "sha256": "e5c847eacd7c9085db01e199d261a2f8b30bdb669bda374de8d3ede2c94da546",
+    "bytes": 511
+  },
+  "results/ETHUSDT/PRIMARY_test/METRICS.json": {
+    "sha256": "14b689245a09fe894e68154808848354cb31d8ea6a1504410e2991cd6d14b012",
+    "bytes": 1143
+  },
+  "results/ETHUSDT/PRIMARY_test/MONTHLY_RETURNS.csv": {
+    "sha256": "9610a472de2a6f6a53d9ee010ff799156a5f8e1ee241c0ab658dbbd7d21f0209",
+    "bytes": 2670
+  },
+  "results/ETHUSDT/PRIMARY_test/PARAMETERS.json": {
+    "sha256": "e649e129114de4ae87102b72cf7cfd2bdfd89ea28e525acd6775d46a0d6542d1",
+    "bytes": 2163
+  },
+  "results/ETHUSDT/PRIMARY_test/ROLLING_365D.csv": {
+    "sha256": "b9ee9f30365354f30934acf8db52fbf5a71560224d60f9c0c414c301dd8d7cf4",
+    "bytes": 34600
+  },
+  "results/ETHUSDT/PRIMARY_test/WEEKLY_RETURNS.csv": {
+    "sha256": "97878efbbb2680305767fccba4886edc6f809e7b54a135c4b571916e6a077127",
+    "bytes": 6409
+  },
+  "results/ETHUSDT/PROTOCOL.json": {
+    "sha256": "8820b5348a37d2eef32149c6a9ee636ace95a4d164f69c27f511cc35c8e5c23c",
+    "bytes": 326081
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/30x_no_extra_collateral/ANNUAL_RETURNS.json": {
+    "sha256": "e83dd0be778514299fbb539301a3e1c3c984134a1feec6bf166c975f7498c23d",
+    "bytes": 266
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/30x_no_extra_collateral/DAILY_EQUITY.csv": {
+    "sha256": "81bfcb013464124837d7c36b4cb920510df1149f6087e58eef84b1fd6ad25d8c",
+    "bytes": 81574
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/30x_no_extra_collateral/EVERY_TRADE_UTC.csv": {
+    "sha256": "62432d1ebd909b6c39244da01ab11b634abe7996c1094cad530a3dfd880f1165",
+    "bytes": 185295
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/30x_no_extra_collateral/INDEPENDENT_AUDIT.json": {
+    "sha256": "f04b90821297af7804b5f5095ae7109238db38ca01f1c359896efbaac36e209c",
+    "bytes": 506
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/30x_no_extra_collateral/METRICS.json": {
+    "sha256": "c4005764f9742b5cedfe95046da174bad694a41725eba8e1523d955b1dce55a6",
+    "bytes": 1197
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/30x_no_extra_collateral/MONTHLY_RETURNS.csv": {
+    "sha256": "93f6ca042a04fddcb531fc2b5f4bcf945f15e089f01fa49e8117eb79e9513584",
+    "bytes": 4319
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/30x_no_extra_collateral/PARAMETERS.json": {
+    "sha256": "fa9baaa94ae38a8eef84c548fb8162cea2f884ca1d5add2c01e43b685166829e",
+    "bytes": 1033
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/30x_no_extra_collateral/ROLLING_365D.csv": {
+    "sha256": "9fa120144552c82e11d980e885b4a243e2e6d8b7104307907498964927f0a6ba",
+    "bytes": 67241
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/30x_no_extra_collateral/WEEKLY_RETURNS.csv": {
+    "sha256": "e33b73118fb03845d6a2310e47d60ffc56295103f1c8d3c444c0fd8a41c47486",
+    "bytes": 10527
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/PROTOCOL.json": {
+    "sha256": "81a9965e50f53d7c730b51f75f541233963533e262a35ead8e7a803730241cdc",
+    "bytes": 12611
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/SUMMARY.json": {
+    "sha256": "36ab0cdf1923b5c118031c1fafa8f7fd5746f67a4fed99b05e83a3418b688ee2",
+    "bytes": 28741
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/delay2m/ANNUAL_RETURNS.json": {
+    "sha256": "b88d0bf73c513a59e5b0ca8ae93bd411b688644bf5fb39b6c64196437a5bb247",
+    "bytes": 267
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/delay2m/DAILY_EQUITY.csv": {
+    "sha256": "b3d334ef57377f6484395361580fb460692e18cc02e6b56ed5f8d5e8c906549e",
+    "bytes": 81582
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/delay2m/EVERY_TRADE_UTC.csv": {
+    "sha256": "0f335a91cc30f2ac485bb1d4e6fed0bbc21763efb31bca8466cb7573ea098976",
+    "bytes": 178475
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/delay2m/INDEPENDENT_AUDIT.json": {
+    "sha256": "7bf5c4699dc904dc00a48801e5fcb90e5018e7796c96ea738ea84f6262e602e1",
+    "bytes": 495
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/delay2m/METRICS.json": {
+    "sha256": "56cc9675340ed54ff8269c7b36091f5b9478d3e95e68e29c3416c960096b0e34",
+    "bytes": 1186
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/delay2m/MONTHLY_RETURNS.csv": {
+    "sha256": "70185346d9d06e1db9745ae13952760589b47938ffc2f5ddd533a8e58f9ca595",
+    "bytes": 4323
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/delay2m/PARAMETERS.json": {
+    "sha256": "8fba9846bcbc4dfdecd7e8f7f4123272bca6faefda9e4f333e99f48f9310925d",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/delay2m/ROLLING_365D.csv": {
+    "sha256": "0cb398ef6ac1db3a93b55508c05c5445767a212886ff51dc37411135b4209448",
+    "bytes": 67422
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/delay2m/WEEKLY_RETURNS.csv": {
+    "sha256": "a4b80656fc6b6f4bc503aabb7afc4b9f43de36186c42d524fdc5b9d433fd3152",
+    "bytes": 10525
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/double_cost/ANNUAL_RETURNS.json": {
+    "sha256": "632d66593e8c7ce57c0fd841e4daa4c690803688253f4460ecd987b2650652d2",
+    "bytes": 267
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/double_cost/DAILY_EQUITY.csv": {
+    "sha256": "3e4b9847116ac9493e2f8f33f70d53c201839a29f103863084bf6c74725b55ce",
+    "bytes": 81569
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/double_cost/EVERY_TRADE_UTC.csv": {
+    "sha256": "43c69938c706d7600e6d4b6b901a8fb6f00a7e58313da5e37a594fc64078607a",
+    "bytes": 183077
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/double_cost/INDEPENDENT_AUDIT.json": {
+    "sha256": "debddbf39cc4df79a2ed385b3812047c6d8bc1ad7b533f25534800461c766872",
+    "bytes": 502
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/double_cost/METRICS.json": {
+    "sha256": "87e39e1350774b2a141fa20421f0252ac0ad079e2b8b31c9d8adc6cd78fd7cf5",
+    "bytes": 1198
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/double_cost/MONTHLY_RETURNS.csv": {
+    "sha256": "f9fe9ad15017ac9c7d96bdbb00b29fe53df47b3d80fecd7a00e6286a8ae3c04b",
+    "bytes": 4315
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/double_cost/PARAMETERS.json": {
+    "sha256": "624c16124945c5d6b7e19f1b344174a54d4ea56446ee2acb870318fed480256f",
+    "bytes": 1025
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/double_cost/ROLLING_365D.csv": {
+    "sha256": "2e22c99f80eedf2c169f3f6f9de63221d5d45ef4f52f7ed800f0a2e66c4cc7f0",
+    "bytes": 67257
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/double_cost/WEEKLY_RETURNS.csv": {
+    "sha256": "fec944034ec138a9e00400afe3332b8d8492b30ddc01f1b9464d294bbae2ffda",
+    "bytes": 10493
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold24/ANNUAL_RETURNS.json": {
+    "sha256": "0468bd342a3a78be2d94a9f3f45d5aa2af9780053f4c4418a8895789a7b9c628",
+    "bytes": 268
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold24/DAILY_EQUITY.csv": {
+    "sha256": "34e2a85adc5cfdc51457d19f8af220fffbe76c8fe019d0743a9a231702bb6604",
+    "bytes": 81402
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold24/EVERY_TRADE_UTC.csv": {
+    "sha256": "f02316b9aa9d4cd7915d207498e8140ee6233121edc1d54e8b28b8ad4b928f5b",
+    "bytes": 196061
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold24/INDEPENDENT_AUDIT.json": {
+    "sha256": "0762fb9169e418b3f799f8856dcba7b514189e289ddd5f11d8f174c2488fa9bc",
+    "bytes": 507
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold24/METRICS.json": {
+    "sha256": "cb9b072ca3ed03379b1a1aa9de117f02b8481428c95b79ea0976764b5169bee9",
+    "bytes": 1199
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold24/MONTHLY_RETURNS.csv": {
+    "sha256": "e804e8c70e258cb2d0e82bbb502045a2dc58c15b2bbbd4a63b2c5a72962b71f5",
+    "bytes": 4318
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold24/PARAMETERS.json": {
+    "sha256": "5348361fb550ce8b7cb90d8b3a847d042f2ba318649f74fb2f2fd23d9e697f43",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold24/ROLLING_365D.csv": {
+    "sha256": "492a83c649755ac4ed42e42f7e49431d20f2d826e3ddf3d2fcd613711bed3598",
+    "bytes": 67568
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold24/WEEKLY_RETURNS.csv": {
+    "sha256": "c59fd51f1cc558c2684461cf10cda910ed295cd54b74468e9009ce7d78abeeb5",
+    "bytes": 10467
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold48/ANNUAL_RETURNS.json": {
+    "sha256": "11612aece3f49beb5d09ca8b951ad2b78d05b7ea99d1702390a1685ad65ba694",
+    "bytes": 262
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold48/DAILY_EQUITY.csv": {
+    "sha256": "f1fe0d4596ba664018f813f82b78c052c7ebc529b6e4d3a2719b52ce1eed08d9",
+    "bytes": 81304
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold48/EVERY_TRADE_UTC.csv": {
+    "sha256": "be954519d6748499375b94184234074757feac81be4f8502757d0045681f9450",
+    "bytes": 188388
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold48/INDEPENDENT_AUDIT.json": {
+    "sha256": "6f629f1f873601574df4d2bc4b804085a1e0a6f91ad1ef8b28a324158d98a09e",
+    "bytes": 505
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold48/METRICS.json": {
+    "sha256": "2de5021d592f2432149d5df8dd6d01a238935867d8d450cd7a8145705a704363",
+    "bytes": 1186
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold48/MONTHLY_RETURNS.csv": {
+    "sha256": "77cef2fa3404f0b212fff2ece758920609e287918d0106d75b36ad47e629920e",
+    "bytes": 4322
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold48/PARAMETERS.json": {
+    "sha256": "ba832c66441d7f8a544f2aa54fa441e8a59b85b3cbe4e6fab1a0e201a9e0b88f",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold48/ROLLING_365D.csv": {
+    "sha256": "2c8dd6fd944f7197f06920385bb53be2c4f06a52c2f8c2405f529ec61f324fb4",
+    "bytes": 67107
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/hold48/WEEKLY_RETURNS.csv": {
+    "sha256": "1d6907536fd515dbf5a3a88f6ad1f799d21e7db2b327f4b24393fc307f9361e5",
+    "bytes": 10509
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap10.0/ANNUAL_RETURNS.json": {
+    "sha256": "3e2b1577b9983ce2c5a813c4ec34835eb235e3a7c7f79893971bbb1f96fd5787",
+    "bytes": 266
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap10.0/DAILY_EQUITY.csv": {
+    "sha256": "beab2070a42caac46b5d411210eb71f6f8e7a8c5233e78b0edd42e011cbe02d5",
+    "bytes": 81798
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap10.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "5c534922ee7e880af5115fea8dde2ee615794ae3d20f4212138b3bc06a105851",
+    "bytes": 182945
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap10.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "6d1721b9e4f7b0c7db7ceee884bf4bcaf73c8ae1b9d90cdbe71a210445dd8de7",
+    "bytes": 504
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap10.0/METRICS.json": {
+    "sha256": "f242becf778af998e611dd3927383453ed1ef1b7c2c2ae1d9513f52c58c49dba",
+    "bytes": 1199
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap10.0/MONTHLY_RETURNS.csv": {
+    "sha256": "02de99b4fb6706cab98e1d38863ac5878fc824b79d19ddddbacde4064f71034e",
+    "bytes": 4327
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap10.0/PARAMETERS.json": {
+    "sha256": "77f745937e93a4d3506da33e2172877229ddfa6bea1e4c7c5131a8a6711288b8",
+    "bytes": 1033
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap10.0/ROLLING_365D.csv": {
+    "sha256": "91aa3961a45662c8d9acb9f4c31104a212dd252660a379f5f18831a48c035411",
+    "bytes": 67426
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap10.0/WEEKLY_RETURNS.csv": {
+    "sha256": "6b734a992bb30f0f7439bc5ed0ea722067cf7910578a5ab3306cb372fad1e54c",
+    "bytes": 10537
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap3.0/ANNUAL_RETURNS.json": {
+    "sha256": "8b097e996cf5e29ab00b2effe17fe9b4446373ae3b82e7197d838e433eb18e11",
+    "bytes": 265
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap3.0/DAILY_EQUITY.csv": {
+    "sha256": "12d7d9309ede5d4fba51b3cfc529429f6e8023a0d24de31f283e1f6f1bc6065b",
+    "bytes": 81870
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap3.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "cda98667787fa13c1b130018f140cf71af5f3c174397dcf188adc122146b0b1b",
+    "bytes": 183255
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap3.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "718ecb2d457e081268c0be44450875a0a7c0a1c9052068e333de931bbfc450bf",
+    "bytes": 510
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap3.0/METRICS.json": {
+    "sha256": "b677f7372bbbd87348ab567e3bab00da876d08e4cf3f8621caea07f55c364f21",
+    "bytes": 1196
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap3.0/MONTHLY_RETURNS.csv": {
+    "sha256": "36548b49b1d51b0f17dd8b87c9dee209a0beeba3f78117e8cb45296b1719de02",
+    "bytes": 4327
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap3.0/PARAMETERS.json": {
+    "sha256": "08cee30470a7897b4a27746fb0da963303e3f684f9a39f69557e92cd901f7d8f",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap3.0/ROLLING_365D.csv": {
+    "sha256": "2bdb0016e13f5a3a969ce3c8093e2a5021c91ad9c40ad6ffb1a456b6ababe660",
+    "bytes": 67445
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap3.0/WEEKLY_RETURNS.csv": {
+    "sha256": "a7e919cb16b7216ff184a0ad68e414eb4b3c7df6905e42f23e2c840abef121fa",
+    "bytes": 10536
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap30.0/ANNUAL_RETURNS.json": {
+    "sha256": "3e2b1577b9983ce2c5a813c4ec34835eb235e3a7c7f79893971bbb1f96fd5787",
+    "bytes": 266
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap30.0/DAILY_EQUITY.csv": {
+    "sha256": "beab2070a42caac46b5d411210eb71f6f8e7a8c5233e78b0edd42e011cbe02d5",
+    "bytes": 81798
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap30.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "5c534922ee7e880af5115fea8dde2ee615794ae3d20f4212138b3bc06a105851",
+    "bytes": 182945
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap30.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "6d1721b9e4f7b0c7db7ceee884bf4bcaf73c8ae1b9d90cdbe71a210445dd8de7",
+    "bytes": 504
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap30.0/METRICS.json": {
+    "sha256": "f242becf778af998e611dd3927383453ed1ef1b7c2c2ae1d9513f52c58c49dba",
+    "bytes": 1199
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap30.0/MONTHLY_RETURNS.csv": {
+    "sha256": "02de99b4fb6706cab98e1d38863ac5878fc824b79d19ddddbacde4064f71034e",
+    "bytes": 4327
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap30.0/PARAMETERS.json": {
+    "sha256": "787567e960f53bb0c1975c3ff0f6abd2d10f74aadd2e1aba04dff2f877b9ed6d",
+    "bytes": 1033
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap30.0/ROLLING_365D.csv": {
+    "sha256": "91aa3961a45662c8d9acb9f4c31104a212dd252660a379f5f18831a48c035411",
+    "bytes": 67426
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap30.0/WEEKLY_RETURNS.csv": {
+    "sha256": "6b734a992bb30f0f7439bc5ed0ea722067cf7910578a5ab3306cb372fad1e54c",
+    "bytes": 10537
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap5.0/ANNUAL_RETURNS.json": {
+    "sha256": "3e2b1577b9983ce2c5a813c4ec34835eb235e3a7c7f79893971bbb1f96fd5787",
+    "bytes": 266
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap5.0/DAILY_EQUITY.csv": {
+    "sha256": "beab2070a42caac46b5d411210eb71f6f8e7a8c5233e78b0edd42e011cbe02d5",
+    "bytes": 81798
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap5.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "5c534922ee7e880af5115fea8dde2ee615794ae3d20f4212138b3bc06a105851",
+    "bytes": 182945
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap5.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "6d1721b9e4f7b0c7db7ceee884bf4bcaf73c8ae1b9d90cdbe71a210445dd8de7",
+    "bytes": 504
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap5.0/METRICS.json": {
+    "sha256": "f242becf778af998e611dd3927383453ed1ef1b7c2c2ae1d9513f52c58c49dba",
+    "bytes": 1199
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap5.0/MONTHLY_RETURNS.csv": {
+    "sha256": "02de99b4fb6706cab98e1d38863ac5878fc824b79d19ddddbacde4064f71034e",
+    "bytes": 4327
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap5.0/PARAMETERS.json": {
+    "sha256": "c027aeb6186cf4592c2d29de984a0f63e0f7aa06aadc6c0be4a8f5cedb881086",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap5.0/ROLLING_365D.csv": {
+    "sha256": "91aa3961a45662c8d9acb9f4c31104a212dd252660a379f5f18831a48c035411",
+    "bytes": 67426
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.02_cap5.0/WEEKLY_RETURNS.csv": {
+    "sha256": "6b734a992bb30f0f7439bc5ed0ea722067cf7910578a5ab3306cb372fad1e54c",
+    "bytes": 10537
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap10.0/ANNUAL_RETURNS.json": {
+    "sha256": "ef7006e40c57efeddd35741c93693f13dae5e4f7f3771d29081bb0b3709af544",
+    "bytes": 264
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap10.0/DAILY_EQUITY.csv": {
+    "sha256": "2e1ecfa9697f3fe613860b7375e3e45766b7eccf9ca8d83141e4ad4847b961b2",
+    "bytes": 81159
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap10.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "24acd25f98bf9699e65ea464af2dcadf762a406040c6ecb06954b3e4d23afda0",
+    "bytes": 183555
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap10.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "17247d89c18cbfedff1205b56a050aa076125faf7d164ac73991b5b8ffae3038",
+    "bytes": 507
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap10.0/METRICS.json": {
+    "sha256": "7e827f4b2042695a2c5f4f85746955bf7a8020c71cfe0a8b14250a0456847450",
+    "bytes": 1193
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap10.0/MONTHLY_RETURNS.csv": {
+    "sha256": "77c6ad0a3a88d67f169e94555da4b1c6031fac5971c2684254016ecc9d37b311",
+    "bytes": 4325
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap10.0/PARAMETERS.json": {
+    "sha256": "2e7c76966d637c0b019a4825b8f7a64e2d6cdd675161e661568d61f90349a501",
+    "bytes": 1033
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap10.0/ROLLING_365D.csv": {
+    "sha256": "ff62156d103e108592b62567c9454d526a18457d876faa0ee5f78232c7a60684",
+    "bytes": 67053
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap10.0/WEEKLY_RETURNS.csv": {
+    "sha256": "096213876f9f0cca0698358161963d96e89318a80ee9b3848e6397b404c96931",
+    "bytes": 10514
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap3.0/ANNUAL_RETURNS.json": {
+    "sha256": "38bde3a2c145d466c0c77b447ed0ebe9a68d91377d0fbe00f5ec5915eb577c29",
+    "bytes": 263
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap3.0/DAILY_EQUITY.csv": {
+    "sha256": "e5817e78ba4a528b73e6760d5a3d9e3eaefe4bea1b83f236566369be391548e3",
+    "bytes": 81454
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap3.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "874ed309fe6e56fbe87cc57f173abe886c7a023ad5dfa3434ddbc625455e7b3d",
+    "bytes": 183968
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap3.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "76a2cf812facd17b6d80e048f41c056ffe281ad037915e65ed046f9a3416efac",
+    "bytes": 509
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap3.0/METRICS.json": {
+    "sha256": "efc6514b280398f75c0b2c9a45e464356854ab8c4632317f8cefda84b2e67c81",
+    "bytes": 1196
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap3.0/MONTHLY_RETURNS.csv": {
+    "sha256": "34b44152ebfdf6c0b348c231c91f6a5ca38a1736fd0e06ee8ef65b18481771ec",
+    "bytes": 4322
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap3.0/PARAMETERS.json": {
+    "sha256": "5b8f0da9caa13a8558ad098a1f58905e492f6b26e3202cafc2df517bd71ea84a",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap3.0/ROLLING_365D.csv": {
+    "sha256": "cf68db5c5ae0aee7549607a3a239e66ba6e6d11899ab1af9135dc16c402ab1a2",
+    "bytes": 67221
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap3.0/WEEKLY_RETURNS.csv": {
+    "sha256": "e146219e9d935fc8a9e8ef9d3fa0856e8bcfb808c5f289921ebc5e74987e260b",
+    "bytes": 10509
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap30.0/ANNUAL_RETURNS.json": {
+    "sha256": "ef7006e40c57efeddd35741c93693f13dae5e4f7f3771d29081bb0b3709af544",
+    "bytes": 264
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap30.0/DAILY_EQUITY.csv": {
+    "sha256": "2e1ecfa9697f3fe613860b7375e3e45766b7eccf9ca8d83141e4ad4847b961b2",
+    "bytes": 81159
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap30.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "24acd25f98bf9699e65ea464af2dcadf762a406040c6ecb06954b3e4d23afda0",
+    "bytes": 183555
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap30.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "17247d89c18cbfedff1205b56a050aa076125faf7d164ac73991b5b8ffae3038",
+    "bytes": 507
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap30.0/METRICS.json": {
+    "sha256": "7e827f4b2042695a2c5f4f85746955bf7a8020c71cfe0a8b14250a0456847450",
+    "bytes": 1193
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap30.0/MONTHLY_RETURNS.csv": {
+    "sha256": "77c6ad0a3a88d67f169e94555da4b1c6031fac5971c2684254016ecc9d37b311",
+    "bytes": 4325
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap30.0/PARAMETERS.json": {
+    "sha256": "4987466f07b9ebde57d92e04bbea79b115103f7039c3016561102da690f859e8",
+    "bytes": 1033
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap30.0/ROLLING_365D.csv": {
+    "sha256": "ff62156d103e108592b62567c9454d526a18457d876faa0ee5f78232c7a60684",
+    "bytes": 67053
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap30.0/WEEKLY_RETURNS.csv": {
+    "sha256": "096213876f9f0cca0698358161963d96e89318a80ee9b3848e6397b404c96931",
+    "bytes": 10514
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap5.0/ANNUAL_RETURNS.json": {
+    "sha256": "5bf3adc51ed6cf11b3101011ca7d78e39428773db83c55fb3e06b55dd62371e2",
+    "bytes": 263
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap5.0/DAILY_EQUITY.csv": {
+    "sha256": "708c9052255356f254c5c801a0c0bfdcabd3220215ecaabe49dbc7fda35066ec",
+    "bytes": 81224
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap5.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "ead2f40c9eb7a4044e02cae44aeab404aa8f3704479438022cf39265293d2ded",
+    "bytes": 183372
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap5.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "bfee647f347bfacc8563811da5a508c650b1c33a14ee0c686540694d6b6f1505",
+    "bytes": 507
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap5.0/METRICS.json": {
+    "sha256": "4664a2b33c07dd3e1895fba89a4251eb5a470f3531f5767dcea87407b65dd6a5",
+    "bytes": 1192
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap5.0/MONTHLY_RETURNS.csv": {
+    "sha256": "40c902b43c0944a90ef84065dc7682a5a39dabcfb29b162f88fb776b6dcbfa9a",
+    "bytes": 4318
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap5.0/PARAMETERS.json": {
+    "sha256": "eb9f986aeb65ddd8bb5777dc76a47b84f7ee210ad592b0943a112f6f5a89118f",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap5.0/ROLLING_365D.csv": {
+    "sha256": "1110709e24d27086308ed29faa48cb90b455565b8fda1917e36cc52c82d16cc1",
+    "bytes": 67077
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.04_cap5.0/WEEKLY_RETURNS.csv": {
+    "sha256": "13c214f535d5c976a9348c53c08fe78e73247d397607cc0eeffffcfac8aa6874",
+    "bytes": 10514
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap10.0/ANNUAL_RETURNS.json": {
+    "sha256": "328fbf908d5a6bed9ea3e5ca7fc252d4705cbed78a0a1304d49c8441368423b6",
+    "bytes": 262
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap10.0/DAILY_EQUITY.csv": {
+    "sha256": "717407538f96f841197bf9bc6971f5b38d2fb8a88b0e973aae12f0e86f910c22",
+    "bytes": 81090
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap10.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "0e0b4e0e3bb00d38811f5af28b55bd292e9cda21fbd6d46a40e5ddf3735a9511",
+    "bytes": 182723
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap10.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "45e628b1469f3a28d5a9e0887ccda00b80ebf806584e3627a212c44a9a834e5e",
+    "bytes": 505
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap10.0/METRICS.json": {
+    "sha256": "8dcca666626f4563a888ab3f815c8d5847c95c003f87b314dcfa2729e20454e9",
+    "bytes": 1188
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap10.0/MONTHLY_RETURNS.csv": {
+    "sha256": "23c97825025f7fc8608c9f51bf91cd857f8085cd8d3bfddf4c83c4d77e2cb5df",
+    "bytes": 4318
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap10.0/PARAMETERS.json": {
+    "sha256": "b299b35279cf2249959c7614f944e6b8d5c1a367dfc4661a235ecf21dce89221",
+    "bytes": 1033
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap10.0/ROLLING_365D.csv": {
+    "sha256": "37d3193479e9ab1b75ae2ec521f08e474b5459e8798b7e60f9b58728d38e4133",
+    "bytes": 66820
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap10.0/WEEKLY_RETURNS.csv": {
+    "sha256": "d3842bd28e86a93ac787b0578277f2c46888eebd2901e0ba1772ce6002b6563b",
+    "bytes": 10518
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap3.0/ANNUAL_RETURNS.json": {
+    "sha256": "8c51f60168660e89dfd2f7c678ee32fc464af891bc9e6ae0547cc31cf9b316a6",
+    "bytes": 265
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap3.0/DAILY_EQUITY.csv": {
+    "sha256": "5c852246aa2c8c6580a85052663134f8edd45900edffb9fbfce564eac83c1cd0",
+    "bytes": 80972
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap3.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "7833f852036d9cf2d5c5460da69e570191a3437396f0cd366d73161e28e26ccb",
+    "bytes": 182753
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap3.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "7cf7ed66e7a3ec40813344e3445d6894003fc4795103d2ba40510f6b12ce5f44",
+    "bytes": 506
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap3.0/METRICS.json": {
+    "sha256": "a2471f52a040caae9476e1fee29e8d719ac51cec030db80015d9a1e62909ebe2",
+    "bytes": 1194
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap3.0/MONTHLY_RETURNS.csv": {
+    "sha256": "524e928e5092eea055237c93da16d059c8a1dd4f8b15203ff660e2356b011064",
+    "bytes": 4326
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap3.0/PARAMETERS.json": {
+    "sha256": "b7ecbec135bf719c8d4b4b0ea3c43063f85794427e51989f299f5aa6b041296e",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap3.0/ROLLING_365D.csv": {
+    "sha256": "6ec119e7e306afb9bf5c11642def5125957faf6577bb2e91775b51b38a5bcd7f",
+    "bytes": 67061
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap3.0/WEEKLY_RETURNS.csv": {
+    "sha256": "07424f8ad2e16bfcfe1c7c4f421aaa4f2394586f8b57bb22c8468a43934ae509",
+    "bytes": 10529
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/ANNUAL_RETURNS.json": {
+    "sha256": "fe8079cd2bdaf19e79ad58bc54452ea99fff5e0d7f0392714b0385323c59602f",
+    "bytes": 263
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/DAILY_EQUITY.csv": {
+    "sha256": "48a1db9680e86638d1b765cc3f0cb70c2ac62cb82197d313b06813583711686f",
+    "bytes": 81083
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "218d53aa70c06bdfa68203c2876994b4e77660cedf4cc8110ddfd380cb426c83",
+    "bytes": 182704
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "ff244d14c07148eeb947a5f518ef4b08142f946120bbffecd8c69bf6de4aea10",
+    "bytes": 510
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/METRICS.json": {
+    "sha256": "88661e71620787eca8c9d3e7430d2fa2b9e3a25006cd346b404de4eac4270c46",
+    "bytes": 1190
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/MONTHLY_RETURNS.csv": {
+    "sha256": "19fdfff0457e755bbfdfedf47195c1a15f9dda3ec50f4c7bb6b591351534dafc",
+    "bytes": 4318
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/PARAMETERS.json": {
+    "sha256": "bca3ec060f29288e119d53d2fb89db15fb3520d27f49a8e775711a00ee3fb6a6",
+    "bytes": 1033
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/ROLLING_365D.csv": {
+    "sha256": "f1263d255798e99a0e4b1d306989be7b89b7bcff1daece8c8bac042fa9325dce",
+    "bytes": 66835
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/WEEKLY_RETURNS.csv": {
+    "sha256": "d7e5e1fc6c3557dce30413182a6df7711fa436f355ea97028bccc23dd7478041",
+    "bytes": 10518
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap5.0/ANNUAL_RETURNS.json": {
+    "sha256": "cc4b516c198bc8a7f1761c69525b884b84a0b6feeaa50e0336ca3cab5aae0372",
+    "bytes": 263
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap5.0/DAILY_EQUITY.csv": {
+    "sha256": "a49c70bf59d0c1d98454eb44bcdbf82364db18e6e06051c25b61950963fc1661",
+    "bytes": 81142
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap5.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "96c3eddbc1479eddc9b8a9dd192d01fcd3976d6fff8461bc64e514f4f7177921",
+    "bytes": 182797
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap5.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "1d03fbb06b62b6af7c7790897741daa865265ab4b5bc727840d11f3d712ca525",
+    "bytes": 509
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap5.0/METRICS.json": {
+    "sha256": "e0037057aec2f01a8592fbd61197a67796e29a99d045b5552c0d1d24c156c7f4",
+    "bytes": 1187
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap5.0/MONTHLY_RETURNS.csv": {
+    "sha256": "8855103645145b315f6622c1260c54e8f23b20fc69974ec08b0b6d63529f08e0",
+    "bytes": 4321
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap5.0/PARAMETERS.json": {
+    "sha256": "37a069325b999306090249d151069bf87e05a3244251d461acb8b2e0c7f59c6a",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap5.0/ROLLING_365D.csv": {
+    "sha256": "93c8576ff0c278a7c6ef238a966578b414ae049c8048fa757ad5833265bd52de",
+    "bytes": 66862
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap5.0/WEEKLY_RETURNS.csv": {
+    "sha256": "c4f8c83138b02c8b81e758870aa2a69da0c54ad7fbac3962eb98dfd9ff2b5ccf",
+    "bytes": 10520
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap10.0/ANNUAL_RETURNS.json": {
+    "sha256": "bf7e9da2491bf0cc91c13c55a4227881741a382362160ca95e17c516deefee49",
+    "bytes": 263
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap10.0/DAILY_EQUITY.csv": {
+    "sha256": "66fab4fa7ff18bffbb5115bc7747ddc5696000b337093a8dd9bd8dd1ae679f79",
+    "bytes": 81249
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap10.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "f87b6a6a39dc42944921b2af57c007855c7fa8d0117fa18182def43d5a484100",
+    "bytes": 183111
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap10.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "0a5322cf67c3bd05da891567f3c814199324390cdadf55900280ad8fd31c55ab",
+    "bytes": 507
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap10.0/METRICS.json": {
+    "sha256": "d0c51ccad13da5d502fb47e9e51a4095dcd9fcd02327bfc103c8507bfec0f67a",
+    "bytes": 1188
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap10.0/MONTHLY_RETURNS.csv": {
+    "sha256": "94fe8930eafa698dc5994ae9894c935a9bc43255e29bfb9d93768cfb21b6e2ac",
+    "bytes": 4322
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap10.0/PARAMETERS.json": {
+    "sha256": "a22ff16422f5420df6de6cd3f7271b4df8a934ceff997c86417dc83b525eaeda",
+    "bytes": 1033
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap10.0/ROLLING_365D.csv": {
+    "sha256": "98004064dbf7c9bcff8a2b94965d3492a1773333d23cc1f6f43640727ac7a65a",
+    "bytes": 66884
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap10.0/WEEKLY_RETURNS.csv": {
+    "sha256": "82721164eccdf3ee380e8f20d61561a0e2b6a9b6b50a93191e0fc20c4d8ff61f",
+    "bytes": 10510
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap3.0/ANNUAL_RETURNS.json": {
+    "sha256": "39cc012de06c20a408dde8cf7d613846f0be8830b684bf5aaaa5b6087636c889",
+    "bytes": 262
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap3.0/DAILY_EQUITY.csv": {
+    "sha256": "9948e39331bae2357c490a0d25d0293372aab4a1e4dd681e1a7c1b8c99ef1743",
+    "bytes": 81164
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap3.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "93d24898b2ad03178bf8ce4707f06c2f85224e8f1ddca6d6d30c0234bcb54b74",
+    "bytes": 183252
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap3.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "6431199a8adeac4227443d05e8b16c7aa73e7b1b1e3deb3f453b1832872bd6e4",
+    "bytes": 509
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap3.0/METRICS.json": {
+    "sha256": "5f12356a0566de226ae2dabc7a22e9ef166f4548ba76ff2d4701d94a6211b67c",
+    "bytes": 1188
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap3.0/MONTHLY_RETURNS.csv": {
+    "sha256": "10b6b1816c361b7d4eee28a4295b20d64a9933439ed88d11a431aed6286a4393",
+    "bytes": 4330
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap3.0/PARAMETERS.json": {
+    "sha256": "9cf991c532b6a20c55a1b172e0775774c676f4b5e0adff76674be25b5f0c7830",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap3.0/ROLLING_365D.csv": {
+    "sha256": "55c212f5c9449b3c895b0950998a9a260b5d93985a10044b50d3e865ca91ed21",
+    "bytes": 67105
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap3.0/WEEKLY_RETURNS.csv": {
+    "sha256": "731c7f6349a19ea1134826ddfd3f4ad9f5c73a65342dfdf0d744a3cb20442459",
+    "bytes": 10516
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap30.0/ANNUAL_RETURNS.json": {
+    "sha256": "84edfcb9d4bdd4137ec77c0fe243d60230ba9a8fda24d4392f4775f642c575bd",
+    "bytes": 263
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap30.0/DAILY_EQUITY.csv": {
+    "sha256": "fa98e35dc3c7673526a6e2d2821f6db7b44119141913870885fb99f16f25481f",
+    "bytes": 81264
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap30.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "5363477f926546e988ddb0cd934da34814714359c7430933db3ae03a44db1046",
+    "bytes": 183080
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap30.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "09223ea967e1daa4835c1c94556e72457635e7ec608068641c5fe46ef1475a86",
+    "bytes": 506
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap30.0/METRICS.json": {
+    "sha256": "e0ded579fa46663a97d063a89b655b3dcdac036a4f3cc0fb4ca9a6b466518c4a",
+    "bytes": 1190
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap30.0/MONTHLY_RETURNS.csv": {
+    "sha256": "0025dff5ea3fe096aa43181cdf8c55da37347b52af36f70afe56be7c0995ff74",
+    "bytes": 4320
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap30.0/PARAMETERS.json": {
+    "sha256": "599825beee560b297a29117b2fb9d2aa275c2eb41cf969d8db999a72aa30513e",
+    "bytes": 1033
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap30.0/ROLLING_365D.csv": {
+    "sha256": "6bc2e9590e7a65f7418ff6ac234c88721887f873ac1005ae14117935e1af880d",
+    "bytes": 66843
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap30.0/WEEKLY_RETURNS.csv": {
+    "sha256": "6425da6463dc58c6aa9c30625941ba6957bcf836d68fd3e41291a65b72f94eb9",
+    "bytes": 10513
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap5.0/ANNUAL_RETURNS.json": {
+    "sha256": "8dbd3a9bde6f4f0d0775f87d66b1caaf8832f865813f504e606c6aa6cae39274",
+    "bytes": 263
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap5.0/DAILY_EQUITY.csv": {
+    "sha256": "31a8ede5c795115ef5fe798271b8a4dc36bd95ffebdd3edbced51041ee8bb88c",
+    "bytes": 81040
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap5.0/EVERY_TRADE_UTC.csv": {
+    "sha256": "b554a27b33770a0daf3c8250cad07b3f19e38e7bb8be39b07a1e85d5e4d31956",
+    "bytes": 183074
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap5.0/INDEPENDENT_AUDIT.json": {
+    "sha256": "8a18794ec7fe8fdba8b792523ada92210a8a4f0318804fb03a0b625e53d5e725",
+    "bytes": 507
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap5.0/METRICS.json": {
+    "sha256": "d3732c61b0497bc6fb4933d4d6d4b2747e6c78c8464b02532177a09bbfbf113e",
+    "bytes": 1191
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap5.0/MONTHLY_RETURNS.csv": {
+    "sha256": "8a8775ca676f1e86c04dc07f46e7cd4a6c5c0ac85becebfb6ce71980f47cd2a6",
+    "bytes": 4313
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap5.0/PARAMETERS.json": {
+    "sha256": "34ab1f70d665ce5bd22d73d9eb6b2d4b0908dc31ffd1954b496b790ef05dccb4",
+    "bytes": 1031
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap5.0/ROLLING_365D.csv": {
+    "sha256": "184e3aa2d5273be11753d24479fcd99fba4b5224011587fac94adcb5fe579071",
+    "bytes": 66915
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.08_cap5.0/WEEKLY_RETURNS.csv": {
+    "sha256": "554bcd335fabd3558567e2538a677fcdb805fc4ee5029bd5e9b78d86b673e641",
+    "bytes": 10521
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/zero_cost/ANNUAL_RETURNS.json": {
+    "sha256": "8a2f71b97334a17515b5d54cc30e6e80c4d9e5f7e6af0e999017efe2eee2ae9a",
+    "bytes": 259
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/zero_cost/DAILY_EQUITY.csv": {
+    "sha256": "0aa1b33c3618c860e179d6c0b8bcc36ee8e929004c3b560ffeadbdfce3bab0d6",
+    "bytes": 80738
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/zero_cost/EVERY_TRADE_UTC.csv": {
+    "sha256": "f145d51da38d07c5d263f3827b49145b52fc6cbb09a20de184cc7a190572cffd",
+    "bytes": 172646
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/zero_cost/INDEPENDENT_AUDIT.json": {
+    "sha256": "85922490b32a18563ad2bfdadc5f1b9063f163bd4fa0535b221972d7b04f76e4",
+    "bytes": 481
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/zero_cost/METRICS.json": {
+    "sha256": "ddbeb4060a11002b0a491bfcd6a890c92496470739bfa3b824f0bccf25947623",
+    "bytes": 1157
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/zero_cost/MONTHLY_RETURNS.csv": {
+    "sha256": "873365f5bd95271f5ea8ca59a3189d84d8345295d1752ebc5e4c2e8ef59e0e5f",
+    "bytes": 4325
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/zero_cost/PARAMETERS.json": {
+    "sha256": "696ec33d70c67b5d54ce4610a7bf5f45eb60922c87bea89662c01b3ce2697dba",
+    "bytes": 1023
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/zero_cost/ROLLING_365D.csv": {
+    "sha256": "0e69bc1b2fc65ed756d4edf2464edb0723de71bd24c87f070a88de0d7de70728",
+    "bytes": 66688
+  },
+  "results/ETHUSDT/SIZING_DIAGNOSTICS/zero_cost/WEEKLY_RETURNS.csv": {
+    "sha256": "b5b279c95b34226f5df188ffcccf063d3483683dba435d40e6d786dcb61b4a5e",
+    "bytes": 10530
+  },
+  "results/ETHUSDT/STRESSES.json": {
+    "sha256": "18d848eae6fee765bbc8b6d86c6e5198b01b9bc1d8275e08d5c97e140ab1dd57",
+    "bytes": 11770
+  },
+  "results/ETHUSDT/STRESS_30x_initial_margin_only/ANNUAL_RETURNS.json": {
+    "sha256": "9019c1717b61e0320b1d188ff84863725072eb23cb011c9d5047bfe863f16a08",
+    "bytes": 275
+  },
+  "results/ETHUSDT/STRESS_30x_initial_margin_only/DAILY_EQUITY.csv": {
+    "sha256": "889f7e4899a33e3c32defb09426913ba82dd9fbee835c78148988cc94fc20a3c",
+    "bytes": 80902
+  },
+  "results/ETHUSDT/STRESS_30x_initial_margin_only/EVERY_TRADE_UTC.csv": {
+    "sha256": "751bcd9a7f3f699fc59c6e947cefeb632c953df80de0c2494726d1adebac615b",
+    "bytes": 124189
+  },
+  "results/ETHUSDT/STRESS_30x_initial_margin_only/INDEPENDENT_AUDIT.json": {
+    "sha256": "d9de34b46ae2412de5bf7a62494f18e85aee9bf2c0fdcbffdb4bbdbf06ecd0ce",
+    "bytes": 492
+  },
+  "results/ETHUSDT/STRESS_30x_initial_margin_only/METRICS.json": {
+    "sha256": "3fe11db16a9b28bd42b9f55bbd46a46903babe0d8f0960308e46253bc3f73f70",
+    "bytes": 1197
+  },
+  "results/ETHUSDT/STRESS_30x_initial_margin_only/MONTHLY_RETURNS.csv": {
+    "sha256": "7f55ec67978483dc9f5b5a603067a32467f69f98f60ca01a8f0c47778ef41d39",
+    "bytes": 4426
+  },
+  "results/ETHUSDT/STRESS_30x_initial_margin_only/PARAMETERS.json": {
+    "sha256": "b9668c8aa0ff5b395c23cee5b9e69afada93ee57675a1c6517d07e0f5a3ed70a",
+    "bytes": 2164
+  },
+  "results/ETHUSDT/STRESS_30x_initial_margin_only/ROLLING_365D.csv": {
+    "sha256": "94f768f6c3000dc9de5529d1711c9dd3aaee39dc5d8aefe5381040fa377a6133",
+    "bytes": 68464
+  },
+  "results/ETHUSDT/STRESS_30x_initial_margin_only/WEEKLY_RETURNS.csv": {
+    "sha256": "1104873a471f23c38c0703b557869cc78b472f8c7a98941ea6c3bbe78e4b4443",
+    "bytes": 10622
+  },
+  "results/ETHUSDT/STRESS_delay_2_minutes/ANNUAL_RETURNS.json": {
+    "sha256": "1573bc950648c2749f060cb489de28476d887787e43fbb9ab58780d1813c87de",
+    "bytes": 271
+  },
+  "results/ETHUSDT/STRESS_delay_2_minutes/DAILY_EQUITY.csv": {
+    "sha256": "bedd008abb78cdd3dbef5e1ef2f59372092aa218352ce42c22a7023e459630f2",
+    "bytes": 81332
+  },
+  "results/ETHUSDT/STRESS_delay_2_minutes/EVERY_TRADE_UTC.csv": {
+    "sha256": "b8dfe868291a6a220dd05c0ba3d9433de044ed3f5b3bed02523f7dc93126b4a6",
+    "bytes": 122428
+  },
+  "results/ETHUSDT/STRESS_delay_2_minutes/INDEPENDENT_AUDIT.json": {
+    "sha256": "1b56b835a91cf4b335ec6e85b94af7a0fc20fe3db5365d45cbbfaf866b4f161a",
+    "bytes": 505
+  },
+  "results/ETHUSDT/STRESS_delay_2_minutes/METRICS.json": {
+    "sha256": "17b2cfa38632dcf98f99c15fea93f4037f8533ce14f68418cab5ab4986e4de9d",
+    "bytes": 1211
+  },
+  "results/ETHUSDT/STRESS_delay_2_minutes/MONTHLY_RETURNS.csv": {
+    "sha256": "daa4e9fab5fb4a125bf2c32ce2250c28da14902b1a1e4044c9c3681c3d3029da",
+    "bytes": 4431
+  },
+  "results/ETHUSDT/STRESS_delay_2_minutes/PARAMETERS.json": {
+    "sha256": "1f005816e28a29d9f4d69759a30065725afecfa122381862922fbbfc501574fa",
+    "bytes": 2163
+  },
+  "results/ETHUSDT/STRESS_delay_2_minutes/ROLLING_365D.csv": {
+    "sha256": "7bc708b4b866054dc08724bb264fbcfd9e376f4b9d8f19ca521829f10947dfbc",
+    "bytes": 68658
+  },
+  "results/ETHUSDT/STRESS_delay_2_minutes/WEEKLY_RETURNS.csv": {
+    "sha256": "aca8b0de59beb758c1f0a09f117e1cf16ca2826d99afe4773e542be1351751f1",
+    "bytes": 10625
+  },
+  "results/ETHUSDT/STRESS_double_cost/ANNUAL_RETURNS.json": {
+    "sha256": "442030a283d80e56cd80b252e2f5d361c056c9eafe9c6d72917af12f3592aa02",
+    "bytes": 275
+  },
+  "results/ETHUSDT/STRESS_double_cost/DAILY_EQUITY.csv": {
+    "sha256": "6c1a40ba113103a6c630abd5af72f9a44539fbf5418fb102c3bb197c5b3af3a6",
+    "bytes": 80719
+  },
+  "results/ETHUSDT/STRESS_double_cost/EVERY_TRADE_UTC.csv": {
+    "sha256": "89880c34c7d3990397791febdec799e370d3970358071c7c5fc0a478e6796985",
+    "bytes": 122774
+  },
+  "results/ETHUSDT/STRESS_double_cost/INDEPENDENT_AUDIT.json": {
+    "sha256": "42ba9f9dfe9f27fdfef5c27b2f175c6eb7703a6ad71cc7e0f20ef192a24c754b",
+    "bytes": 498
+  },
+  "results/ETHUSDT/STRESS_double_cost/METRICS.json": {
+    "sha256": "d2866434c5bc5db9dcc6e362ad621c5b7a5519c84a06dfa47a771b1b97c622a7",
+    "bytes": 1202
+  },
+  "results/ETHUSDT/STRESS_double_cost/MONTHLY_RETURNS.csv": {
+    "sha256": "d3b2c924788b4599e20f7a6b54b0ce97d65a90b5fcbc6184215110c2232fbc67",
+    "bytes": 4434
+  },
+  "results/ETHUSDT/STRESS_double_cost/PARAMETERS.json": {
+    "sha256": "e0fe000d10e150ab46fd143e48c53a0b6665e95f282eba40a8888ddb54dab425",
+    "bytes": 2160
+  },
+  "results/ETHUSDT/STRESS_double_cost/ROLLING_365D.csv": {
+    "sha256": "6a0f8a652c2899dd8425deb5a02a2a911a1e6b8511462eedfacef743b28f40e7",
+    "bytes": 68496
+  },
+  "results/ETHUSDT/STRESS_double_cost/WEEKLY_RETURNS.csv": {
+    "sha256": "64db5b591639021b19231575fce927d192a5b6d8f52d3c49cd007b7cfd22af22",
+    "bytes": 10627
+  },
+  "results/ETHUSDT/STRESS_hold24h/ANNUAL_RETURNS.json": {
+    "sha256": "5f1d2f237b2f712b2dd64fb47da155ab13dcfd44183d67f10c469ac411b5d39a",
+    "bytes": 272
+  },
+  "results/ETHUSDT/STRESS_hold24h/DAILY_EQUITY.csv": {
+    "sha256": "defaf477704c46da4b00f83475cec37894b8523f1248f623d4dd8c72d6ede229",
+    "bytes": 81418
+  },
+  "results/ETHUSDT/STRESS_hold24h/EVERY_TRADE_UTC.csv": {
+    "sha256": "d0ad6b54fb389a5040067df7e01f29dedd2712fd8db8ab0de26293599f3b35f0",
+    "bytes": 125571
+  },
+  "results/ETHUSDT/STRESS_hold24h/INDEPENDENT_AUDIT.json": {
+    "sha256": "b6269efdaea82ccb05a5bdbc114cfdd80fe7558d9549838c8eaceed5b62e1eb4",
+    "bytes": 512
+  },
+  "results/ETHUSDT/STRESS_hold24h/METRICS.json": {
+    "sha256": "823f9bee48a4e0be7ab6e5dee546468646b6b897041235f8b31e348714dfb966",
+    "bytes": 1211
+  },
+  "results/ETHUSDT/STRESS_hold24h/MONTHLY_RETURNS.csv": {
+    "sha256": "6d16b3be5c63c9faaca8641cf3fd37eec55e02daef29608e67fd30fd03f32fa8",
+    "bytes": 4433
+  },
+  "results/ETHUSDT/STRESS_hold24h/PARAMETERS.json": {
+    "sha256": "6264bfb022dc28a64abfe012d0f4a0307a83f0ce7990227003fc0aa492ebb5c9",
+    "bytes": 2163
+  },
+  "results/ETHUSDT/STRESS_hold24h/ROLLING_365D.csv": {
+    "sha256": "e89f2e26eebea378e86ce6d88ed04eb4cf8aed491c84c52c1d3fa0461542a29e",
+    "bytes": 68491
+  },
+  "results/ETHUSDT/STRESS_hold24h/WEEKLY_RETURNS.csv": {
+    "sha256": "0acaeea6e541097c40cde10681bc1a532b39a05794b42c3f1d05f636db938e94",
+    "bytes": 10554
+  },
+  "results/ETHUSDT/STRESS_hold48h/ANNUAL_RETURNS.json": {
+    "sha256": "66addee291075032cc951e9d569c282fcd5ede3f0afdd7a40e024e2dec350658",
+    "bytes": 271
+  },
+  "results/ETHUSDT/STRESS_hold48h/DAILY_EQUITY.csv": {
+    "sha256": "0a37c3059b7cd32e606ed2974cf9570812b582c3670700115c8ea4aad62b7ca1",
+    "bytes": 81318
+  },
+  "results/ETHUSDT/STRESS_hold48h/EVERY_TRADE_UTC.csv": {
+    "sha256": "8c18c72dd8dc3fd725eeda5ef14e1c42092704902997124aa1a619de91730453",
+    "bytes": 124090
+  },
+  "results/ETHUSDT/STRESS_hold48h/INDEPENDENT_AUDIT.json": {
+    "sha256": "55c19c28ebb086b961b3786cd826220c65ea27f8933e5d07bc4300d432639d13",
+    "bytes": 498
+  },
+  "results/ETHUSDT/STRESS_hold48h/METRICS.json": {
+    "sha256": "a9fc2b71feb97ca90f4bdb71b063afedd6167a45b27ccc90feb064f0a62f07fe",
+    "bytes": 1195
+  },
+  "results/ETHUSDT/STRESS_hold48h/MONTHLY_RETURNS.csv": {
+    "sha256": "e845133c78161edf0b007ebd535e6928dab3254c66cc9d64aeb693bc8f7b835f",
+    "bytes": 4435
+  },
+  "results/ETHUSDT/STRESS_hold48h/PARAMETERS.json": {
+    "sha256": "a15fb2092167c91076bee76f0c832e5cd9c1fd246a3e6629dba41d6b9b555a2a",
+    "bytes": 2163
+  },
+  "results/ETHUSDT/STRESS_hold48h/ROLLING_365D.csv": {
+    "sha256": "6faf8df61bc5cbde184de7cc3f71a829a39e1f8344d3515cce5a8488b53f9b74",
+    "bytes": 68587
+  },
+  "results/ETHUSDT/STRESS_hold48h/WEEKLY_RETURNS.csv": {
+    "sha256": "57f7432b5fa03c3a67202a35a48ad7a6c5371934f3c261189e105d7177d97596",
+    "bytes": 10554
+  },
+  "results/ETHUSDT/STRESS_initial100k/ANNUAL_RETURNS.json": {
+    "sha256": "716e0fcd3a376d66eb0ecd990b2dfa7cbc2c4fa903cb297b22c5cce7547bbbc8",
+    "bytes": 270
+  },
+  "results/ETHUSDT/STRESS_initial100k/DAILY_EQUITY.csv": {
+    "sha256": "a1ce929b8178720959e6034cf0dfd504741b702025feb0031bd47e43e0d2663b",
+    "bytes": 81631
+  },
+  "results/ETHUSDT/STRESS_initial100k/EVERY_TRADE_UTC.csv": {
+    "sha256": "5991eb716cda3c5b9af3a05464b22ebae1bd395a2e05e0e23711ba9324488d0a",
+    "bytes": 123482
+  },
+  "results/ETHUSDT/STRESS_initial100k/INDEPENDENT_AUDIT.json": {
+    "sha256": "f2e4c76055f12068cca461cccfa01e7499b8574b4bf6ceb91c299f64d398db9d",
+    "bytes": 491
+  },
+  "results/ETHUSDT/STRESS_initial100k/METRICS.json": {
+    "sha256": "c5f263f0debb30dfa31cb15cc99da514d19e507a17bc0b6cfb87cd2f0d87e6b8",
+    "bytes": 1192
+  },
+  "results/ETHUSDT/STRESS_initial100k/MONTHLY_RETURNS.csv": {
+    "sha256": "a048d3016c960a3c9de3abc11e3ee9ba91b6f267418aa99f999c177a8a12d1d7",
+    "bytes": 4427
+  },
+  "results/ETHUSDT/STRESS_initial100k/PARAMETERS.json": {
+    "sha256": "42098ae8758e7774908808f1c01d8dcce1fbedc9e86251cee119a2dd1c25cc6f",
+    "bytes": 2162
+  },
+  "results/ETHUSDT/STRESS_initial100k/ROLLING_365D.csv": {
+    "sha256": "a712f583462587b43bfe6f4cf6495641e1a723aa1712b46763990968b664f6f2",
+    "bytes": 68842
+  },
+  "results/ETHUSDT/STRESS_initial100k/WEEKLY_RETURNS.csv": {
+    "sha256": "b53c497c15acaf3aa2394e5bc2f4de66e7bf643c5d5a8d9d2f5dfd2de356f4f3",
+    "bytes": 10636
+  },
+  "results/ETHUSDT/STRESS_risk1pct/ANNUAL_RETURNS.json": {
+    "sha256": "75b2f0f5ae244af80c297399755f294b8e91dac42dadbe85eb7a5d97b3d4b0d0",
+    "bytes": 271
+  },
+  "results/ETHUSDT/STRESS_risk1pct/DAILY_EQUITY.csv": {
+    "sha256": "5bd0b26cf5df09a6beacb8d469d367a1147e203191a974b13a3fd8d5054a4512",
+    "bytes": 81273
+  },
+  "results/ETHUSDT/STRESS_risk1pct/EVERY_TRADE_UTC.csv": {
+    "sha256": "b74bbd86739fee3c0a8978590b07ff9ab9633f16bf20e59f072ba1dca1b5a42e",
+    "bytes": 122577
+  },
+  "results/ETHUSDT/STRESS_risk1pct/INDEPENDENT_AUDIT.json": {
+    "sha256": "e1176ab77dd6f343cf14ebbca66360a6dfdaf6d9cf479b55b53268fe8567b20e",
+    "bytes": 498
+  },
+  "results/ETHUSDT/STRESS_risk1pct/METRICS.json": {
+    "sha256": "4591f354171976c6c1e130775603542205fa60ca2bcde519a611e4f90f590c9d",
+    "bytes": 1190
+  },
+  "results/ETHUSDT/STRESS_risk1pct/MONTHLY_RETURNS.csv": {
+    "sha256": "c828a618ef96c8b8331b198e39d9b7b58881a8a048db96c78acf1a2b317cdf31",
+    "bytes": 4412
+  },
+  "results/ETHUSDT/STRESS_risk1pct/PARAMETERS.json": {
+    "sha256": "a567fd09c1e6d8d1cfa506be565f251e2ef92bf84323e359f00d8054790287d7",
+    "bytes": 2162
+  },
+  "results/ETHUSDT/STRESS_risk1pct/ROLLING_365D.csv": {
+    "sha256": "f58d145ccf9b64a51fa278973bd98775ebdaa3a97c493f29459693ae2e4c2001",
+    "bytes": 68086
+  },
+  "results/ETHUSDT/STRESS_risk1pct/WEEKLY_RETURNS.csv": {
+    "sha256": "2ec8b37e4a0a32ac2f222c3b65520ae0e270666dbeddbb19f1968d98c0f2a96e",
+    "bytes": 10593
+  },
+  "results/ETHUSDT/STRESS_risk4pct/ANNUAL_RETURNS.json": {
+    "sha256": "27f55f7848dc6b9c77a426b9214130a1459d0bcaa5702917f307195709b22acd",
+    "bytes": 263
+  },
+  "results/ETHUSDT/STRESS_risk4pct/DAILY_EQUITY.csv": {
+    "sha256": "d9483a4a423fe4d69356bb05d2e04591c581f7f339a3a8d3aa50e3d3c503d4e2",
+    "bytes": 81047
+  },
+  "results/ETHUSDT/STRESS_risk4pct/EVERY_TRADE_UTC.csv": {
+    "sha256": "d807cf844cce79ac914cff93d2b365ff6f4630a13eb577823324fcdd863e9547",
+    "bytes": 121030
+  },
+  "results/ETHUSDT/STRESS_risk4pct/INDEPENDENT_AUDIT.json": {
+    "sha256": "6fab3ae773f902d4f8ec6cb1fbf00f175843c6793116078d4a8ac09324825d57",
+    "bytes": 493
+  },
+  "results/ETHUSDT/STRESS_risk4pct/METRICS.json": {
+    "sha256": "70523d6e5fe999e9a362692fb97d1d93c6348e7512c5817dad9d221930ef1789",
+    "bytes": 1183
+  },
+  "results/ETHUSDT/STRESS_risk4pct/MONTHLY_RETURNS.csv": {
+    "sha256": "126ed01d9c5bc60dad6f200995dea81e4bd74ffcf272be7edfef7e17112089a6",
+    "bytes": 4381
+  },
+  "results/ETHUSDT/STRESS_risk4pct/PARAMETERS.json": {
+    "sha256": "f6a0e90ee40ff536cb71cfdae320d1909d4d0815f6db0765f48a8664de0c07c0",
+    "bytes": 2162
+  },
+  "results/ETHUSDT/STRESS_risk4pct/ROLLING_365D.csv": {
+    "sha256": "6d527109212646639841685670951da3bddc64f1fe76165ef8f40ffb603d1bb8",
+    "bytes": 67371
+  },
+  "results/ETHUSDT/STRESS_risk4pct/WEEKLY_RETURNS.csv": {
+    "sha256": "843f3a0d47430709b29d12da9b36edd0742eb9e2659e09e44ff42ecee8ddd01d",
+    "bytes": 10523
+  },
+  "results/ETHUSDT/STRESS_zero_cost/ANNUAL_RETURNS.json": {
+    "sha256": "76bf247d72c3dea490c4a0a38488edb41528f7efbca3cc78a6b7eb13709fc103",
+    "bytes": 268
+  },
+  "results/ETHUSDT/STRESS_zero_cost/DAILY_EQUITY.csv": {
+    "sha256": "1c902408fba8a2ead4a92f0f4fa704a3c52c3f18b67e8542fd49fff411e04c11",
+    "bytes": 81567
+  },
+  "results/ETHUSDT/STRESS_zero_cost/EVERY_TRADE_UTC.csv": {
+    "sha256": "c6fdc35e45396b75333b7212f2498c0bc759c34e26b1945e8b0002dcf9f9d20e",
+    "bytes": 115738
+  },
+  "results/ETHUSDT/STRESS_zero_cost/INDEPENDENT_AUDIT.json": {
+    "sha256": "3fe07fbca76deeb97d9234dc472f089be58310eef0c04c941ad3408d52edfd14",
+    "bytes": 483
+  },
+  "results/ETHUSDT/STRESS_zero_cost/METRICS.json": {
+    "sha256": "839029d5dbd326459ebdf81f40eab167e4b481608b2a8819c60ee8539cbc353e",
+    "bytes": 1178
+  },
+  "results/ETHUSDT/STRESS_zero_cost/MONTHLY_RETURNS.csv": {
+    "sha256": "e3f4c572ee160a6d231ba31d6b19d08ac362893cbbe758c5afa5cde2b180c1ce",
+    "bytes": 4428
+  },
+  "results/ETHUSDT/STRESS_zero_cost/PARAMETERS.json": {
+    "sha256": "deb72990879af14d39f5c0cc114f181ca06dfb90dfc9f4f0253fd020a0e3acac",
+    "bytes": 2159
+  },
+  "results/ETHUSDT/STRESS_zero_cost/ROLLING_365D.csv": {
+    "sha256": "3c320313880b47682daf1ae9bf8d51a02b6f8e4e76e41a12b129aa5b4041cc5c",
+    "bytes": 68701
+  },
+  "results/ETHUSDT/STRESS_zero_cost/WEEKLY_RETURNS.csv": {
+    "sha256": "1a70608dda1d9d23c9a5d5f3614dec20c91bab0279244bb2be73bcac769b616b",
+    "bytes": 10637
+  },
+  "results/ETHUSDT/SUMMARY.json": {
+    "sha256": "ea5b08fa986e943d4f741c6999e72c156b6f0d98b9879cd8c626d433cf220567",
+    "bytes": 16523
+  },
+  "results/ETHUSDT/VALIDATION.json": {
+    "sha256": "ab0cf545a8e42fd7868f593b2d8b7b8e6efd8d60bcc83559a021b200b07cc1b4",
+    "bytes": 179741
+  },
+  "sensitivity.py": {
+    "sha256": "b11437e01c6deb3f95e7b4dae1732c53681893dcc90edf6388ceed99a07834f6",
+    "bytes": 2123
+  },
+  "tests/test_v8.py": {
+    "sha256": "8a085bbfd64062106ec2ba71d552f02c85c3e9819a6896d45ee040e33f15d712",
+    "bytes": 6236
+  }
+}

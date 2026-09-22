@@ -1,0 +1,13 @@
+{
+  "case_audits": 100,
+  "all_passed": true,
+  "trade_rows_across_separate_accounts": 34154,
+  "max_reconstructed_daily_equity_error": 3.4924596548080444e-10,
+  "model_artifacts": 42,
+  "all_model_labels_mature": true,
+  "max_traded_hold_hours": 72.0,
+  "all_initial_target_R5": true,
+  "source_platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "reference_comparison_requested": true,
+  "live_orders_submitted": false
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "trades": 195,
+  "minute_rows": 2520000,
+  "days": 1750,
+  "ledger_cash_reconstructed": true,
+  "max_daily_equity_error": 4.729372449219227e-11,
+  "all_hold_hours_le72": true,
+  "all_initial_targets_5R": true,
+  "trades_carried_overnight": 73,
+  "max_hold_hours": 72.0,
+  "median_hold_hours": 2.3666666666666667,
+  "position_missing_mark_minutes": 0,
+  "gross_price_pnl": 15903.841400000081,
+  "fees": 14898.162121200001,
+  "funding": 539.4920035284382,
+  "net_pnl": 466.18727527164265
+}

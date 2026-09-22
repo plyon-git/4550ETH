@@ -1,0 +1,326 @@
+[
+  {
+    "family": "reject",
+    "horizon": "daily",
+    "multiplier": 0.75,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "daily",
+    "multiplier": 0.75,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "daily",
+    "multiplier": 1.5,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "daily",
+    "multiplier": 1.5,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "weekly",
+    "multiplier": 0.75,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "weekly",
+    "multiplier": 0.75,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "weekly",
+    "multiplier": 1.5,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "weekly",
+    "multiplier": 1.5,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "confluence",
+    "multiplier": 0.75,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "confluence",
+    "multiplier": 0.75,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "confluence",
+    "multiplier": 1.5,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "reject",
+    "horizon": "confluence",
+    "multiplier": 1.5,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "daily",
+    "multiplier": 0.75,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "daily",
+    "multiplier": 0.75,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "daily",
+    "multiplier": 1.5,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "daily",
+    "multiplier": 1.5,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "weekly",
+    "multiplier": 0.75,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "weekly",
+    "multiplier": 0.75,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "weekly",
+    "multiplier": 1.5,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "weekly",
+    "multiplier": 1.5,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "confluence",
+    "multiplier": 0.75,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "confluence",
+    "multiplier": 0.75,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "confluence",
+    "multiplier": 1.5,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "break",
+    "horizon": "confluence",
+    "multiplier": 1.5,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "daily",
+    "multiplier": 0.75,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "daily",
+    "multiplier": 0.75,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "daily",
+    "multiplier": 1.5,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "daily",
+    "multiplier": 1.5,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "weekly",
+    "multiplier": 0.75,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "weekly",
+    "multiplier": 0.75,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "weekly",
+    "multiplier": 1.5,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "weekly",
+    "multiplier": 1.5,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "confluence",
+    "multiplier": 0.75,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "confluence",
+    "multiplier": 0.75,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "confluence",
+    "multiplier": 1.5,
+    "timeframe": 15,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  },
+  {
+    "family": "retest",
+    "horizon": "confluence",
+    "multiplier": 1.5,
+    "timeframe": 60,
+    "buffer": 0.1,
+    "regime": "all",
+    "scale": "latest"
+  }
+]

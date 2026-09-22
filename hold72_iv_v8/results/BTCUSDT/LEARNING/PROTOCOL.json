@@ -1,0 +1,20 @@
+{
+  "created": "2026-09-22 21:32:37.204516+00:00",
+  "predeclared_primary_threshold": 0.25,
+  "primary_risk": 0.01,
+  "threshold_diagnostics": [
+    0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "risks": [
+    0.01,
+    0.02,
+    0.04
+  ],
+  "refit_weeks": 13,
+  "label_horizon_hours": 72,
+  "post_fixed_policy_extension": true,
+  "notes": "Not globally untouched. All parameters fixed for this extension before its full replay; no in-test threshold selection. 36 overlapping candidate policies pooled; sample count is not independent observations."
+}

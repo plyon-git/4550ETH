@@ -1,0 +1,38 @@
+{
+  "source_file_sha256": "2f6fc1e9ccb749e3e17793796d72ebd6c12a9c2f7d51e9c7e259cda8f97002a3",
+  "iv": {
+    "rows": 1987,
+    "csv_sha256": "d55d308002a9cc9035d4122cdae40dba0d0d1427fec300c3926c8838a7c83837",
+    "source_receipts": [
+      {
+        "url": "https://www.deribit.com/api/v2/public/get_volatility_index_data?currency=BTC&start_timestamp=1609459200000&end_timestamp=1788220800000&resolution=1D",
+        "currency": "BTC",
+        "resolution": "1D",
+        "page": 0,
+        "downloaded_at_utc": "2026-09-22T17:33:09.733990+00:00",
+        "sha256": "6fd073055106988c8f413a6a9cccd3f5fdd6cb97ef56f4f2fce9b3bfa7dcbd10",
+        "bytes": 39774,
+        "success": true,
+        "rows": 1000,
+        "continuation": 1701820800000
+      },
+      {
+        "url": "https://www.deribit.com/api/v2/public/get_volatility_index_data?currency=BTC&start_timestamp=1609459200000&end_timestamp=1701820800000&resolution=1D",
+        "currency": "BTC",
+        "resolution": "1D",
+        "page": 1,
+        "downloaded_at_utc": "2026-09-22T17:33:10.210999+00:00",
+        "sha256": "d0098963123515e61a9b9ab6c18e91448fa053945135c1266107847e1241e3f9",
+        "bytes": 39487,
+        "success": true,
+        "rows": 988,
+        "continuation": null
+      }
+    ],
+    "first_candle_utc": "2021-03-24 00:00:00+00:00",
+    "last_candle_utc": "2026-08-31 00:00:00+00:00",
+    "index_tenor": "30-day forward annualized DVOL, observed daily; not a 1D-tenor option chain"
+  },
+  "missing_mark_count": 55,
+  "missing_mark_model": "Prior observed close plus previously sourced 15-minute bounds; otherwise explicitly hypothetical +/-5% mark envelope. Not exact historical liquidation prices."
+}

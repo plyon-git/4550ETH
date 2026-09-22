@@ -1,0 +1,170 @@
+[
+  {
+    "cutoff": "2021-09-01 00:00:00+00:00",
+    "end": "2021-12-01 00:00:00+00:00",
+    "model_file": "20210901.json",
+    "sha256": "e0e1c8d29bae229ce895f1cd50f802402a85fc9c74e8ab736e3e80a65c4e7390",
+    "max_label_maturity": 1630335660000,
+    "samples": 3126
+  },
+  {
+    "cutoff": "2021-12-01 00:00:00+00:00",
+    "end": "2022-03-02 00:00:00+00:00",
+    "model_file": "20211201.json",
+    "sha256": "b3752166c87cdd29d2035dc92686e20abffb792568f4e156dda5921989e4c79d",
+    "max_label_maturity": 1638176460000,
+    "samples": 4193
+  },
+  {
+    "cutoff": "2022-03-02 00:00:00+00:00",
+    "end": "2022-06-01 00:00:00+00:00",
+    "model_file": "20220302.json",
+    "sha256": "1c25ee992fb260d79ca564aa64cfd9a3ebdb097efdf410ff651879c89afb4105",
+    "max_label_maturity": 1646092860000,
+    "samples": 5865
+  },
+  {
+    "cutoff": "2022-06-01 00:00:00+00:00",
+    "end": "2022-08-31 00:00:00+00:00",
+    "model_file": "20220601.json",
+    "sha256": "b92d6b5d9394aa0111219b756a9289f025808b9b543cca33d2e1b9f8b5f5bb88",
+    "max_label_maturity": 1654040760000,
+    "samples": 7416
+  },
+  {
+    "cutoff": "2022-08-31 00:00:00+00:00",
+    "end": "2022-11-30 00:00:00+00:00",
+    "model_file": "20220831.json",
+    "sha256": "9df22c129d348ef51a43724e76d84f33bf3c23f6ce8c574c92bd0de73efbf9c7",
+    "max_label_maturity": 1661814060000,
+    "samples": 8790
+  },
+  {
+    "cutoff": "2022-11-30 00:00:00+00:00",
+    "end": "2023-03-01 00:00:00+00:00",
+    "model_file": "20221130.json",
+    "sha256": "2557896008af2ed3ffe674643d08cf9aa67986c7d4722f530f2793a759d23616",
+    "max_label_maturity": 1669507260000,
+    "samples": 9638
+  },
+  {
+    "cutoff": "2023-03-01 00:00:00+00:00",
+    "end": "2023-05-31 00:00:00+00:00",
+    "model_file": "20230301.json",
+    "sha256": "1816e19c2feb648c482654f02076f69f38a41a558660fa00171ec665c2de32cb",
+    "max_label_maturity": 1677625260000,
+    "samples": 10412
+  },
+  {
+    "cutoff": "2023-05-31 00:00:00+00:00",
+    "end": "2023-08-30 00:00:00+00:00",
+    "model_file": "20230531.json",
+    "sha256": "13605794b7c8ebe2c3f2bab46032153afddc4a46ff30c328662ade071365a3f4",
+    "max_label_maturity": 1685203260000,
+    "samples": 9919
+  },
+  {
+    "cutoff": "2023-08-30 00:00:00+00:00",
+    "end": "2023-11-29 00:00:00+00:00",
+    "model_file": "20230830.json",
+    "sha256": "1aad123b570d08a7a3f975a1a3c6635b0aa1caf72b855f7aa40c8f819e25bc7b",
+    "max_label_maturity": 1693180860000,
+    "samples": 9320
+  },
+  {
+    "cutoff": "2023-11-29 00:00:00+00:00",
+    "end": "2024-02-28 00:00:00+00:00",
+    "model_file": "20231129.json",
+    "sha256": "ad2b7c96f8a4e28fe31423df4367ae9a55bbf0f8a1bbc3239ee9b63b4a0d7eb0",
+    "max_label_maturity": 1701107160000,
+    "samples": 9417
+  },
+  {
+    "cutoff": "2024-02-28 00:00:00+00:00",
+    "end": "2024-05-29 00:00:00+00:00",
+    "model_file": "20240228.json",
+    "sha256": "23930472847f9c916b4a81c60e251dc4fbab97e2b046dc88b07e4c1303cdecda",
+    "max_label_maturity": 1709077560000,
+    "samples": 9274
+  },
+  {
+    "cutoff": "2024-05-29 00:00:00+00:00",
+    "end": "2024-08-28 00:00:00+00:00",
+    "model_file": "20240529.json",
+    "sha256": "4cb84f3aa6144e697132d241cf0caec3dfa0aa07e00b41e25c8c30709dbc94a3",
+    "max_label_maturity": 1716832860000,
+    "samples": 9431
+  },
+  {
+    "cutoff": "2024-08-28 00:00:00+00:00",
+    "end": "2024-11-27 00:00:00+00:00",
+    "model_file": "20240828.json",
+    "sha256": "46fa1f650ab7bc4e005b4fb69c914ba51f939480acaf696b134d3b2730a5edbe",
+    "max_label_maturity": 1724792460000,
+    "samples": 9750
+  },
+  {
+    "cutoff": "2024-11-27 00:00:00+00:00",
+    "end": "2025-02-26 00:00:00+00:00",
+    "model_file": "20241127.json",
+    "sha256": "54d8fc2bca6a3218b40c8d77887539e9ca4454dd2f85717d88943a1b335952da",
+    "max_label_maturity": 1732662060000,
+    "samples": 10546
+  },
+  {
+    "cutoff": "2025-02-26 00:00:00+00:00",
+    "end": "2025-05-28 00:00:00+00:00",
+    "model_file": "20250226.json",
+    "sha256": "ea00eb2267509123e74ad18ed0f7fd2aa0d2873c020513fb0d98700bdb39990b",
+    "max_label_maturity": 1740495660000,
+    "samples": 11493
+  },
+  {
+    "cutoff": "2025-05-28 00:00:00+00:00",
+    "end": "2025-08-27 00:00:00+00:00",
+    "model_file": "20250528.json",
+    "sha256": "49b21fc363bfd0eb1b1fd4e73eac7f9012e9fe0633eaff763dcf029e21f7f959",
+    "max_label_maturity": 1748304060000,
+    "samples": 12074
+  },
+  {
+    "cutoff": "2025-08-27 00:00:00+00:00",
+    "end": "2025-11-26 00:00:00+00:00",
+    "model_file": "20250827.json",
+    "sha256": "9be1bbac77f911739ef470a55a79fc8200803340b144b16e6dd70bffc7d3d168",
+    "max_label_maturity": 1756213260000,
+    "samples": 12727
+  },
+  {
+    "cutoff": "2025-11-26 00:00:00+00:00",
+    "end": "2026-02-25 00:00:00+00:00",
+    "model_file": "20251126.json",
+    "sha256": "6d764ebdc3de5e5bac642dca8ecb9e9dd421b845a8e24f7a969720254ef5238a",
+    "max_label_maturity": 1764028860000,
+    "samples": 13267
+  },
+  {
+    "cutoff": "2026-02-25 00:00:00+00:00",
+    "end": "2026-05-27 00:00:00+00:00",
+    "model_file": "20260225.json",
+    "sha256": "4b0582799c1a152819759a5de434c8fdf54fdaa53617bb3e8480e573f003cd8d",
+    "max_label_maturity": 1771711260000,
+    "samples": 13080
+  },
+  {
+    "cutoff": "2026-05-27 00:00:00+00:00",
+    "end": "2026-08-26 00:00:00+00:00",
+    "model_file": "20260527.json",
+    "sha256": "4d5952d6e8ca0996f64e917c838fc112f5abe1a553401b5272ef9e26b5dd3b6b",
+    "max_label_maturity": 1779835560000,
+    "samples": 12494
+  },
+  {
+    "cutoff": "2026-08-26 00:00:00+00:00",
+    "end": "2026-09-01 00:00:00+00:00",
+    "model_file": "20260826.json",
+    "sha256": "8fd4bf52bb8eed4184ac9b97e53c1f3bcaa063617caa1c0c2ced92d468127105",
+    "max_label_maturity": 1787698860000,
+    "samples": 12101
+  }
+]
