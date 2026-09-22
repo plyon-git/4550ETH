@@ -1,0 +1,82 @@
+name: Publish exact 564.37 and 261.62 percent ETH records
+on:
+  push:
+    branches: [publish-eth-56437-26162]
+    paths:
+      - 'tools/publish_eth_pair.py'
+      - 'published_eth_records/reproduce.py'
+      - '.github/workflows/publish-eth-56437-26162.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: eth-pair-frozen-publication
+  cancel-in-progress: false
+jobs:
+  freeze-verify-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SOURCE_COMMIT: 2d070ea62f847b944f538fb4a6e9073b109b8549
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: publish-eth-56437-26162
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Materialize the exact source snapshot without altering old files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/eth-pair-source" "$RUNNER_TEMP/eth-pair-data"
+          git archive "$SOURCE_COMMIT" hold72_iv_v8 execution_v4/data_provenance/ETHUSDT OWNERSHIP.md | tar -x -C "$RUNNER_TEMP/eth-pair-source"
+          gh release download v4-research-20260922 --pattern ETHUSDT_aligned_repaired.npz --dir "$RUNNER_TEMP/eth-pair-data"
+          python tools/publish_eth_pair.py --source "$RUNNER_TEMP/eth-pair-source" --data "$RUNNER_TEMP/eth-pair-data/ETHUSDT_aligned_repaired.npz" --out published_eth_records
+      - name: Test the unchanged frozen strategy
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install -r published_eth_records/shared/frozen_v8/requirements.txt
+          mkdir -p published_eth_records/checks
+          python -m pytest -q published_eth_records/shared/frozen_v8/tests --junitxml=published_eth_records/checks/TESTS.xml | tee published_eth_records/checks/tests.txt
+      - name: Rebuild exact data from committed parts, retrain all folds, replay every trade
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u published_eth_records/reproduce.py --case both --verify-models --retrain --minute-equity | tee published_eth_records/checks/reproduction.txt
+      - name: Complete the verified archive with all raw data and both records
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/publish_eth_pair.py --out published_eth_records --finish --zip-out "$RUNNER_TEMP/ETH_56437_26162_Complete.zip" > "$RUNNER_TEMP/ETH_Records_Receipt.json"
+      - name: Commit every data part, source file, model and record directly to Git
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add published_eth_records
+          git diff --name-only --cached | python -c "import sys; p=sys.stdin.read().splitlines(); assert p and all(x.startswith('published_eth_records/') for x in p)"
+          git commit -m 'Publish Parrish Lyon frozen +564.37% and +261.62% ETH records, complete raw data, original source/models and independently reproduced trade ledgers'
+          git push origin HEAD:publish-eth-56437-26162
+      - name: Publish complete self-contained downloadable release
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf '%s\n' 'Parrish Lyon: exact +564.37% and +261.62% five-year ETH historical records.' 'Includes all market-input bytes, IV inputs, original source, 21 fitted model folds, all 723 trade rows, minute equity, parameters and numerical audit receipts.' '564.37% and 261.62% are cumulative, not annual. The lower commission assumption behind 564.37% is unverified for a live account.' 'This archives existing diagnostics without altering or arming live trading.' > "$RUNNER_TEMP/eth-records-notes.md"
+          gh release create eth-records-56437-26162-20260922 --target "$(git rev-parse HEAD)" --prerelease --title 'ETH 564.37% and 261.62% complete frozen records' --notes-file "$RUNNER_TEMP/eth-records-notes.md" "$RUNNER_TEMP/ETH_56437_26162_Complete.zip" "$RUNNER_TEMP/ETH_Records_Receipt.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eth-56437-26162-complete-publication
+          retention-days: 30
+          compression-level: 0
+          path: |
+            ${{ runner.temp }}/ETH_56437_26162_Complete.zip
+            ${{ runner.temp }}/ETH_Records_Receipt.json
+            published_eth_records/checks
