@@ -1,0 +1,5 @@
+# Minimal numerical packages imported by the preserved baseline and evidence publisher.
+# Recorded Linux / Python 3.13 reproduction versions, not a claim of newest releases.
+numpy==2.3.5
+pandas==2.2.3
+numba==0.65.1

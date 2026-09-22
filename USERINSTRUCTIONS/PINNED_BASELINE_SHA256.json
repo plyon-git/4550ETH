@@ -1,0 +1,9 @@
+{
+  "SAVED_DIAGNOSTIC.json": "bb2df4ffd6c388a17abc44d71581df39dcf0891ee05f1124220be95636218c47",
+  "PROTOCOL.json": "1a00df70d8e4656977691165eeea8a38a31d1651a5fdf5a640342c3ad180baed",
+  "reproduce_saved.py": "4ca50eac4be3eba66190882939a2cc2bc1f0b033fe77b8190dadea26948e2fc1",
+  "v3/__init__.py": "78751fcec20316c683178ee968efa3ca943c9891e522f6a0edc2e7ca92650098",
+  "v3/engine.py": "93495e625108d0e4e4bc9b422629d1167d29dd053609f5d79d9b9e0118112e9c",
+  "v3/signals.py": "2fdb3512b0eb1a75a03a09c74151a949dee29d3a8348cd88198f1e3906ab66f6",
+  "data/aligned_data.npz": "cdecadabcd6152bca34bf322c3e140924ec13b51fdfc88e42b8ab650984ed6aa"
+}
