@@ -3,75 +3,27 @@
     "spec": {
       "source": "iv1",
       "family": "fade",
-      "direction": "trend",
+      "direction": "prior_reversal",
       "width": 1.0,
       "stop_sigma": 1.0,
-      "target": "1R",
+      "target": "pivot",
       "risk": 0.02
     },
-    "id": "64f43c44e5193283",
+    "id": "e5d724807b6ed7cc",
     "metrics": {
-      "net_return": 0.12221800534718352,
-      "cagr": 0.072463730835292,
-      "max_drawdown_adverse_daily_path": 0.0326857999818323,
-      "trades": 48,
-      "wins": 29,
-      "win_rate": 0.6041666666666666,
-      "score": 0.020929853872474175,
+      "net_return": 0.11101378350963298,
+      "cagr": 0.06595453001789875,
+      "max_drawdown_adverse_daily_path": 0.03325200608862244,
+      "trades": 30,
+      "wins": 18,
+      "win_rate": 0.6,
+      "score": 0.013992660933529133,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
     }
   },
   "finalists": [
-    {
-      "spec": {
-        "source": "iv1",
-        "family": "fade",
-        "direction": "trend",
-        "width": 1.0,
-        "stop_sigma": 1.0,
-        "target": "1R",
-        "risk": 0.02
-      },
-      "id": "64f43c44e5193283",
-      "metrics": {
-        "net_return": 0.12221800534718352,
-        "cagr": 0.072463730835292,
-        "max_drawdown_adverse_daily_path": 0.0326857999818323,
-        "trades": 48,
-        "wins": 29,
-        "win_rate": 0.6041666666666666,
-        "score": 0.020929853872474175,
-        "fee_bps_per_side": 1.0,
-        "slippage_bps_per_side": 1.0,
-        "account_exposure_cap": 4.0
-      }
-    },
-    {
-      "spec": {
-        "source": "iv1",
-        "family": "fade",
-        "direction": "trend",
-        "width": 1.0,
-        "stop_sigma": 1.0,
-        "target": "pivot",
-        "risk": 0.02
-      },
-      "id": "9aae87b4033dc510",
-      "metrics": {
-        "net_return": 0.12064465354809384,
-        "cagr": 0.07155122461934238,
-        "max_drawdown_adverse_daily_path": 0.03267814573699235,
-        "trades": 48,
-        "wins": 29,
-        "win_rate": 0.6041666666666666,
-        "score": 0.020090122640936264,
-        "fee_bps_per_side": 1.0,
-        "slippage_bps_per_side": 1.0,
-        "account_exposure_cap": 4.0
-      }
-    },
     {
       "spec": {
         "source": "iv1",
@@ -86,11 +38,11 @@
       "metrics": {
         "net_return": 0.11101378350963298,
         "cagr": 0.06595453001789875,
-        "max_drawdown_adverse_daily_path": 0.030028884959104607,
+        "max_drawdown_adverse_daily_path": 0.03325200608862244,
         "trades": 30,
         "wins": 18,
         "win_rate": 0.6,
-        "score": 0.018827342627805888,
+        "score": 0.013992660933529133,
         "fee_bps_per_side": 1.0,
         "slippage_bps_per_side": 1.0,
         "account_exposure_cap": 4.0
@@ -110,11 +62,11 @@
       "metrics": {
         "net_return": 0.10998514476690402,
         "cagr": 0.06535564145229045,
-        "max_drawdown_adverse_daily_path": 0.030028884959104607,
+        "max_drawdown_adverse_daily_path": 0.03325200608862244,
         "trades": 30,
         "wins": 18,
         "win_rate": 0.6,
-        "score": 0.018265351614590128,
+        "score": 0.013430669920313373,
         "fee_bps_per_side": 1.0,
         "slippage_bps_per_side": 1.0,
         "account_exposure_cap": 4.0
@@ -128,17 +80,17 @@
         "width": 1.0,
         "stop_sigma": 1.0,
         "target": "1R",
-        "risk": 0.01
+        "risk": 0.02
       },
-      "id": "2c410f3d28aae56d",
+      "id": "64f43c44e5193283",
       "metrics": {
-        "net_return": 0.05981147712422774,
-        "cagr": 0.03587316880979796,
-        "max_drawdown_adverse_daily_path": 0.01630791400734155,
+        "net_return": 0.12221800534718352,
+        "cagr": 0.072463730835292,
+        "max_drawdown_adverse_daily_path": 0.04177979248008867,
         "trades": 48,
         "wins": 29,
         "win_rate": 0.6041666666666666,
-        "score": 0.01078284140309168,
+        "score": 0.007288865125089611,
         "fee_bps_per_side": 1.0,
         "slippage_bps_per_side": 1.0,
         "account_exposure_cap": 4.0
@@ -146,28 +98,76 @@
     },
     {
       "spec": {
-        "source": "iv5",
+        "source": "iv1",
+        "family": "fade",
+        "direction": "prior_reversal",
+        "width": 1.0,
+        "stop_sigma": 1.0,
+        "target": "pivot",
+        "risk": 0.01
+      },
+      "id": "132b1f1060ea2bd0",
+      "metrics": {
+        "net_return": 0.05449319925932161,
+        "cagr": 0.032716251928723405,
+        "max_drawdown_adverse_daily_path": 0.016670080600460047,
+        "trades": 30,
+        "wins": 18,
+        "win_rate": 0.6,
+        "score": 0.0071873479891123165,
+        "fee_bps_per_side": 1.0,
+        "slippage_bps_per_side": 1.0,
+        "account_exposure_cap": 4.0
+      }
+    },
+    {
+      "spec": {
+        "source": "iv1",
+        "family": "fade",
+        "direction": "prior_reversal",
+        "width": 1.0,
+        "stop_sigma": 1.0,
+        "target": "1R",
+        "risk": 0.01
+      },
+      "id": "4fada86dd3ff26d9",
+      "metrics": {
+        "net_return": 0.05402540489505592,
+        "cagr": 0.032438271051619116,
+        "max_drawdown_adverse_daily_path": 0.016670080600460047,
+        "trades": 30,
+        "wins": 18,
+        "win_rate": 0.6,
+        "score": 0.006918137258689928,
+        "fee_bps_per_side": 1.0,
+        "slippage_bps_per_side": 1.0,
+        "account_exposure_cap": 4.0
+      }
+    },
+    {
+      "spec": {
+        "source": "iv1",
         "family": "fade",
         "direction": "trend",
         "width": 1.0,
         "stop_sigma": 1.0,
-        "target": "1R",
+        "target": "pivot",
         "risk": 0.02
       },
-      "id": "7e61be4aa9e852b1",
+      "id": "9aae87b4033dc510",
       "metrics": {
-        "net_return": 0.10475592753346041,
-        "cagr": 0.06230773265690459,
-        "max_drawdown_adverse_daily_path": 0.033176302063282814,
-        "trades": 49,
-        "wins": 31,
-        "win_rate": 0.6326530612244898,
-        "score": 0.010679194847343011,
+        "net_return": 0.12064465354809384,
+        "cagr": 0.07155122461934238,
+        "max_drawdown_adverse_daily_path": 0.04178518325075331,
+        "trades": 48,
+        "wins": 29,
+        "win_rate": 0.6041666666666666,
+        "score": 0.00642956637029482,
         "fee_bps_per_side": 1.0,
         "slippage_bps_per_side": 1.0,
         "account_exposure_cap": 4.0
       }
     }
   ],
-  "frozen_at_utc": "2026-09-22T18:14:20.358653+00:00"
+  "frozen_at_utc": "2026-09-22T18:19:26.634272+00:00"
 }

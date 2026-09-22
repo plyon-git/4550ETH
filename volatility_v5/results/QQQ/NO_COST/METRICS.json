@@ -1,11 +1,11 @@
 {
   "net_return": -0.1070777428958486,
   "cagr": -0.02239911767219449,
-  "max_drawdown_adverse_daily_path": 0.13880086882273246,
+  "max_drawdown_adverse_daily_path": 0.14600109709877007,
   "trades": 168,
   "wins": 75,
   "win_rate": 0.44642857142857145,
-  "score": -0.23085509125450288,
+  "score": -0.2416554336685593,
   "fee_bps_per_side": 0,
   "slippage_bps_per_side": 0,
   "account_exposure_cap": 4,

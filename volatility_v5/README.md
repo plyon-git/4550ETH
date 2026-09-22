@@ -43,3 +43,7 @@ The separate V5 kernel is generated once by `bootstrap_engine.py` from the SHA-p
 `source/` contains all band calculations, chronological selection, numerical ML inference, simulation, audit and reporting code. `tests/` checks feature-prefix invariance, future perturbations, actual-IV timestamps, missing-IV rejection, signal/entry timing, stop-first ordering, numerical ML parity and period accounting. `results/*/META/models/` contains numerical trees, not executable pickles. Every trade and loss is retained.
 
 These are hypothetical historical results. Missing mark prices use explicit modeled values; historical liquidation tiers, queue position and depth remain incomplete. SPY/QQQ daily timing cannot prove intraday execution. Models are not automatically connected to the existing live runtime. Earlier and current research use an exposed calendar, so they are not globally untouched holdouts. See [docs/METHODOLOGY.md](docs/METHODOLOGY.md).
+
+## V5.1 daily-ETF excursion correction
+
+The secondary daily-equity drawdown model now records adverse excursions on profitable trades and includes modeled exit costs on stopped trades. SPY/QQQ development/validation selection and reports were rerun. Crypto evidence is byte-for-byte unchanged. The original release remains in Git history; the corrected release is v5.1-volatility-20260922. This is a method correction on already observed data, not a new holdout or proof of ES intraday fills.

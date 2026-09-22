@@ -48,7 +48,7 @@ def simulate(ohlc,sig,sigma,priorvol,days,a,b,width,stopmult,rr,pivot,fade,risk,
   if stopped:ex=stop*(1-side*slip)
   elif side*(cl-target)>=0:ex=target*(1-side*slip)
   else:ex=cl*(1-side*slip)
-  gross=side*qty*(ex-ent);cost=qty*(ent+ex)*fee;net=gross-cost;before=balance;balance+=net;excursion=qty*abs(ent-stop)+qty*ent*fee if stopped else max(0.,-net);dd=max(dd,1-(before-excursion)/highwater);highwater=max(highwater,balance)
+  gross=side*qty*(ex-ent);cost=qty*(ent+ex)*fee;net=gross-cost;before=balance;balance+=net;adverse_price=ex if stopped else (lo if side==1 else hi);loweq=min(balance,before-qty*ent*fee+side*qty*(adverse_price-ent));dd=max(dd,1-loweq/highwater);highwater=max(highwater,balance)
   ledger[n]=np.array([i,side,qty,ent,ex,stop,target,gross,cost,net,before,balance]);n+=1;equity[i-a]=balance
  return equity,ledger[:n],dd
 

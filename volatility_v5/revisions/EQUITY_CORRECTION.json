@@ -1,0 +1,21 @@
+{
+  "owner": "Parrish Lyon",
+  "correction": "Count adverse intraday excursions on profitable daily ETF trades and include actual modeled exit costs on stopped trades. Previous daily model understated excursion drawdown.",
+  "selection_impact": "Recompute development/validation rankings and all SPY/QQQ reporting. No new unseen holdout is created. The fixed-strategy profit formula is unchanged.",
+  "crypto_results_unchanged": true,
+  "scope": "Secondary daily ETF diagnostics only, not ES intraday execution. Drawdown is the modeled adverse excursion from prior equity high-water; exact tick drawdown remains unavailable.",
+  "prior_release": "v5-volatility-20260922",
+  "corrected_release": "v5.1-volatility-20260922",
+  "SPY": {
+    "primary_id": "e5d724807b6ed7cc",
+    "net_return": -0.07945591478858094,
+    "trades": 131,
+    "cagr": -0.01642364118577655
+  },
+  "QQQ": {
+    "primary_id": "e5d724807b6ed7cc",
+    "net_return": -0.17900609001655843,
+    "trades": 168,
+    "cagr": -0.03868439249195199
+  }
+}

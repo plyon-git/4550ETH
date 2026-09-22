@@ -1,6 +1,6 @@
 {
   "audited_cases": 127,
-  "trade_rows": 73052,
+  "trade_rows": 72981,
   "max_independent_crypto_equity_error": 2.6193447411060333e-10,
   "all_five_anniversary_returns_reconcile": true,
   "actual_daily_IV_continuous": true,
@@ -12,7 +12,7 @@
     "source/assemble.py": "a92c4112db078a003bd7f0c81c338fd774edc0978a9a070756203d42430fa262",
     "source/bands.py": "acc1cd58cc7f227170660d0e0d0c63bb259bf038cb7c5b0405e59a2c695bcf9e",
     "source/engine.py": "7df5ab28c88c4acd0378acf702ccbbf09090bf5bffa7844079e434099cd4f271",
-    "source/equity_research.py": "6d2a254197eda4a99a11b74801b0655a0e30ba7e2c9a33adc42a6011e7656a92",
+    "source/equity_research.py": "81e62899879c73fdd357129c2f6a564a667653eaea04483cde214671b0760179",
     "source/meta_filter.py": "02ed4ebee11e89df2f3164d1e15e4b777e18b96856017b5aa0bdf50f9fdca51e",
     "source/research.py": "0b61f7b6801610129921486c42c8ffe4bb5e24ea56b3c1164005341e1e042a40"
   }

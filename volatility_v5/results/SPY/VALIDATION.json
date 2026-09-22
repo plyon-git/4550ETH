@@ -13,11 +13,11 @@
     "metrics": {
       "net_return": 0.029420406588117398,
       "cagr": 0.017747925561335753,
-      "max_drawdown_adverse_daily_path": 0.008156068862240073,
+      "max_drawdown_adverse_daily_path": 0.010465900315427157,
       "trades": 48,
       "wins": 29,
       "win_rate": 0.6041666666666666,
-      "score": 0.005358166845956764,
+      "score": 0.001893419666176139,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -37,11 +37,11 @@
     "metrics": {
       "net_return": 0.05981147712422774,
       "cagr": 0.03587316880979796,
-      "max_drawdown_adverse_daily_path": 0.01630791400734155,
+      "max_drawdown_adverse_daily_path": 0.02091558143974359,
       "trades": 48,
       "wins": 29,
       "win_rate": 0.6041666666666666,
-      "score": 0.01078284140309168,
+      "score": 0.0038713402544886186,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -61,11 +61,11 @@
     "metrics": {
       "net_return": 0.12221800534718352,
       "cagr": 0.072463730835292,
-      "max_drawdown_adverse_daily_path": 0.0326857999818323,
+      "max_drawdown_adverse_daily_path": 0.04177979248008867,
       "trades": 48,
       "wins": 29,
       "win_rate": 0.6041666666666666,
-      "score": 0.020929853872474175,
+      "score": 0.007288865125089611,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -85,11 +85,11 @@
     "metrics": {
       "net_return": 0.02906159818711651,
       "cagr": 0.01753268473949854,
-      "max_drawdown_adverse_daily_path": 0.008158898443643148,
+      "max_drawdown_adverse_daily_path": 0.010469531245646091,
       "trades": 48,
       "wins": 29,
       "win_rate": 0.6041666666666666,
-      "score": 0.005142412747330478,
+      "score": 0.001676463544326063,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -109,11 +109,11 @@
     "metrics": {
       "net_return": 0.059075194782314266,
       "cagr": 0.035436485581993304,
-      "max_drawdown_adverse_daily_path": 0.016324646415587174,
+      "max_drawdown_adverse_daily_path": 0.020935394517172634,
       "trades": 48,
       "wins": 29,
       "win_rate": 0.6041666666666666,
-      "score": 0.010336093392866612,
+      "score": 0.0034199712404884217,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -133,11 +133,11 @@
     "metrics": {
       "net_return": 0.12064465354809384,
       "cagr": 0.07155122461934238,
-      "max_drawdown_adverse_daily_path": 0.03267814573699235,
+      "max_drawdown_adverse_daily_path": 0.04178518325075331,
       "trades": 48,
       "wins": 29,
       "win_rate": 0.6041666666666666,
-      "score": 0.020090122640936264,
+      "score": 0.00642956637029482,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -157,11 +157,11 @@
     "metrics": {
       "net_return": 0.026816212282966045,
       "cagr": 0.01618505900666567,
-      "max_drawdown_adverse_daily_path": 0.0075353427507296455,
+      "max_drawdown_adverse_daily_path": 0.008349101055706853,
       "trades": 30,
       "wins": 18,
       "win_rate": 0.6,
-      "score": 0.004752463135465349,
+      "score": 0.0035318256779995373,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -181,11 +181,11 @@
     "metrics": {
       "net_return": 0.05449319925932161,
       "cagr": 0.032716251928723405,
-      "max_drawdown_adverse_daily_path": 0.01504256399050563,
+      "max_drawdown_adverse_daily_path": 0.016670080600460047,
       "trades": 30,
       "wins": 18,
       "win_rate": 0.6,
-      "score": 0.00962862290404394,
+      "score": 0.0071873479891123165,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -205,11 +205,11 @@
     "metrics": {
       "net_return": 0.11101378350963298,
       "cagr": 0.06595453001789875,
-      "max_drawdown_adverse_daily_path": 0.030028884959104607,
+      "max_drawdown_adverse_daily_path": 0.03325200608862244,
       "trades": 30,
       "wins": 18,
       "win_rate": 0.6,
-      "score": 0.018827342627805888,
+      "score": 0.013992660933529133,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -229,11 +229,11 @@
     "metrics": {
       "net_return": 0.026585180253657636,
       "cagr": 0.01604633350211282,
-      "max_drawdown_adverse_daily_path": 0.0075353427507296455,
+      "max_drawdown_adverse_daily_path": 0.008349101055706853,
       "trades": 30,
       "wins": 18,
       "win_rate": 0.6,
-      "score": 0.004615937831034388,
+      "score": 0.0033953003735685758,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -253,11 +253,11 @@
     "metrics": {
       "net_return": 0.05402540489505592,
       "cagr": 0.032438271051619116,
-      "max_drawdown_adverse_daily_path": 0.01504256399050563,
+      "max_drawdown_adverse_daily_path": 0.016670080600460047,
       "trades": 30,
       "wins": 18,
       "win_rate": 0.6,
-      "score": 0.009359412173621552,
+      "score": 0.006918137258689928,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -277,11 +277,11 @@
     "metrics": {
       "net_return": 0.10998514476690402,
       "cagr": 0.06535564145229045,
-      "max_drawdown_adverse_daily_path": 0.030028884959104607,
+      "max_drawdown_adverse_daily_path": 0.03325200608862244,
       "trades": 30,
       "wins": 18,
       "win_rate": 0.6,
-      "score": 0.018265351614590128,
+      "score": 0.013430669920313373,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -301,11 +301,11 @@
     "metrics": {
       "net_return": 0.025501430139822867,
       "cagr": 0.01539542089202417,
-      "max_drawdown_adverse_daily_path": 0.008302028878539258,
+      "max_drawdown_adverse_daily_path": 0.009589454279911758,
       "trades": 49,
       "wins": 31,
       "win_rate": 0.6326530612244898,
-      "score": 0.00282507054395577,
+      "score": 0.0008939324418970208,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -325,11 +325,11 @@
     "metrics": {
       "net_return": 0.0516444761872239,
       "cagr": 0.03102268167794975,
-      "max_drawdown_adverse_daily_path": 0.016621367174081025,
+      "max_drawdown_adverse_daily_path": 0.019176407085177427,
       "trades": 49,
       "wins": 31,
       "win_rate": 0.6326530612244898,
-      "score": 0.005619153719344773,
+      "score": 0.0017865938527001704,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -349,11 +349,11 @@
     "metrics": {
       "net_return": 0.10475592753346041,
       "cagr": 0.06230773265690459,
-      "max_drawdown_adverse_daily_path": 0.033176302063282814,
+      "max_drawdown_adverse_daily_path": 0.038244763679456506,
       "trades": 49,
       "wins": 31,
       "win_rate": 0.6326530612244898,
-      "score": 0.010679194847343011,
+      "score": 0.0030765024230824736,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -373,11 +373,11 @@
     "metrics": {
       "net_return": 0.025212343389728442,
       "cagr": 0.015221746411201442,
-      "max_drawdown_adverse_daily_path": 0.008304359416586804,
+      "max_drawdown_adverse_daily_path": 0.009592146222855091,
       "trades": 49,
       "wins": 31,
       "win_rate": 0.6326530612244898,
-      "score": 0.00265051887855448,
+      "score": 0.0007188386691520492,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -397,11 +397,11 @@
     "metrics": {
       "net_return": 0.05083198766724606,
       "cagr": 0.03053932544678495,
-      "max_drawdown_adverse_daily_path": 0.016633791116299812,
+      "max_drawdown_adverse_daily_path": 0.019190740838297526,
       "trades": 49,
       "wins": 31,
       "win_rate": 0.6326530612244898,
-      "score": 0.005131595466207069,
+      "score": 0.001296170883210497,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -421,11 +421,11 @@
     "metrics": {
       "net_return": 0.10325404194051435,
       "cagr": 0.061431293390019626,
-      "max_drawdown_adverse_daily_path": 0.03316565993982734,
+      "max_drawdown_adverse_daily_path": 0.038241070442961544,
       "trades": 49,
       "wins": 31,
       "win_rate": 0.6326530612244898,
-      "score": 0.009869784193376183,
+      "score": 0.0022566684386748775,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -445,11 +445,11 @@
     "metrics": {
       "net_return": 0.008191073718798236,
       "cagr": 0.004961673870729211,
-      "max_drawdown_adverse_daily_path": 0.011623800965627984,
+      "max_drawdown_adverse_daily_path": 0.013581254401509923,
       "trades": 46,
       "wins": 25,
       "win_rate": 0.5434782608695652,
-      "score": -0.0124862961165884,
+      "score": -0.015422476270411309,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -469,11 +469,11 @@
     "metrics": {
       "net_return": 0.015934518392905384,
       "cagr": 0.009637642407809288,
-      "max_drawdown_adverse_daily_path": 0.023273852582202825,
+      "max_drawdown_adverse_daily_path": 0.0271626600748216,
       "trades": 46,
       "wins": 25,
       "win_rate": 0.5434782608695652,
-      "score": -0.025319282286709613,
+      "score": -0.031152493525637773,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -493,11 +493,11 @@
     "metrics": {
       "net_return": 0.031074145979014922,
       "cagr": 0.01873958425970157,
-      "max_drawdown_adverse_daily_path": 0.04626946877244209,
+      "max_drawdown_adverse_daily_path": 0.05391658686195411,
       "trades": 46,
       "wins": 25,
       "win_rate": 0.5434782608695652,
-      "score": -0.050838041677550225,
+      "score": -0.06230871881181825,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -517,11 +517,11 @@
     "metrics": {
       "net_return": 0.007831998644695748,
       "cagr": 0.004744500213078595,
-      "max_drawdown_adverse_daily_path": 0.011623800965627984,
+      "max_drawdown_adverse_daily_path": 0.013581254401509923,
       "trades": 46,
       "wins": 25,
       "win_rate": 0.5434782608695652,
-      "score": -0.01270242090268553,
+      "score": -0.01563860105650844,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -541,11 +541,11 @@
     "metrics": {
       "net_return": 0.01525629240236559,
       "cagr": 0.009228649207309925,
-      "max_drawdown_adverse_daily_path": 0.023273852582202825,
+      "max_drawdown_adverse_daily_path": 0.0271626600748216,
       "trades": 46,
       "wins": 25,
       "win_rate": 0.5434782608695652,
-      "score": -0.025724453454105227,
+      "score": -0.03155766469303339,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -565,11 +565,11 @@
     "metrics": {
       "net_return": 0.029904953067623863,
       "cagr": 0.018038546913886178,
-      "max_drawdown_adverse_daily_path": 0.04626946877244209,
+      "max_drawdown_adverse_daily_path": 0.05391658686195411,
       "trades": 46,
       "wins": 25,
       "win_rate": 0.5434782608695652,
-      "score": -0.051526420409400274,
+      "score": -0.0629970975436683,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -589,11 +589,11 @@
     "metrics": {
       "net_return": 0.0239766502959875,
       "cagr": 0.014479162561159553,
-      "max_drawdown_adverse_daily_path": 0.008838802338697826,
+      "max_drawdown_adverse_daily_path": 0.011362943184936691,
       "trades": 30,
       "wins": 16,
       "win_rate": 0.5333333333333333,
-      "score": 0.0011171369503135686,
+      "score": -0.0026690743190447286,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -613,11 +613,11 @@
     "metrics": {
       "net_return": 0.0486936501783799,
       "cagr": 0.029266507583541435,
-      "max_drawdown_adverse_daily_path": 0.017677604677395764,
+      "max_drawdown_adverse_daily_path": 0.022725886369873494,
       "trades": 30,
       "wins": 16,
       "win_rate": 0.5333333333333333,
-      "score": 0.0023300129817952833,
+      "score": -0.005242409556921311,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -637,11 +637,11 @@
     "metrics": {
       "net_return": 0.09890129812446768,
       "cagr": 0.058888554836197704,
-      "max_drawdown_adverse_daily_path": 0.035247056015142,
+      "max_drawdown_adverse_daily_path": 0.04515239660871562,
       "trades": 30,
       "wins": 16,
       "win_rate": 0.5333333333333333,
-      "score": 0.004349240832394005,
+      "score": -0.010508770057966424,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -661,11 +661,11 @@
     "metrics": {
       "net_return": 0.023744111210721952,
       "cagr": 0.014339379917985173,
-      "max_drawdown_adverse_daily_path": 0.008838802338697826,
+      "max_drawdown_adverse_daily_path": 0.011362943184936691,
       "trades": 30,
       "wins": 16,
       "win_rate": 0.5333333333333333,
-      "score": 0.0009793398625319565,
+      "score": -0.0028068714068263407,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -685,11 +685,11 @@
     "metrics": {
       "net_return": 0.04821944170315362,
       "cagr": 0.028984102861976613,
-      "max_drawdown_adverse_daily_path": 0.017677604677395764,
+      "max_drawdown_adverse_daily_path": 0.022725886369873494,
       "trades": 30,
       "wins": 16,
       "win_rate": 0.5333333333333333,
-      "score": 0.002055600602754861,
+      "score": -0.005516821935961733,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -709,11 +709,11 @@
     "metrics": {
       "net_return": 0.097912694181296,
       "cagr": 0.05831049129907484,
-      "max_drawdown_adverse_daily_path": 0.035247056015142,
+      "max_drawdown_adverse_daily_path": 0.04515239660871562,
       "trades": 30,
       "wins": 16,
       "win_rate": 0.5333333333333333,
-      "score": 0.0038031763964192014,
+      "score": -0.011054834493941228,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -733,11 +733,11 @@
     "metrics": {
       "net_return": 0.006845252409253932,
       "cagr": 0.004147545435656541,
-      "max_drawdown_adverse_daily_path": 0.012864059743106893,
+      "max_drawdown_adverse_daily_path": 0.015213241431709656,
       "trades": 46,
       "wins": 26,
       "win_rate": 0.5652173913043478,
-      "score": -0.01515712153709844,
+      "score": -0.018680894070002584,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -757,11 +757,11 @@
     "metrics": {
       "net_return": 0.013590041474456305,
       "cagr": 0.008223387023758688,
-      "max_drawdown_adverse_daily_path": 0.025737841238709036,
+      "max_drawdown_adverse_daily_path": 0.030311516101343305,
       "trades": 46,
       "wins": 26,
       "win_rate": 0.5652173913043478,
-      "score": -0.03041700265079459,
+      "score": -0.037277514944745994,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -781,83 +781,11 @@
     "metrics": {
       "net_return": 0.02608400024189028,
       "cagr": 0.015745352710462512,
-      "max_drawdown_adverse_daily_path": 0.05117274976964381,
+      "max_drawdown_adverse_daily_path": 0.06004894037265618,
       "trades": 46,
       "wins": 26,
       "win_rate": 0.5652173913043478,
-      "score": -0.06113644400890313,
-      "fee_bps_per_side": 1.0,
-      "slippage_bps_per_side": 1.0,
-      "account_exposure_cap": 4.0
-    }
-  },
-  {
-    "spec": {
-      "source": "iv5",
-      "family": "fade",
-      "direction": "long",
-      "width": 1.0,
-      "stop_sigma": 1.0,
-      "target": "1R",
-      "risk": 0.005
-    },
-    "id": "cd088dc5789a72f5",
-    "metrics": {
-      "net_return": 0.006577937761065522,
-      "cagr": 0.003985787702011745,
-      "max_drawdown_adverse_daily_path": 0.012866952101898699,
-      "trades": 46,
-      "wins": 26,
-      "win_rate": 0.5652173913043478,
-      "score": -0.01532256265879016,
-      "fee_bps_per_side": 1.0,
-      "slippage_bps_per_side": 1.0,
-      "account_exposure_cap": 4.0
-    }
-  },
-  {
-    "spec": {
-      "source": "iv5",
-      "family": "fade",
-      "direction": "long",
-      "width": 1.0,
-      "stop_sigma": 1.0,
-      "target": "1R",
-      "risk": 0.01
-    },
-    "id": "59cbb18072c9b39f",
-    "metrics": {
-      "net_return": 0.012969783021914427,
-      "cagr": 0.007849014289702305,
-      "max_drawdown_adverse_daily_path": 0.025708773526760487,
-      "trades": 46,
-      "wins": 26,
-      "win_rate": 0.5652173913043478,
-      "score": -0.030744789271228076,
-      "fee_bps_per_side": 1.0,
-      "slippage_bps_per_side": 1.0,
-      "account_exposure_cap": 4.0
-    }
-  },
-  {
-    "spec": {
-      "source": "iv5",
-      "family": "fade",
-      "direction": "long",
-      "width": 1.0,
-      "stop_sigma": 1.0,
-      "target": "1R",
-      "risk": 0.02
-    },
-    "id": "398d7cf2347a699d",
-    "metrics": {
-      "net_return": 0.02492317951397327,
-      "cagr": 0.015048006326802588,
-      "max_drawdown_adverse_daily_path": 0.0511238826558672,
-      "trades": 46,
-      "wins": 26,
-      "win_rate": 0.5652173913043478,
-      "score": -0.06174991573481496,
+      "score": -0.07445072991342168,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -877,11 +805,11 @@
     "metrics": {
       "net_return": 0.03845009288805645,
       "cagr": 0.023154948627558403,
-      "max_drawdown_adverse_daily_path": 0.02500173760321711,
+      "max_drawdown_adverse_daily_path": 0.029429880943954823,
       "trades": 48,
       "wins": 27,
       "win_rate": 0.5625,
-      "score": -0.014611665970916489,
+      "score": -0.021253880982023056,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -901,11 +829,11 @@
     "metrics": {
       "net_return": 0.07753615702998973,
       "cagr": 0.04634979805679573,
-      "max_drawdown_adverse_daily_path": 0.04961828557084713,
+      "max_drawdown_adverse_daily_path": 0.05828982872170341,
       "trades": 48,
       "wins": 27,
       "win_rate": 0.5625,
-      "score": -0.029119703649505932,
+      "score": -0.042127018375790345,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -925,11 +853,83 @@
     "metrics": {
       "net_return": 0.1587042777441552,
       "cagr": 0.09348580513323745,
-      "max_drawdown_adverse_daily_path": 0.09753902837316553,
+      "max_drawdown_adverse_daily_path": 0.11399451900716517,
       "trades": 48,
       "wins": 27,
       "win_rate": 0.5625,
-      "score": -0.0569379626403312,
+      "score": -0.08162119859133067,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.005
+    },
+    "id": "cd088dc5789a72f5",
+    "metrics": {
+      "net_return": 0.006577937761065522,
+      "cagr": 0.003985787702011745,
+      "max_drawdown_adverse_daily_path": 0.015213241431709656,
+      "trades": 46,
+      "wins": 26,
+      "win_rate": 0.5652173913043478,
+      "score": -0.018841996653506596,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    "id": "59cbb18072c9b39f",
+    "metrics": {
+      "net_return": 0.012969783021914427,
+      "cagr": 0.007849014289702305,
+      "max_drawdown_adverse_daily_path": 0.030311516101343305,
+      "trades": 46,
+      "wins": 26,
+      "win_rate": 0.5652173913043478,
+      "score": -0.037648903133102304,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.02
+    },
+    "id": "398d7cf2347a699d",
+    "metrics": {
+      "net_return": 0.02492317951397327,
+      "cagr": 0.015048006326802588,
+      "max_drawdown_adverse_daily_path": 0.06004894037265618,
+      "trades": 46,
+      "wins": 26,
+      "win_rate": 0.5652173913043478,
+      "score": -0.07513750230999842,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -949,11 +949,11 @@
     "metrics": {
       "net_return": -0.012210982800533676,
       "cagr": -0.007426478961792049,
-      "max_drawdown_adverse_daily_path": 0.022745328766271444,
+      "max_drawdown_adverse_daily_path": 0.02523640304504926,
       "trades": 38,
       "wins": 15,
       "win_rate": 0.39473684210526316,
-      "score": -0.04157218570093153,
+      "score": -0.04530879711909826,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -973,11 +973,11 @@
     "metrics": {
       "net_return": -0.024813659816264377,
       "cagr": -0.015129140617634262,
-      "max_drawdown_adverse_daily_path": 0.04534807201547186,
+      "max_drawdown_adverse_daily_path": 0.0502264258114119,
       "trades": 38,
       "wins": 15,
       "win_rate": 0.39473684210526316,
-      "score": -0.0832668616545842,
+      "score": -0.09058439234849426,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -997,11 +997,11 @@
     "metrics": {
       "net_return": -0.05117450920346145,
       "cagr": -0.031368451676850206,
-      "max_drawdown_adverse_daily_path": 0.09023634314770268,
+      "max_drawdown_adverse_daily_path": 0.09953635378847336,
       "trades": 38,
       "wins": 15,
       "win_rate": 0.39473684210526316,
-      "score": -0.1672254932107342,
+      "score": -0.18117550917189024,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1021,11 +1021,11 @@
     "metrics": {
       "net_return": 0.03612652693891372,
       "cagr": 0.021765358108927213,
-      "max_drawdown_adverse_daily_path": 0.013418168497967176,
+      "max_drawdown_adverse_daily_path": 0.0178050156521129,
       "trades": 30,
       "wins": 16,
       "win_rate": 0.5333333333333333,
-      "score": 0.001404621783077771,
+      "score": -0.005175648948140814,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1045,11 +1045,11 @@
     "metrics": {
       "net_return": 0.07323868710661485,
       "cagr": 0.043815931141145015,
-      "max_drawdown_adverse_daily_path": 0.026854840167481075,
+      "max_drawdown_adverse_daily_path": 0.03552142517592438,
       "trades": 30,
       "wins": 16,
       "win_rate": 0.5333333333333333,
-      "score": 0.002600902497098656,
+      "score": -0.010398975015566303,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1069,11 +1069,11 @@
     "metrics": {
       "net_return": 0.1485309380846367,
       "cagr": 0.08765080146357795,
-      "max_drawdown_adverse_daily_path": 0.05356735304671045,
+      "max_drawdown_adverse_daily_path": 0.07041016716749116,
       "trades": 30,
       "wins": 16,
       "win_rate": 0.5333333333333333,
-      "score": 0.003669112809601874,
+      "score": -0.02159510837156918,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1093,11 +1093,11 @@
     "metrics": {
       "net_return": 0.001050447384881803,
       "cagr": 0.0006371907245343866,
-      "max_drawdown_adverse_daily_path": 0.04217364833295356,
+      "max_drawdown_adverse_daily_path": 0.04384369226678608,
       "trades": 49,
       "wins": 21,
       "win_rate": 0.42857142857142855,
-      "score": -0.06262348469471117,
+      "score": -0.06512855059545995,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1117,11 +1117,11 @@
     "metrics": {
       "net_return": 0.00024317277674290594,
       "cagr": 0.0001475295453958747,
-      "max_drawdown_adverse_daily_path": 0.0828022694638687,
+      "max_drawdown_adverse_daily_path": 0.08601686270066766,
       "trades": 49,
       "wins": 21,
       "win_rate": 0.42857142857142855,
-      "score": -0.1240558855318203,
+      "score": -0.12887777538701875,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1141,11 +1141,11 @@
     "metrics": {
       "net_return": 0.026201785876897254,
       "cagr": 0.015816093396719744,
-      "max_drawdown_adverse_daily_path": 0.1355788757432439,
+      "max_drawdown_adverse_daily_path": 0.1416315783242439,
       "trades": 49,
       "wins": 21,
       "win_rate": 0.42857142857142855,
-      "score": -0.1876759912792413,
+      "score": -0.1967550451507413,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1165,11 +1165,11 @@
     "metrics": {
       "net_return": 0.031132047775109584,
       "cagr": 0.018774293518511342,
-      "max_drawdown_adverse_daily_path": 0.01890745335826116,
+      "max_drawdown_adverse_daily_path": 0.020996016077953872,
       "trades": 49,
       "wins": 28,
       "win_rate": 0.5714285714285714,
-      "score": -0.009760948350238358,
+      "score": -0.012893792429777423,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1189,11 +1189,11 @@
     "metrics": {
       "net_return": 0.06234221910808846,
       "cagr": 0.03737322283044531,
-      "max_drawdown_adverse_daily_path": 0.03770623775328252,
+      "max_drawdown_adverse_daily_path": 0.04187039617457855,
       "trades": 49,
       "wins": 28,
       "win_rate": 0.5714285714285714,
-      "score": -0.01986758583582921,
+      "score": -0.026113823467773252,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1213,11 +1213,11 @@
     "metrics": {
       "net_return": 0.12655385673013297,
       "cagr": 0.07497582024378668,
-      "max_drawdown_adverse_daily_path": 0.07473958086327093,
+      "max_drawdown_adverse_daily_path": 0.08285005302392268,
       "trades": 49,
       "wins": 28,
       "win_rate": 0.5714285714285714,
-      "score": -0.03981120276472461,
+      "score": -0.05197691100570223,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1237,11 +1237,11 @@
     "metrics": {
       "net_return": 0.07615827529280716,
       "cagr": 0.04553780735100954,
-      "max_drawdown_adverse_daily_path": 0.037289864482911494,
+      "max_drawdown_adverse_daily_path": 0.03823178292112639,
       "trades": 48,
       "wins": 23,
       "win_rate": 0.4791666666666667,
-      "score": -0.011403395510765219,
+      "score": -0.01281627316808756,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1261,11 +1261,11 @@
     "metrics": {
       "net_return": 0.1554669391873309,
       "cagr": 0.09163119630513106,
-      "max_drawdown_adverse_daily_path": 0.07356457909840519,
+      "max_drawdown_adverse_daily_path": 0.07537742104600864,
       "trades": 48,
       "wins": 23,
       "win_rate": 0.4791666666666667,
-      "score": -0.02267378069060763,
+      "score": -0.025393043612012806,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1285,11 +1285,11 @@
     "metrics": {
       "net_return": 0.3590378383014301,
       "cagr": 0.2045743037096439,
-      "max_drawdown_adverse_daily_path": 0.12960758800485683,
+      "max_drawdown_adverse_daily_path": 0.1318071186218427,
       "trades": 48,
       "wins": 23,
       "win_rate": 0.4791666666666667,
-      "score": -0.00828515241071151,
+      "score": -0.011584448336190295,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1309,11 +1309,11 @@
     "metrics": {
       "net_return": -0.0040398896723741196,
       "cagr": -0.0024530129520261568,
-      "max_drawdown_adverse_daily_path": 0.02652606382763334,
+      "max_drawdown_adverse_daily_path": 0.02861106455744633,
       "trades": 30,
       "wins": 11,
       "win_rate": 0.36666666666666664,
-      "score": -0.042245122258966386,
+      "score": -0.04537262335368587,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1333,11 +1333,11 @@
     "metrics": {
       "net_return": -0.008752751499964462,
       "cagr": -0.005319604101386877,
-      "max_drawdown_adverse_daily_path": 0.05245843288285423,
+      "max_drawdown_adverse_daily_path": 0.05656768846335125,
       "trades": 30,
       "wins": 11,
       "win_rate": 0.36666666666666664,
-      "score": -0.08402145289900392,
+      "score": -0.09018533626974945,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1357,155 +1357,11 @@
     "metrics": {
       "net_return": -0.019939937235733063,
       "cagr": -0.012145742115705516,
-      "max_drawdown_adverse_daily_path": 0.10285211721840137,
+      "max_drawdown_adverse_daily_path": 0.1107324254102573,
       "trades": 30,
       "wins": 11,
       "win_rate": 0.36666666666666664,
-      "score": -0.166498280205735,
-      "fee_bps_per_side": 1.0,
-      "slippage_bps_per_side": 1.0,
-      "account_exposure_cap": 4.0
-    }
-  },
-  {
-    "spec": {
-      "source": "iv1",
-      "family": "fade",
-      "direction": "long",
-      "width": 1.0,
-      "stop_sigma": 0.5,
-      "target": "pivot",
-      "risk": 0.005
-    },
-    "id": "f40b53790db93b5e",
-    "metrics": {
-      "net_return": 0.01587808042784622,
-      "cagr": 0.00960361250383257,
-      "max_drawdown_adverse_daily_path": 0.029091006065248504,
-      "trades": 46,
-      "wins": 24,
-      "win_rate": 0.5217391304347826,
-      "score": -0.034078718145904185,
-      "fee_bps_per_side": 1.0,
-      "slippage_bps_per_side": 1.0,
-      "account_exposure_cap": 4.0
-    }
-  },
-  {
-    "spec": {
-      "source": "iv1",
-      "family": "fade",
-      "direction": "long",
-      "width": 1.0,
-      "stop_sigma": 0.5,
-      "target": "pivot",
-      "risk": 0.01
-    },
-    "id": "05715e5958eb7c0a",
-    "metrics": {
-      "net_return": 0.03116314510936502,
-      "cagr": 0.01879293451371522,
-      "max_drawdown_adverse_daily_path": 0.05764958879043691,
-      "trades": 46,
-      "wins": 24,
-      "win_rate": 0.5217391304347826,
-      "score": -0.067855854192825,
-      "fee_bps_per_side": 1.0,
-      "slippage_bps_per_side": 1.0,
-      "account_exposure_cap": 4.0
-    }
-  },
-  {
-    "spec": {
-      "source": "iv1",
-      "family": "fade",
-      "direction": "long",
-      "width": 1.0,
-      "stop_sigma": 0.5,
-      "target": "pivot",
-      "risk": 0.02
-    },
-    "id": "3b46cd566aa6f0ce",
-    "metrics": {
-      "net_return": 0.06089959859932037,
-      "cagr": 0.03651830664685374,
-      "max_drawdown_adverse_daily_path": 0.11278142287512538,
-      "trades": 46,
-      "wins": 24,
-      "win_rate": 0.5217391304347826,
-      "score": -0.1333048195905396,
-      "fee_bps_per_side": 1.0,
-      "slippage_bps_per_side": 1.0,
-      "account_exposure_cap": 4.0
-    }
-  },
-  {
-    "spec": {
-      "source": "rv20",
-      "family": "fade",
-      "direction": "trend",
-      "width": 1.5,
-      "stop_sigma": 1.0,
-      "target": "pivot",
-      "risk": 0.005
-    },
-    "id": "e5dda50894e90097",
-    "metrics": {
-      "net_return": -0.009285101759427206,
-      "cagr": -0.005643741933279878,
-      "max_drawdown_adverse_daily_path": 0.014249685283897806,
-      "trades": 38,
-      "wins": 16,
-      "win_rate": 0.42105263157894735,
-      "score": -0.027034255946572966,
-      "fee_bps_per_side": 1.0,
-      "slippage_bps_per_side": 1.0,
-      "account_exposure_cap": 4.0
-    }
-  },
-  {
-    "spec": {
-      "source": "rv20",
-      "family": "fade",
-      "direction": "trend",
-      "width": 1.5,
-      "stop_sigma": 1.0,
-      "target": "pivot",
-      "risk": 0.01
-    },
-    "id": "fafbc89475a4dbde",
-    "metrics": {
-      "net_return": -0.01894251177652262,
-      "cagr": -0.011535898379796405,
-      "max_drawdown_adverse_daily_path": 0.028514799157420945,
-      "trades": 38,
-      "wins": 16,
-      "win_rate": 0.42105263157894735,
-      "score": -0.05437515178099623,
-      "fee_bps_per_side": 1.0,
-      "slippage_bps_per_side": 1.0,
-      "account_exposure_cap": 4.0
-    }
-  },
-  {
-    "spec": {
-      "source": "rv20",
-      "family": "fade",
-      "direction": "trend",
-      "width": 1.5,
-      "stop_sigma": 1.0,
-      "target": "pivot",
-      "risk": 0.02
-    },
-    "id": "3c7a5eec1d74967c",
-    "metrics": {
-      "net_return": -0.039547823032777485,
-      "cagr": -0.024184370769025354,
-      "max_drawdown_adverse_daily_path": 0.05755869743575104,
-      "trades": 38,
-      "wins": 16,
-      "win_rate": 0.42105263157894735,
-      "score": -0.1108196610438295,
+      "score": -0.1783187424935189,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1525,11 +1381,11 @@
     "metrics": {
       "net_return": -0.01210918764463631,
       "cagr": -0.007364420412515393,
-      "max_drawdown_adverse_daily_path": 0.025918257881693663,
+      "max_drawdown_adverse_daily_path": 0.026886138876838217,
       "trades": 38,
       "wins": 13,
       "win_rate": 0.34210526315789475,
-      "score": -0.046269058454452616,
+      "score": -0.04772087994716945,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1549,11 +1405,11 @@
     "metrics": {
       "net_return": -0.025435084067519376,
       "cagr": -0.015509960070445694,
-      "max_drawdown_adverse_daily_path": 0.05193839254457333,
+      "max_drawdown_adverse_daily_path": 0.05382907220981581,
       "trades": 38,
       "wins": 13,
       "win_rate": 0.34210526315789475,
-      "score": -0.09353908665311131,
+      "score": -0.09637510615097503,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1573,11 +1429,155 @@
     "metrics": {
       "net_return": -0.04709543666067573,
       "cagr": -0.028844087881242153,
-      "max_drawdown_adverse_daily_path": 0.09628579384988856,
+      "max_drawdown_adverse_daily_path": 0.09909000823817371,
       "trades": 38,
       "wins": 13,
       "win_rate": 0.34210526315789475,
-      "score": -0.17369694574700267,
+      "score": -0.1779032673294304,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "f40b53790db93b5e",
+    "metrics": {
+      "net_return": 0.01587808042784622,
+      "cagr": 0.00960361250383257,
+      "max_drawdown_adverse_daily_path": 0.033521388925881856,
+      "trades": 46,
+      "wins": 24,
+      "win_rate": 0.5217391304347826,
+      "score": -0.040724292436854215,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "05715e5958eb7c0a",
+    "metrics": {
+      "net_return": 0.03116314510936502,
+      "cagr": 0.01879293451371522,
+      "max_drawdown_adverse_daily_path": 0.06622357812254043,
+      "trades": 46,
+      "wins": 24,
+      "win_rate": 0.5217391304347826,
+      "score": -0.08071683819098027,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "3b46cd566aa6f0ce",
+    "metrics": {
+      "net_return": 0.06089959859932037,
+      "cagr": 0.03651830664685374,
+      "max_drawdown_adverse_daily_path": 0.12895492473907244,
+      "trades": 46,
+      "wins": 24,
+      "win_rate": 0.5217391304347826,
+      "score": -0.1575650723864602,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "e5dda50894e90097",
+    "metrics": {
+      "net_return": -0.009285101759427206,
+      "cagr": -0.005643741933279878,
+      "max_drawdown_adverse_daily_path": 0.01557226725421601,
+      "trades": 38,
+      "wins": 16,
+      "win_rate": 0.42105263157894735,
+      "score": -0.029018128902050272,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "fafbc89475a4dbde",
+    "metrics": {
+      "net_return": -0.01894251177652262,
+      "cagr": -0.011535898379796405,
+      "max_drawdown_adverse_daily_path": 0.031333976899023064,
+      "trades": 38,
+      "wins": 16,
+      "win_rate": 0.42105263157894735,
+      "score": -0.05860391839339941,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "3c7a5eec1d74967c",
+    "metrics": {
+      "net_return": -0.039547823032777485,
+      "cagr": -0.024184370769025354,
+      "max_drawdown_adverse_daily_path": 0.0635742185475241,
+      "trades": 38,
+      "wins": 16,
+      "win_rate": 0.42105263157894735,
+      "score": -0.11984294271148908,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1597,11 +1597,11 @@
     "metrics": {
       "net_return": -0.011733530562531236,
       "cagr": -0.00713542603586681,
-      "max_drawdown_adverse_daily_path": 0.031175541397967743,
+      "max_drawdown_adverse_daily_path": 0.03251881116123201,
       "trades": 124,
       "wins": 59,
       "win_rate": 0.47580645161290325,
-      "score": -0.05392431703538173,
+      "score": -0.05593922168027813,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1621,11 +1621,11 @@
     "metrics": {
       "net_return": -0.02453265327746912,
       "cagr": -0.014956966322654863,
-      "max_drawdown_adverse_daily_path": 0.06203963867624129,
+      "max_drawdown_adverse_daily_path": 0.06463637219448637,
       "trades": 124,
       "wins": 59,
       "win_rate": 0.47580645161290325,
-      "score": -0.10812940776621413,
+      "score": -0.11202450804358174,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1645,11 +1645,11 @@
     "metrics": {
       "net_return": -0.05194837863683033,
       "cagr": -0.03184784772427185,
-      "max_drawdown_adverse_daily_path": 0.12121435725049967,
+      "max_drawdown_adverse_daily_path": 0.12608924522337783,
       "trades": 124,
       "wins": 59,
       "win_rate": 0.47580645161290325,
-      "score": -0.21418755783009702,
+      "score": -0.22149988978941426,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1669,11 +1669,11 @@
     "metrics": {
       "net_return": -0.031019658734013356,
       "cagr": -0.01893657951655192,
-      "max_drawdown_adverse_daily_path": 0.04348391806816998,
+      "max_drawdown_adverse_daily_path": 0.04463254095882918,
       "trades": 123,
       "wins": 57,
       "win_rate": 0.4634146341463415,
-      "score": -0.08434404979781894,
+      "score": -0.08606698413380774,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1693,11 +1693,11 @@
     "metrics": {
       "net_return": -0.06255660759924841,
       "cagr": -0.03843501755843837,
-      "max_drawdown_adverse_daily_path": 0.0862969758489498,
+      "max_drawdown_adverse_daily_path": 0.08848737298927645,
       "trades": 123,
       "wins": 57,
       "win_rate": 0.4634146341463415,
-      "score": -0.16863859556785105,
+      "score": -0.17192419127834102,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0
@@ -1717,11 +1717,11 @@
     "metrics": {
       "net_return": -0.12422382762867734,
       "cagr": -0.07732439532200952,
-      "max_drawdown_adverse_daily_path": 0.16726167188694585,
+      "max_drawdown_adverse_daily_path": 0.17125513984400487,
       "trades": 123,
       "wins": 57,
       "win_rate": 0.4634146341463415,
-      "score": -0.33137007163902427,
+      "score": -0.3373602735746128,
       "fee_bps_per_side": 1.0,
       "slippage_bps_per_side": 1.0,
       "account_exposure_cap": 4.0

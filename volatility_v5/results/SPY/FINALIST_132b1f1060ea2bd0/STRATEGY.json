@@ -5,5 +5,5 @@
   "width": 1.0,
   "stop_sigma": 1.0,
   "target": "pivot",
-  "risk": 0.02
+  "risk": 0.01
 }

@@ -73,3 +73,9 @@ def test_all_anniversary_returns_reconcile():
 def test_adaptive_training_precedes_prediction():
  for p in (ROOT/'results').rglob('*_FROZEN_FOLDS.json'):
   for r in json.loads(p.read_text()):assert pd.Timestamp(r['training_end_exclusive'])<=pd.Timestamp(r['prediction_start']);assert pd.Timestamp(r['training_start'])<pd.Timestamp(r['training_end_exclusive'])
+
+
+def test_profitable_equity_trade_still_records_intraday_excursion():
+ from equity_research import simulate
+ eq,ledger,dd=simulate(np.array([[100.,100.6,99.4,100.5]]),np.array([1],np.int8),np.array([.01]),np.array([1000000.]),np.array([19000],np.int64),0,1,.25,1.,1.,True,True,.01,.0001,.0001,4.)
+ assert len(ledger)==1 and ledger[0,9]>0 and dd>0

@@ -1,0 +1,31 @@
+{
+  "net_return": -0.039355846267025374,
+  "cagr": -0.007999015967255163,
+  "max_drawdown_adverse_daily_path": 0.07551608401937537,
+  "trades": 131,
+  "wins": 59,
+  "win_rate": 0.45038167938931295,
+  "score": -0.12130530575832658,
+  "fee_bps_per_side": 1.0,
+  "slippage_bps_per_side": 1.0,
+  "account_exposure_cap": 4.0,
+  "name": "FINALIST_132b1f1060ea2bd0",
+  "symbol": "SPY",
+  "period_start": "2021-09-01",
+  "period_end_exclusive": "2026-09-01",
+  "selection": "fixed_finalist_diagnostic",
+  "annual_returns": [
+    -0.013226395328978069,
+    0.008863268659861756,
+    -0.02456547861171332,
+    -0.005836432742408526,
+    -0.004922870604435192
+  ],
+  "average_annual_return": -0.00793758172553467,
+  "positive_anniversary_years": 1,
+  "minimum_rolling_365d": -0.04312982669591414,
+  "maximum_rolling_365d": 0.02051423605177316,
+  "daily_data_only": true,
+  "execution_verified": false,
+  "historical_65pct_cagr_gate": false
+}
