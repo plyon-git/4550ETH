@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.venv/
+.env
+.env.*
+state/
+private_exports/
+private-exports/
+*.sqlite*
+*.db*
+*.lock
+data/
