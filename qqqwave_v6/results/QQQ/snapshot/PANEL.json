@@ -1,0 +1,20 @@
+{
+  "origin_utc": "2026-08-31 13:30:00+00:00",
+  "spec": {
+    "lookback": 200,
+    "horizon": 5,
+    "matching": "weekday",
+    "scale": "realized",
+    "min_samples": 20
+  },
+  "reference_price": 716.4299926757812,
+  "sample_count": 38,
+  "mean_low_proxy_not_vendor_MinAvg": 703.6123162677593,
+  "mean_high_proxy": 730.8110497955843,
+  "near_97_37_low_quantile": 721.9053896253885,
+  "latest_matured_session_utc": "2026-08-28 13:30:00+00:00",
+  "no_orders": true,
+  "probability_kind": "empirical in-window horizon-excursion frequency, not trade win rate or calibrated future probability",
+  "vendor_rank_adjustment_applied": false,
+  "proprietary_replication": false
+}

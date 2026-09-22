@@ -1,0 +1,250 @@
+{
+  "source": "user-supplied QQQWave image; manual visual transcription, no OCR",
+  "visible_settings": {
+    "instrument": "QQQ",
+    "aggregation": "1 day",
+    "daily_aggregations": 200,
+    "forward_aggregations": 5,
+    "weekday_matching_selected": true,
+    "HL_matching_selected": false,
+    "reference": 721.45001,
+    "minavg_display": 715.69,
+    "tooltip_percent": 97.37,
+    "as_of_display": "2026-09-20 11:19:43 New York",
+    "start_aggregation": "2026-09-18",
+    "fractal_dataset_start": "2025-12-02",
+    "fractal_dataset_end": "2026-09-18",
+    "forecast_dates": [
+      "2026-09-21",
+      "2026-09-25"
+    ],
+    "bull_extreme": 767.41,
+    "bear_extreme": 682.92
+  },
+  "unknown": [
+    "vendor formula",
+    "definition of MinAvg",
+    "bear conditioning rules",
+    "derivation of 76",
+    "overlap treatment",
+    "whether tooltip uses same denominator",
+    "whether IV options data is actually input"
+  ],
+  "count_rows": [
+    {
+      "displayed_count": 24,
+      "displayed_total": 76,
+      "displayed_percent": 31.08,
+      "raw_count_percent": 31.57894736842105,
+      "candidate_adjusted_percent": 31.08108108108108,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 38,
+      "displayed_total": 76,
+      "displayed_percent": 50,
+      "raw_count_percent": 50.0,
+      "candidate_adjusted_percent": 50.0,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 9,
+      "displayed_total": 76,
+      "displayed_percent": 10.81,
+      "raw_count_percent": 11.842105263157896,
+      "candidate_adjusted_percent": 10.81081081081081,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 34,
+      "displayed_total": 76,
+      "displayed_percent": 44.59,
+      "raw_count_percent": 44.73684210526316,
+      "candidate_adjusted_percent": 44.5945945945946,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 28,
+      "displayed_total": 76,
+      "displayed_percent": 36.49,
+      "raw_count_percent": 36.8421052631579,
+      "candidate_adjusted_percent": 36.486486486486484,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 13,
+      "displayed_total": 76,
+      "displayed_percent": 16.22,
+      "raw_count_percent": 17.105263157894736,
+      "candidate_adjusted_percent": 16.216216216216218,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 26,
+      "displayed_total": 76,
+      "displayed_percent": 33.78,
+      "raw_count_percent": 34.21052631578947,
+      "candidate_adjusted_percent": 33.78378378378378,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 27,
+      "displayed_total": 76,
+      "displayed_percent": 35.14,
+      "raw_count_percent": 35.526315789473685,
+      "candidate_adjusted_percent": 35.13513513513514,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 23,
+      "displayed_total": 76,
+      "displayed_percent": 29.73,
+      "raw_count_percent": 30.263157894736842,
+      "candidate_adjusted_percent": 29.72972972972973,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 25,
+      "displayed_total": 76,
+      "displayed_percent": 32.43,
+      "raw_count_percent": 32.89473684210526,
+      "candidate_adjusted_percent": 32.432432432432435,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 30,
+      "displayed_total": 76,
+      "displayed_percent": 39.19,
+      "raw_count_percent": 39.473684210526315,
+      "candidate_adjusted_percent": 39.189189189189186,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 11,
+      "displayed_total": 76,
+      "displayed_percent": 13.51,
+      "raw_count_percent": 14.473684210526315,
+      "candidate_adjusted_percent": 13.513513513513514,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 15,
+      "displayed_total": 76,
+      "displayed_percent": 18.92,
+      "raw_count_percent": 19.736842105263158,
+      "candidate_adjusted_percent": 18.91891891891892,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 12,
+      "displayed_total": 76,
+      "displayed_percent": 14.86,
+      "raw_count_percent": 15.789473684210526,
+      "candidate_adjusted_percent": 14.864864864864865,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 4,
+      "displayed_total": 76,
+      "displayed_percent": 4.05,
+      "raw_count_percent": 5.2631578947368425,
+      "candidate_adjusted_percent": 4.054054054054054,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 1,
+      "displayed_total": 76,
+      "displayed_percent": 1,
+      "raw_count_percent": 1.3157894736842106,
+      "candidate_adjusted_percent": 1.0,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 10,
+      "displayed_total": 76,
+      "displayed_percent": 12.16,
+      "raw_count_percent": 13.157894736842104,
+      "candidate_adjusted_percent": 12.162162162162161,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 17,
+      "displayed_total": 76,
+      "displayed_percent": 21.62,
+      "raw_count_percent": 22.36842105263158,
+      "candidate_adjusted_percent": 21.62162162162162,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 3,
+      "displayed_total": 76,
+      "displayed_percent": 2.7,
+      "raw_count_percent": 3.9473684210526314,
+      "candidate_adjusted_percent": 2.7027027027027026,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 20,
+      "displayed_total": 76,
+      "displayed_percent": 25.68,
+      "raw_count_percent": 26.31578947368421,
+      "candidate_adjusted_percent": 25.675675675675677,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 16,
+      "displayed_total": 76,
+      "displayed_percent": 20.27,
+      "raw_count_percent": 21.05263157894737,
+      "candidate_adjusted_percent": 20.27027027027027,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 6,
+      "displayed_total": 76,
+      "displayed_percent": 6.76,
+      "raw_count_percent": 7.894736842105263,
+      "candidate_adjusted_percent": 6.756756756756757,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 23,
+      "displayed_total": 76,
+      "displayed_percent": 29.73,
+      "raw_count_percent": 30.263157894736842,
+      "candidate_adjusted_percent": 29.72972972972973,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 8,
+      "displayed_total": 76,
+      "displayed_percent": 9.46,
+      "raw_count_percent": 10.526315789473685,
+      "candidate_adjusted_percent": 9.45945945945946,
+      "adjusted_matches_rounding": true
+    },
+    {
+      "displayed_count": 7,
+      "displayed_total": 76,
+      "displayed_percent": 8.11,
+      "raw_count_percent": 9.210526315789474,
+      "candidate_adjusted_percent": 8.108108108108109,
+      "adjusted_matches_rounding": true
+    }
+  ],
+  "possible_display_rule": "max(1%,100*(count-1)/(total-2)); all 25 visible rows match to 2 decimals. Hypothesis, not documented vendor formula; upper clipping not observable.",
+  "minavg_move_percent": -0.798393501997452,
+  "hypothetical_74_of_76_percent": 97.36842105263158,
+  "hypothetical_independent_Wilson_95_percent": [
+    90.90337890134194,
+    99.27533409248717
+  ],
+  "Wilson_qualification": "Illustration only if tooltip really means 74/76 independent trials. Neither count nor independence established for tooltip.",
+  "fee_example": {
+    "notional": 9895.212000000001,
+    "initial_margin_at_150x": 65.96808000000001,
+    "five_usd_bps_notional": 5.052948840307817,
+    "five_usd_percent_margin": 7.579423260461724,
+    "one_way_round_trip_unknown": true
+  }
+}

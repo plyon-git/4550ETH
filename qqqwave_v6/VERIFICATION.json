@@ -1,0 +1,10 @@
+{
+  "all_audits_passed": true,
+  "audits": 43,
+  "maximum_equity_reconstruction_error": 7.639755494892597e-11,
+  "separate_reference_primary_check_requested": true,
+  "no_live_orders": true,
+  "python": "3.13.15",
+  "visible_count_rows_checked": 25,
+  "all_visible_rows_fit_candidate_display_rule": true
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "spec": {
+      "lookback": 200,
+      "horizon": 5,
+      "matching": "weekday",
+      "scale": "percent",
+      "min_samples": 20
+    },
+    "surface_id": "43fa1aaa93d3",
+    "forecast_origins": 1250,
+    "overlapping_horizons": true,
+    "not_trade_win_rate": true,
+    "mean_low": {
+      "all_origin_touch_rate": 0.4088,
+      "terminal_rate": 0.2024,
+      "already_beyond_at_origin_open": 28,
+      "valid_direction_origins": 1222,
+      "valid_direction_touch_rate": 0.395253682487725,
+      "median_valid_distance_percent": 1.5306374949065171
+    },
+    "near97_low": {
+      "all_origin_touch_rate": 0.9504,
+      "terminal_rate": 0.5152,
+      "already_beyond_at_origin_open": 923,
+      "valid_direction_origins": 327,
+      "valid_direction_touch_rate": 0.8103975535168195,
+      "median_valid_distance_percent": 0.31329919664718764
+    },
+    "mean_high": {
+      "all_origin_touch_rate": 0.4256,
+      "terminal_rate": 0.2456,
+      "already_beyond_at_origin_open": 22,
+      "valid_direction_origins": 1228,
+      "valid_direction_touch_rate": 0.4153094462540717,
+      "median_valid_distance_percent": 1.498513363326348
+    },
+    "near97_high": {
+      "all_origin_touch_rate": 0.9448,
+      "terminal_rate": 0.608,
+      "already_beyond_at_origin_open": 789,
+      "valid_direction_origins": 461,
+      "valid_direction_touch_rate": 0.8503253796095445,
+      "median_valid_distance_percent": 0.33125437660781465
+    },
+    "constant_screenshot_offset_touch_rate": 0.608,
+    "every_fifth_origin_count": 250,
+    "every_fifth_origin_near97_low_touch_rate": 0.956
+  },
+  {
+    "spec": {
+      "lookback": 200,
+      "horizon": 5,
+      "matching": "weekday",
+      "scale": "realized",
+      "min_samples": 20
+    },
+    "surface_id": "2c21ef7fba1d",
+    "forecast_origins": 1250,
+    "overlapping_horizons": true,
+    "not_trade_win_rate": true,
+    "mean_low": {
+      "all_origin_touch_rate": 0.3992,
+      "terminal_rate": 0.1928,
+      "already_beyond_at_origin_open": 19,
+      "valid_direction_origins": 1231,
+      "valid_direction_touch_rate": 0.38992688870836717,
+      "median_valid_distance_percent": 1.5204003621645423
+    },
+    "near97_low": {
+      "all_origin_touch_rate": 0.956,
+      "terminal_rate": 0.5048,
+      "already_beyond_at_origin_open": 910,
+      "valid_direction_origins": 340,
+      "valid_direction_touch_rate": 0.8382352941176471,
+      "median_valid_distance_percent": 0.3010717335947155
+    },
+    "mean_high": {
+      "all_origin_touch_rate": 0.4296,
+      "terminal_rate": 0.2584,
+      "already_beyond_at_origin_open": 8,
+      "valid_direction_origins": 1242,
+      "valid_direction_touch_rate": 0.42592592592592593,
+      "median_valid_distance_percent": 1.4454186150136494
+    },
+    "near97_high": {
+      "all_origin_touch_rate": 0.9472,
+      "terminal_rate": 0.6096,
+      "already_beyond_at_origin_open": 794,
+      "valid_direction_origins": 456,
+      "valid_direction_touch_rate": 0.8552631578947368,
+      "median_valid_distance_percent": 0.31839774898310136
+    },
+    "constant_screenshot_offset_touch_rate": 0.608,
+    "every_fifth_origin_count": 250,
+    "every_fifth_origin_near97_low_touch_rate": 0.956
+  },
+  {
+    "spec": {
+      "lookback": 200,
+      "horizon": 5,
+      "matching": "all",
+      "scale": "percent",
+      "min_samples": 20
+    },
+    "surface_id": "751de8a81016",
+    "forecast_origins": 1250,
+    "overlapping_horizons": true,
+    "not_trade_win_rate": true,
+    "mean_low": {
+      "all_origin_touch_rate": 0.4056,
+      "terminal_rate": 0.1984,
+      "already_beyond_at_origin_open": 29,
+      "valid_direction_origins": 1221,
+      "valid_direction_touch_rate": 0.3914823914823915,
+      "median_valid_distance_percent": 1.5339243069699027
+    },
+    "near97_low": {
+      "all_origin_touch_rate": 0.9688,
+      "terminal_rate": 0.536,
+      "already_beyond_at_origin_open": 1034,
+      "valid_direction_origins": 216,
+      "valid_direction_touch_rate": 0.8194444444444444,
+      "median_valid_distance_percent": 0.2763875965335061
+    },
+    "mean_high": {
+      "all_origin_touch_rate": 0.424,
+      "terminal_rate": 0.2456,
+      "already_beyond_at_origin_open": 20,
+      "valid_direction_origins": 1230,
+      "valid_direction_touch_rate": 0.4146341463414634,
+      "median_valid_distance_percent": 1.4761680175305436
+    },
+    "near97_high": {
+      "all_origin_touch_rate": 0.9656,
+      "terminal_rate": 0.6376,
+      "already_beyond_at_origin_open": 944,
+      "valid_direction_origins": 306,
+      "valid_direction_touch_rate": 0.8594771241830066,
+      "median_valid_distance_percent": 0.29802539522304494
+    },
+    "constant_screenshot_offset_touch_rate": 0.608,
+    "every_fifth_origin_count": 250,
+    "every_fifth_origin_near97_low_touch_rate": 0.972
+  },
+  {
+    "spec": {
+      "lookback": 200,
+      "horizon": 5,
+      "matching": "all",
+      "scale": "realized",
+      "min_samples": 20
+    },
+    "surface_id": "e7303d68f44f",
+    "forecast_origins": 1250,
+    "overlapping_horizons": true,
+    "not_trade_win_rate": true,
+    "mean_low": {
+      "all_origin_touch_rate": 0.4024,
+      "terminal_rate": 0.1936,
+      "already_beyond_at_origin_open": 14,
+      "valid_direction_origins": 1236,
+      "valid_direction_touch_rate": 0.39563106796116504,
+      "median_valid_distance_percent": 1.5300422082986098
+    },
+    "near97_low": {
+      "all_origin_touch_rate": 0.968,
+      "terminal_rate": 0.5136,
+      "already_beyond_at_origin_open": 985,
+      "valid_direction_origins": 265,
+      "valid_direction_touch_rate": 0.8490566037735849,
+      "median_valid_distance_percent": 0.22937189211157394
+    },
+    "mean_high": {
+      "all_origin_touch_rate": 0.436,
+      "terminal_rate": 0.264,
+      "already_beyond_at_origin_open": 11,
+      "valid_direction_origins": 1239,
+      "valid_direction_touch_rate": 0.43099273607748184,
+      "median_valid_distance_percent": 1.426309816917648
+    },
+    "near97_high": {
+      "all_origin_touch_rate": 0.9648,
+      "terminal_rate": 0.6344,
+      "already_beyond_at_origin_open": 937,
+      "valid_direction_origins": 313,
+      "valid_direction_touch_rate": 0.8594249201277955,
+      "median_valid_distance_percent": 0.28861893617504464
+    },
+    "constant_screenshot_offset_touch_rate": 0.608,
+    "every_fifth_origin_count": 250,
+    "every_fifth_origin_near97_low_touch_rate": 0.968
+  }
+]

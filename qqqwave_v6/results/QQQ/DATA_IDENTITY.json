@@ -1,0 +1,5 @@
+{
+  "daily_source_sha256": "908cde2f48faba0cf7cbacbc277468b8a626db17f2e68785a1e89ffb98d97eda",
+  "no_equity_order_execution_backtest": true,
+  "not_ES_or_intraday_data": true
+}

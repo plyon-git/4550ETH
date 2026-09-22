@@ -1,0 +1,71 @@
+--- engine_v5_original.py
++++ engine.py
+@@ -1,4 +1,4 @@
+-"""V5 separate engine derived from the preserved V4 simulator. Adds absolute target levels. No order submission.
++"""V5 separate engine derived from the preserved V4 simulator. Adds frozen absolute stops, targets and forecast deadlines; see engine_diff.patch. No order submission.
+ 
+ The kernel trades one market and at most one open position, records mark-to-market
+ account equity, and never replaces a realized loss with a configured loss limit.
+@@ -56,12 +56,12 @@
+         if self.quantity_step<=0 or self.price_tick<=0 or self.minimum_notional<=0:raise ValueError('nonpositive instrument grid')
+ 
+ @njit(cache=True)
+-def _run(m,ts,sig,stop,absolute_target,start,end,p,record):
++def _run(m,ts,sig,stop,absolute_target,expiry,start,end,p,record):
+     # Position value is quantity times trade price; MTM uses the mark, not the last trade.
+     n=end-start; eq=np.empty(n); eq_open=np.empty(n); eq_low=np.empty(n)
+     ledger=np.empty((min(2*n, int((ts[end-1]-ts[start])//86400+3)*int(p[17])+100) if record else 0, 16)); nt=0
+     initial,risk,lev,fee,slip,part,rr,hold,cool,wstop,dstop,mm,liqfee,trail,profitlock,opposite,delay,maxday,force,qstep,ptick,min_notional=p
+-    bal=initial; q=0.; ent=0.; st=0.; target=0.; efee=0.; funding=0.; eind=0; estop=0.; pre_equity=initial
++    deadline=0; bal=initial; q=0.; ent=0.; st=0.; target=0.; efee=0.; funding=0.; eind=0; estop=0.; pre_equity=initial
+     weekbase=initial; daybase=initial; weekid=(ts[start]//86400+3)//7; dayid=ts[start]//86400
+     weeklock=False; daylock=False; daily_entries=0; last_exit=-10**18
+     fees=0.; fundpaid=0.; peak=initial; drawdown=0.; liquidations=0; maxlev=0.; entrysum=0.; wins=0; grosswin=0.; grossloss=0.; entries=0
+@@ -91,7 +91,7 @@
+                 reason=9;px=op;exit_at_open=True;weeklock=True
+             elif side*(op-st)<=0:reason=1;px=op;exit_at_open=True
+             elif side*(op-target)>=0:reason=2;px=op;exit_at_open=True
+-            elif i>eind and ts[i]-ts[eind]>=hold:reason=4;px=op;exit_at_open=True
++            elif i>eind and (ts[i]-ts[eind]>=hold or ts[i]>=deadline):reason=4;px=op;exit_at_open=True
+             elif opposite and i>=int(delay) and sig[i-int(delay)]==-side:reason=3;px=op;exit_at_open=True
+         # An existing-position exit at the open is processed before the new signal.
+         if reason!=0:
+@@ -106,10 +106,10 @@
+             weeklock=True;daylock=True
+         if q==0 and not weeklock and not daylock and i>=int(delay) and ts[i]>last_exit and ts[i]-last_exit>=cool and daily_entries<int(maxday):
+             s=int(sig[i-int(delay)]);sf=stop[i-int(delay)]
+-            if s!=0 and np.isfinite(sf) and 0<sf<.95:
++            if s!=0 and np.isfinite(sf) and sf>0 and s*(op-sf)>0 and expiry[i-int(delay)]>ts[i]:
+                 ent0=op*(1+s*slip)
+                 ent0=(np.ceil(ent0/ptick-1e-10) if s==1 else np.floor(ent0/ptick+1e-10))*ptick
+-                dist=ent0*sf
++                dist=s*(ent0-sf)
+                 # Reserve entry/exit costs and modeled slippage inside the trade-risk budget.
+                 risk_per_unit=dist+ent0*(2*fee+2*slip)+2*ptick
+                 remaining_week=max(0.,bal-weekbase*(1-wstop)); remaining_day=max(0.,bal-daybase*(1-dstop))
+@@ -122,7 +122,7 @@
+                 valid_target=candidate_target>0 and s*(candidate_target-ent0)>0
+                 if quant>0 and budget>1e-10 and ent0>0 and quant*ent0>=min_notional and valid_target:
+                     pre_equity=bal;ent=ent0;q=s*quant;efee=quant*ent*fee;bal-=efee;fees+=efee
+-                    funding=0.;eind=i;estop=dist;st=ent-s*dist;target=candidate_target
++                    funding=0.;eind=i;estop=dist;st=sf;target=candidate_target;deadline=expiry[i-int(delay)]
+                     entrysum=quant*ent/pre_equity;maxlev=max(maxlev,entrysum);entries+=1;daily_entries+=1
+                     # Deliberately no favorable credit to a new position in a funding-settlement bar.
+                     newpay=max(q*mo*fr,0.);bal-=newpay;fundpaid+=newpay;funding+=newpay
+@@ -178,14 +178,14 @@
+ 
+ TRADE_COLS=['entry_index','exit_index','side','quantity','entry_price','exit_price','entry_fee','exit_fee','funding_paid','gross_pnl','net_pnl','balance_after','reason_code','equity_before','entry_leverage','exit_epoch_upper_bound']
+ 
+-def run(m,ts,signals,stops,absolute_target,cfg=Config(),start=0,end=None,record=False):
++def run(m,ts,signals,stops,absolute_target,expiry,cfg=Config(),start=0,end=None,record=False):
+     cfg.validate();end=len(ts) if end is None else end
+     if not 0<=start<end<=len(ts):raise ValueError('bad bounds')
+     if len(signals)!=len(ts) or len(stops)!=len(ts) or np.ndim(signals)!=1 or np.ndim(stops)!=1:raise ValueError('unaligned signals')
+     if m.shape!=(len(ts),10):raise ValueError('unaligned prices')
+     if not np.isin(signals,[-1,0,1]).all():raise ValueError('invalid signal direction')
+     p=np.array([cfg.initial_equity,cfg.risk_fraction,cfg.leverage_cap,cfg.fee_bps/1e4,cfg.slippage_bps/1e4,cfg.participation,cfg.target_r,cfg.max_hold_seconds,cfg.cooldown_seconds,cfg.weekly_stop,cfg.daily_stop,cfg.maintenance,cfg.liquidation_fee_bps/1e4,cfg.trail_r,cfg.profit_lock,int(cfg.exit_on_opposite),cfg.entry_delay_bars,cfg.max_entries_daily,int(cfg.force_20x),cfg.quantity_step,cfg.price_tick,cfg.minimum_notional],dtype=float)
+-    return _run(m,ts,signals,stops,absolute_target,start,end,p,record)
++    return _run(m,ts,signals,stops,absolute_target,expiry,start,end,p,record)
+ 
+ 
+ def validate_data(m,ts):

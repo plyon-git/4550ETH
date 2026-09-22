@@ -1,0 +1,7 @@
+{
+  "source_sha256": "43678daef70287657734cf3eb6b6915ffa5df0b24d90d289d8892ee1d5f70859",
+  "raw_rows": 3461760,
+  "missing_marks": 31,
+  "missing_mark_model": "previous close plus sourced 15-minute bounds or explicit +/-5% sensitivity envelope; not observed values",
+  "iv_data_sha256": null
+}

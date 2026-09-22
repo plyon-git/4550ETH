@@ -1,0 +1,363 @@
+{
+  "created_utc": "2026-09-22 19:48:47.692476+00:00",
+  "source_sha256": "43678daef70287657734cf3eb6b6915ffa5df0b24d90d289d8892ee1d5f70859",
+  "periods": {
+    "development": [
+      "2020-09-01",
+      "2021-06-01"
+    ],
+    "validation": [
+      "2021-06-01",
+      "2021-08-25"
+    ],
+    "evaluation": [
+      "2021-09-01",
+      "2026-09-01"
+    ],
+    "250weeks": [
+      "2021-11-15",
+      "2026-08-31"
+    ]
+  },
+  "surfaces": [
+    {
+      "lookback": 200,
+      "horizon": 1,
+      "matching": "all",
+      "scale": "percent",
+      "min_samples": 20
+    },
+    {
+      "lookback": 200,
+      "horizon": 1,
+      "matching": "all",
+      "scale": "realized",
+      "min_samples": 20
+    },
+    {
+      "lookback": 200,
+      "horizon": 1,
+      "matching": "weekday",
+      "scale": "percent",
+      "min_samples": 20
+    },
+    {
+      "lookback": 200,
+      "horizon": 1,
+      "matching": "weekday",
+      "scale": "realized",
+      "min_samples": 20
+    },
+    {
+      "lookback": 200,
+      "horizon": 5,
+      "matching": "all",
+      "scale": "percent",
+      "min_samples": 20
+    },
+    {
+      "lookback": 200,
+      "horizon": 5,
+      "matching": "all",
+      "scale": "realized",
+      "min_samples": 20
+    },
+    {
+      "lookback": 200,
+      "horizon": 5,
+      "matching": "weekday",
+      "scale": "percent",
+      "min_samples": 20
+    },
+    {
+      "lookback": 200,
+      "horizon": 5,
+      "matching": "weekday",
+      "scale": "realized",
+      "min_samples": 20
+    }
+  ],
+  "trade_grid": [
+    {
+      "family": "fade",
+      "quantile": 0.5,
+      "stop_buffer": 0.25,
+      "target": "pivot",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.5,
+      "stop_buffer": 0.25,
+      "target": "pivot",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.5,
+      "stop_buffer": 0.25,
+      "target": "opposite_mean",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.5,
+      "stop_buffer": 0.25,
+      "target": "opposite_mean",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.5,
+      "stop_buffer": 0.5,
+      "target": "pivot",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.5,
+      "stop_buffer": 0.5,
+      "target": "pivot",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.5,
+      "stop_buffer": 0.5,
+      "target": "opposite_mean",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.5,
+      "stop_buffer": 0.5,
+      "target": "opposite_mean",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.75,
+      "stop_buffer": 0.25,
+      "target": "pivot",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.75,
+      "stop_buffer": 0.25,
+      "target": "pivot",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.75,
+      "stop_buffer": 0.25,
+      "target": "opposite_mean",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.75,
+      "stop_buffer": 0.25,
+      "target": "opposite_mean",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.75,
+      "stop_buffer": 0.5,
+      "target": "pivot",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.75,
+      "stop_buffer": 0.5,
+      "target": "pivot",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.75,
+      "stop_buffer": 0.5,
+      "target": "opposite_mean",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.75,
+      "stop_buffer": 0.5,
+      "target": "opposite_mean",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.9,
+      "stop_buffer": 0.25,
+      "target": "pivot",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.9,
+      "stop_buffer": 0.25,
+      "target": "pivot",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.9,
+      "stop_buffer": 0.25,
+      "target": "opposite_mean",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.9,
+      "stop_buffer": 0.25,
+      "target": "opposite_mean",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.9,
+      "stop_buffer": 0.5,
+      "target": "pivot",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.9,
+      "stop_buffer": 0.5,
+      "target": "pivot",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.9,
+      "stop_buffer": 0.5,
+      "target": "opposite_mean",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "fade",
+      "quantile": 0.9,
+      "stop_buffer": 0.5,
+      "target": "opposite_mean",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "break",
+      "quantile": 0.5,
+      "stop_buffer": 0.25,
+      "target": "2",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "break",
+      "quantile": 0.5,
+      "stop_buffer": 0.25,
+      "target": "4",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "break",
+      "quantile": 0.5,
+      "stop_buffer": 0.5,
+      "target": "2",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "break",
+      "quantile": 0.5,
+      "stop_buffer": 0.5,
+      "target": "4",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "break",
+      "quantile": 0.75,
+      "stop_buffer": 0.25,
+      "target": "2",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "break",
+      "quantile": 0.75,
+      "stop_buffer": 0.25,
+      "target": "4",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "break",
+      "quantile": 0.75,
+      "stop_buffer": 0.5,
+      "target": "2",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "break",
+      "quantile": 0.75,
+      "stop_buffer": 0.5,
+      "target": "4",
+      "regime": "aligned",
+      "timeframe": 5
+    },
+    {
+      "family": "toward_low",
+      "quantile": 0.9,
+      "stop_buffer": 0.5,
+      "target": "near97",
+      "regime": "all",
+      "timeframe": 5
+    },
+    {
+      "family": "toward_low",
+      "quantile": 0.9,
+      "stop_buffer": 0.5,
+      "target": "mean_low",
+      "regime": "all",
+      "timeframe": 5
+    }
+  ],
+  "selection": "Per surface, top two development configurations with >=20 trades and no liquidation. Tune risk 0.5/1/2% on validation. Primary maximizes log growth minus 1.5 drawdown with >=10 validation trades and no liquidation. Family/source finalists are diagnostics. Freeze before test P&L.",
+  "risk_grid": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "hypothesis_status": "new implementation inspired by screenshot; not vendor replication; prior calendar exposure",
+  "user_target": "65% CAGR and separately arithmetic mean annual >65%, >=200 trades; report all five annual periods and 250 weeks separately",
+  "execution": "next minute after completed 5-minute bar; absolute stop/target/expiry fixed before entry; account circuits retained; no live orders"
+}

@@ -1,0 +1,55 @@
+ETHUSDT surface 539dd60d69d1 {'lookback': 200, 'horizon': 1, 'matching': 'all', 'scale': 'percent', 'min_samples': 20} elapsed 2.3
+ETHUSDT surface ff9fd3be46d4 {'lookback': 200, 'horizon': 1, 'matching': 'all', 'scale': 'realized', 'min_samples': 20} elapsed 4.4
+ETHUSDT surface 3b3bbdb892ef {'lookback': 200, 'horizon': 1, 'matching': 'all', 'scale': 'iv_scaled', 'min_samples': 20} elapsed 6.6
+ETHUSDT surface d8bc07710323 {'lookback': 200, 'horizon': 1, 'matching': 'weekday', 'scale': 'percent', 'min_samples': 20} elapsed 8.8
+ETHUSDT surface d856a92b247a {'lookback': 200, 'horizon': 1, 'matching': 'weekday', 'scale': 'realized', 'min_samples': 20} elapsed 11.0
+ETHUSDT surface 7f1e17a5e9b6 {'lookback': 200, 'horizon': 1, 'matching': 'weekday', 'scale': 'iv_scaled', 'min_samples': 20} elapsed 13.2
+ETHUSDT surface 751de8a81016 {'lookback': 200, 'horizon': 5, 'matching': 'all', 'scale': 'percent', 'min_samples': 20} elapsed 16.4
+ETHUSDT surface e7303d68f44f {'lookback': 200, 'horizon': 5, 'matching': 'all', 'scale': 'realized', 'min_samples': 20} elapsed 19.6
+ETHUSDT surface 6cb7b305c076 {'lookback': 200, 'horizon': 5, 'matching': 'all', 'scale': 'iv_scaled', 'min_samples': 20} elapsed 22.8
+ETHUSDT surface 43fa1aaa93d3 {'lookback': 200, 'horizon': 5, 'matching': 'weekday', 'scale': 'percent', 'min_samples': 20} elapsed 26.0
+ETHUSDT surface 2c21ef7fba1d {'lookback': 200, 'horizon': 5, 'matching': 'weekday', 'scale': 'realized', 'min_samples': 20} elapsed 29.3
+ETHUSDT surface 746d3e4c86f3 {'lookback': 200, 'horizon': 5, 'matching': 'weekday', 'scale': 'iv_scaled', 'min_samples': 20} elapsed 32.5
+EVAL ETHUSDT PRIMARY_2c21ef7fba1d_05cad0b63c38_risk0.02 -0.22720773841546038 -0.05024858867218851 1250
+EVAL ETHUSDT DIAGNOSTIC_d8bc07710323_ab8706a891e0_risk0.005 -0.27139580989582945 -0.06136848362564806 846
+EVAL ETHUSDT DIAGNOSTIC_746d3e4c86f3_a0f277045e13_risk0.005 -0.32383735392052426 -0.07528845580132648 434
+EVAL ETHUSDT DIAGNOSTIC_d8bc07710323_deb9feaac1b5_risk0.005 -0.02056982613733549 -0.004148720271005768 497
+EVAL ETHUSDT DIAGNOSTIC_2c21ef7fba1d_b91af92b0f0f_risk0.005 0.06797610542572241 0.013241506543873793 343
+EVAL ETHUSDT DIAGNOSTIC_7f1e17a5e9b6_b91af92b0f0f_risk0.005 -0.23769129482800877 -0.05283981768333379 892
+EVAL ETHUSDT DIAGNOSTIC_746d3e4c86f3_05cad0b63c38_risk0.02 -0.22802151541478322 -0.05044872048530802 1179
+EVAL ETHUSDT DIAGNOSTIC_SCREENSHOT_TOUCH_near97 -0.11811110252668933 -0.024827367715898996 1250
+EVAL ETHUSDT DIAGNOSTIC_SCREENSHOT_TOUCH_mean_low -0.04545143856148515 -0.009261282519639646 431
+BTCUSDT surface 539dd60d69d1 {'lookback': 200, 'horizon': 1, 'matching': 'all', 'scale': 'percent', 'min_samples': 20} elapsed 2.1
+BTCUSDT surface ff9fd3be46d4 {'lookback': 200, 'horizon': 1, 'matching': 'all', 'scale': 'realized', 'min_samples': 20} elapsed 4.1
+BTCUSDT surface 3b3bbdb892ef {'lookback': 200, 'horizon': 1, 'matching': 'all', 'scale': 'iv_scaled', 'min_samples': 20} elapsed 6.2
+BTCUSDT surface d8bc07710323 {'lookback': 200, 'horizon': 1, 'matching': 'weekday', 'scale': 'percent', 'min_samples': 20} elapsed 8.3
+BTCUSDT surface d856a92b247a {'lookback': 200, 'horizon': 1, 'matching': 'weekday', 'scale': 'realized', 'min_samples': 20} elapsed 10.4
+BTCUSDT surface 7f1e17a5e9b6 {'lookback': 200, 'horizon': 1, 'matching': 'weekday', 'scale': 'iv_scaled', 'min_samples': 20} elapsed 12.4
+BTCUSDT surface 751de8a81016 {'lookback': 200, 'horizon': 5, 'matching': 'all', 'scale': 'percent', 'min_samples': 20} elapsed 15.6
+BTCUSDT surface e7303d68f44f {'lookback': 200, 'horizon': 5, 'matching': 'all', 'scale': 'realized', 'min_samples': 20} elapsed 18.8
+BTCUSDT surface 6cb7b305c076 {'lookback': 200, 'horizon': 5, 'matching': 'all', 'scale': 'iv_scaled', 'min_samples': 20} elapsed 21.9
+BTCUSDT surface 43fa1aaa93d3 {'lookback': 200, 'horizon': 5, 'matching': 'weekday', 'scale': 'percent', 'min_samples': 20} elapsed 25.2
+BTCUSDT surface 2c21ef7fba1d {'lookback': 200, 'horizon': 5, 'matching': 'weekday', 'scale': 'realized', 'min_samples': 20} elapsed 28.3
+BTCUSDT surface 746d3e4c86f3 {'lookback': 200, 'horizon': 5, 'matching': 'weekday', 'scale': 'iv_scaled', 'min_samples': 20} elapsed 31.4
+EVAL BTCUSDT PRIMARY_d856a92b247a_b91af92b0f0f_risk0.01 -0.4513016551204604 -0.11312857317697744 978
+EVAL BTCUSDT DIAGNOSTIC_d8bc07710323_ab8706a891e0_risk0.01 -0.5890960870136315 -0.16297377483739606 900
+EVAL BTCUSDT DIAGNOSTIC_6cb7b305c076_a0f277045e13_risk0.005 -0.3993161050048363 -0.09692453035638549 375
+EVAL BTCUSDT DIAGNOSTIC_751de8a81016_05cad0b63c38_risk0.005 -0.09219510231547023 -0.01916145013107029 1394
+EVAL BTCUSDT DIAGNOSTIC_ff9fd3be46d4_05cad0b63c38_risk0.02 -0.5859045992489795 -0.16167740937277608 1303
+EVAL BTCUSDT DIAGNOSTIC_3b3bbdb892ef_05cad0b63c38_risk0.02 -0.515908774923125 -0.135075680014637 1368
+EVAL BTCUSDT DIAGNOSTIC_SCREENSHOT_TOUCH_near97 -0.21031508937729826 -0.046131776694605886 1278
+EVAL BTCUSDT DIAGNOSTIC_SCREENSHOT_TOUCH_mean_low -0.1277834643401835 -0.026976159584714887 435
+XRPUSDT surface 539dd60d69d1 {'lookback': 200, 'horizon': 1, 'matching': 'all', 'scale': 'percent', 'min_samples': 20} elapsed 2.1
+XRPUSDT surface ff9fd3be46d4 {'lookback': 200, 'horizon': 1, 'matching': 'all', 'scale': 'realized', 'min_samples': 20} elapsed 4.3
+XRPUSDT surface d8bc07710323 {'lookback': 200, 'horizon': 1, 'matching': 'weekday', 'scale': 'percent', 'min_samples': 20} elapsed 6.4
+XRPUSDT surface d856a92b247a {'lookback': 200, 'horizon': 1, 'matching': 'weekday', 'scale': 'realized', 'min_samples': 20} elapsed 8.5
+XRPUSDT surface 751de8a81016 {'lookback': 200, 'horizon': 5, 'matching': 'all', 'scale': 'percent', 'min_samples': 20} elapsed 11.6
+XRPUSDT surface e7303d68f44f {'lookback': 200, 'horizon': 5, 'matching': 'all', 'scale': 'realized', 'min_samples': 20} elapsed 14.7
+XRPUSDT surface 43fa1aaa93d3 {'lookback': 200, 'horizon': 5, 'matching': 'weekday', 'scale': 'percent', 'min_samples': 20} elapsed 17.9
+XRPUSDT surface 2c21ef7fba1d {'lookback': 200, 'horizon': 5, 'matching': 'weekday', 'scale': 'realized', 'min_samples': 20} elapsed 21.0
+EVAL XRPUSDT PRIMARY_ff9fd3be46d4_05cad0b63c38_risk0.005 -0.07567586767268386 -0.015617095290469951 1376
+EVAL XRPUSDT DIAGNOSTIC_ff9fd3be46d4_18428d563d00_risk0.005 -0.1950877932377122 -0.04248076050086391 517
+EVAL XRPUSDT DIAGNOSTIC_d8bc07710323_05cad0b63c38_risk0.005 -0.012277564016329179 -0.002467948312336432 1484
+EVAL XRPUSDT DIAGNOSTIC_SCREENSHOT_TOUCH_near97 0.07557701903721714 0.014679857733400414 1275
+EVAL XRPUSDT DIAGNOSTIC_SCREENSHOT_TOUCH_mean_low -0.008802592841977264 -0.001766955785420743 424
+DONE: forecast statistics are not trading win rates; inspect net results.

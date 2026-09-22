@@ -1,0 +1,134 @@
+[
+  {
+    "passed": true,
+    "trade_rows": 1376,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 4.3655745685100555e-11,
+    "gross_price_pnl": 297.10370000000023,
+    "commissions": 1068.67043925,
+    "funding_paid": -14.808062523186557,
+    "net_pnl": -756.7586767268133
+  },
+  {
+    "passed": true,
+    "trade_rows": 1393,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 2.1827872842550278e-11,
+    "gross_price_pnl": 897.045100000003,
+    "commissions": 0.0,
+    "funding_paid": -16.05160765447906,
+    "net_pnl": 913.0967076544821
+  },
+  {
+    "passed": true,
+    "trade_rows": 1376,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 2.3646862246096134e-11,
+    "gross_price_pnl": 305.1497000000002,
+    "commissions": 558.3093983484134,
+    "funding_paid": -15.191845244727194,
+    "net_pnl": -237.96785310368597
+  },
+  {
+    "passed": true,
+    "trade_rows": 1376,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 4.729372449219227e-11,
+    "gross_price_pnl": 296.8390000000003,
+    "commissions": 1079.2161338231056,
+    "funding_paid": -14.800351433558495,
+    "net_pnl": -767.5767823895468
+  },
+  {
+    "passed": true,
+    "trade_rows": 1323,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 4.18367562815547e-11,
+    "gross_price_pnl": -95.00049999999993,
+    "commissions": 1869.5497631000003,
+    "funding_paid": -13.651726787127679,
+    "net_pnl": -1950.8985363128722
+  },
+  {
+    "passed": true,
+    "trade_rows": 1274,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 3.637978807091713e-11,
+    "gross_price_pnl": 391.90500000000077,
+    "commissions": 1008.3578852,
+    "funding_paid": -15.728561901783493,
+    "net_pnl": -600.7243232982157
+  },
+  {
+    "passed": true,
+    "trade_rows": 1185,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 2.546585164964199e-11,
+    "gross_price_pnl": 524.7361000000016,
+    "commissions": 915.0168247500001,
+    "funding_paid": -16.382146885659758,
+    "net_pnl": -373.8985778643388
+  },
+  {
+    "passed": true,
+    "trade_rows": 1319,
+    "minute_rows": 2520000,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 5.820766091346741e-11,
+    "gross_price_pnl": 395.42990000000043,
+    "commissions": 1048.42046415,
+    "funding_paid": -10.788211973575882,
+    "net_pnl": -642.2023521764238
+  },
+  {
+    "passed": true,
+    "trade_rows": 517,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 1.2732925824820995e-11,
+    "gross_price_pnl": -779.9325999999992,
+    "commissions": 1099.0346434,
+    "funding_paid": 71.91068897712029,
+    "net_pnl": -1950.8779323771194
+  },
+  {
+    "passed": true,
+    "trade_rows": 1484,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 2.000888343900442e-11,
+    "gross_price_pnl": 1109.2722999999992,
+    "commissions": 1267.6704298500001,
+    "funding_paid": -35.62248968669728,
+    "net_pnl": -122.77564016330359
+  },
+  {
+    "passed": true,
+    "trade_rows": 1275,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 4.3655745685100555e-11,
+    "gross_price_pnl": 1658.7310999999972,
+    "commissions": 1000.10074315,
+    "funding_paid": -97.13983352214815,
+    "net_pnl": 755.7701903721452
+  },
+  {
+    "passed": true,
+    "trade_rows": 424,
+    "minute_rows": 2629440,
+    "reconstructed_series": 2,
+    "largest_absolute_equity_error": 7.275957614183426e-11,
+    "gross_price_pnl": 40.83930000000004,
+    "commissions": 315.83337665,
+    "funding_paid": -186.96814823016894,
+    "net_pnl": -88.02592841983085
+  }
+]

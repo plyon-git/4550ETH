@@ -1,0 +1,44 @@
+{
+  "surface": {
+    "lookback": 200,
+    "horizon": 5,
+    "matching": "weekday",
+    "scale": "realized",
+    "min_samples": 20
+  },
+  "trade": {
+    "family": "toward_low",
+    "quantile": 0.9,
+    "stop_buffer": 0.5,
+    "target": "mean_low",
+    "regime": "all",
+    "timeframe": 5
+  },
+  "risk": 0.01,
+  "id": "SCREENSHOT_TOUCH_mean_low",
+  "predeclared_diagnostic": true,
+  "simulation": {
+    "initial_equity": 10000.0,
+    "risk_fraction": 0.01,
+    "leverage_cap": 5.0,
+    "fee_bps": 5.0,
+    "slippage_bps": 2.0,
+    "participation": 0.01,
+    "target_r": 2.0,
+    "max_hold_seconds": 432000,
+    "cooldown_seconds": 900,
+    "weekly_stop": 0.05,
+    "daily_stop": 0.025,
+    "maintenance": 0.01,
+    "liquidation_fee_bps": 100.0,
+    "trail_r": 0.0,
+    "profit_lock": 0.0,
+    "exit_on_opposite": false,
+    "entry_delay_bars": 1,
+    "max_entries_daily": 3,
+    "force_20x": false,
+    "quantity_step": 0.001,
+    "price_tick": 0.01,
+    "minimum_notional": 20.0
+  }
+}
