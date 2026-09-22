@@ -1,0 +1,25 @@
+{
+  "owner": "Parrish Lyon",
+  "status": "source_not_recovered_not_published_as_verified_strategies",
+  "variants": [
+    {
+      "requested_return_percent": 60.37,
+      "requested_weeks": 52,
+      "verified_win_rate": null,
+      "verified_target_r": null,
+      "matching_source": null,
+      "matching_trade_ledger": null
+    },
+    {
+      "requested_return_percent": 102.02,
+      "requested_weeks": 93,
+      "verified_win_rate": null,
+      "verified_target_r": null,
+      "matching_source": null,
+      "matching_trade_ledger": null
+    }
+  ],
+  "decision": "Do not invent parameters, learning or execution code, WR/RR, or performance-named subfolders. Preserve exact variants only after their source and output identities are recovered.",
+  "retrieved_scope": "Current mounted project archives, relevant Library search and recent listings, repository main/baseline/history-recovery branches, and its latest observed-history artifact.",
+  "note": "Failure to recover does not establish that these variants never existed; the percentages alone cannot identify their code."
+}

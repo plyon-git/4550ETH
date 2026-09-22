@@ -1,0 +1,51 @@
+name: Reproduce and commit baseline trade evidence
+on:
+  push:
+    branches: [main]
+    paths:
+      - tools/publish_evidence.py
+      - .github/workflows/save-research-evidence.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: baseline-evidence-publication
+  cancel-in-progress: false
+jobs:
+  reproduce-and-save:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install numerical reproduction dependencies
+        run: python -m pip install numpy==2.3.5 pandas==2.2.3 numba==0.65.1
+      - name: Restore previously sourced history
+        if: ${{ hashFiles('data/aligned_data.npz') == '' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: eth-history-observed-with-mark-gaps
+          run-id: 35677890814
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: .recovery
+      - name: Reproduce and independently reconcile every trade
+        env:
+          OPENBLAS_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+        run: python tools/publish_evidence.py --extended-data .recovery/aligned_extended_WITH_MARK_GAPS.npz
+      - name: Save public market input and complete evidence without changing baseline source
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f data/aligned_data.npz results/breakout_trades.csv.gz results/breakout_equity.csv.gz
+          git add results EVIDENCE_SHA256.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save all timestamped trades, reproducible data, and independently audited 4R/2R/1.75R evidence for Parrish Lyon'
+            git push origin HEAD:main
+          fi
