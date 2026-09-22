@@ -1,0 +1,29 @@
+{
+  "selected": {
+    "purpose": "matched_replay_or_fee_sensitivity_not_new_validation",
+    "source_commit": "4ff2d40b51ce152d34175318a9d1c30184509a60",
+    "known_reference": "results/ETHUSDT/SIZING_DIAGNOSTICS/hold24",
+    "threshold": 0.5,
+    "verified_venue_fee": false
+  },
+  "actual_execution": {
+    "risk": 0.04,
+    "cap": 5.0,
+    "contract_leverage": 30,
+    "reward_risk": 5.0,
+    "max_hold_hours": 24,
+    "fee_bps": 5.0,
+    "slip_bps": 2.0,
+    "participation": 0.01,
+    "cooldown_minutes": 60,
+    "max_entries_day": 4,
+    "daily_loss": 0.08,
+    "weekly_loss": 0.15,
+    "maintenance": 0.01,
+    "collateral_buffer": 0.01,
+    "funded_collateral": true,
+    "delay_minutes": 0,
+    "initial": 10000.0
+  },
+  "symbol": "ETHUSDT"
+}
