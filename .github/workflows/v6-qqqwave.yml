@@ -1,0 +1,86 @@
+name: V6 QQQWave-inspired five-year forecast and execution audit
+on:
+  push:
+    branches: [qqqwave-v6]
+    paths:
+      - 'qqqwave_v6/**/*.py'
+      - 'qqqwave_v6/requirements.txt'
+      - '.github/workflows/v6-qqqwave.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: qqqwave-v6-research
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: qqqwave-v6
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install pinned research dependencies and verify forward-only behavior
+        working-directory: qqqwave_v6
+        run: |
+          python -m pip install -r requirements.txt
+          python inspect_screenshot.py
+          python bootstrap_engine.py
+          mkdir -p checks
+          python -m pytest -q --junitxml=checks/TESTS.xml | tee checks/tests.txt
+      - name: Retrieve already published public market inputs
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/v6-market"
+          gh release download v4-research-20260922 --pattern '*_aligned_repaired.npz' --dir "$RUNNER_TEMP/v6-market"
+          for symbol in ETHUSDT BTCUSDT XRPUSDT; do
+            mkdir -p "qqqwave_v6/data/$symbol"
+            mv "$RUNNER_TEMP/v6-market/${symbol}_aligned_repaired.npz" "qqqwave_v6/data/$symbol/aligned_repaired.npz"
+          done
+      - name: Reproduce all forecast events, frozen finalists, costs and 250-week cases
+        working-directory: qqqwave_v6
+        run: python -u run.py --data-root data --context-root ../volatility_v5 | tee checks/reproduction.txt
+      - name: Export portable historical panels
+        working-directory: qqqwave_v6
+        run: |
+          python panel.py --daily-input results/QQQ/daily_inputs.csv --out results/QQQ/snapshot
+          python panel.py --daily-input results/ETHUSDT/daily_inputs.csv --out results/ETHUSDT/snapshot
+      - name: Independently check evidence completeness and reference reproduction
+        working-directory: qqqwave_v6
+        run: python finish.py --context-root ../volatility_v5 --verify-reference --zip-out "$RUNNER_TEMP/QQQWave_V6_Research.zip" > "$RUNNER_TEMP/V6_Package_Receipt.json"
+      - name: Commit every forecast, trade, source, input receipt and audit
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qqqwave_v6/source/engine.py qqqwave_v6/source/engine_diff.patch qqqwave_v6/SCREENSHOT_ANALYSIS.json qqqwave_v6/ASSESSMENT.json qqqwave_v6/RESULTS.md qqqwave_v6/VERIFICATION.json qqqwave_v6/MANIFEST.json qqqwave_v6/results qqqwave_v6/context qqqwave_v6/checks
+          if ! git diff --cached --quiet; then
+            git commit -m 'Preserve Parrish Lyon V6 screenshot arithmetic, five-year forecasts, every trade, costs and independent audits'
+            git push origin HEAD:qqqwave-v6
+          fi
+      - name: Publish complete source and evidence package
+        shell: bash
+        run: |
+          printf '%s\n' 'Parrish Lyon: transparent QQQWave-inspired 200-daily/five-forward/weekday research.' 'No proprietary MinAvg replication or 97.37% trade-win claim. All 43 trade/equity audits passed.' 'Five-year and separate 250-week tests; 65% annual target not met. No live V6 orders.' > "$RUNNER_TEMP/v6-notes.md"
+          if ! gh release view v6-qqqwave-20260922 >/dev/null 2>&1; then
+            gh release create v6-qqqwave-20260922 --target "$(git rev-parse HEAD)" --title 'V6 QQQWave-inspired five-year empirical research' --notes-file "$RUNNER_TEMP/v6-notes.md"
+          fi
+          gh release upload v6-qqqwave-20260922 "$RUNNER_TEMP/QQQWave_V6_Research.zip" "$RUNNER_TEMP/V6_Package_Receipt.json" --clobber
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: qqqwave-v6-program-and-audit
+          retention-days: 30
+          compression-level: 0
+          path: |
+            ${{ runner.temp }}/QQQWave_V6_Research.zip
+            ${{ runner.temp }}/V6_Package_Receipt.json
+            qqqwave_v6/checks
