@@ -1,0 +1,11 @@
+{
+  "source": "rv20",
+  "timeframe": 5,
+  "anchor_hour": 0,
+  "width": 0.75,
+  "family": "rejection",
+  "stop_sigma": 0.5,
+  "target": "pivot",
+  "regime": "aligned",
+  "direction": "both"
+}

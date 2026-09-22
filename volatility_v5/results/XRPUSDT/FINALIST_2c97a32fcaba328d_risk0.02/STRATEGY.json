@@ -1,0 +1,11 @@
+{
+  "source": "range20",
+  "timeframe": 5,
+  "anchor_hour": 8,
+  "width": 1.25,
+  "family": "rejection",
+  "stop_sigma": 0.5,
+  "target": "2R",
+  "regime": "aligned",
+  "direction": "both"
+}

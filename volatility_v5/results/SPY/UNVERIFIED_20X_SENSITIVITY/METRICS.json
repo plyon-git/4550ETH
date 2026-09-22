@@ -1,0 +1,31 @@
+{
+  "net_return": -0.19589594347039874,
+  "cagr": -0.04267313438463227,
+  "max_drawdown_adverse_daily_path": 0.22802450823701248,
+  "trades": 145,
+  "wins": 63,
+  "win_rate": 0.43448275862068964,
+  "score": -0.3856471558332776,
+  "fee_bps_per_side": 1,
+  "slippage_bps_per_side": 1,
+  "account_exposure_cap": 20,
+  "name": "UNVERIFIED_20X_SENSITIVITY",
+  "symbol": "SPY",
+  "period_start": "2021-09-01",
+  "period_end_exclusive": "2026-09-01",
+  "selection": "sensitivity_not_new_validated_strategy",
+  "annual_returns": [
+    -0.07901232441005279,
+    -0.09181070066368635,
+    -0.014357776755659746,
+    -0.021470791485440177,
+    -0.0032437659128446983
+  ],
+  "average_annual_return": -0.04197907184553675,
+  "positive_anniversary_years": 0,
+  "minimum_rolling_365d": -0.1265373227364921,
+  "maximum_rolling_365d": 0.061753528162614035,
+  "daily_data_only": true,
+  "execution_verified": false,
+  "historical_65pct_cagr_gate": false
+}

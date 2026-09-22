@@ -1,0 +1,13 @@
+{
+  "eth_quantity": 3.6,
+  "user_price": 2748.67,
+  "notional": 9895.212000000001,
+  "initial_margin_at_150x": 65.96808000000001,
+  "reported_cost_unverified": 5,
+  "cost_bps_notional": 5.052948840307817,
+  "cost_fraction_margin": 0.07579423260461725,
+  "cost_fraction_10000_equity": 0.0005,
+  "price_move_covering_5_total": 1.3888888888888888,
+  "price_move_covering_5_each_side": 2.7777777777777777,
+  "note": "Margin is not whole-account equity. Displayed loss may include spread/mark-to-market. No receipt establishes whether five dollars is fees or one-way/round-trip."
+}

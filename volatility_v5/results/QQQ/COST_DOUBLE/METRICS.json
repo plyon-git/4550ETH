@@ -1,0 +1,31 @@
+{
+  "net_return": -0.24086686032978966,
+  "cagr": -0.053630348873620615,
+  "max_drawdown_adverse_daily_path": 0.2492731823905725,
+  "trades": 168,
+  "wins": 63,
+  "win_rate": 0.375,
+  "score": -0.42903180812047176,
+  "fee_bps_per_side": 2,
+  "slippage_bps_per_side": 2,
+  "account_exposure_cap": 4,
+  "name": "COST_DOUBLE",
+  "symbol": "QQQ",
+  "period_start": "2021-09-01",
+  "period_end_exclusive": "2026-09-01",
+  "selection": "sensitivity_not_new_validated_strategy",
+  "annual_returns": [
+    -0.09391650580530408,
+    -0.0779543794257207,
+    -0.05124942686581624,
+    -0.019377639673314406,
+    -0.023339824599140968
+  ],
+  "average_annual_return": -0.05316755527385928,
+  "positive_anniversary_years": 0,
+  "minimum_rolling_365d": -0.10934818262596535,
+  "maximum_rolling_365d": 0.017332593512257688,
+  "daily_data_only": true,
+  "execution_verified": false,
+  "historical_65pct_cagr_gate": false
+}

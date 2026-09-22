@@ -1,0 +1,11 @@
+{
+  "source": "range20",
+  "timeframe": 5,
+  "anchor_hour": 8,
+  "width": 0.75,
+  "family": "breakout",
+  "stop_sigma": 0.5,
+  "target": "4R",
+  "regime": "aligned",
+  "direction": "both"
+}

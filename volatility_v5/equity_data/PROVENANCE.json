@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "SPY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1262304000&period2=1788220800&interval=1d&events=div%2Csplits",
+    "sha256": "b6328944e2b4851e58425561b2bbafe12769cf152752b36e67b9a66f11943d46",
+    "bytes": 464679,
+    "success": true,
+    "rows": 4190
+  },
+  {
+    "symbol": "QQQ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1262304000&period2=1788220800&interval=1d&events=div%2Csplits",
+    "sha256": "225ede765658ee76231d404233e737232513e0cd25623627d8fa5f91e58249c7",
+    "bytes": 461752,
+    "success": true,
+    "rows": 4190
+  },
+  {
+    "symbol": "VIX",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "success": true,
+    "sha256": "a0ab50c883232b5d8e8ff203b9b889b4c5c36f1cfdd31e33c0ea66d1dad2b1a8",
+    "bytes": 472870
+  },
+  {
+    "symbol": "VXN",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VXN_History.csv",
+    "success": true,
+    "sha256": "e43179773fb9d7162fd3af144811d265b91153b2a8d16a6162606030253f0a80",
+    "bytes": 218451
+  }
+]

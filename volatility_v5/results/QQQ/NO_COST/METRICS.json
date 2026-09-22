@@ -1,0 +1,31 @@
+{
+  "net_return": -0.1070777428958486,
+  "cagr": -0.02239911767219449,
+  "max_drawdown_adverse_daily_path": 0.13880086882273246,
+  "trades": 168,
+  "wins": 75,
+  "win_rate": 0.44642857142857145,
+  "score": -0.23085509125450288,
+  "fee_bps_per_side": 0,
+  "slippage_bps_per_side": 0,
+  "account_exposure_cap": 4,
+  "name": "NO_COST",
+  "symbol": "QQQ",
+  "period_start": "2021-09-01",
+  "period_end_exclusive": "2026-09-01",
+  "selection": "sensitivity_not_new_validated_strategy",
+  "annual_returns": [
+    -0.06696016519461434,
+    -0.04235953650295743,
+    -0.01163945652407683,
+    0.013961943476353378,
+    -0.0028191726118445004
+  ],
+  "average_annual_return": -0.021963277471427945,
+  "positive_anniversary_years": 1,
+  "minimum_rolling_365d": -0.08530018814294638,
+  "maximum_rolling_365d": 0.039378599648212775,
+  "daily_data_only": true,
+  "execution_verified": false,
+  "historical_65pct_cagr_gate": false
+}

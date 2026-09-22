@@ -1,0 +1,31 @@
+{
+  "net_return": -0.18354713935635403,
+  "cagr": -0.03975031535567208,
+  "max_drawdown_adverse_daily_path": 0.21033625733924877,
+  "trades": 165,
+  "wins": 69,
+  "win_rate": 0.41818181818181815,
+  "score": -0.35606632617501827,
+  "fee_bps_per_side": 1.0,
+  "slippage_bps_per_side": 1.0,
+  "account_exposure_cap": 4.0,
+  "name": "FINALIST_b4fc866d358d669a",
+  "symbol": "QQQ",
+  "period_start": "2021-09-01",
+  "period_end_exclusive": "2026-09-01",
+  "selection": "fixed_finalist_diagnostic",
+  "annual_returns": [
+    -0.07692869784185763,
+    -0.05126437171432063,
+    -0.041656123957663604,
+    -0.025296428644795088,
+    -0.0019398253422804324
+  ],
+  "average_annual_return": -0.03941708950018348,
+  "positive_anniversary_years": 0,
+  "minimum_rolling_365d": -0.0968796644308677,
+  "maximum_rolling_365d": 0.03663300729366825,
+  "daily_data_only": true,
+  "execution_verified": false,
+  "historical_65pct_cagr_gate": false
+}

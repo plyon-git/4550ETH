@@ -1,0 +1,11 @@
+{
+  "source": "iv5",
+  "timeframe": 5,
+  "anchor_hour": 8,
+  "width": 0.75,
+  "family": "rejection",
+  "stop_sigma": 0.5,
+  "target": "pivot",
+  "regime": "all",
+  "direction": "both"
+}

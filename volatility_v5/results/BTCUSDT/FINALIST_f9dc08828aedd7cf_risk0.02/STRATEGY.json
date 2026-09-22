@@ -1,0 +1,11 @@
+{
+  "source": "iv1",
+  "timeframe": 15,
+  "anchor_hour": 0,
+  "width": 0.75,
+  "family": "rejection",
+  "stop_sigma": 0.5,
+  "target": "2R",
+  "regime": "aligned",
+  "direction": "both"
+}

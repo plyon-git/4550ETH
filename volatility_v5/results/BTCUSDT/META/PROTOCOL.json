@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-22T18:12:54.274991+00:00",
+  "spec": {
+    "source": "iv5",
+    "timeframe": 5,
+    "anchor_hour": 8,
+    "width": 0.75,
+    "family": "rejection",
+    "stop_sigma": 0.5,
+    "target": "pivot",
+    "regime": "all",
+    "direction": "both"
+  },
+  "training_days": 730,
+  "refit_weeks": 13,
+  "embargo_hours": 24,
+  "minimum_training_labels": 100,
+  "thresholds_expected_net_R": [
+    0.0,
+    0.15,
+    0.35
+  ],
+  "training": "100 histogram boosting trees,depth3,minleaf30,l2=20,learning_rate.04,no early stopping,seed20260922; modeled net-R labels include fees/slippage/funding",
+  "selection": "Three fixed diagnostics, no performance-selected primary. Prior research calendar exposed.",
+  "prior_calendar_exposure": true
+}

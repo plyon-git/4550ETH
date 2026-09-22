@@ -1,0 +1,31 @@
+{
+  "net_return": -0.2583155395251996,
+  "cagr": -0.05802187977521378,
+  "max_drawdown_adverse_daily_path": 0.27533238005670824,
+  "trades": 145,
+  "wins": 58,
+  "win_rate": 0.4,
+  "score": -0.47277180169818006,
+  "fee_bps_per_side": 2,
+  "slippage_bps_per_side": 2,
+  "account_exposure_cap": 4,
+  "name": "COST_DOUBLE",
+  "symbol": "SPY",
+  "period_start": "2021-09-01",
+  "period_end_exclusive": "2026-09-01",
+  "selection": "sensitivity_not_new_validated_strategy",
+  "annual_returns": [
+    -0.09035002045235674,
+    -0.10399235333845547,
+    -0.0367149140448535,
+    -0.03715461625147998,
+    -0.018880831292766298
+  ],
+  "average_annual_return": -0.057418547075982394,
+  "positive_anniversary_years": 0,
+  "minimum_rolling_365d": -0.1388889701913828,
+  "maximum_rolling_365d": 0.04310186059812349,
+  "daily_data_only": true,
+  "execution_verified": false,
+  "historical_65pct_cagr_gate": false
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "trades": 507,
+  "minutes": 2520000,
+  "max_equity_error": 4.547473508864641e-11,
+  "gross_price_pnl": 2606.0679100000034,
+  "fees": 3282.094303095,
+  "funding_paid": 113.11870052584945,
+  "net_trade_pnl": -789.1450936208462
+}

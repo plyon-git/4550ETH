@@ -1,0 +1,9 @@
+{
+  "source": "iv1",
+  "family": "fade",
+  "direction": "trend",
+  "width": 1.0,
+  "stop_sigma": 1.0,
+  "target": "1R",
+  "risk": 0.02
+}

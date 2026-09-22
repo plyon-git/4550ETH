@@ -1,0 +1,173 @@
+{
+  "primary": {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "e5d724807b6ed7cc",
+    "metrics": {
+      "net_return": 0.2388152970776869,
+      "cagr": 0.1387502505420002,
+      "max_drawdown_adverse_daily_path": 0.022678893850443305,
+      "trades": 35,
+      "wins": 26,
+      "win_rate": 0.7428571428571429,
+      "score": 0.09591304883127069,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  "finalists": [
+    {
+      "spec": {
+        "source": "iv1",
+        "family": "fade",
+        "direction": "prior_reversal",
+        "width": 1.0,
+        "stop_sigma": 1.0,
+        "target": "pivot",
+        "risk": 0.02
+      },
+      "id": "e5d724807b6ed7cc",
+      "metrics": {
+        "net_return": 0.2388152970776869,
+        "cagr": 0.1387502505420002,
+        "max_drawdown_adverse_daily_path": 0.022678893850443305,
+        "trades": 35,
+        "wins": 26,
+        "win_rate": 0.7428571428571429,
+        "score": 0.09591304883127069,
+        "fee_bps_per_side": 1.0,
+        "slippage_bps_per_side": 1.0,
+        "account_exposure_cap": 4.0
+      }
+    },
+    {
+      "spec": {
+        "source": "iv1",
+        "family": "fade",
+        "direction": "prior_reversal",
+        "width": 1.0,
+        "stop_sigma": 1.0,
+        "target": "1R",
+        "risk": 0.02
+      },
+      "id": "f0341ffcd4ad52a3",
+      "metrics": {
+        "net_return": 0.23831667946504265,
+        "cagr": 0.13847214558168552,
+        "max_drawdown_adverse_daily_path": 0.022678893850443305,
+        "trades": 35,
+        "wins": 26,
+        "win_rate": 0.7428571428571429,
+        "score": 0.09566879955445809,
+        "fee_bps_per_side": 1.0,
+        "slippage_bps_per_side": 1.0,
+        "account_exposure_cap": 4.0
+      }
+    },
+    {
+      "spec": {
+        "source": "iv5",
+        "family": "fade",
+        "direction": "prior_reversal",
+        "width": 1.0,
+        "stop_sigma": 1.0,
+        "target": "pivot",
+        "risk": 0.02
+      },
+      "id": "ea16ef46e7eef5bd",
+      "metrics": {
+        "net_return": 0.21027474493328868,
+        "cagr": 0.1227600676610674,
+        "max_drawdown_adverse_daily_path": 0.024257557323589474,
+        "trades": 36,
+        "wins": 26,
+        "win_rate": 0.7222222222222222,
+        "score": 0.0794036639261151,
+        "fee_bps_per_side": 1.0,
+        "slippage_bps_per_side": 1.0,
+        "account_exposure_cap": 4.0
+      }
+    },
+    {
+      "spec": {
+        "source": "iv5",
+        "family": "fade",
+        "direction": "prior_reversal",
+        "width": 1.0,
+        "stop_sigma": 1.0,
+        "target": "1R",
+        "risk": 0.02
+      },
+      "id": "b4fc866d358d669a",
+      "metrics": {
+        "net_return": 0.20970546790118716,
+        "cagr": 0.1224396240318315,
+        "max_drawdown_adverse_daily_path": 0.024257557323589474,
+        "trades": 36,
+        "wins": 26,
+        "win_rate": 0.7222222222222222,
+        "score": 0.0791182161482649,
+        "fee_bps_per_side": 1.0,
+        "slippage_bps_per_side": 1.0,
+        "account_exposure_cap": 4.0
+      }
+    },
+    {
+      "spec": {
+        "source": "iv1",
+        "family": "fade",
+        "direction": "prior_reversal",
+        "width": 1.0,
+        "stop_sigma": 1.0,
+        "target": "pivot",
+        "risk": 0.01
+      },
+      "id": "132b1f1060ea2bd0",
+      "metrics": {
+        "net_return": 0.11351011254397547,
+        "cagr": 0.06740702335027549,
+        "max_drawdown_adverse_daily_path": 0.011337149518573009,
+        "trades": 35,
+        "wins": 26,
+        "win_rate": 0.7428571428571429,
+        "score": 0.04822664048542517,
+        "fee_bps_per_side": 1.0,
+        "slippage_bps_per_side": 1.0,
+        "account_exposure_cap": 4.0
+      }
+    },
+    {
+      "spec": {
+        "source": "iv1",
+        "family": "fade",
+        "direction": "prior_reversal",
+        "width": 1.0,
+        "stop_sigma": 1.0,
+        "target": "1R",
+        "risk": 0.01
+      },
+      "id": "4fada86dd3ff26d9",
+      "metrics": {
+        "net_return": 0.11323142803073094,
+        "cagr": 0.06724493383744035,
+        "max_drawdown_adverse_daily_path": 0.011337149518573009,
+        "trades": 35,
+        "wins": 26,
+        "win_rate": 0.7428571428571429,
+        "score": 0.048074775435386644,
+        "fee_bps_per_side": 1.0,
+        "slippage_bps_per_side": 1.0,
+        "account_exposure_cap": 4.0
+      }
+    }
+  ],
+  "frozen_at_utc": "2026-09-22T18:14:21.573573+00:00"
+}

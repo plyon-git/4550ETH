@@ -1,0 +1,1730 @@
+[
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "22454a017dcbf837",
+    "metrics": {
+      "net_return": 0.020505029673997255,
+      "cagr": 0.012391020461895552,
+      "max_drawdown_adverse_daily_path": 0.00732783830324979,
+      "trades": 31,
+      "wins": 21,
+      "win_rate": 0.6774193548387096,
+      "score": 0.001323122639007624,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "30ed6f4ca4a6e558",
+    "metrics": {
+      "net_return": 0.04148463755883647,
+      "cagr": 0.024967894507972987,
+      "max_drawdown_adverse_daily_path": 0.014673124289073303,
+      "trades": 31,
+      "wins": 21,
+      "win_rate": 0.6774193548387096,
+      "score": 0.002651603234958052,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "bb8d09b88ffd7bfb",
+    "metrics": {
+      "net_return": 0.08411876215604575,
+      "cagr": 0.05022332977876931,
+      "max_drawdown_adverse_daily_path": 0.02921646508409248,
+      "trades": 31,
+      "wins": 21,
+      "win_rate": 0.6774193548387096,
+      "score": 0.005178138954312142,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.005
+    },
+    "id": "67e726144c7d091e",
+    "metrics": {
+      "net_return": 0.02034491640184588,
+      "cagr": 0.012294646728499892,
+      "max_drawdown_adverse_daily_path": 0.00732783830324979,
+      "trades": 31,
+      "wins": 21,
+      "win_rate": 0.6774193548387096,
+      "score": 0.001227923927395104,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    "id": "f385f8ca5741d12b",
+    "metrics": {
+      "net_return": 0.041192171745146666,
+      "cagr": 0.024793255481240895,
+      "max_drawdown_adverse_daily_path": 0.014673124289073303,
+      "trades": 31,
+      "wins": 21,
+      "win_rate": 0.6774193548387096,
+      "score": 0.0024812038426623682,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.02
+    },
+    "id": "c5ca164dfb54086f",
+    "metrics": {
+      "net_return": 0.083552210709958,
+      "cagr": 0.04989030725546306,
+      "max_drawdown_adverse_daily_path": 0.02921646508409248,
+      "trades": 31,
+      "wins": 21,
+      "win_rate": 0.6774193548387096,
+      "score": 0.004860991805486582,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "e58896f3f6403602",
+    "metrics": {
+      "net_return": 0.01624193706654964,
+      "cagr": 0.009822990891846128,
+      "max_drawdown_adverse_daily_path": 0.008493962600569116,
+      "trades": 28,
+      "wins": 17,
+      "win_rate": 0.6071428571428571,
+      "score": -0.002965884949634543,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "fd9d845fd65ea3e3",
+    "metrics": {
+      "net_return": 0.032809041866304955,
+      "cagr": 0.0197792360593112,
+      "max_drawdown_adverse_daily_path": 0.016941369536004003,
+      "trades": 28,
+      "wins": 17,
+      "win_rate": 0.6071428571428571,
+      "score": -0.005825885669281449,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "ce617963d4d83c72",
+    "metrics": {
+      "net_return": 0.06603253853840219,
+      "cagr": 0.03955808015905116,
+      "max_drawdown_adverse_daily_path": 0.033813370595175196,
+      "trades": 28,
+      "wins": 17,
+      "win_rate": 0.6071428571428571,
+      "score": -0.011924355968799281,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.005
+    },
+    "id": "69b31d46cb71421e",
+    "metrics": {
+      "net_return": 0.016051793753926846,
+      "cagr": 0.009708352524445907,
+      "max_drawdown_adverse_daily_path": 0.008493962600569116,
+      "trades": 28,
+      "wins": 17,
+      "win_rate": 0.6071428571428571,
+      "score": -0.003079414623632667,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    "id": "6d9fe7f236eef0fe",
+    "metrics": {
+      "net_return": 0.03243018154298305,
+      "cagr": 0.019552259292174412,
+      "max_drawdown_adverse_daily_path": 0.016941369536004003,
+      "trades": 28,
+      "wins": 17,
+      "win_rate": 0.6071428571428571,
+      "score": -0.006048484857879836,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.02
+    },
+    "id": "2cbc949234b339d0",
+    "metrics": {
+      "net_return": 0.06518660131532128,
+      "cagr": 0.039057505296568484,
+      "max_drawdown_adverse_daily_path": 0.033813370595175196,
+      "trades": 28,
+      "wins": 17,
+      "win_rate": 0.6071428571428571,
+      "score": -0.012405998534805389,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.005
+    },
+    "id": "82498524dd1c23a5",
+    "metrics": {
+      "net_return": 0.03513989359620817,
+      "cagr": 0.02117493909521806,
+      "max_drawdown_adverse_daily_path": 0.007897962952837623,
+      "trades": 37,
+      "wins": 27,
+      "win_rate": 0.7297297297297297,
+      "score": 0.009106921011661474,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    "id": "9d5409e448615541",
+    "metrics": {
+      "net_return": 0.0715292240339358,
+      "cagr": 0.042806891456003804,
+      "max_drawdown_adverse_daily_path": 0.01575220048692949,
+      "trades": 37,
+      "wins": 27,
+      "win_rate": 0.7297297297297297,
+      "score": 0.01828771093257716,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.02
+    },
+    "id": "1dafa78a32a6496b",
+    "metrics": {
+      "net_return": 0.14742444235400387,
+      "cagr": 0.08701493832682017,
+      "max_drawdown_adverse_daily_path": 0.031433283224728714,
+      "trades": 37,
+      "wins": 27,
+      "win_rate": 0.7297297297297297,
+      "score": 0.03628542591851522,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "fd429e152b481401",
+    "metrics": {
+      "net_return": 0.034850600822459166,
+      "cagr": 0.02100177917684576,
+      "max_drawdown_adverse_daily_path": 0.007898575354846393,
+      "trades": 37,
+      "wins": 27,
+      "win_rate": 0.7297297297297297,
+      "score": 0.00893641873135145,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "a4681f1be5b95d52",
+    "metrics": {
+      "net_return": 0.0708995727449413,
+      "cagr": 0.042435069545006865,
+      "max_drawdown_adverse_daily_path": 0.01575463088043849,
+      "trades": 37,
+      "wins": 27,
+      "win_rate": 0.7297297297297297,
+      "score": 0.017927443020404173,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "a5c4e27d5aa8d7be",
+    "metrics": {
+      "net_return": 0.14600388588127777,
+      "cagr": 0.0861982421703742,
+      "max_drawdown_adverse_daily_path": 0.03141567184688332,
+      "trades": 37,
+      "wins": 27,
+      "win_rate": 0.7297297297297297,
+      "score": 0.03556024051736026,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.005
+    },
+    "id": "e5806735d2080cf6",
+    "metrics": {
+      "net_return": 0.027066466599248606,
+      "cagr": 0.016335312877278074,
+      "max_drawdown_adverse_daily_path": 0.003446807894616044,
+      "trades": 29,
+      "wins": 18,
+      "win_rate": 0.6206896551724138,
+      "score": 0.011033115225192045,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    "id": "0c07e4fd01516eb8",
+    "metrics": {
+      "net_return": 0.05486491120418857,
+      "cagr": 0.032937102466468415,
+      "max_drawdown_adverse_daily_path": 0.006911893216006826,
+      "trades": 29,
+      "wins": 18,
+      "win_rate": 0.6206896551724138,
+      "score": 0.022038460237529187,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.02
+    },
+    "id": "fe144b525030b332",
+    "metrics": {
+      "net_return": 0.11214092836784229,
+      "cagr": 0.06661051994969891,
+      "max_drawdown_adverse_daily_path": 0.013809453867932309,
+      "trades": 29,
+      "wins": 18,
+      "win_rate": 0.6206896551724138,
+      "score": 0.04377170140311108,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "be522c3709330c1c",
+    "metrics": {
+      "net_return": 0.026777696264427275,
+      "cagr": 0.016161932528862444,
+      "max_drawdown_adverse_daily_path": 0.0034469652455646482,
+      "trades": 29,
+      "wins": 18,
+      "win_rate": 0.6206896551724138,
+      "score": 0.01086227099821388,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "f14e4e8d596f73f9",
+    "metrics": {
+      "net_return": 0.0542690327377624,
+      "cagr": 0.03258304986520155,
+      "max_drawdown_adverse_daily_path": 0.006912522579525904,
+      "trades": 29,
+      "wins": 18,
+      "win_rate": 0.6206896551724138,
+      "score": 0.021694694453779827,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "27b5e6bd3def9223",
+    "metrics": {
+      "net_return": 0.1109762109181156,
+      "cagr": 0.06593265854216201,
+      "max_drawdown_adverse_daily_path": 0.013811949946404556,
+      "trades": 29,
+      "wins": 18,
+      "win_rate": 0.6206896551724138,
+      "score": 0.0431322267293197,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "dd6fedc399dacff4",
+    "metrics": {
+      "net_return": 0.019654115480613132,
+      "cagr": 0.011878778740144869,
+      "max_drawdown_adverse_daily_path": 0.013855262023181325,
+      "trades": 31,
+      "wins": 19,
+      "win_rate": 0.6129032258064516,
+      "score": -0.008974113197768776,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "b7174e9e98f21dac",
+    "metrics": {
+      "net_return": 0.03913347631019515,
+      "cagr": 0.023563407982706064,
+      "max_drawdown_adverse_daily_path": 0.02758703897396908,
+      "trades": 31,
+      "wins": 19,
+      "win_rate": 0.6129032258064516,
+      "score": -0.01809048215253474,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "f470c35ec183ff3c",
+    "metrics": {
+      "net_return": 0.0775252971981839,
+      "cagr": 0.04634339991562664,
+      "max_drawdown_adverse_daily_path": 0.054751433546394446,
+      "trades": 31,
+      "wins": 19,
+      "win_rate": 0.6129032258064516,
+      "score": -0.03682554035642642,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "00df4d59d2d1bd89",
+    "metrics": {
+      "net_return": 0.04921859085267433,
+      "cagr": 0.02957906621887907,
+      "max_drawdown_adverse_daily_path": 0.006078611274194068,
+      "trades": 36,
+      "wins": 26,
+      "win_rate": 0.7222222222222222,
+      "score": 0.020032128226546042,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "f2896f174addb8ea",
+    "metrics": {
+      "net_return": 0.10077593755750369,
+      "cagr": 0.059984146036586417,
+      "max_drawdown_adverse_daily_path": 0.012125445709993965,
+      "trades": 36,
+      "wins": 26,
+      "win_rate": 0.7222222222222222,
+      "score": 0.04006578287787612,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "ea16ef46e7eef5bd",
+    "metrics": {
+      "net_return": 0.21027474493328868,
+      "cagr": 0.1227600676610674,
+      "max_drawdown_adverse_daily_path": 0.024257557323589474,
+      "trades": 36,
+      "wins": 26,
+      "win_rate": 0.7222222222222222,
+      "score": 0.0794036639261151,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.005
+    },
+    "id": "6c31fe3b04c2ad2a",
+    "metrics": {
+      "net_return": 0.049104363314460775,
+      "cagr": 0.029511058429659176,
+      "max_drawdown_adverse_daily_path": 0.006078611274194068,
+      "trades": 36,
+      "wins": 26,
+      "win_rate": 0.7222222222222222,
+      "score": 0.019966072070547434,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    "id": "570ec14167854489",
+    "metrics": {
+      "net_return": 0.10053971603350842,
+      "cagr": 0.05984613206527589,
+      "max_drawdown_adverse_daily_path": 0.012125445709993965,
+      "trades": 36,
+      "wins": 26,
+      "win_rate": 0.7222222222222222,
+      "score": 0.03993557059349542,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.02
+    },
+    "id": "b4fc866d358d669a",
+    "metrics": {
+      "net_return": 0.20970546790118716,
+      "cagr": 0.1224396240318315,
+      "max_drawdown_adverse_daily_path": 0.024257557323589474,
+      "trades": 36,
+      "wins": 26,
+      "win_rate": 0.7222222222222222,
+      "score": 0.0791182161482649,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "aa445b60bc3f81cb",
+    "metrics": {
+      "net_return": 0.036557295952987845,
+      "cagr": 0.022023068632617715,
+      "max_drawdown_adverse_daily_path": 0.011739272100712017,
+      "trades": 28,
+      "wins": 17,
+      "win_rate": 0.6071428571428571,
+      "score": 0.004175155423270915,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "597872bb0b2cf47e",
+    "metrics": {
+      "net_return": 0.07378520376669218,
+      "cagr": 0.044138388537412476,
+      "max_drawdown_adverse_daily_path": 0.023420418779815932,
+      "trades": 28,
+      "wins": 17,
+      "win_rate": 0.6071428571428571,
+      "score": 0.008061408576261885,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "67ab2de24253884b",
+    "metrics": {
+      "net_return": 0.15040098671034596,
+      "cagr": 0.08872490348355733,
+      "max_drawdown_adverse_daily_path": 0.04656370057284165,
+      "trades": 28,
+      "wins": 17,
+      "win_rate": 0.6071428571428571,
+      "score": 0.015161647298269118,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "32657c7c759289fc",
+    "metrics": {
+      "net_return": 0.055316094474343824,
+      "cagr": 0.03320512932279862,
+      "max_drawdown_adverse_daily_path": 0.005645664329994471,
+      "trades": 35,
+      "wins": 26,
+      "win_rate": 0.7428571428571429,
+      "score": 0.02419725023358736,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "132b1f1060ea2bd0",
+    "metrics": {
+      "net_return": 0.11351011254397547,
+      "cagr": 0.06740702335027549,
+      "max_drawdown_adverse_daily_path": 0.011337149518573009,
+      "trades": 35,
+      "wins": 26,
+      "win_rate": 0.7428571428571429,
+      "score": 0.04822664048542517,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "e5d724807b6ed7cc",
+    "metrics": {
+      "net_return": 0.2388152970776869,
+      "cagr": 0.1387502505420002,
+      "max_drawdown_adverse_daily_path": 0.022678893850443305,
+      "trades": 35,
+      "wins": 26,
+      "win_rate": 0.7428571428571429,
+      "score": 0.09591304883127069,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.005
+    },
+    "id": "25b2a2676a1628d6",
+    "metrics": {
+      "net_return": 0.05520487688415776,
+      "cagr": 0.0331390643456968,
+      "max_drawdown_adverse_daily_path": 0.005645664329994471,
+      "trades": 35,
+      "wins": 26,
+      "win_rate": 0.7428571428571429,
+      "score": 0.02413330640726182,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    "id": "4fada86dd3ff26d9",
+    "metrics": {
+      "net_return": 0.11323142803073094,
+      "cagr": 0.06724493383744035,
+      "max_drawdown_adverse_daily_path": 0.011337149518573009,
+      "trades": 35,
+      "wins": 26,
+      "win_rate": 0.7428571428571429,
+      "score": 0.048074775435386644,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.02
+    },
+    "id": "f0341ffcd4ad52a3",
+    "metrics": {
+      "net_return": 0.23831667946504265,
+      "cagr": 0.13847214558168552,
+      "max_drawdown_adverse_daily_path": 0.022678893850443305,
+      "trades": 35,
+      "wins": 26,
+      "win_rate": 0.7428571428571429,
+      "score": 0.09566879955445809,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "989e0efa30165578",
+    "metrics": {
+      "net_return": 0.03694884690260891,
+      "cagr": 0.02225728013930417,
+      "max_drawdown_adverse_daily_path": 0.007969324527576815,
+      "trades": 29,
+      "wins": 17,
+      "win_rate": 0.5862068965517241,
+      "score": 0.010059215127772695,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "42e0cd568c392722",
+    "metrics": {
+      "net_return": 0.07487712871841223,
+      "cagr": 0.044782456122781866,
+      "max_drawdown_adverse_daily_path": 0.015908594677215282,
+      "trades": 29,
+      "wins": 17,
+      "win_rate": 0.5862068965517241,
+      "score": 0.01994579577026829,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "afe7b73b23fb1641",
+    "metrics": {
+      "net_return": 0.15278157200583808,
+      "cagr": 0.090091250092456,
+      "max_drawdown_adverse_daily_path": 0.03175129838347679,
+      "trades": 29,
+      "wins": 17,
+      "win_rate": 0.5862068965517241,
+      "score": 0.03863446084302745,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "1d6a7c77fce0dbfc",
+    "metrics": {
+      "net_return": 0.016326067191559934,
+      "cagr": 0.009873710678875103,
+      "max_drawdown_adverse_daily_path": 0.02761203211512553,
+      "trades": 37,
+      "wins": 23,
+      "win_rate": 0.6216216216216216,
+      "score": -0.03159276406934593,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "50f3b19bdca2ff57",
+    "metrics": {
+      "net_return": 0.03249207926618625,
+      "cagr": 0.019589344709410206,
+      "max_drawdown_adverse_daily_path": 0.05460695490793388,
+      "trades": 37,
+      "wins": 23,
+      "win_rate": 0.6216216216216216,
+      "score": -0.06251048935822759,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "fc9e8975bfe66069",
+    "metrics": {
+      "net_return": 0.0640701606874956,
+      "cagr": 0.03839662336128691,
+      "max_drawdown_adverse_daily_path": 0.10683217231658138,
+      "trades": 37,
+      "wins": 23,
+      "win_rate": 0.6216216216216216,
+      "score": -0.12257044328318818,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "4e905e3cebbed9cb",
+    "metrics": {
+      "net_return": 0.006636743678651635,
+      "cagr": 0.004021373852834076,
+      "max_drawdown_adverse_daily_path": 0.02505598634112549,
+      "trades": 31,
+      "wins": 16,
+      "win_rate": 0.5161290322580645,
+      "score": -0.03357066977071001,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "e70b41649ab4a293",
+    "metrics": {
+      "net_return": 0.012193393235049088,
+      "cagr": 0.0073802774497639945,
+      "max_drawdown_adverse_daily_path": 0.04977155108898701,
+      "trades": 31,
+      "wins": 16,
+      "win_rate": 0.5161290322580645,
+      "score": -0.0673041501711504,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "cb509bed178257a6",
+    "metrics": {
+      "net_return": 0.02542721567184736,
+      "cagr": 0.015350836945959179,
+      "max_drawdown_adverse_daily_path": 0.0912719045496867,
+      "trades": 31,
+      "wins": 16,
+      "win_rate": 0.5161290322580645,
+      "score": -0.12167365189121979,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "2836d14b6ab1fa08",
+    "metrics": {
+      "net_return": 0.0006214757465703435,
+      "cagr": 0.000377012663355325,
+      "max_drawdown_adverse_daily_path": 0.014002590201549148,
+      "trades": 56,
+      "wins": 26,
+      "win_rate": 0.4642857142857143,
+      "score": -0.020626943690385043,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "2af4c1c122e1194f",
+    "metrics": {
+      "net_return": 0.0006430587110224373,
+      "cagr": 0.0003901041194303012,
+      "max_drawdown_adverse_daily_path": 0.028369341781307122,
+      "trades": 56,
+      "wins": 26,
+      "win_rate": 0.4642857142857143,
+      "score": -0.042163984623359345,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "c78e27a2aca15874",
+    "metrics": {
+      "net_return": -0.00019906815804338063,
+      "cagr": -0.00012078238896351401,
+      "max_drawdown_adverse_daily_path": 0.05708149177277577,
+      "trades": 56,
+      "wins": 26,
+      "win_rate": 0.4642857142857143,
+      "score": -0.08574302734290726,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.005
+    },
+    "id": "cd088dc5789a72f5",
+    "metrics": {
+      "net_return": 0.00033504803044803744,
+      "cagr": 0.0002032653138870355,
+      "max_drawdown_adverse_daily_path": 0.01419646508235628,
+      "trades": 56,
+      "wins": 26,
+      "win_rate": 0.4642857142857143,
+      "score": -0.021091452965242306,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    "id": "59cbb18072c9b39f",
+    "metrics": {
+      "net_return": 6.263992418742426e-05,
+      "cagr": 3.800412077281656e-05,
+      "max_drawdown_adverse_daily_path": 0.028723444946217258,
+      "trades": 56,
+      "wins": 26,
+      "win_rate": 0.4642857142857143,
+      "score": -0.04304716402069138,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.02
+    },
+    "id": "398d7cf2347a699d",
+    "metrics": {
+      "net_return": -0.0013681675272831928,
+      "cagr": -0.0008303113891173775,
+      "max_drawdown_adverse_daily_path": 0.057798054286690714,
+      "trades": 56,
+      "wins": 26,
+      "win_rate": 0.4642857142857143,
+      "score": -0.08752773771858406,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "54efff3888db402f",
+    "metrics": {
+      "net_return": -0.0011816898917633711,
+      "cagr": -0.0007171158093258745,
+      "max_drawdown_adverse_daily_path": 0.015834030877824534,
+      "trades": 56,
+      "wins": 25,
+      "win_rate": 0.44642857142857145,
+      "score": -0.02446841937659768,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "9d32c6ebacd604fd",
+    "metrics": {
+      "net_return": -0.00271109577079387,
+      "cagr": -0.0016457407952117364,
+      "max_drawdown_adverse_daily_path": 0.03155069501635921,
+      "trades": 56,
+      "wins": 25,
+      "win_rate": 0.44642857142857145,
+      "score": -0.048973139038778674,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "fb009dc4352cd15c",
+    "metrics": {
+      "net_return": -0.006960111642256073,
+      "cagr": -0.004228603260903019,
+      "max_drawdown_adverse_daily_path": 0.06249510994116836,
+      "trades": 56,
+      "wins": 25,
+      "win_rate": 0.44642857142857145,
+      "score": -0.09798023399963487,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.005
+    },
+    "id": "2daab9c6b4f085de",
+    "metrics": {
+      "net_return": -0.0015242762948135535,
+      "cagr": -0.0009250788634609375,
+      "max_drawdown_adverse_daily_path": 0.015834030877824534,
+      "trades": 56,
+      "wins": 25,
+      "win_rate": 0.44642857142857145,
+      "score": -0.024676553329718014,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    "id": "f40359f352f9a81f",
+    "metrics": {
+      "net_return": -0.0032419931528081536,
+      "cagr": -0.001968222111859652,
+      "max_drawdown_adverse_daily_path": 0.03155069501635921,
+      "trades": 56,
+      "wins": 25,
+      "win_rate": 0.44642857142857145,
+      "score": -0.04929620413086107,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.02
+    },
+    "id": "95712aeddd0ca338",
+    "metrics": {
+      "net_return": -0.008044354972348566,
+      "cagr": -0.004888381229952277,
+      "max_drawdown_adverse_daily_path": 0.06249510994116836,
+      "trades": 56,
+      "wins": 25,
+      "win_rate": 0.44642857142857145,
+      "score": -0.0986430333585756,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "843ea855294f9f43",
+    "metrics": {
+      "net_return": 0.04350379708811247,
+      "cagr": 0.02617306194976665,
+      "max_drawdown_adverse_daily_path": 0.020059102794511507,
+      "trades": 28,
+      "wins": 14,
+      "win_rate": 0.5,
+      "score": -0.004252245303152994,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "84e8785ebda1d006",
+    "metrics": {
+      "net_return": 0.08701491466587807,
+      "cagr": 0.05192463848580342,
+      "max_drawdown_adverse_daily_path": 0.039906477503845905,
+      "trades": 28,
+      "wins": 14,
+      "win_rate": 0.5,
+      "score": -0.009238240926600513,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "ec81f4780b03aec3",
+    "metrics": {
+      "net_return": 0.18484881428821076,
+      "cagr": 0.10838953876490098,
+      "max_drawdown_adverse_daily_path": 0.07540303855400177,
+      "trades": 28,
+      "wins": 14,
+      "win_rate": 0.5,
+      "score": -0.010196462009508217,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "a9d4e9a8ce88d080",
+    "metrics": {
+      "net_return": 0.042768557883977154,
+      "cagr": 0.025734329016572577,
+      "max_drawdown_adverse_daily_path": 0.0318437463813277,
+      "trades": 37,
+      "wins": 21,
+      "win_rate": 0.5675675675675675,
+      "score": -0.022356844934134854,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "8467ddd32c702122",
+    "metrics": {
+      "net_return": 0.0857419034914586,
+      "cagr": 0.05117704378870558,
+      "max_drawdown_adverse_daily_path": 0.06296562859266852,
+      "trades": 37,
+      "wins": 21,
+      "win_rate": 0.5675675675675675,
+      "score": -0.04453791247979491,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "fb2d762887affe54",
+    "metrics": {
+      "net_return": 0.1727354196265256,
+      "cagr": 0.1015005329755978,
+      "max_drawdown_adverse_daily_path": 0.12231461830765855,
+      "trades": 37,
+      "wins": 21,
+      "win_rate": 0.5675675675675675,
+      "score": -0.08679855633788719,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.005
+    },
+    "id": "23a14fa4809412df",
+    "metrics": {
+      "net_return": 0.009144687030370191,
+      "cagr": 0.005538285002071541,
+      "max_drawdown_adverse_daily_path": 0.00933175297424449,
+      "trades": 57,
+      "wins": 26,
+      "win_rate": 0.45614035087719296,
+      "score": -0.008474624369307137,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    "id": "242398f740541890",
+    "metrics": {
+      "net_return": 0.018044825394062824,
+      "cagr": 0.010909542539873973,
+      "max_drawdown_adverse_daily_path": 0.01866862496925703,
+      "trades": 57,
+      "wins": 26,
+      "win_rate": 0.45614035087719296,
+      "score": -0.01715247467285003,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  },
+  {
+    "spec": {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.02
+    },
+    "id": "9aae87b4033dc510",
+    "metrics": {
+      "net_return": 0.0350310619187284,
+      "cagr": 0.02110979872542229,
+      "max_drawdown_adverse_daily_path": 0.03723436047354467,
+      "trades": 57,
+      "wins": 26,
+      "win_rate": 0.45614035087719296,
+      "score": -0.03496146693234549,
+      "fee_bps_per_side": 1.0,
+      "slippage_bps_per_side": 1.0,
+      "account_exposure_cap": 4.0
+    }
+  }
+]

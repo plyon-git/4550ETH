@@ -1,0 +1,11 @@
+{
+  "source": "rv20",
+  "timeframe": 5,
+  "anchor_hour": 0,
+  "width": 1.25,
+  "family": "breakout",
+  "stop_sigma": 0.5,
+  "target": "2R",
+  "regime": "all",
+  "direction": "both"
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "cutoff_utc": "2021-09-01T00:00:00+00:00",
+    "prediction_end_utc": "2021-12-01T00:00:00+00:00",
+    "training_labels": 792,
+    "training_end_exclusive": "2021-09-01T00:00:00+00:00",
+    "max_label_maturity_utc": "2021-08-29T02:36:00+00:00",
+    "model_file": "20210901.json",
+    "sha256": "dc67afb213d7a633fe807e9463a265a08cc23c5863466ecabace5f60b1b06cd1"
+  },
+  {
+    "cutoff_utc": "2021-12-01T00:00:00+00:00",
+    "prediction_end_utc": "2022-03-02T00:00:00+00:00",
+    "training_labels": 1062,
+    "training_end_exclusive": "2021-12-01T00:00:00+00:00",
+    "max_label_maturity_utc": "2021-11-29T00:35:00+00:00",
+    "model_file": "20211201.json",
+    "sha256": "c57aec350d26c4ec427f9d4fc1a4c94c07e75df5ac0cec724cedf7da456c102d"
+  },
+  {
+    "cutoff_utc": "2022-03-02T00:00:00+00:00",
+    "prediction_end_utc": "2022-06-01T00:00:00+00:00",
+    "training_labels": 1421,
+    "training_end_exclusive": "2022-03-02T00:00:00+00:00",
+    "max_label_maturity_utc": "2022-02-28T14:54:00+00:00",
+    "model_file": "20220302.json",
+    "sha256": "e3a76022e7d896949a918a89788edb7534abbbdf17ba0efee436e2636acf65f5"
+  },
+  {
+    "cutoff_utc": "2022-06-01T00:00:00+00:00",
+    "prediction_end_utc": "2022-08-31T00:00:00+00:00",
+    "training_labels": 1646,
+    "training_end_exclusive": "2022-06-01T00:00:00+00:00",
+    "max_label_maturity_utc": "2022-05-28T03:49:00+00:00",
+    "model_file": "20220601.json",
+    "sha256": "c478378cbe31af107f8b05b949f5dffcda57d72258f8aeda8a987354ae75591c"
+  },
+  {
+    "cutoff_utc": "2022-08-31T00:00:00+00:00",
+    "prediction_end_utc": "2022-11-30T00:00:00+00:00",
+    "training_labels": 1982,
+    "training_end_exclusive": "2022-08-31T00:00:00+00:00",
+    "max_label_maturity_utc": "2022-08-29T23:41:00+00:00",
+    "model_file": "20220831.json",
+    "sha256": "a0b2377fdc3ca53b7ec1d7c66bb4ee52beb7b467eeee15fa1442c07d6e3f9a40"
+  },
+  {
+    "cutoff_utc": "2022-11-30T00:00:00+00:00",
+    "prediction_end_utc": "2023-03-01T00:00:00+00:00",
+    "training_labels": 2187,
+    "training_end_exclusive": "2022-11-30T00:00:00+00:00",
+    "max_label_maturity_utc": "2022-11-25T07:11:00+00:00",
+    "model_file": "20221130.json",
+    "sha256": "6228a46a64c2b1aea8f388b82b59986ff7c38ec31538d71433cd14664aa51103"
+  },
+  {
+    "cutoff_utc": "2023-03-01T00:00:00+00:00",
+    "prediction_end_utc": "2023-05-31T00:00:00+00:00",
+    "training_labels": 2390,
+    "training_end_exclusive": "2023-03-01T00:00:00+00:00",
+    "max_label_maturity_utc": "2023-02-27T13:32:00+00:00",
+    "model_file": "20230301.json",
+    "sha256": "a24b4397f03aa25287e709b4ee54957bad002bae84426d378715bfa586995298"
+  },
+  {
+    "cutoff_utc": "2023-05-31T00:00:00+00:00",
+    "prediction_end_utc": "2023-08-30T00:00:00+00:00",
+    "training_labels": 2279,
+    "training_end_exclusive": "2023-05-31T00:00:00+00:00",
+    "max_label_maturity_utc": "2023-05-26T14:27:00+00:00",
+    "model_file": "20230531.json",
+    "sha256": "a8e2f2a3d598b9664a44495ecf618255db719698d5a58b1a86df276f7a7d9ef6"
+  },
+  {
+    "cutoff_utc": "2023-08-30T00:00:00+00:00",
+    "prediction_end_utc": "2023-11-29T00:00:00+00:00",
+    "training_labels": 2045,
+    "training_end_exclusive": "2023-08-30T00:00:00+00:00",
+    "max_label_maturity_utc": "2023-08-25T14:17:00+00:00",
+    "model_file": "20230830.json",
+    "sha256": "17461791dc3012ff787aea5cdd23baf42e4b326aee4df0e0e551d3a27c896a36"
+  },
+  {
+    "cutoff_utc": "2023-11-29T00:00:00+00:00",
+    "prediction_end_utc": "2024-02-28T00:00:00+00:00",
+    "training_labels": 2095,
+    "training_end_exclusive": "2023-11-29T00:00:00+00:00",
+    "max_label_maturity_utc": "2023-11-27T13:17:00+00:00",
+    "model_file": "20231129.json",
+    "sha256": "3714c341185e4e16c548755734febe36582d83d92eb080e585e6b4a6dac81c80"
+  },
+  {
+    "cutoff_utc": "2024-02-28T00:00:00+00:00",
+    "prediction_end_utc": "2024-05-29T00:00:00+00:00",
+    "training_labels": 2018,
+    "training_end_exclusive": "2024-02-28T00:00:00+00:00",
+    "max_label_maturity_utc": "2024-02-26T16:01:00+00:00",
+    "model_file": "20240228.json",
+    "sha256": "71f7c94a9610dab0cdccf8f3b9f4e935ef3c66a883aefe505ed1255bd5b75f99"
+  },
+  {
+    "cutoff_utc": "2024-05-29T00:00:00+00:00",
+    "prediction_end_utc": "2024-08-28T00:00:00+00:00",
+    "training_labels": 2119,
+    "training_end_exclusive": "2024-05-29T00:00:00+00:00",
+    "max_label_maturity_utc": "2024-05-27T15:37:00+00:00",
+    "model_file": "20240529.json",
+    "sha256": "36982ff60af2fb744e7fe3a2b7ad1c6c3decdb783ca863fde7f830fb6dea4286"
+  },
+  {
+    "cutoff_utc": "2024-08-28T00:00:00+00:00",
+    "prediction_end_utc": "2024-11-27T00:00:00+00:00",
+    "training_labels": 2082,
+    "training_end_exclusive": "2024-08-28T00:00:00+00:00",
+    "max_label_maturity_utc": "2024-08-20T15:02:00+00:00",
+    "model_file": "20240828.json",
+    "sha256": "70397fbb8a62f493d70f51079bf9b8c9a1099564e7d7398b0adb5351721ccf34"
+  },
+  {
+    "cutoff_utc": "2024-11-27T00:00:00+00:00",
+    "prediction_end_utc": "2025-02-26T00:00:00+00:00",
+    "training_labels": 2115,
+    "training_end_exclusive": "2024-11-27T00:00:00+00:00",
+    "max_label_maturity_utc": "2024-11-25T22:24:00+00:00",
+    "model_file": "20241127.json",
+    "sha256": "abf70a98b8b5e620f6de60bb7cab64c588e63513601d9719768cdf2b631ec023"
+  },
+  {
+    "cutoff_utc": "2025-02-26T00:00:00+00:00",
+    "prediction_end_utc": "2025-05-28T00:00:00+00:00",
+    "training_labels": 2245,
+    "training_end_exclusive": "2025-02-26T00:00:00+00:00",
+    "max_label_maturity_utc": "2025-02-24T22:03:00+00:00",
+    "model_file": "20250226.json",
+    "sha256": "2b6579ce943f850ca1c3335816460d6c6bd8693dafc71835652b0b7da650f740"
+  },
+  {
+    "cutoff_utc": "2025-05-28T00:00:00+00:00",
+    "prediction_end_utc": "2025-08-27T00:00:00+00:00",
+    "training_labels": 2272,
+    "training_end_exclusive": "2025-05-28T00:00:00+00:00",
+    "max_label_maturity_utc": "2025-05-23T20:37:00+00:00",
+    "model_file": "20250528.json",
+    "sha256": "7daeb0a21cbdb54492f2afd07c4bcbf891e9618f9ca8cf4bac02c27a29c99586"
+  },
+  {
+    "cutoff_utc": "2025-08-27T00:00:00+00:00",
+    "prediction_end_utc": "2025-11-26T00:00:00+00:00",
+    "training_labels": 2362,
+    "training_end_exclusive": "2025-08-27T00:00:00+00:00",
+    "max_label_maturity_utc": "2025-08-25T20:11:00+00:00",
+    "model_file": "20250827.json",
+    "sha256": "2d74e7a73cbe3244b1ca325dcf32f4bf3379464d0692fe9635bcd417a51b09db"
+  },
+  {
+    "cutoff_utc": "2025-11-26T00:00:00+00:00",
+    "prediction_end_utc": "2026-02-25T00:00:00+00:00",
+    "training_labels": 2372,
+    "training_end_exclusive": "2025-11-26T00:00:00+00:00",
+    "max_label_maturity_utc": "2025-11-24T09:22:00+00:00",
+    "model_file": "20251126.json",
+    "sha256": "9eeab20129723759d261d5002b266d38473e85c7c78672e4dbc6888eba0447e4"
+  },
+  {
+    "cutoff_utc": "2026-02-25T00:00:00+00:00",
+    "prediction_end_utc": "2026-05-27T00:00:00+00:00",
+    "training_labels": 2316,
+    "training_end_exclusive": "2026-02-25T00:00:00+00:00",
+    "max_label_maturity_utc": "2026-02-20T19:46:00+00:00",
+    "model_file": "20260225.json",
+    "sha256": "15d027a40c05228f3267f8c05fbb112526d59a8a81c364af1200e50af6a999f0"
+  },
+  {
+    "cutoff_utc": "2026-05-27T00:00:00+00:00",
+    "prediction_end_utc": "2026-08-26T00:00:00+00:00",
+    "training_labels": 2175,
+    "training_end_exclusive": "2026-05-27T00:00:00+00:00",
+    "max_label_maturity_utc": "2026-05-25T09:11:00+00:00",
+    "model_file": "20260527.json",
+    "sha256": "aa3eb76e68dde89bfca6179c90a864792d6af1cc5d645c069a6b7a890059413f"
+  },
+  {
+    "cutoff_utc": "2026-08-26T00:00:00+00:00",
+    "prediction_end_utc": "2026-09-01T00:00:00+00:00",
+    "training_labels": 2112,
+    "training_end_exclusive": "2026-08-26T00:00:00+00:00",
+    "max_label_maturity_utc": "2026-08-24T17:24:00+00:00",
+    "model_file": "20260826.json",
+    "sha256": "9c79c5f57f802198ae779f8d8591ebb7598c694bd5af2f067afc3523dd6954d6"
+  }
+]

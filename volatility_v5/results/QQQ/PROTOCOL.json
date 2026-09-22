@@ -1,0 +1,6505 @@
+{
+  "written_at_utc": "2026-09-22T18:14:21.130632+00:00",
+  "scope": "Daily OHLC adverse-sequence diagnostic, not ES5m replication; limit fills/depth/latency unverified",
+  "development": [
+    "2011-01-03",
+    "2020-01-01"
+  ],
+  "validation": [
+    "2020-01-01",
+    "2021-08-25"
+  ],
+  "evaluation": [
+    "2021-09-01",
+    "2026-09-01"
+  ],
+  "grid": [
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv1",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "iv5",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "pivot",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "fade",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "long",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "short",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "counter_trend",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.25,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 0.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.0,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.25,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 0.5,
+      "target": "2R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "1R",
+      "risk": 0.01
+    },
+    {
+      "source": "rv20",
+      "family": "breakout",
+      "direction": "prior_reversal",
+      "width": 1.5,
+      "stop_sigma": 1.0,
+      "target": "2R",
+      "risk": 0.01
+    }
+  ],
+  "selection": "Top24 development loggrowth-minus1.5DD with>=200trades; validation primary positive net and>=30trades. Freeze before evaluation.",
+  "fees_slippage_bps_each": [
+    1,
+    1
+  ],
+  "intraday_notional_cap": 4,
+  "same_day_flat": true
+}
