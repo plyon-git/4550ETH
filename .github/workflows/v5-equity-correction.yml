@@ -1,0 +1,55 @@
+name: V5.1 verify corrected daily excursion accounting and final release
+on:
+  push:
+    branches: [volatility-v5]
+    paths: ['volatility_v5/correct_equity_excursion.py','.github/workflows/v5-equity-correction.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: v5-research-publication
+  cancel-in-progress: false
+jobs:
+  correct-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: volatility-v5
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r volatility_v5/requirements.txt
+      - name: Apply tested correction, recompute ETF selection and run all 24 tests
+        run: python volatility_v5/correct_equity_excursion.py
+      - name: Assemble and verify corrected complete research bundle
+        run: python volatility_v5/source/assemble.py --zip "$RUNNER_TEMP/V5_Volatility_Research.zip" > "$RUNNER_TEMP/V5_Receipt.json"
+      - name: Save corrected source, every ETF trade and unchanged-crypto verification
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add volatility_v5
+          if ! git diff --cached --quiet; then git commit -m 'Correct daily ETF excursion accounting, rerun selection and preserve all crypto evidence unchanged'; git push origin HEAD:volatility-v5; fi
+      - name: Publish corrected release, preserve prior edition
+        run: |
+          printf '%s\n' 'Parrish Lyon V5.1: corrected daily ETF excursion accounting.' 'All 24 tests and 127 case audits passed. Crypto results are unchanged.' 'No tested case meets 65% CAGR plus 200 trades; no live orders were submitted.' 'The original V5 edition is preserved; use this corrected release.' > "$RUNNER_TEMP/V5_NOTES.txt"
+          if ! gh release view v5.1-volatility-20260922 >/dev/null 2>&1; then gh release create v5.1-volatility-20260922 --target "$(git rev-parse HEAD)" --title 'V5.1 actual-IV five-year research, corrected and audited' --notes-file "$RUNNER_TEMP/V5_NOTES.txt"; fi
+          gh release upload v5.1-volatility-20260922 "$RUNNER_TEMP/V5_Volatility_Research.zip" "$RUNNER_TEMP/V5_Receipt.json" --clobber
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v5.1-corrected-research
+          retention-days: 30
+          compression-level: 0
+          path: |
+            ${{ runner.temp }}/V5_Volatility_Research.zip
+            ${{ runner.temp }}/V5_Receipt.json
+            volatility_v5/VERIFICATION.json
+            volatility_v5/results/TESTS.xml
+            volatility_v5/revisions/EQUITY_CORRECTION.json
