@@ -1,0 +1,67 @@
+name: Recheck 72h IV carry and both fee interpretations
+on:
+  push:
+    branches: [iv-carry-recheck]
+    paths:
+      - 'hold72_iv_v8/followup_72h/recheck.py'
+      - '.github/workflows/v8-followup-recheck.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: iv-carry-followup
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: iv-carry-recheck
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install numerical packages and rerun existing 28 tests without changing source
+        working-directory: hold72_iv_v8
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install -r requirements.txt
+          mkdir -p followup_72h/checks
+          python -m pytest -q | tee followup_72h/checks/tests.txt
+      - name: Download only the immutable public ETH historical input
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/v8-followup-data"
+          gh release download v4-research-20260922 --pattern ETHUSDT_aligned_repaired.npz --dir "$RUNNER_TEMP/v8-followup-data"
+      - name: Reconcile all original exports and execute matched hold/cost/margin sensitivities
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -u hold72_iv_v8/followup_72h/recheck.py --data "$RUNNER_TEMP/v8-followup-data/ETHUSDT_aligned_repaired.npz" --zip-out "$RUNNER_TEMP/IV_Carry_V8_Followup_72h.zip"
+      - name: Commit every new trade, annual result and verification receipt
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add hold72_iv_v8/followup_72h
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save Parrish Lyon 72h recheck, complete matched ledgers and explicitly conditional 46.05% CAGR fee scenario'
+            git push origin HEAD:iv-carry-recheck
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: iv-carry-followup-verified
+          retention-days: 30
+          compression-level: 0
+          path: |
+            ${{ runner.temp }}/IV_Carry_V8_Followup_72h.zip
+            hold72_iv_v8/followup_72h/checks
