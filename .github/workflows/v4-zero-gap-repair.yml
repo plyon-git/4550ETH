@@ -1,0 +1,52 @@
+name: Reconstruct observed archive zero-volume gap from exchange trades
+on:
+  push:
+    branches: [execution-v4]
+    paths: ['execution_v4/research/repair_zero_gap.py', '.github/workflows/v4-zero-gap-repair.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - symbol: ETHUSDT
+            artifact: eth-history-observed-with-mark-gaps
+            run: 35677890814
+            filename: aligned_extended_WITH_MARK_GAPS.npz
+          - symbol: BTCUSDT
+            artifact: v4-market-BTCUSDT
+            run: 35682210177
+            filename: aligned.npz
+          - symbol: XRPUSDT
+            artifact: v4-market-XRPUSDT-postlisting
+            run: 35682537169
+            filename: aligned.npz
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install numpy==2.3.5 pandas==2.2.3
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}
+          run-id: ${{ matrix.run }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: original
+      - run: python execution_v4/research/repair_zero_gap.py --input original/${{ matrix.filename }} --symbol ${{ matrix.symbol }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v4-repaired-${{ matrix.symbol }}
+          retention-days: 30
+          compression-level: 0
+          path: |
+            repaired/aligned_repaired.npz
+            repaired/*.json
+            repaired/*.csv
