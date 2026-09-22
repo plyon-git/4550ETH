@@ -1,4 +1,4 @@
-name: V4 read-only BTC XRP historical data
+name: V4 XRP history after observed contract start
 on:
   push:
     branches: [execution-v4]
@@ -10,25 +10,21 @@ jobs:
   acquire:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    strategy:
-      fail-fast: false
-      matrix:
-        symbol: [BTCUSDT, XRPUSDT]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
       - run: python -m pip install numpy==2.3.5 pandas==2.2.3
-      - name: Acquire actual public trade mark and funding archives
-        run: python execution_v4/research/acquire.py --symbol ${{ matrix.symbol }}
+      - name: Acquire XRP after unavailable January 1 to January 6 2020 history
+        run: python execution_v4/research/acquire.py --symbol XRPUSDT --start 2020-02-01
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: v4-market-${{ matrix.symbol }}
+          name: v4-market-XRPUSDT-postlisting
           retention-days: 30
           compression-level: 0
           path: |
-            market_data/${{ matrix.symbol }}/aligned.npz
-            market_data/${{ matrix.symbol }}/*.json
-            market_data/${{ matrix.symbol }}/*.csv
+            market_data/XRPUSDT/aligned.npz
+            market_data/XRPUSDT/*.json
+            market_data/XRPUSDT/*.csv
