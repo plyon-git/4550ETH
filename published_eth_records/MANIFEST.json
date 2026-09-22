@@ -1,0 +1,442 @@
+{
+  ".gitignore": {
+    "sha256": "0249059d49bd991e6d590b5c5f23188c32df5e69cdfc3e53a69d1430093d3e56",
+    "bytes": 132
+  },
+  "CATALOG.json": {
+    "sha256": "03c145cf383b15903f1e76f38961bfa3431df6d37082b98edc10e042a3d7aecb",
+    "bytes": 1636
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/ANNUAL_RETURNS.json": {
+    "sha256": "fe8079cd2bdaf19e79ad58bc54452ea99fff5e0d7f0392714b0385323c59602f",
+    "bytes": 263
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/DAILY_EQUITY.csv": {
+    "sha256": "48a1db9680e86638d1b765cc3f0cb70c2ac62cb82197d313b06813583711686f",
+    "bytes": 81083
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/EVERY_TRADE_UTC.csv": {
+    "sha256": "218d53aa70c06bdfa68203c2876994b4e77660cedf4cc8110ddfd380cb426c83",
+    "bytes": 182704
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/INDEPENDENT_AUDIT.json": {
+    "sha256": "ff244d14c07148eeb947a5f518ef4b08142f946120bbffecd8c69bf6de4aea10",
+    "bytes": 510
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/METRICS.json": {
+    "sha256": "88661e71620787eca8c9d3e7430d2fa2b9e3a25006cd346b404de4eac4270c46",
+    "bytes": 1190
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/MINUTE_EQUITY_RECONSTRUCTED.csv.gz": {
+    "sha256": "f7502bd8a92bf32c986e10f4e05e55dddc1c79808bb0458ffe8131e1557b9219",
+    "bytes": 12016550
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/MONTHLY_RETURNS.csv": {
+    "sha256": "19fdfff0457e755bbfdfedf47195c1a15f9dda3ec50f4c7bb6b591351534dafc",
+    "bytes": 4318
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/PARAMETERS.json": {
+    "sha256": "bca3ec060f29288e119d53d2fb89db15fb3520d27f49a8e775711a00ee3fb6a6",
+    "bytes": 1033
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/PUBLICATION.json": {
+    "sha256": "637d0964120a93bf81d591d4f57a6d0fcee0eebb66492a8f938fd2076e36fe77",
+    "bytes": 607
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/README.md": {
+    "sha256": "498ec84c765b7ab78029c9980bb6fcf8b3da5df8604eb9d58feb7baee900c545",
+    "bytes": 3220
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/REPRODUCTION_VERIFICATION.json": {
+    "sha256": "ccad383c409519993bdc699da20eed5efb16cb650a3513ed3949282d5c6a4b2e",
+    "bytes": 965
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/ROLLING_365D.csv": {
+    "sha256": "f1263d255798e99a0e4b1d306989be7b89b7bcff1daece8c8bac042fa9325dce",
+    "bytes": 66835
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/WEEKLY_RETURNS.csv": {
+    "sha256": "d7e5e1fc6c3557dce30413182a6df7711fa436f355ea97028bccc23dd7478041",
+    "bytes": 10518
+  },
+  "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/reproduce.py": {
+    "sha256": "182dd34847ad67d9a152a68e45b73d2f43fc096c6f8676da9aa3b2ede8d83319",
+    "bytes": 266
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/ANNUAL_RETURNS.json": {
+    "sha256": "b15a9700c5cb38c937a56a9a555b1b9a33069786017560d421bb2431df5d403c",
+    "bytes": 261
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/DAILY_EQUITY.csv": {
+    "sha256": "5e373817a46becb4924343f66b408a718013fbdceee97c699fc9cf86ec71413e",
+    "bytes": 80953
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/EVERY_TRADE_UTC.csv": {
+    "sha256": "84063d2d502655b684d38b6ba740140b8fc38846a131d38ed1b7d67affdce961",
+    "bytes": 185376
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/INDEPENDENT_AUDIT.json": {
+    "sha256": "77d846e15e72cae0943a1175dda6b50b83891d5cfa2d349c9b840146b49a2035",
+    "bytes": 509
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/METRICS.json": {
+    "sha256": "5dfb08bab5173535cb37ffb8c2748cd3920899016af1b118cd7bb2859cebb8ad",
+    "bytes": 1189
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/MINUTE_EQUITY_RECONSTRUCTED.csv.gz": {
+    "sha256": "f75418d56aa5821fa0073ad3e90fc19b75ffa210ec11f4916941ca52e6396f99",
+    "bytes": 12008516
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/MONTHLY_RETURNS.csv": {
+    "sha256": "07c165cee2ad9308abe8c2441d37d8fbdbfa3c2c8dd74d07f131791ddb61164b",
+    "bytes": 4317
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/PARAMETERS.json": {
+    "sha256": "dd8b3756597ba3bf6eb512f9d6fb0d0fcad564481bcc0ebe2ad44c6307303cd6",
+    "bytes": 729
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/PUBLICATION.json": {
+    "sha256": "554c45e09ac59bd4df8e6d0044a621f9b9ca44a7e7ebdeb2088dbe47017ce43d",
+    "bytes": 622
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/README.md": {
+    "sha256": "56ff663b14e8a28377a766c762d79d340fc2a5e8e36831642ab4fd2b7d7976e1",
+    "bytes": 3248
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/REPRODUCTION_VERIFICATION.json": {
+    "sha256": "ac20dddd9c3ed60b2a51cfd926ac2722b55c915d5ba9fc2cf1b69a82ddb26801",
+    "bytes": 964
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/ROLLING_365D.csv": {
+    "sha256": "382a3d385703ab16dd51a9454e80f705ae932c685cb707fcd346259b52b46dd8",
+    "bytes": 66779
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/WEEKLY_RETURNS.csv": {
+    "sha256": "cc7304b102418a4abd547d6d4cad13a5d52486e51676434ac3be8f8b29830b97",
+    "bytes": 10523
+  },
+  "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/reproduce.py": {
+    "sha256": "3b2b1d3d2a9fd5d3c0ecc8706429aeb9a584345611471ae17f29e828988b79bc",
+    "bytes": 266
+  },
+  "OWNERSHIP.md": {
+    "sha256": "4a5b8767b5fa5761001204c34c3d1fac843c783006551c4b44277aac4e0a27e0",
+    "bytes": 921
+  },
+  "PUBLICATION_VERIFICATION.json": {
+    "sha256": "29daafc753d4f12863a75991994602d514e458f0f01b151394a4cc4bc91b74e3",
+    "bytes": 10033
+  },
+  "README.md": {
+    "sha256": "caa7b22bd8e790fd5899c6818145d82785c22c65f447b45962293bd68b636fc5",
+    "bytes": 3516
+  },
+  "SOURCE_MAP.json": {
+    "sha256": "7cbcbf14537caef10072f27aa2b872a5bc46ac19e2ce97ed66d9429f55121f54",
+    "bytes": 28163
+  },
+  "checks/TESTS.xml": {
+    "sha256": "03de8ac23081adf5b61213933fbad4790355716b7233f60cf6760c7bd509392b",
+    "bytes": 4136
+  },
+  "checks/reproduction.txt": {
+    "sha256": "bfb6cbc08b305d5182004489ce746793288afd4cfd3c5e6ea0be246e95d99922",
+    "bytes": 218
+  },
+  "checks/tests.txt": {
+    "sha256": "59155f0bfc819c7992871ecd31a2a95b46e4128674c742762bc49d7a8b763c3b",
+    "bytes": 99
+  },
+  "reproduce.py": {
+    "sha256": "9f1d7008c6e253ca1f2e8216f94a0447aed44871db1283630737524ca5c90e27",
+    "bytes": 10100
+  },
+  "shared/data/DATA_MANIFEST.json": {
+    "sha256": "2d02aaa7748ed6866e9d6e228f5358e396c68f26384da3cce515176bae8211a9",
+    "bytes": 1435
+  },
+  "shared/data/ETHUSDT_aligned_repaired.npz.part000": {
+    "sha256": "8260c8278933cc4aacf712e047977ede8b5f510862511725f22b250db3958be6",
+    "bytes": 41943040
+  },
+  "shared/data/ETHUSDT_aligned_repaired.npz.part001": {
+    "sha256": "7267b0214ccedb43e4b4d0c75ba82b1f128e50142215adf3f2e37aa3e70b92d6",
+    "bytes": 41943040
+  },
+  "shared/data/ETHUSDT_aligned_repaired.npz.part002": {
+    "sha256": "b745f882d705213492a0b729305c2a3a2314063ffb28afaf81c35ceb106f8134",
+    "bytes": 41943040
+  },
+  "shared/data/ETHUSDT_aligned_repaired.npz.part003": {
+    "sha256": "180eebfc78f2ffaed00230109175bb5be950fd2540c0739d945dd9c245b20af0",
+    "bytes": 41943040
+  },
+  "shared/data/ETHUSDT_aligned_repaired.npz.part004": {
+    "sha256": "497788d65548743ca865cd5222b6732bd7cbb48a4835714d4e938609085e4bba",
+    "bytes": 33332743
+  },
+  "shared/data/README.md": {
+    "sha256": "77827c48b3dba3db053800eee8686dddae1cd18451cf76a579ba3915d514800f",
+    "bytes": 347
+  },
+  "shared/data_provenance/ETHUSDT/OBSERVED_TRADE_REPAIRS.csv": {
+    "sha256": "e43214bb5b17e0d6ae760171dc34b4d6ef3315dddd3b9a977f22b57170cd59e3",
+    "bytes": 9589
+  },
+  "shared/data_provenance/ETHUSDT/REPAIR_PROVENANCE.json": {
+    "sha256": "7190eb39c0e66183e9e11b29cbe09ecad71eaf4f40eaf57d5b5542aa621b7cc0",
+    "bytes": 908
+  },
+  "shared/frozen_v8/context/iv_data/BTC_1D.csv": {
+    "sha256": "d55d308002a9cc9035d4122cdae40dba0d0d1427fec300c3926c8838a7c83837",
+    "bytes": 76982
+  },
+  "shared/frozen_v8/context/iv_data/BTC_1D_000.json": {
+    "sha256": "6fd073055106988c8f413a6a9cccd3f5fdd6cb97ef56f4f2fce9b3bfa7dcbd10",
+    "bytes": 39774
+  },
+  "shared/frozen_v8/context/iv_data/BTC_1D_001.json": {
+    "sha256": "d0098963123515e61a9b9ab6c18e91448fa053945135c1266107847e1241e3f9",
+    "bytes": 39487
+  },
+  "shared/frozen_v8/context/iv_data/ETH_1D.csv": {
+    "sha256": "2070bb20b006dc9187d20174fe937ac2329c1ee760a440a4bef06b59d4bb5892",
+    "bytes": 78061
+  },
+  "shared/frozen_v8/context/iv_data/ETH_1D_000.json": {
+    "sha256": "6f2f9cec91ba750fb5b0414768e254090faef6e910675a9ec46e2e84a65185bb",
+    "bytes": 39741
+  },
+  "shared/frozen_v8/context/iv_data/ETH_1D_001.json": {
+    "sha256": "adff7659852def77545a63b8255f728f738aa6228f498fac6c680912ea22f204",
+    "bytes": 40598
+  },
+  "shared/frozen_v8/context/iv_data/PROVENANCE.json": {
+    "sha256": "a347b019deaf25efefc99ba29164461199875b3f1bc9d93ae4cad37f0d74ce46",
+    "bytes": 47641
+  },
+  "shared/frozen_v8/core.py": {
+    "sha256": "f7667597f0a13f4bc075ff236e8aa34f0b918ab8b28e4cc213fffbb9ee7d500f",
+    "bytes": 16476
+  },
+  "shared/frozen_v8/finalize.py": {
+    "sha256": "0197ed5a0727c18c6e4fac499e0cfd16e7a4bb34e03010805f8ad9ed05de8f3d",
+    "bytes": 11815
+  },
+  "shared/frozen_v8/input_v7.py": {
+    "sha256": "4940669e7e67d90205e662f6314961017ff2ea2a7c4ed3530e643a743401ffa0",
+    "bytes": 15011
+  },
+  "shared/frozen_v8/learning.py": {
+    "sha256": "4624a31ff4f7fd921a2953da75088f2965c4f5bee4616a4a156335cd151e0d0c",
+    "bytes": 9923
+  },
+  "shared/frozen_v8/report.py": {
+    "sha256": "b54bad12c098564939a042351d566d5447dd68c017c98efc7b9dc274c3891064",
+    "bytes": 6111
+  },
+  "shared/frozen_v8/requirements.txt": {
+    "sha256": "bbb38f301f1eee9b5e6a8123b9d036ef06f9ab185e283c35c9e4da89ce280807",
+    "bytes": 75
+  },
+  "shared/frozen_v8/research.py": {
+    "sha256": "be500f43db88c3ee7e40c794a3ce2227a3356c49aad83ee40b649b27abaa5b82",
+    "bytes": 7446
+  },
+  "shared/frozen_v8/results/ETHUSDT/DAILY_WEEKLY_LEVEL_INPUTS.csv": {
+    "sha256": "386cde808c47062baac113e9d0cf960c5aeb8c6cb7efe833e98c745c6e7b7725",
+    "bytes": 664301
+  },
+  "shared/frozen_v8/results/ETHUSDT/DATA_IDENTITY.json": {
+    "sha256": "521b70e36c3f78b1c1318f099cb420facdd538eaff6166fd24c92efd8ccd3316",
+    "bytes": 1687
+  },
+  "shared/frozen_v8/results/ETHUSDT/DEVELOPMENT.json": {
+    "sha256": "cb96a77f9d3f3bce9b49aa4b977dc8547cb915f4e48dca856f6d2cdc4dcbfd47",
+    "bytes": 2115824
+  },
+  "shared/frozen_v8/results/ETHUSDT/FROZEN_SELECTION.json": {
+    "sha256": "77ac7b78674ac2cbad4a4a3aaa9daf0f6247ebe065711770cc313f11ed5db2d5",
+    "bytes": 12493
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/CANDIDATE_POLICIES.json": {
+    "sha256": "ba2794a82a0ea061a4f235aca71700d005b5693f77a5035e03e4c6ec5f8ce6a5",
+    "bytes": 5949
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/MODEL_RECEIPTS.json": {
+    "sha256": "3d05431e78b3a8d9d26ea0efe49942f60ef780ac9699af01094de7a08971fc51",
+    "bytes": 5682
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/PREDICTIONS.npz": {
+    "sha256": "8ddd0664053bcdc4a02a42d89445c52400a922962c9030233f97aca4a94ac64d",
+    "bytes": 2491235
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/PROTOCOL.json": {
+    "sha256": "77c71b9a3020e64999d1e0d7b776827a3f5e3d12d8cf85dba249fb3e2d21f756",
+    "bytes": 543
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/SUMMARY.json": {
+    "sha256": "f6cab181f77174058026307b19c3e998c1372566fb6bc21492ac9f7b372af14d",
+    "bytes": 15999
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20210901.json": {
+    "sha256": "e0e1c8d29bae229ce895f1cd50f802402a85fc9c74e8ab736e3e80a65c4e7390",
+    "bytes": 213110
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20211201.json": {
+    "sha256": "b3752166c87cdd29d2035dc92686e20abffb792568f4e156dda5921989e4c79d",
+    "bytes": 225421
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20220302.json": {
+    "sha256": "1c25ee992fb260d79ca564aa64cfd9a3ebdb097efdf410ff651879c89afb4105",
+    "bytes": 230703
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20220601.json": {
+    "sha256": "b92d6b5d9394aa0111219b756a9289f025808b9b543cca33d2e1b9f8b5f5bb88",
+    "bytes": 227850
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20220831.json": {
+    "sha256": "9df22c129d348ef51a43724e76d84f33bf3c23f6ce8c574c92bd0de73efbf9c7",
+    "bytes": 234753
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20221130.json": {
+    "sha256": "2557896008af2ed3ffe674643d08cf9aa67986c7d4722f530f2793a759d23616",
+    "bytes": 238984
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20230301.json": {
+    "sha256": "1816e19c2feb648c482654f02076f69f38a41a558660fa00171ec665c2de32cb",
+    "bytes": 245669
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20230531.json": {
+    "sha256": "13605794b7c8ebe2c3f2bab46032153afddc4a46ff30c328662ade071365a3f4",
+    "bytes": 237866
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20230830.json": {
+    "sha256": "1aad123b570d08a7a3f975a1a3c6635b0aa1caf72b855f7aa40c8f819e25bc7b",
+    "bytes": 226175
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20231129.json": {
+    "sha256": "ad2b7c96f8a4e28fe31423df4367ae9a55bbf0f8a1bbc3239ee9b63b4a0d7eb0",
+    "bytes": 217071
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20240228.json": {
+    "sha256": "23930472847f9c916b4a81c60e251dc4fbab97e2b046dc88b07e4c1303cdecda",
+    "bytes": 224650
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20240529.json": {
+    "sha256": "4cb84f3aa6144e697132d241cf0caec3dfa0aa07e00b41e25c8c30709dbc94a3",
+    "bytes": 227225
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20240828.json": {
+    "sha256": "46fa1f650ab7bc4e005b4fb69c914ba51f939480acaf696b134d3b2730a5edbe",
+    "bytes": 235182
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20241127.json": {
+    "sha256": "54d8fc2bca6a3218b40c8d77887539e9ca4454dd2f85717d88943a1b335952da",
+    "bytes": 228722
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20250226.json": {
+    "sha256": "ea00eb2267509123e74ad18ed0f7fd2aa0d2873c020513fb0d98700bdb39990b",
+    "bytes": 235496
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20250528.json": {
+    "sha256": "49b21fc363bfd0eb1b1fd4e73eac7f9012e9fe0633eaff763dcf029e21f7f959",
+    "bytes": 233568
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20250827.json": {
+    "sha256": "9be1bbac77f911739ef470a55a79fc8200803340b144b16e6dd70bffc7d3d168",
+    "bytes": 221766
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20251126.json": {
+    "sha256": "6d764ebdc3de5e5bac642dca8ecb9e9dd421b845a8e24f7a969720254ef5238a",
+    "bytes": 234496
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20260225.json": {
+    "sha256": "4b0582799c1a152819759a5de434c8fdf54fdaa53617bb3e8480e573f003cd8d",
+    "bytes": 244387
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20260527.json": {
+    "sha256": "4d5952d6e8ca0996f64e917c838fc112f5abe1a553401b5272ef9e26b5dd3b6b",
+    "bytes": 216821
+  },
+  "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20260826.json": {
+    "sha256": "8fd4bf52bb8eed4184ac9b97e53c1f3bcaa063617caa1c0c2ced92d468127105",
+    "bytes": 228212
+  },
+  "shared/frozen_v8/results/ETHUSDT/PRIMARY_CANDIDATES.csv.gz": {
+    "sha256": "7d6e7e969fc5930fb5d0ca0ac5af6a94933fcf8a6a0160023934a3d1682b821b",
+    "bytes": 13845
+  },
+  "shared/frozen_v8/results/ETHUSDT/PROTOCOL.json": {
+    "sha256": "8820b5348a37d2eef32149c6a9ee636ace95a4d164f69c27f511cc35c8e5c23c",
+    "bytes": 326081
+  },
+  "shared/frozen_v8/results/ETHUSDT/STRESSES.json": {
+    "sha256": "18d848eae6fee765bbc8b6d86c6e5198b01b9bc1d8275e08d5c97e140ab1dd57",
+    "bytes": 11770
+  },
+  "shared/frozen_v8/results/ETHUSDT/SUMMARY.json": {
+    "sha256": "ea5b08fa986e943d4f741c6999e72c156b6f0d98b9879cd8c626d433cf220567",
+    "bytes": 16523
+  },
+  "shared/frozen_v8/results/ETHUSDT/VALIDATION.json": {
+    "sha256": "ab0cf545a8e42fd7868f593b2d8b7b8e6efd8d60bcc83559a021b200b07cc1b4",
+    "bytes": 179741
+  },
+  "shared/frozen_v8/sensitivity.py": {
+    "sha256": "b11437e01c6deb3f95e7b4dae1732c53681893dcc90edf6388ceed99a07834f6",
+    "bytes": 2123
+  },
+  "shared/frozen_v8/tests/test_v8.py": {
+    "sha256": "8a085bbfd64062106ec2ba71d552f02c85c3e9819a6896d45ee040e33f15d712",
+    "bytes": 6236
+  },
+  "shared/original_context/ASSESSMENT.json": {
+    "sha256": "96dc2e2fada8372a604c24d72ace91ce5f1092028ba8bff63b78490cd5fa9684",
+    "bytes": 10350
+  },
+  "shared/original_context/MANIFEST.json": {
+    "sha256": "2fcfc1f7af9a46df2675833661f793e0847a479958da74e2336d39becb65f1c3",
+    "bytes": 175154
+  },
+  "shared/original_context/MODEL_INVENTORY.json": {
+    "sha256": "e63370f00e661ac2cd94b6c4634ce210068992f145c99d9d7b354435edd5b295",
+    "bytes": 8587
+  },
+  "shared/original_context/README.md": {
+    "sha256": "55b16a7be9e637012cbc66182b1d2fb083d0698f1e7fee4d71b6c0dd64347fc7",
+    "bytes": 1778
+  },
+  "shared/original_context/RESULTS.md": {
+    "sha256": "0f256082bf04285ea3ccfedb738f47a912a48f66fb694ec4797b3124f8dae362",
+    "bytes": 4299
+  },
+  "shared/original_context/USERINSTRUCTIONS.md": {
+    "sha256": "74b8d822b1de42e0b3284295057657185b50ef4bd6d408406ac101e6df505f60",
+    "bytes": 6993
+  },
+  "shared/original_context/VERIFICATION.json": {
+    "sha256": "47889f2e45abd96b48919edd1a620c2dd0e84f9a276097020a31e484a9f69307",
+    "bytes": 433
+  },
+  "shared/original_context/followup_72h/MANIFEST.json": {
+    "sha256": "005f2a85f05bee416220eb3d100acb275e9532888a5eecd0273f3a6810c77eb2",
+    "bytes": 22820
+  },
+  "shared/original_context/followup_72h/REPLAY_RESULTS.json": {
+    "sha256": "bf6900caf30d6d82db93f36594fe3c6628ba5aa33afba0a61045460ba7bd1131",
+    "bytes": 38544
+  },
+  "shared/original_context/followup_72h/RESULTS.md": {
+    "sha256": "bf02e5b3e032d40d67e451669a1ef17baacb7d2d01bd0c2a9122fd5c218ca931",
+    "bytes": 4940
+  },
+  "shared/original_context/followup_72h/VERIFICATION.json": {
+    "sha256": "44a9cb90c08441cf190f71bc38a2b24fa812417d40dfb7b0e864dc1f6c6e3775",
+    "bytes": 20449
+  },
+  "shared/original_context/followup_72h/recheck.py": {
+    "sha256": "1f650f8f8e1919f4856013760912386043e1de57863e91864c985f95c4bfd55a",
+    "bytes": 15540
+  }
+}

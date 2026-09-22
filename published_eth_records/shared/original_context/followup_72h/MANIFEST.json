@@ -1,0 +1,562 @@
+{
+  "REPLAY_RESULTS.json": {
+    "sha256": "bf6900caf30d6d82db93f36594fe3c6628ba5aa33afba0a61045460ba7bd1131",
+    "bytes": 38544
+  },
+  "RESULTS.md": {
+    "sha256": "bf02e5b3e032d40d67e451669a1ef17baacb7d2d01bd0c2a9122fd5c218ca931",
+    "bytes": 4940
+  },
+  "VERIFICATION.json": {
+    "sha256": "44a9cb90c08441cf190f71bc38a2b24fa812417d40dfb7b0e864dc1f6c6e3775",
+    "bytes": 20449
+  },
+  "checks/tests.txt": {
+    "sha256": "db6cff5b949ed148e21aec1df764b39176f9cbf9b82e335593ada75ebe90dcbb",
+    "bytes": 99
+  },
+  "recheck.py": {
+    "sha256": "1f650f8f8e1919f4856013760912386043e1de57863e91864c985f95c4bfd55a",
+    "bytes": 15540
+  },
+  "results/double_cost/ANNUAL_RETURNS.json": {
+    "sha256": "632d66593e8c7ce57c0fd841e4daa4c690803688253f4460ecd987b2650652d2",
+    "bytes": 267
+  },
+  "results/double_cost/DAILY_EQUITY.csv": {
+    "sha256": "3e4b9847116ac9493e2f8f33f70d53c201839a29f103863084bf6c74725b55ce",
+    "bytes": 81569
+  },
+  "results/double_cost/EVERY_TRADE_UTC.csv": {
+    "sha256": "43c69938c706d7600e6d4b6b901a8fb6f00a7e58313da5e37a594fc64078607a",
+    "bytes": 183077
+  },
+  "results/double_cost/INDEPENDENT_AUDIT.json": {
+    "sha256": "debddbf39cc4df79a2ed385b3812047c6d8bc1ad7b533f25534800461c766872",
+    "bytes": 502
+  },
+  "results/double_cost/METRICS.json": {
+    "sha256": "87e39e1350774b2a141fa20421f0252ac0ad079e2b8b31c9d8adc6cd78fd7cf5",
+    "bytes": 1198
+  },
+  "results/double_cost/MONTHLY_RETURNS.csv": {
+    "sha256": "f9fe9ad15017ac9c7d96bdbb00b29fe53df47b3d80fecd7a00e6286a8ae3c04b",
+    "bytes": 4315
+  },
+  "results/double_cost/PARAMETERS.json": {
+    "sha256": "b63d4df8c0b4d829b23a0dcd149a1e2360cde37de08867828902b3c1e5c1498d",
+    "bytes": 754
+  },
+  "results/double_cost/ROLLING_365D.csv": {
+    "sha256": "2e22c99f80eedf2c169f3f6f9de63221d5d45ef4f52f7ed800f0a2e66c4cc7f0",
+    "bytes": 67257
+  },
+  "results/double_cost/WEEKLY_RETURNS.csv": {
+    "sha256": "fec944034ec138a9e00400afe3332b8d8492b30ddc01f1b9464d294bbae2ffda",
+    "bytes": 10493
+  },
+  "results/highest_cagr_risk6_cap30/ANNUAL_RETURNS.json": {
+    "sha256": "fe8079cd2bdaf19e79ad58bc54452ea99fff5e0d7f0392714b0385323c59602f",
+    "bytes": 263
+  },
+  "results/highest_cagr_risk6_cap30/DAILY_EQUITY.csv": {
+    "sha256": "48a1db9680e86638d1b765cc3f0cb70c2ac62cb82197d313b06813583711686f",
+    "bytes": 81083
+  },
+  "results/highest_cagr_risk6_cap30/EVERY_TRADE_UTC.csv": {
+    "sha256": "218d53aa70c06bdfa68203c2876994b4e77660cedf4cc8110ddfd380cb426c83",
+    "bytes": 182704
+  },
+  "results/highest_cagr_risk6_cap30/INDEPENDENT_AUDIT.json": {
+    "sha256": "ff244d14c07148eeb947a5f518ef4b08142f946120bbffecd8c69bf6de4aea10",
+    "bytes": 510
+  },
+  "results/highest_cagr_risk6_cap30/METRICS.json": {
+    "sha256": "88661e71620787eca8c9d3e7430d2fa2b9e3a25006cd346b404de4eac4270c46",
+    "bytes": 1190
+  },
+  "results/highest_cagr_risk6_cap30/MONTHLY_RETURNS.csv": {
+    "sha256": "19fdfff0457e755bbfdfedf47195c1a15f9dda3ec50f4c7bb6b591351534dafc",
+    "bytes": 4318
+  },
+  "results/highest_cagr_risk6_cap30/PARAMETERS.json": {
+    "sha256": "d163145cf8dffc3de649a664b1812ae5491bfeb9453e2c357f7e40bcd4d0815a",
+    "bytes": 763
+  },
+  "results/highest_cagr_risk6_cap30/ROLLING_365D.csv": {
+    "sha256": "f1263d255798e99a0e4b1d306989be7b89b7bcff1daece8c8bac042fa9325dce",
+    "bytes": 66835
+  },
+  "results/highest_cagr_risk6_cap30/WEEKLY_RETURNS.csv": {
+    "sha256": "d7e5e1fc6c3557dce30413182a6df7711fa436f355ea97028bccc23dd7478041",
+    "bytes": 10518
+  },
+  "results/matched_hold24/ANNUAL_RETURNS.json": {
+    "sha256": "0468bd342a3a78be2d94a9f3f45d5aa2af9780053f4c4418a8895789a7b9c628",
+    "bytes": 268
+  },
+  "results/matched_hold24/DAILY_EQUITY.csv": {
+    "sha256": "34e2a85adc5cfdc51457d19f8af220fffbe76c8fe019d0743a9a231702bb6604",
+    "bytes": 81402
+  },
+  "results/matched_hold24/EVERY_TRADE_UTC.csv": {
+    "sha256": "f02316b9aa9d4cd7915d207498e8140ee6233121edc1d54e8b28b8ad4b928f5b",
+    "bytes": 196061
+  },
+  "results/matched_hold24/INDEPENDENT_AUDIT.json": {
+    "sha256": "0762fb9169e418b3f799f8856dcba7b514189e289ddd5f11d8f174c2488fa9bc",
+    "bytes": 507
+  },
+  "results/matched_hold24/METRICS.json": {
+    "sha256": "cb9b072ca3ed03379b1a1aa9de117f02b8481428c95b79ea0976764b5169bee9",
+    "bytes": 1199
+  },
+  "results/matched_hold24/MONTHLY_RETURNS.csv": {
+    "sha256": "e804e8c70e258cb2d0e82bbb502045a2dc58c15b2bbbd4a63b2c5a72962b71f5",
+    "bytes": 4318
+  },
+  "results/matched_hold24/PARAMETERS.json": {
+    "sha256": "c9f7ba791e45db354e090f4dcfbd5548682761130490c33fb9ea90a9971a62fe",
+    "bytes": 752
+  },
+  "results/matched_hold24/ROLLING_365D.csv": {
+    "sha256": "492a83c649755ac4ed42e42f7e49431d20f2d826e3ddf3d2fcd613711bed3598",
+    "bytes": 67568
+  },
+  "results/matched_hold24/WEEKLY_RETURNS.csv": {
+    "sha256": "c59fd51f1cc558c2684461cf10cda910ed295cd54b74468e9009ce7d78abeeb5",
+    "bytes": 10467
+  },
+  "results/matched_hold48/ANNUAL_RETURNS.json": {
+    "sha256": "11612aece3f49beb5d09ca8b951ad2b78d05b7ea99d1702390a1685ad65ba694",
+    "bytes": 262
+  },
+  "results/matched_hold48/DAILY_EQUITY.csv": {
+    "sha256": "f1fe0d4596ba664018f813f82b78c052c7ebc529b6e4d3a2719b52ce1eed08d9",
+    "bytes": 81304
+  },
+  "results/matched_hold48/EVERY_TRADE_UTC.csv": {
+    "sha256": "be954519d6748499375b94184234074757feac81be4f8502757d0045681f9450",
+    "bytes": 188388
+  },
+  "results/matched_hold48/INDEPENDENT_AUDIT.json": {
+    "sha256": "6f629f1f873601574df4d2bc4b804085a1e0a6f91ad1ef8b28a324158d98a09e",
+    "bytes": 505
+  },
+  "results/matched_hold48/METRICS.json": {
+    "sha256": "2de5021d592f2432149d5df8dd6d01a238935867d8d450cd7a8145705a704363",
+    "bytes": 1186
+  },
+  "results/matched_hold48/MONTHLY_RETURNS.csv": {
+    "sha256": "77cef2fa3404f0b212fff2ece758920609e287918d0106d75b36ad47e629920e",
+    "bytes": 4322
+  },
+  "results/matched_hold48/PARAMETERS.json": {
+    "sha256": "fb407652468992e10761201030a9624738f22564a9bc5ce411defa328b120b8a",
+    "bytes": 752
+  },
+  "results/matched_hold48/ROLLING_365D.csv": {
+    "sha256": "2c8dd6fd944f7197f06920385bb53be2c4f06a52c2f8c2405f529ec61f324fb4",
+    "bytes": 67107
+  },
+  "results/matched_hold48/WEEKLY_RETURNS.csv": {
+    "sha256": "1d6907536fd515dbf5a3a88f6ad1f799d21e7db2b327f4b24393fc307f9361e5",
+    "bytes": 10509
+  },
+  "results/matched_hold72/ANNUAL_RETURNS.json": {
+    "sha256": "5bf3adc51ed6cf11b3101011ca7d78e39428773db83c55fb3e06b55dd62371e2",
+    "bytes": 263
+  },
+  "results/matched_hold72/DAILY_EQUITY.csv": {
+    "sha256": "708c9052255356f254c5c801a0c0bfdcabd3220215ecaabe49dbc7fda35066ec",
+    "bytes": 81224
+  },
+  "results/matched_hold72/EVERY_TRADE_UTC.csv": {
+    "sha256": "ead2f40c9eb7a4044e02cae44aeab404aa8f3704479438022cf39265293d2ded",
+    "bytes": 183372
+  },
+  "results/matched_hold72/INDEPENDENT_AUDIT.json": {
+    "sha256": "bfee647f347bfacc8563811da5a508c650b1c33a14ee0c686540694d6b6f1505",
+    "bytes": 507
+  },
+  "results/matched_hold72/METRICS.json": {
+    "sha256": "4664a2b33c07dd3e1895fba89a4251eb5a470f3531f5767dcea87407b65dd6a5",
+    "bytes": 1192
+  },
+  "results/matched_hold72/MONTHLY_RETURNS.csv": {
+    "sha256": "40c902b43c0944a90ef84065dc7682a5a39dabcfb29b162f88fb776b6dcbfa9a",
+    "bytes": 4318
+  },
+  "results/matched_hold72/PARAMETERS.json": {
+    "sha256": "0cebde7f9a1d2844d9d0b865029007be01334f5b5a42803e37b813b27a5801f3",
+    "bytes": 757
+  },
+  "results/matched_hold72/ROLLING_365D.csv": {
+    "sha256": "1110709e24d27086308ed29faa48cb90b455565b8fda1917e36cc52c82d16cc1",
+    "bytes": 67077
+  },
+  "results/matched_hold72/WEEKLY_RETURNS.csv": {
+    "sha256": "13c214f535d5c976a9348c53c08fe78e73247d397607cc0eeffffcfac8aa6874",
+    "bytes": 10514
+  },
+  "results/nominal30_no_extra_collateral/ANNUAL_RETURNS.json": {
+    "sha256": "e83dd0be778514299fbb539301a3e1c3c984134a1feec6bf166c975f7498c23d",
+    "bytes": 266
+  },
+  "results/nominal30_no_extra_collateral/DAILY_EQUITY.csv": {
+    "sha256": "81bfcb013464124837d7c36b4cb920510df1149f6087e58eef84b1fd6ad25d8c",
+    "bytes": 81574
+  },
+  "results/nominal30_no_extra_collateral/EVERY_TRADE_UTC.csv": {
+    "sha256": "62432d1ebd909b6c39244da01ab11b634abe7996c1094cad530a3dfd880f1165",
+    "bytes": 185295
+  },
+  "results/nominal30_no_extra_collateral/INDEPENDENT_AUDIT.json": {
+    "sha256": "f04b90821297af7804b5f5095ae7109238db38ca01f1c359896efbaac36e209c",
+    "bytes": 506
+  },
+  "results/nominal30_no_extra_collateral/METRICS.json": {
+    "sha256": "c4005764f9742b5cedfe95046da174bad694a41725eba8e1523d955b1dce55a6",
+    "bytes": 1197
+  },
+  "results/nominal30_no_extra_collateral/MONTHLY_RETURNS.csv": {
+    "sha256": "93f6ca042a04fddcb531fc2b5f4bcf945f15e089f01fa49e8117eb79e9513584",
+    "bytes": 4319
+  },
+  "results/nominal30_no_extra_collateral/PARAMETERS.json": {
+    "sha256": "f689be3b2ad03eb7700f93d9298b2560b2100cb0e33972d365fdd0d9762e647e",
+    "bytes": 770
+  },
+  "results/nominal30_no_extra_collateral/ROLLING_365D.csv": {
+    "sha256": "9fa120144552c82e11d980e885b4a243e2e6d8b7104307907498964927f0a6ba",
+    "bytes": 67241
+  },
+  "results/nominal30_no_extra_collateral/WEEKLY_RETURNS.csv": {
+    "sha256": "e33b73118fb03845d6a2310e47d60ffc56295103f1c8d3c444c0fd8a41c47486",
+    "bytes": 10527
+  },
+  "results/roundtrip_risk6_cap30_delay1m/ANNUAL_RETURNS.json": {
+    "sha256": "916753554b3a179f7108bf7b651d8244f240375acb0b7b3187e95a0fe4778422",
+    "bytes": 264
+  },
+  "results/roundtrip_risk6_cap30_delay1m/DAILY_EQUITY.csv": {
+    "sha256": "82e6b94999c2a6c8fa62dfc2100ed9e596622cd6f5a92b9ab5874919122c2228",
+    "bytes": 80889
+  },
+  "results/roundtrip_risk6_cap30_delay1m/EVERY_TRADE_UTC.csv": {
+    "sha256": "b988a03da073569efeacde77a268ca6afab1870532c1344dfa87a6f2a602f836",
+    "bytes": 183874
+  },
+  "results/roundtrip_risk6_cap30_delay1m/INDEPENDENT_AUDIT.json": {
+    "sha256": "c632210fb7c16dda646d13c55b0ade4f1ded71bb4553df8725b6679d7800977e",
+    "bytes": 509
+  },
+  "results/roundtrip_risk6_cap30_delay1m/METRICS.json": {
+    "sha256": "dacc57fc75495046d080b682ca573872f887f3fe94503c79728ffde9dc387b70",
+    "bytes": 1191
+  },
+  "results/roundtrip_risk6_cap30_delay1m/MONTHLY_RETURNS.csv": {
+    "sha256": "d72fdf4446f53ba85599b0e89a485b71b14f10602f5b0a5149e2908372275494",
+    "bytes": 4323
+  },
+  "results/roundtrip_risk6_cap30_delay1m/PARAMETERS.json": {
+    "sha256": "843692ef5a0bc034195ba2c9889730e6d9ff121f2f5bedbc853544eea02ae0b9",
+    "bytes": 729
+  },
+  "results/roundtrip_risk6_cap30_delay1m/ROLLING_365D.csv": {
+    "sha256": "1b1457d6ef4d60157c37ad5ad8255ad74007347607c883b61195fa58e2ed01d4",
+    "bytes": 67099
+  },
+  "results/roundtrip_risk6_cap30_delay1m/WEEKLY_RETURNS.csv": {
+    "sha256": "570975281793330c95f197dad213f01f5388134d98700bdd0791d1c8eecf12d0",
+    "bytes": 10529
+  },
+  "results/roundtrip_risk6_cap30_delay2m/ANNUAL_RETURNS.json": {
+    "sha256": "1fed2d8ba3c7e8dae543c0c78a3bb1d8ce115e4807e4458879c17c24687878db",
+    "bytes": 260
+  },
+  "results/roundtrip_risk6_cap30_delay2m/DAILY_EQUITY.csv": {
+    "sha256": "fb13b02c506067fbc42fa2f7b2d53f03eb18184f30c36786d0435f8916c66b38",
+    "bytes": 81329
+  },
+  "results/roundtrip_risk6_cap30_delay2m/EVERY_TRADE_UTC.csv": {
+    "sha256": "7773936733f6313417ca46a62de1a8bb4477024137a2c91c038a5e64137e07eb",
+    "bytes": 181497
+  },
+  "results/roundtrip_risk6_cap30_delay2m/INDEPENDENT_AUDIT.json": {
+    "sha256": "8bb2298626707ce274d001e44975e2389f338dc2d601927a5b0f6448e1592dcd",
+    "bytes": 497
+  },
+  "results/roundtrip_risk6_cap30_delay2m/METRICS.json": {
+    "sha256": "196e0d0c24fa7551bd48b23b870479a4fb9e4282c693e7e8ceb195a6c7bb09c9",
+    "bytes": 1174
+  },
+  "results/roundtrip_risk6_cap30_delay2m/MONTHLY_RETURNS.csv": {
+    "sha256": "22bbd55d7376c9c76fb205b62d50a31de621130e5d92b5f931c6a82394f03082",
+    "bytes": 4321
+  },
+  "results/roundtrip_risk6_cap30_delay2m/PARAMETERS.json": {
+    "sha256": "71fb298e84c4ce231cc430a41f60a8e4af797b8137be75e433a19e901d6d950a",
+    "bytes": 729
+  },
+  "results/roundtrip_risk6_cap30_delay2m/ROLLING_365D.csv": {
+    "sha256": "e206e256178b2ff8555f41b772a9d494f069484abd85a9008dbd1260888d70bd",
+    "bytes": 67026
+  },
+  "results/roundtrip_risk6_cap30_delay2m/WEEKLY_RETURNS.csv": {
+    "sha256": "e71f9b42d403ca6a0dba12645336a3a0b953ea601da862d0b993ec5c659a6e9f",
+    "bytes": 10533
+  },
+  "results/roundtrip_risk6_cap30_no_extra_collateral/ANNUAL_RETURNS.json": {
+    "sha256": "ed89fcf35b4933ed3a8d6bd515ca73356c9545c7101f2fb9cd7d42e34e69c4e3",
+    "bytes": 263
+  },
+  "results/roundtrip_risk6_cap30_no_extra_collateral/DAILY_EQUITY.csv": {
+    "sha256": "6686270e39a33247e1c3ac4c961a7e99d951d97feaa349aaadb49291c78320bb",
+    "bytes": 81004
+  },
+  "results/roundtrip_risk6_cap30_no_extra_collateral/EVERY_TRADE_UTC.csv": {
+    "sha256": "f467648c6a842cea0e2afee0efdc1eaebd1abba1325668dc757933eef32427b8",
+    "bytes": 185231
+  },
+  "results/roundtrip_risk6_cap30_no_extra_collateral/INDEPENDENT_AUDIT.json": {
+    "sha256": "611c95fb04a9fb3ab6c7a9197f4ef65554e36afbfe5de5602264cf164daccee8",
+    "bytes": 509
+  },
+  "results/roundtrip_risk6_cap30_no_extra_collateral/METRICS.json": {
+    "sha256": "582399a63abf82293f50b0ee87ec3312041db2f0a82cc831225ddd9308a3f6e8",
+    "bytes": 1191
+  },
+  "results/roundtrip_risk6_cap30_no_extra_collateral/MONTHLY_RETURNS.csv": {
+    "sha256": "99d35832b311f5fb0b43bd60c3fd9c7023a8500e06b32ed40eefd00a56e86507",
+    "bytes": 4320
+  },
+  "results/roundtrip_risk6_cap30_no_extra_collateral/PARAMETERS.json": {
+    "sha256": "6af9989e61f520919d49f9cd46073daa3484054eb48e884075475029e4cb48bc",
+    "bytes": 730
+  },
+  "results/roundtrip_risk6_cap30_no_extra_collateral/ROLLING_365D.csv": {
+    "sha256": "6466b0adf3fb6bcf8ce713dd25c4d0d87e63bdc1312df148bb7e727cd3cae12e",
+    "bytes": 66751
+  },
+  "results/roundtrip_risk6_cap30_no_extra_collateral/WEEKLY_RETURNS.csv": {
+    "sha256": "8a009c8bde4f1278a3a53720359dbfbead1316832c10b712d33575bcd6f2e6d7",
+    "bytes": 10513
+  },
+  "results/two_additional_minutes_delay/ANNUAL_RETURNS.json": {
+    "sha256": "b88d0bf73c513a59e5b0ca8ae93bd411b688644bf5fb39b6c64196437a5bb247",
+    "bytes": 267
+  },
+  "results/two_additional_minutes_delay/DAILY_EQUITY.csv": {
+    "sha256": "b3d334ef57377f6484395361580fb460692e18cc02e6b56ed5f8d5e8c906549e",
+    "bytes": 81582
+  },
+  "results/two_additional_minutes_delay/EVERY_TRADE_UTC.csv": {
+    "sha256": "0f335a91cc30f2ac485bb1d4e6fed0bbc21763efb31bca8466cb7573ea098976",
+    "bytes": 178475
+  },
+  "results/two_additional_minutes_delay/INDEPENDENT_AUDIT.json": {
+    "sha256": "7bf5c4699dc904dc00a48801e5fcb90e5018e7796c96ea738ea84f6262e602e1",
+    "bytes": 495
+  },
+  "results/two_additional_minutes_delay/METRICS.json": {
+    "sha256": "56cc9675340ed54ff8269c7b36091f5b9478d3e95e68e29c3416c960096b0e34",
+    "bytes": 1186
+  },
+  "results/two_additional_minutes_delay/MONTHLY_RETURNS.csv": {
+    "sha256": "70185346d9d06e1db9745ae13952760589b47938ffc2f5ddd533a8e58f9ca595",
+    "bytes": 4323
+  },
+  "results/two_additional_minutes_delay/PARAMETERS.json": {
+    "sha256": "2eb294c706807a657cddc60423697f7d5b3b8091fcbe6b30537fe52515f89317",
+    "bytes": 753
+  },
+  "results/two_additional_minutes_delay/ROLLING_365D.csv": {
+    "sha256": "0cb398ef6ac1db3a93b55508c05c5445767a212886ff51dc37411135b4209448",
+    "bytes": 67422
+  },
+  "results/two_additional_minutes_delay/WEEKLY_RETURNS.csv": {
+    "sha256": "a4b80656fc6b6f4bc503aabb7afc4b9f43de36186c42d524fdc5b9d433fd3152",
+    "bytes": 10525
+  },
+  "results/user5_usd_oneway_equivalent/ANNUAL_RETURNS.json": {
+    "sha256": "53e2619ec69c495f304d2df5421ae9099e4145606d3b933be2d196e53b97d10b",
+    "bytes": 264
+  },
+  "results/user5_usd_oneway_equivalent/DAILY_EQUITY.csv": {
+    "sha256": "71405b77339abb81646ec0c7c3da5a2fb1b77f8ce474c8b94f08d2d62519a859",
+    "bytes": 81136
+  },
+  "results/user5_usd_oneway_equivalent/EVERY_TRADE_UTC.csv": {
+    "sha256": "79878e2b2159131bc51c8b540b70b9b44098d5abd8f889442ebd15f478a7fda9",
+    "bytes": 185966
+  },
+  "results/user5_usd_oneway_equivalent/INDEPENDENT_AUDIT.json": {
+    "sha256": "0545844cf88cf40182d12b84f2381af5545f037070034cec32d97cce798f8d76",
+    "bytes": 510
+  },
+  "results/user5_usd_oneway_equivalent/METRICS.json": {
+    "sha256": "350dc3ef5bee802e91222b1dd3bcca6a548f7a2dbab097b3684774d0b55cad5f",
+    "bytes": 1189
+  },
+  "results/user5_usd_oneway_equivalent/MONTHLY_RETURNS.csv": {
+    "sha256": "82d4cb0081a2ad04466901bdb413c190742d4bcfd12a4f560c0553688e654b9c",
+    "bytes": 4322
+  },
+  "results/user5_usd_oneway_equivalent/PARAMETERS.json": {
+    "sha256": "6f319c3d4873b09226c98f9350e7c2260606aab059e6fed60c04fbbb0c1d3580",
+    "bytes": 727
+  },
+  "results/user5_usd_oneway_equivalent/ROLLING_365D.csv": {
+    "sha256": "f573b617418b09bd021ed99fdebd60d5fe0a5178e2c506b0772b8f57840b0a5c",
+    "bytes": 67023
+  },
+  "results/user5_usd_oneway_equivalent/WEEKLY_RETURNS.csv": {
+    "sha256": "09daabdbecc6a47b4b2b8814034dd3d827c71f566533a4124fadb71528cf34b1",
+    "bytes": 10526
+  },
+  "results/user5_usd_oneway_risk6_cap30/ANNUAL_RETURNS.json": {
+    "sha256": "f36f535fc5948822c68d8a9cbdd14ce030e24c7e33cc14a793df71b69ede2f70",
+    "bytes": 264
+  },
+  "results/user5_usd_oneway_risk6_cap30/DAILY_EQUITY.csv": {
+    "sha256": "21124f7d8143cb9fcf6d49931e6a22c48ca334c22d70732d419cf016d380e0e1",
+    "bytes": 81202
+  },
+  "results/user5_usd_oneway_risk6_cap30/EVERY_TRADE_UTC.csv": {
+    "sha256": "17043128174c5ec3b2a5423b759d21213ce451a4ec687398163d7befb0b6c23f",
+    "bytes": 184983
+  },
+  "results/user5_usd_oneway_risk6_cap30/INDEPENDENT_AUDIT.json": {
+    "sha256": "e1e6bb315004bad10a6293de6b603cd70eff6f99220a9f1cd77243804d6dbcf1",
+    "bytes": 510
+  },
+  "results/user5_usd_oneway_risk6_cap30/METRICS.json": {
+    "sha256": "915dbda422886c66e178c018ad60a42f8a05472456a21901bb8a8e2f076ba7f9",
+    "bytes": 1194
+  },
+  "results/user5_usd_oneway_risk6_cap30/MONTHLY_RETURNS.csv": {
+    "sha256": "96681006572e4b9d2a279eba38e1030bc05dd51154b06b2e0420bd20733ac644",
+    "bytes": 4315
+  },
+  "results/user5_usd_oneway_risk6_cap30/PARAMETERS.json": {
+    "sha256": "781943aae6e39113b0b871c0ad61d3ab825242411d01ddd03d77b1ae4706ce60",
+    "bytes": 728
+  },
+  "results/user5_usd_oneway_risk6_cap30/ROLLING_365D.csv": {
+    "sha256": "98f11918d6c2568a1bd5fe722c2b5103a793461fd18140a3d57c1dcc47bba996",
+    "bytes": 66842
+  },
+  "results/user5_usd_oneway_risk6_cap30/WEEKLY_RETURNS.csv": {
+    "sha256": "10caf8d563693811f0d00033eb4da14174555f43d4bde59c99d5ddafcc83ed9c",
+    "bytes": 10525
+  },
+  "results/user5_usd_roundtrip_equivalent/ANNUAL_RETURNS.json": {
+    "sha256": "5065ec15afcc2305cb10ed954eb64dcf880f56a7f77199742a59c67a9faa36f3",
+    "bytes": 265
+  },
+  "results/user5_usd_roundtrip_equivalent/DAILY_EQUITY.csv": {
+    "sha256": "6334650e96623e6dfe0823a22d32774a3add8c2970cede6e4e99971aa067e286",
+    "bytes": 80833
+  },
+  "results/user5_usd_roundtrip_equivalent/EVERY_TRADE_UTC.csv": {
+    "sha256": "afe2e884f97dd140b3b4f079cb037c7fd9ab2a0fb3e4e228b0a668d64b7fc3a5",
+    "bytes": 185934
+  },
+  "results/user5_usd_roundtrip_equivalent/INDEPENDENT_AUDIT.json": {
+    "sha256": "1c5c79eb9153c49a1092554c6b5112f8247e819d8325b546ebff35065ee0ecfb",
+    "bytes": 509
+  },
+  "results/user5_usd_roundtrip_equivalent/METRICS.json": {
+    "sha256": "de3798952a960328e1c044221f58eead4f8a8c01b9b70ed803a633bc54a7d15a",
+    "bytes": 1192
+  },
+  "results/user5_usd_roundtrip_equivalent/MONTHLY_RETURNS.csv": {
+    "sha256": "4eec620a77b7f692214e0ba1494f9aea015ef6505897460c87b43322d08a5c8a",
+    "bytes": 4323
+  },
+  "results/user5_usd_roundtrip_equivalent/PARAMETERS.json": {
+    "sha256": "06efaa05e1e927acb4c4a97868929cc59712275a5abef4f9b5d466f0490072cd",
+    "bytes": 728
+  },
+  "results/user5_usd_roundtrip_equivalent/ROLLING_365D.csv": {
+    "sha256": "bc24370d33e6cfdd3f4b279484b3f9dc8a634719b21e108c0424f3367886aea3",
+    "bytes": 67012
+  },
+  "results/user5_usd_roundtrip_equivalent/WEEKLY_RETURNS.csv": {
+    "sha256": "522ac8c259d3d9f04576c2d1b2ea46a80021870b1d9db416a954d9a0b1f20068",
+    "bytes": 10507
+  },
+  "results/user5_usd_roundtrip_risk6_cap30/ANNUAL_RETURNS.json": {
+    "sha256": "b15a9700c5cb38c937a56a9a555b1b9a33069786017560d421bb2431df5d403c",
+    "bytes": 261
+  },
+  "results/user5_usd_roundtrip_risk6_cap30/DAILY_EQUITY.csv": {
+    "sha256": "5e373817a46becb4924343f66b408a718013fbdceee97c699fc9cf86ec71413e",
+    "bytes": 80953
+  },
+  "results/user5_usd_roundtrip_risk6_cap30/EVERY_TRADE_UTC.csv": {
+    "sha256": "84063d2d502655b684d38b6ba740140b8fc38846a131d38ed1b7d67affdce961",
+    "bytes": 185376
+  },
+  "results/user5_usd_roundtrip_risk6_cap30/INDEPENDENT_AUDIT.json": {
+    "sha256": "77d846e15e72cae0943a1175dda6b50b83891d5cfa2d349c9b840146b49a2035",
+    "bytes": 509
+  },
+  "results/user5_usd_roundtrip_risk6_cap30/METRICS.json": {
+    "sha256": "5dfb08bab5173535cb37ffb8c2748cd3920899016af1b118cd7bb2859cebb8ad",
+    "bytes": 1189
+  },
+  "results/user5_usd_roundtrip_risk6_cap30/MONTHLY_RETURNS.csv": {
+    "sha256": "07c165cee2ad9308abe8c2441d37d8fbdbfa3c2c8dd74d07f131791ddb61164b",
+    "bytes": 4317
+  },
+  "results/user5_usd_roundtrip_risk6_cap30/PARAMETERS.json": {
+    "sha256": "dd8b3756597ba3bf6eb512f9d6fb0d0fcad564481bcc0ebe2ad44c6307303cd6",
+    "bytes": 729
+  },
+  "results/user5_usd_roundtrip_risk6_cap30/ROLLING_365D.csv": {
+    "sha256": "382a3d385703ab16dd51a9454e80f705ae932c685cb707fcd346259b52b46dd8",
+    "bytes": 66779
+  },
+  "results/user5_usd_roundtrip_risk6_cap30/WEEKLY_RETURNS.csv": {
+    "sha256": "cc7304b102418a4abd547d6d4cad13a5d52486e51676434ac3be8f8b29830b97",
+    "bytes": 10523
+  },
+  "results/zero_fee_zero_slippage/ANNUAL_RETURNS.json": {
+    "sha256": "8a2f71b97334a17515b5d54cc30e6e80c4d9e5f7e6af0e999017efe2eee2ae9a",
+    "bytes": 259
+  },
+  "results/zero_fee_zero_slippage/DAILY_EQUITY.csv": {
+    "sha256": "0aa1b33c3618c860e179d6c0b8bcc36ee8e929004c3b560ffeadbdfce3bab0d6",
+    "bytes": 80738
+  },
+  "results/zero_fee_zero_slippage/EVERY_TRADE_UTC.csv": {
+    "sha256": "f145d51da38d07c5d263f3827b49145b52fc6cbb09a20de184cc7a190572cffd",
+    "bytes": 172646
+  },
+  "results/zero_fee_zero_slippage/INDEPENDENT_AUDIT.json": {
+    "sha256": "85922490b32a18563ad2bfdadc5f1b9063f163bd4fa0535b221972d7b04f76e4",
+    "bytes": 481
+  },
+  "results/zero_fee_zero_slippage/METRICS.json": {
+    "sha256": "ddbeb4060a11002b0a491bfcd6a890c92496470739bfa3b824f0bccf25947623",
+    "bytes": 1157
+  },
+  "results/zero_fee_zero_slippage/MONTHLY_RETURNS.csv": {
+    "sha256": "873365f5bd95271f5ea8ca59a3189d84d8345295d1752ebc5e4c2e8ef59e0e5f",
+    "bytes": 4325
+  },
+  "results/zero_fee_zero_slippage/PARAMETERS.json": {
+    "sha256": "c19c9f82c6a22ac2aca8c57be234cd0bc021e066baee193fc5fc4c509f8d27cb",
+    "bytes": 751
+  },
+  "results/zero_fee_zero_slippage/ROLLING_365D.csv": {
+    "sha256": "0e69bc1b2fc65ed756d4edf2464edb0723de71bd24c87f070a88de0d7de70728",
+    "bytes": 66688
+  },
+  "results/zero_fee_zero_slippage/WEEKLY_RETURNS.csv": {
+    "sha256": "b5b279c95b34226f5df188ffcccf063d3483683dba435d40e6d786dcb61b4a5e",
+    "bytes": 10530
+  }
+}

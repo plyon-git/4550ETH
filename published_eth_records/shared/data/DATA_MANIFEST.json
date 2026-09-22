@@ -1,0 +1,38 @@
+{
+  "filename": "aligned_repaired.npz",
+  "sha256": "b6a9f20924ad42d8ea802404f5640356fc42c6301b98ed64ad161a576c71e46d",
+  "bytes": 201104903,
+  "parts": [
+    {
+      "filename": "ETHUSDT_aligned_repaired.npz.part000",
+      "bytes": 41943040,
+      "sha256": "8260c8278933cc4aacf712e047977ede8b5f510862511725f22b250db3958be6"
+    },
+    {
+      "filename": "ETHUSDT_aligned_repaired.npz.part001",
+      "bytes": 41943040,
+      "sha256": "7267b0214ccedb43e4b4d0c75ba82b1f128e50142215adf3f2e37aa3e70b92d6"
+    },
+    {
+      "filename": "ETHUSDT_aligned_repaired.npz.part002",
+      "bytes": 41943040,
+      "sha256": "b745f882d705213492a0b729305c2a3a2314063ffb28afaf81c35ceb106f8134"
+    },
+    {
+      "filename": "ETHUSDT_aligned_repaired.npz.part003",
+      "bytes": 41943040,
+      "sha256": "180eebfc78f2ffaed00230109175bb5be950fd2540c0739d945dd9c245b20af0"
+    },
+    {
+      "filename": "ETHUSDT_aligned_repaired.npz.part004",
+      "bytes": 33332743,
+      "sha256": "497788d65548743ca865cd5222b6732bd7cbb48a4835714d4e938609085e4bba"
+    }
+  ],
+  "reconstruction": "Concatenate in exact manifest order; verify the full SHA-256.",
+  "source_release": "v4-research-20260922",
+  "source_asset": "ETHUSDT_aligned_repaired.npz",
+  "source_url": "https://github.com/plyon-git/4550ETH/releases/download/v4-research-20260922/ETHUSDT_aligned_repaired.npz",
+  "price_mark_funding_input": true,
+  "missing_mark_values_preserved": true
+}

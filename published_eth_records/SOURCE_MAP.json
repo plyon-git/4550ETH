@@ -1,0 +1,509 @@
+{
+  "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+  "files": {
+    "shared/frozen_v8/context/iv_data/BTC_1D.csv": {
+      "original_repository_path": "hold72_iv_v8/context/iv_data/BTC_1D.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "d55d308002a9cc9035d4122cdae40dba0d0d1427fec300c3926c8838a7c83837",
+      "bytes": 76982
+    },
+    "shared/frozen_v8/context/iv_data/BTC_1D_000.json": {
+      "original_repository_path": "hold72_iv_v8/context/iv_data/BTC_1D_000.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "6fd073055106988c8f413a6a9cccd3f5fdd6cb97ef56f4f2fce9b3bfa7dcbd10",
+      "bytes": 39774
+    },
+    "shared/frozen_v8/context/iv_data/BTC_1D_001.json": {
+      "original_repository_path": "hold72_iv_v8/context/iv_data/BTC_1D_001.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "d0098963123515e61a9b9ab6c18e91448fa053945135c1266107847e1241e3f9",
+      "bytes": 39487
+    },
+    "shared/frozen_v8/context/iv_data/ETH_1D.csv": {
+      "original_repository_path": "hold72_iv_v8/context/iv_data/ETH_1D.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "2070bb20b006dc9187d20174fe937ac2329c1ee760a440a4bef06b59d4bb5892",
+      "bytes": 78061
+    },
+    "shared/frozen_v8/context/iv_data/ETH_1D_000.json": {
+      "original_repository_path": "hold72_iv_v8/context/iv_data/ETH_1D_000.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "6f2f9cec91ba750fb5b0414768e254090faef6e910675a9ec46e2e84a65185bb",
+      "bytes": 39741
+    },
+    "shared/frozen_v8/context/iv_data/ETH_1D_001.json": {
+      "original_repository_path": "hold72_iv_v8/context/iv_data/ETH_1D_001.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "adff7659852def77545a63b8255f728f738aa6228f498fac6c680912ea22f204",
+      "bytes": 40598
+    },
+    "shared/frozen_v8/context/iv_data/PROVENANCE.json": {
+      "original_repository_path": "hold72_iv_v8/context/iv_data/PROVENANCE.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "a347b019deaf25efefc99ba29164461199875b3f1bc9d93ae4cad37f0d74ce46",
+      "bytes": 47641
+    },
+    "shared/frozen_v8/core.py": {
+      "original_repository_path": "hold72_iv_v8/core.py",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "f7667597f0a13f4bc075ff236e8aa34f0b918ab8b28e4cc213fffbb9ee7d500f",
+      "bytes": 16476
+    },
+    "shared/frozen_v8/finalize.py": {
+      "original_repository_path": "hold72_iv_v8/finalize.py",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "0197ed5a0727c18c6e4fac499e0cfd16e7a4bb34e03010805f8ad9ed05de8f3d",
+      "bytes": 11815
+    },
+    "shared/frozen_v8/input_v7.py": {
+      "original_repository_path": "hold72_iv_v8/input_v7.py",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "4940669e7e67d90205e662f6314961017ff2ea2a7c4ed3530e643a743401ffa0",
+      "bytes": 15011
+    },
+    "shared/frozen_v8/learning.py": {
+      "original_repository_path": "hold72_iv_v8/learning.py",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "4624a31ff4f7fd921a2953da75088f2965c4f5bee4616a4a156335cd151e0d0c",
+      "bytes": 9923
+    },
+    "shared/frozen_v8/report.py": {
+      "original_repository_path": "hold72_iv_v8/report.py",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "b54bad12c098564939a042351d566d5447dd68c017c98efc7b9dc274c3891064",
+      "bytes": 6111
+    },
+    "shared/frozen_v8/requirements.txt": {
+      "original_repository_path": "hold72_iv_v8/requirements.txt",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "bbb38f301f1eee9b5e6a8123b9d036ef06f9ab185e283c35c9e4da89ce280807",
+      "bytes": 75
+    },
+    "shared/frozen_v8/research.py": {
+      "original_repository_path": "hold72_iv_v8/research.py",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "be500f43db88c3ee7e40c794a3ce2227a3356c49aad83ee40b649b27abaa5b82",
+      "bytes": 7446
+    },
+    "shared/frozen_v8/results/ETHUSDT/DAILY_WEEKLY_LEVEL_INPUTS.csv": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/DAILY_WEEKLY_LEVEL_INPUTS.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "386cde808c47062baac113e9d0cf960c5aeb8c6cb7efe833e98c745c6e7b7725",
+      "bytes": 664301
+    },
+    "shared/frozen_v8/results/ETHUSDT/DATA_IDENTITY.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/DATA_IDENTITY.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "521b70e36c3f78b1c1318f099cb420facdd538eaff6166fd24c92efd8ccd3316",
+      "bytes": 1687
+    },
+    "shared/frozen_v8/results/ETHUSDT/DEVELOPMENT.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/DEVELOPMENT.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "cb96a77f9d3f3bce9b49aa4b977dc8547cb915f4e48dca856f6d2cdc4dcbfd47",
+      "bytes": 2115824
+    },
+    "shared/frozen_v8/results/ETHUSDT/FROZEN_SELECTION.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/FROZEN_SELECTION.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "77ac7b78674ac2cbad4a4a3aaa9daf0f6247ebe065711770cc313f11ed5db2d5",
+      "bytes": 12493
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/CANDIDATE_POLICIES.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/CANDIDATE_POLICIES.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "ba2794a82a0ea061a4f235aca71700d005b5693f77a5035e03e4c6ec5f8ce6a5",
+      "bytes": 5949
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/MODEL_RECEIPTS.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/MODEL_RECEIPTS.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "3d05431e78b3a8d9d26ea0efe49942f60ef780ac9699af01094de7a08971fc51",
+      "bytes": 5682
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/PREDICTIONS.npz": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/PREDICTIONS.npz",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "8ddd0664053bcdc4a02a42d89445c52400a922962c9030233f97aca4a94ac64d",
+      "bytes": 2491235
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/PROTOCOL.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/PROTOCOL.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "77c71b9a3020e64999d1e0d7b776827a3f5e3d12d8cf85dba249fb3e2d21f756",
+      "bytes": 543
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/SUMMARY.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/SUMMARY.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "f6cab181f77174058026307b19c3e998c1372566fb6bc21492ac9f7b372af14d",
+      "bytes": 15999
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20210901.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20210901.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "e0e1c8d29bae229ce895f1cd50f802402a85fc9c74e8ab736e3e80a65c4e7390",
+      "bytes": 213110
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20211201.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20211201.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "b3752166c87cdd29d2035dc92686e20abffb792568f4e156dda5921989e4c79d",
+      "bytes": 225421
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20220302.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20220302.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "1c25ee992fb260d79ca564aa64cfd9a3ebdb097efdf410ff651879c89afb4105",
+      "bytes": 230703
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20220601.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20220601.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "b92d6b5d9394aa0111219b756a9289f025808b9b543cca33d2e1b9f8b5f5bb88",
+      "bytes": 227850
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20220831.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20220831.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "9df22c129d348ef51a43724e76d84f33bf3c23f6ce8c574c92bd0de73efbf9c7",
+      "bytes": 234753
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20221130.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20221130.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "2557896008af2ed3ffe674643d08cf9aa67986c7d4722f530f2793a759d23616",
+      "bytes": 238984
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20230301.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20230301.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "1816e19c2feb648c482654f02076f69f38a41a558660fa00171ec665c2de32cb",
+      "bytes": 245669
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20230531.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20230531.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "13605794b7c8ebe2c3f2bab46032153afddc4a46ff30c328662ade071365a3f4",
+      "bytes": 237866
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20230830.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20230830.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "1aad123b570d08a7a3f975a1a3c6635b0aa1caf72b855f7aa40c8f819e25bc7b",
+      "bytes": 226175
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20231129.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20231129.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "ad2b7c96f8a4e28fe31423df4367ae9a55bbf0f8a1bbc3239ee9b63b4a0d7eb0",
+      "bytes": 217071
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20240228.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20240228.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "23930472847f9c916b4a81c60e251dc4fbab97e2b046dc88b07e4c1303cdecda",
+      "bytes": 224650
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20240529.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20240529.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "4cb84f3aa6144e697132d241cf0caec3dfa0aa07e00b41e25c8c30709dbc94a3",
+      "bytes": 227225
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20240828.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20240828.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "46fa1f650ab7bc4e005b4fb69c914ba51f939480acaf696b134d3b2730a5edbe",
+      "bytes": 235182
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20241127.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20241127.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "54d8fc2bca6a3218b40c8d77887539e9ca4454dd2f85717d88943a1b335952da",
+      "bytes": 228722
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20250226.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20250226.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "ea00eb2267509123e74ad18ed0f7fd2aa0d2873c020513fb0d98700bdb39990b",
+      "bytes": 235496
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20250528.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20250528.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "49b21fc363bfd0eb1b1fd4e73eac7f9012e9fe0633eaff763dcf029e21f7f959",
+      "bytes": 233568
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20250827.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20250827.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "9be1bbac77f911739ef470a55a79fc8200803340b144b16e6dd70bffc7d3d168",
+      "bytes": 221766
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20251126.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20251126.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "6d764ebdc3de5e5bac642dca8ecb9e9dd421b845a8e24f7a969720254ef5238a",
+      "bytes": 234496
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20260225.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20260225.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "4b0582799c1a152819759a5de434c8fdf54fdaa53617bb3e8480e573f003cd8d",
+      "bytes": 244387
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20260527.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20260527.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "4d5952d6e8ca0996f64e917c838fc112f5abe1a553401b5272ef9e26b5dd3b6b",
+      "bytes": 216821
+    },
+    "shared/frozen_v8/results/ETHUSDT/LEARNING/models/20260826.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/LEARNING/models/20260826.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "8fd4bf52bb8eed4184ac9b97e53c1f3bcaa063617caa1c0c2ced92d468127105",
+      "bytes": 228212
+    },
+    "shared/frozen_v8/results/ETHUSDT/PRIMARY_CANDIDATES.csv.gz": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/PRIMARY_CANDIDATES.csv.gz",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "7d6e7e969fc5930fb5d0ca0ac5af6a94933fcf8a6a0160023934a3d1682b821b",
+      "bytes": 13845
+    },
+    "shared/frozen_v8/results/ETHUSDT/PROTOCOL.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/PROTOCOL.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "8820b5348a37d2eef32149c6a9ee636ace95a4d164f69c27f511cc35c8e5c23c",
+      "bytes": 326081
+    },
+    "shared/frozen_v8/results/ETHUSDT/STRESSES.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/STRESSES.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "18d848eae6fee765bbc8b6d86c6e5198b01b9bc1d8275e08d5c97e140ab1dd57",
+      "bytes": 11770
+    },
+    "shared/frozen_v8/results/ETHUSDT/SUMMARY.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/SUMMARY.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "ea5b08fa986e943d4f741c6999e72c156b6f0d98b9879cd8c626d433cf220567",
+      "bytes": 16523
+    },
+    "shared/frozen_v8/results/ETHUSDT/VALIDATION.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/VALIDATION.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "ab0cf545a8e42fd7868f593b2d8b7b8e6efd8d60bcc83559a021b200b07cc1b4",
+      "bytes": 179741
+    },
+    "shared/frozen_v8/sensitivity.py": {
+      "original_repository_path": "hold72_iv_v8/sensitivity.py",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "b11437e01c6deb3f95e7b4dae1732c53681893dcc90edf6388ceed99a07834f6",
+      "bytes": 2123
+    },
+    "shared/frozen_v8/tests/test_v8.py": {
+      "original_repository_path": "hold72_iv_v8/tests/test_v8.py",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "8a085bbfd64062106ec2ba71d552f02c85c3e9819a6896d45ee040e33f15d712",
+      "bytes": 6236
+    },
+    "shared/original_context/README.md": {
+      "original_repository_path": "hold72_iv_v8/README.md",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "55b16a7be9e637012cbc66182b1d2fb083d0698f1e7fee4d71b6c0dd64347fc7",
+      "bytes": 1778
+    },
+    "shared/original_context/RESULTS.md": {
+      "original_repository_path": "hold72_iv_v8/RESULTS.md",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "0f256082bf04285ea3ccfedb738f47a912a48f66fb694ec4797b3124f8dae362",
+      "bytes": 4299
+    },
+    "shared/original_context/USERINSTRUCTIONS.md": {
+      "original_repository_path": "hold72_iv_v8/USERINSTRUCTIONS.md",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "74b8d822b1de42e0b3284295057657185b50ef4bd6d408406ac101e6df505f60",
+      "bytes": 6993
+    },
+    "shared/original_context/ASSESSMENT.json": {
+      "original_repository_path": "hold72_iv_v8/ASSESSMENT.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "96dc2e2fada8372a604c24d72ace91ce5f1092028ba8bff63b78490cd5fa9684",
+      "bytes": 10350
+    },
+    "shared/original_context/MODEL_INVENTORY.json": {
+      "original_repository_path": "hold72_iv_v8/MODEL_INVENTORY.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "e63370f00e661ac2cd94b6c4634ce210068992f145c99d9d7b354435edd5b295",
+      "bytes": 8587
+    },
+    "shared/original_context/VERIFICATION.json": {
+      "original_repository_path": "hold72_iv_v8/VERIFICATION.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "47889f2e45abd96b48919edd1a620c2dd0e84f9a276097020a31e484a9f69307",
+      "bytes": 433
+    },
+    "shared/original_context/MANIFEST.json": {
+      "original_repository_path": "hold72_iv_v8/MANIFEST.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "2fcfc1f7af9a46df2675833661f793e0847a479958da74e2336d39becb65f1c3",
+      "bytes": 175154
+    },
+    "shared/original_context/followup_72h/recheck.py": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/recheck.py",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "1f650f8f8e1919f4856013760912386043e1de57863e91864c985f95c4bfd55a",
+      "bytes": 15540
+    },
+    "shared/original_context/followup_72h/RESULTS.md": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/RESULTS.md",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "bf02e5b3e032d40d67e451669a1ef17baacb7d2d01bd0c2a9122fd5c218ca931",
+      "bytes": 4940
+    },
+    "shared/original_context/followup_72h/REPLAY_RESULTS.json": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/REPLAY_RESULTS.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "bf6900caf30d6d82db93f36594fe3c6628ba5aa33afba0a61045460ba7bd1131",
+      "bytes": 38544
+    },
+    "shared/original_context/followup_72h/VERIFICATION.json": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/VERIFICATION.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "44a9cb90c08441cf190f71bc38a2b24fa812417d40dfb7b0e864dc1f6c6e3775",
+      "bytes": 20449
+    },
+    "shared/original_context/followup_72h/MANIFEST.json": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/MANIFEST.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "005f2a85f05bee416220eb3d100acb275e9532888a5eecd0273f3a6810c77eb2",
+      "bytes": 22820
+    },
+    "OWNERSHIP.md": {
+      "original_repository_path": "OWNERSHIP.md",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "4a5b8767b5fa5761001204c34c3d1fac843c783006551c4b44277aac4e0a27e0",
+      "bytes": 921
+    },
+    "shared/data_provenance/ETHUSDT/REPAIR_PROVENANCE.json": {
+      "original_repository_path": "execution_v4/data_provenance/ETHUSDT/REPAIR_PROVENANCE.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "7190eb39c0e66183e9e11b29cbe09ecad71eaf4f40eaf57d5b5542aa621b7cc0",
+      "bytes": 908
+    },
+    "shared/data_provenance/ETHUSDT/OBSERVED_TRADE_REPAIRS.csv": {
+      "original_repository_path": "execution_v4/data_provenance/ETHUSDT/OBSERVED_TRADE_REPAIRS.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "e43214bb5b17e0d6ae760171dc34b4d6ef3315dddd3b9a977f22b57170cd59e3",
+      "bytes": 9589
+    },
+    "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/METRICS.json": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/results/user5_usd_roundtrip_risk6_cap30/METRICS.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "5dfb08bab5173535cb37ffb8c2748cd3920899016af1b118cd7bb2859cebb8ad",
+      "bytes": 1189
+    },
+    "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/DAILY_EQUITY.csv": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/results/user5_usd_roundtrip_risk6_cap30/DAILY_EQUITY.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "5e373817a46becb4924343f66b408a718013fbdceee97c699fc9cf86ec71413e",
+      "bytes": 80953
+    },
+    "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/ROLLING_365D.csv": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/results/user5_usd_roundtrip_risk6_cap30/ROLLING_365D.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "382a3d385703ab16dd51a9454e80f705ae932c685cb707fcd346259b52b46dd8",
+      "bytes": 66779
+    },
+    "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/ANNUAL_RETURNS.json": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/results/user5_usd_roundtrip_risk6_cap30/ANNUAL_RETURNS.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "b15a9700c5cb38c937a56a9a555b1b9a33069786017560d421bb2431df5d403c",
+      "bytes": 261
+    },
+    "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/INDEPENDENT_AUDIT.json": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/results/user5_usd_roundtrip_risk6_cap30/INDEPENDENT_AUDIT.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "77d846e15e72cae0943a1175dda6b50b83891d5cfa2d349c9b840146b49a2035",
+      "bytes": 509
+    },
+    "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/PARAMETERS.json": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/results/user5_usd_roundtrip_risk6_cap30/PARAMETERS.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "dd8b3756597ba3bf6eb512f9d6fb0d0fcad564481bcc0ebe2ad44c6307303cd6",
+      "bytes": 729
+    },
+    "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/WEEKLY_RETURNS.csv": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/results/user5_usd_roundtrip_risk6_cap30/WEEKLY_RETURNS.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "cc7304b102418a4abd547d6d4cad13a5d52486e51676434ac3be8f8b29830b97",
+      "bytes": 10523
+    },
+    "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/MONTHLY_RETURNS.csv": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/results/user5_usd_roundtrip_risk6_cap30/MONTHLY_RETURNS.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "07c165cee2ad9308abe8c2441d37d8fbdbfa3c2c8dd74d07f131791ddb61164b",
+      "bytes": 4317
+    },
+    "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5/EVERY_TRADE_UTC.csv": {
+      "original_repository_path": "hold72_iv_v8/followup_72h/results/user5_usd_roundtrip_risk6_cap30/EVERY_TRADE_UTC.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "84063d2d502655b684d38b6ba740140b8fc38846a131d38ed1b7d67affdce961",
+      "bytes": 185376
+    },
+    "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/METRICS.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/METRICS.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "88661e71620787eca8c9d3e7430d2fa2b9e3a25006cd346b404de4eac4270c46",
+      "bytes": 1190
+    },
+    "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/DAILY_EQUITY.csv": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/DAILY_EQUITY.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "48a1db9680e86638d1b765cc3f0cb70c2ac62cb82197d313b06813583711686f",
+      "bytes": 81083
+    },
+    "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/ROLLING_365D.csv": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/ROLLING_365D.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "f1263d255798e99a0e4b1d306989be7b89b7bcff1daece8c8bac042fa9325dce",
+      "bytes": 66835
+    },
+    "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/ANNUAL_RETURNS.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/ANNUAL_RETURNS.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "fe8079cd2bdaf19e79ad58bc54452ea99fff5e0d7f0392714b0385323c59602f",
+      "bytes": 263
+    },
+    "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/INDEPENDENT_AUDIT.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/INDEPENDENT_AUDIT.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "ff244d14c07148eeb947a5f518ef4b08142f946120bbffecd8c69bf6de4aea10",
+      "bytes": 510
+    },
+    "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/PARAMETERS.json": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/PARAMETERS.json",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "bca3ec060f29288e119d53d2fb89db15fb3520d27f49a8e775711a00ee3fb6a6",
+      "bytes": 1033
+    },
+    "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/WEEKLY_RETURNS.csv": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/WEEKLY_RETURNS.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "d7e5e1fc6c3557dce30413182a6df7711fa436f355ea97028bccc23dd7478041",
+      "bytes": 10518
+    },
+    "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/MONTHLY_RETURNS.csv": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/MONTHLY_RETURNS.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "19fdfff0457e755bbfdfedf47195c1a15f9dda3ec50f4c7bb6b591351534dafc",
+      "bytes": 4318
+    },
+    "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5/EVERY_TRADE_UTC.csv": {
+      "original_repository_path": "hold72_iv_v8/results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0/EVERY_TRADE_UTC.csv",
+      "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+      "sha256": "218d53aa70c06bdfa68203c2876994b4e77660cedf4cc8110ddfd380cb426c83",
+      "bytes": 182704
+    }
+  }
+}

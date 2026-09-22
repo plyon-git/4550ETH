@@ -1,0 +1,18 @@
+{
+  "symbol": "ETHUSDT",
+  "original_input_sha256": "7156e32e9e3813e2ef041ca03e9a30cb9f7246ea3b22e6549e09d2f750e6388c",
+  "repaired_sha256": "b6a9f20924ad42d8ea802404f5640356fc42c6301b98ed64ad161a576c71e46d",
+  "repaired_zero_minutes": 74,
+  "repair_source": "actual checksum-matching exchange aggregate trades",
+  "source_receipts": [
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-10-28.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-10-28.zip.CHECKSUM",
+      "sha256": "9f95f244817952a0f97358f6d62876ad07567a37e73f78d8e8c4341aec8485ce",
+      "bytes": 16579355,
+      "receipt": "9f95f244817952a0f97358f6d62876ad07567a37e73f78d8e8c4341aec8485ce  ETHUSDT-aggTrades-2024-10-28.zip"
+    }
+  ],
+  "raw_mark_gaps_preserved": true,
+  "no_unobserved_trades_invented": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "564.37",
+  "folder": "ETHUSDT_564.37pct_5Y_20210901-20260901_WR23.20pct_RR5",
+  "source_record": "hold72_iv_v8/followup_72h/results/user5_usd_roundtrip_risk6_cap30",
+  "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+  "cumulative_return_percent": 564.3695278817943,
+  "cagr_percent": 46.04983897205888,
+  "win_rate_percent": 23.204419889502763,
+  "trades": 362,
+  "initial_target_rr": 5,
+  "maximum_hold_hours": 72,
+  "nominal_contract_leverage": 30,
+  "fee_bps_per_side": 2.5264744201539084,
+  "fee_verified_for_live_account": false,
+  "state": "frozen_historical_diagnostic_not_live_certified"
+}

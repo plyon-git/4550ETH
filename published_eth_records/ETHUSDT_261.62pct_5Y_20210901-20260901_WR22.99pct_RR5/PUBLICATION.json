@@ -1,0 +1,16 @@
+{
+  "id": "261.62",
+  "folder": "ETHUSDT_261.62pct_5Y_20210901-20260901_WR22.99pct_RR5",
+  "source_record": "hold72_iv_v8/results/ETHUSDT/SIZING_DIAGNOSTICS/risk0.06_cap30.0",
+  "source_commit": "2d070ea62f847b944f538fb4a6e9073b109b8549",
+  "cumulative_return_percent": 261.61752280307377,
+  "cagr_percent": 29.319163456280407,
+  "win_rate_percent": 22.99168975069252,
+  "trades": 361,
+  "initial_target_rr": 5,
+  "maximum_hold_hours": 72,
+  "nominal_contract_leverage": 30,
+  "fee_bps_per_side": 5.0,
+  "fee_verified_for_live_account": false,
+  "state": "frozen_historical_diagnostic_not_live_certified"
+}

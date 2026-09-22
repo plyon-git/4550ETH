@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.pytest_cache/
+.venv/
+reproduced/
+shared/data/aligned_repaired.npz
+shared/data/*.partial
+.env
+.env.*

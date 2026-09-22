@@ -1,0 +1,7 @@
+564.37 MATCHED 362 trades; 564.3695278817943 percent cumulative
+261.62 MATCHED 361 trades; 261.61752280307377 percent cumulative
+{
+  "verified_cases": 2,
+  "models_checked": true,
+  "trading_orders_submitted": false
+}
