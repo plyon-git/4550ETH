@@ -1,0 +1,98 @@
+[
+  {
+    "cutoff_utc": "2023-10-02T00:00:00+00:00",
+    "prediction_end": "2024-01-01T00:00:00+00:00",
+    "model_file": "20231002_h48.json",
+    "model_sha256": "c2ebd9c37c4803bb9cf2cdb6908ce8af6b2f9e326c16342e0ac6de77f5a0e0d1",
+    "samples": 582,
+    "label_maturity": 1696089600000
+  },
+  {
+    "cutoff_utc": "2024-01-01T00:00:00+00:00",
+    "prediction_end": "2024-04-01T00:00:00+00:00",
+    "model_file": "20240101_h48.json",
+    "model_sha256": "f39488fb676b2e38852a60b7b0e1268b9334499f93fc2b9e19c1300ed2c96416",
+    "samples": 524,
+    "label_maturity": 1703257200000
+  },
+  {
+    "cutoff_utc": "2024-04-01T00:00:00+00:00",
+    "prediction_end": "2024-07-01T00:00:00+00:00",
+    "model_file": "20240401_h48.json",
+    "model_sha256": "fb9842c64a04a1c7fa1702c16a16c50fb9a1e22fb11a55e4df608db8a98d692e",
+    "samples": 514,
+    "label_maturity": 1711569600000
+  },
+  {
+    "cutoff_utc": "2024-07-01T00:00:00+00:00",
+    "prediction_end": "2024-09-30T00:00:00+00:00",
+    "model_file": "20240701_h48.json",
+    "model_sha256": "3bbffcae8fb0819e0204d6fe8b04b2e235d8e89b3abbfcd989c462ac17ac3e27",
+    "samples": 514,
+    "label_maturity": 1718208000000
+  },
+  {
+    "cutoff_utc": "2024-09-30T00:00:00+00:00",
+    "prediction_end": "2024-12-30T00:00:00+00:00",
+    "model_file": "20240930_h48.json",
+    "model_sha256": "24653991c6f71d3c7d4c10283666850044c4ae35563a08b90575f70483f20316",
+    "samples": 510,
+    "label_maturity": 1727622000000
+  },
+  {
+    "cutoff_utc": "2024-12-30T00:00:00+00:00",
+    "prediction_end": "2025-03-31T00:00:00+00:00",
+    "model_file": "20241230_h48.json",
+    "model_sha256": "486a191d02bc9b8179fd32091905026a4ed0720cceb3763054c96a8493de1966",
+    "samples": 525,
+    "label_maturity": 1735236000000
+  },
+  {
+    "cutoff_utc": "2025-03-31T00:00:00+00:00",
+    "prediction_end": "2025-06-30T00:00:00+00:00",
+    "model_file": "20250331_h48.json",
+    "model_sha256": "066e14852074a28d23a74418017ce5852472515f70d30eee5b4cb6a8b30da8c9",
+    "samples": 534,
+    "label_maturity": 1743001200000
+  },
+  {
+    "cutoff_utc": "2025-06-30T00:00:00+00:00",
+    "prediction_end": "2025-09-29T00:00:00+00:00",
+    "model_file": "20250630_h48.json",
+    "model_sha256": "58c37f0bd096d350e62475a2e5926be8a5ec58d802ccc7f3cc5077f3a7323780",
+    "samples": 582,
+    "label_maturity": 1751032800000
+  },
+  {
+    "cutoff_utc": "2025-09-29T00:00:00+00:00",
+    "prediction_end": "2025-12-29T00:00:00+00:00",
+    "model_file": "20250929_h48.json",
+    "model_sha256": "b76b0238940c77749db3967d4f70d1af8a377b658efccdb08ec7bba8d2240dd9",
+    "samples": 604,
+    "label_maturity": 1758340800000
+  },
+  {
+    "cutoff_utc": "2025-12-29T00:00:00+00:00",
+    "prediction_end": "2026-03-30T00:00:00+00:00",
+    "model_file": "20251229_h48.json",
+    "model_sha256": "0dcd8ebf1aaed942986aede789c9ea8edfce032c78080cefb8938a502968a12c",
+    "samples": 617,
+    "label_maturity": 1766890800000
+  },
+  {
+    "cutoff_utc": "2026-03-30T00:00:00+00:00",
+    "prediction_end": "2026-06-29T00:00:00+00:00",
+    "model_file": "20260330_h48.json",
+    "model_sha256": "2160ae298e129bf14ff854e4d2c18ea9fcea0e9ca599add16bb69e52e8571937",
+    "samples": 612,
+    "label_maturity": 1773885600000
+  },
+  {
+    "cutoff_utc": "2026-06-29T00:00:00+00:00",
+    "prediction_end": "2026-08-31T00:00:00+00:00",
+    "model_file": "20260629_h48.json",
+    "model_sha256": "aa7c070370913c5ee2b79965a02b2d0099a51cf7707cd002ce061c3368cb8552",
+    "samples": 619,
+    "label_maturity": 1782309600000
+  }
+]

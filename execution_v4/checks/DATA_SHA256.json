@@ -1,0 +1,14 @@
+{
+  "ETHUSDT": {
+    "sha256": "b6a9f20924ad42d8ea802404f5640356fc42c6301b98ed64ad161a576c71e46d",
+    "bytes": 201104903
+  },
+  "BTCUSDT": {
+    "sha256": "2f6fc1e9ccb749e3e17793796d72ebd6c12a9c2f7d51e9c7e259cda8f97002a3",
+    "bytes": 199449546
+  },
+  "XRPUSDT": {
+    "sha256": "43678daef70287657734cf3eb6b6915ffa5df0b24d90d289d8892ee1d5f70859",
+    "bytes": 181728008
+  }
+}

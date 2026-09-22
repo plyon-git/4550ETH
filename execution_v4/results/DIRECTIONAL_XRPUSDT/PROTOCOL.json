@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-22T04:47:15.578256+00:00",
+  "periods": {
+    "development": [
+      "2021-01-04",
+      "2023-01-02"
+    ],
+    "validation": [
+      "2023-01-02",
+      "2023-09-25"
+    ],
+    "evaluation": [
+      "2023-10-02",
+      "2026-08-31"
+    ]
+  },
+  "data_sha256": "43678daef70287657734cf3eb6b6915ffa5df0b24d90d289d8892ee1d5f70859",
+  "horizons": [
+    4,
+    12,
+    24
+  ],
+  "threshold_r": [
+    0.15,
+    0.3,
+    0.5,
+    0.8
+  ],
+  "risk": [
+    0.01,
+    0.02,
+    0.04
+  ],
+  "stop_target": [
+    [
+      1.5,
+      2
+    ],
+    [
+      2.5,
+      4
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "training": "1095-day rolling window; 13-week refit; 100 histogram gradient trees; 128 minimum leaf samples; no early stopping; all forward labels mature before cutoff",
+  "selection": "maximum validation CAGR with >=50 trades, no liquidation and drawdown<=50%, frozen before evaluation; reject none silently",
+  "prior_calendar_exposure": true
+}

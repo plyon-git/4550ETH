@@ -1,0 +1,20 @@
+[
+  {
+    "utc": "2024-08-12T10:02:00Z",
+    "position_exposed": true,
+    "model_open": 0.5688,
+    "model_high": 0.5974499999999999,
+    "model_low": 0.538745,
+    "model_close": 0.5688,
+    "sourced_15m_bounds": false
+  },
+  {
+    "utc": "2024-08-12T10:03:00Z",
+    "position_exposed": true,
+    "model_open": 0.5688,
+    "model_high": 0.59724,
+    "model_low": 0.538745,
+    "model_close": 0.5688,
+    "sourced_15m_bounds": false
+  }
+]

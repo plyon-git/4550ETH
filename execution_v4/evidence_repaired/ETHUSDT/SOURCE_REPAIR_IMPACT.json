@@ -1,0 +1,218 @@
+[
+  {
+    "case": "RULE_PRIMARY_756f54981a8d58c4",
+    "before_source_repair_net_return": 0.2692784775321495,
+    "after_source_repair_net_return": 0.2692784775321495,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_d342c272c5a5a26c",
+    "before_source_repair_net_return": 0.8951105526373455,
+    "after_source_repair_net_return": 0.8951105526373455,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_8b148ac5f7b865b7",
+    "before_source_repair_net_return": 0.10180845005169115,
+    "after_source_repair_net_return": 0.10180845005169115,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_4ecf0b7fd02eee75",
+    "before_source_repair_net_return": 0.10180845005169115,
+    "after_source_repair_net_return": 0.10180845005169115,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_da2520c6e5b8a1c9",
+    "before_source_repair_net_return": 0.10180845005169115,
+    "after_source_repair_net_return": 0.10180845005169115,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_80548f3e773537cd",
+    "before_source_repair_net_return": 0.015118810997178267,
+    "after_source_repair_net_return": 0.015118810997178267,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_5b7b634f692b4299",
+    "before_source_repair_net_return": 0.18666489929821517,
+    "after_source_repair_net_return": 0.18666489929821517,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_a9dad2763e946ff0",
+    "before_source_repair_net_return": 0.19414881494579017,
+    "after_source_repair_net_return": 0.19414881494579017,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_7d67db65856b3db4",
+    "before_source_repair_net_return": 0.19414881494579017,
+    "after_source_repair_net_return": 0.19414881494579017,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_4a3feadda8590b6c",
+    "before_source_repair_net_return": 0.04754441363173445,
+    "after_source_repair_net_return": 0.04754441363173445,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_469ca1a4d0452d40",
+    "before_source_repair_net_return": 0.04754441363173445,
+    "after_source_repair_net_return": 0.04754441363173445,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_dddde72d3c16dfd2",
+    "before_source_repair_net_return": 0.04754441363173445,
+    "after_source_repair_net_return": 0.04754441363173445,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_PRIMARY_f3b07043af4ad3a0",
+    "before_source_repair_net_return": -0.9327202019230743,
+    "after_source_repair_net_return": -0.9327202019230743,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_4d50cea665db7836",
+    "before_source_repair_net_return": -0.8692237294715157,
+    "after_source_repair_net_return": -0.8692237294715157,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_ca3a453a7ee4f896",
+    "before_source_repair_net_return": -0.747632421497586,
+    "after_source_repair_net_return": -0.747632421497586,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_c139bbcd99e59406",
+    "before_source_repair_net_return": -0.7290928723134569,
+    "after_source_repair_net_return": -0.7290928723134569,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_a259117c72b6a37b",
+    "before_source_repair_net_return": -0.4243572035680815,
+    "after_source_repair_net_return": -0.4243572035680815,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_6f696ca4c5de4b96",
+    "before_source_repair_net_return": -0.4243572035680815,
+    "after_source_repair_net_return": -0.4243572035680815,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_9e10e084bad3853a",
+    "before_source_repair_net_return": -0.34201895656896153,
+    "after_source_repair_net_return": -0.34201895656896153,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_e2322e2bbacd9df7",
+    "before_source_repair_net_return": -0.2904307875285215,
+    "after_source_repair_net_return": -0.2904307875285215,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_4b6a8aeb3031d66a",
+    "before_source_repair_net_return": -0.3191472355472815,
+    "after_source_repair_net_return": -0.3191472355472815,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_c8ec01621c7fb859",
+    "before_source_repair_net_return": -0.13514831919520998,
+    "after_source_repair_net_return": -0.13514831919520998,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_147fe8192f1e03c0",
+    "before_source_repair_net_return": -0.13514831919520998,
+    "after_source_repair_net_return": -0.13514831919520998,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_009820c96319fd60",
+    "before_source_repair_net_return": -0.13514831919520998,
+    "after_source_repair_net_return": -0.13514831919520998,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_PRIMARY_dd8cd978b4967099",
+    "before_source_repair_net_return": -0.570574176061255,
+    "after_source_repair_net_return": -0.570574176061255,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_c0012ab2e0e8ff62",
+    "before_source_repair_net_return": -0.8879383326615978,
+    "after_source_repair_net_return": -0.8879383326615978,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_472c62366437f1de",
+    "before_source_repair_net_return": -0.4893020167105675,
+    "after_source_repair_net_return": -0.4893020167105675,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_1bb1cf3450f19176",
+    "before_source_repair_net_return": -0.7173847944742859,
+    "after_source_repair_net_return": -0.7173847944742859,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_57b50f700e2ecb1d",
+    "before_source_repair_net_return": -0.8137414957550808,
+    "after_source_repair_net_return": -0.8137414957550808,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_1473718ef5c7d3db",
+    "before_source_repair_net_return": -0.3852595962337241,
+    "after_source_repair_net_return": -0.3852595962337241,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_4fd446ff038e8849",
+    "before_source_repair_net_return": -0.3803952379330494,
+    "after_source_repair_net_return": -0.3803952379330494,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_29a3884c7d650537",
+    "before_source_repair_net_return": -0.7162670333621034,
+    "after_source_repair_net_return": -0.7162670333621034,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_90873985d647b298",
+    "before_source_repair_net_return": -0.17152301131551428,
+    "after_source_repair_net_return": -0.17152301131551428,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_460d2c626c7fc8c1",
+    "before_source_repair_net_return": -0.17152301131551428,
+    "after_source_repair_net_return": -0.17152301131551428,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_b1de7eaca1803836",
+    "before_source_repair_net_return": -0.17152301131551428,
+    "after_source_repair_net_return": -0.17152301131551428,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_07f07aa7743f69b2",
+    "before_source_repair_net_return": -0.2062712778884096,
+    "after_source_repair_net_return": -0.2062712778884096,
+    "source_configuration_unchanged": true
+  }
+]

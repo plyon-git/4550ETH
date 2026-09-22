@@ -1,0 +1,8 @@
+{
+  "sha256": "b6a9f20924ad42d8ea802404f5640356fc42c6301b98ed64ad161a576c71e46d",
+  "rows": 3506400,
+  "first_ms": 1577836800000,
+  "end_ms_exclusive": 1788220800000,
+  "missing_mark_rows": 66,
+  "mark_gap_model": "previous observed close; separately sourced 15-minute bounds when present; otherwise explicit +/-5% sensitivity envelope; no invented observed mark values"
+}

@@ -1,0 +1,21 @@
+{
+  "family": "counter_breakout",
+  "timeframe_minutes": 240,
+  "lookback": 12,
+  "volume_multiple": 0.0,
+  "trend_span": 0,
+  "direction": "long",
+  "stop_atr": 6.0,
+  "target_r": 0.25,
+  "trail_r": 0.0,
+  "max_hold_hours": 24,
+  "minimum_price": 1000.0,
+  "risk_fraction": 0.01,
+  "exposure_cap": 5,
+  "daily_loss": 0.03,
+  "weekly_loss": 0.08,
+  "cooldown_minutes": 5,
+  "atr_span": 32,
+  "atr_min": 0.0005,
+  "atr_max": 0.1
+}

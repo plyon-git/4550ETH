@@ -1,0 +1,218 @@
+[
+  {
+    "case": "RULE_PRIMARY_1290a330837d1037",
+    "before_source_repair_net_return": -0.9504177738001023,
+    "after_source_repair_net_return": -0.9504177738001023,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_cbdd2ab0e387cafe",
+    "before_source_repair_net_return": -0.9533289774080361,
+    "after_source_repair_net_return": -0.9533289774080361,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_2493ba474015b6f3",
+    "before_source_repair_net_return": -0.8882274410264693,
+    "after_source_repair_net_return": -0.8882274410264693,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_f9aa438fcffb4c9a",
+    "before_source_repair_net_return": -0.8934332423399343,
+    "after_source_repair_net_return": -0.8934332423399343,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_10fc99fab1419df6",
+    "before_source_repair_net_return": -0.6554228847581797,
+    "after_source_repair_net_return": -0.6554228847581797,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_cf72c11a17d0bbd3",
+    "before_source_repair_net_return": -0.6629397976909769,
+    "after_source_repair_net_return": -0.6629397976909769,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_269036da41c1a4d7",
+    "before_source_repair_net_return": -0.8201209292429138,
+    "after_source_repair_net_return": -0.8201209292429138,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_2ffc84708eee1d72",
+    "before_source_repair_net_return": -0.8259229416617428,
+    "after_source_repair_net_return": -0.8259229416617428,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_2a3fa03ec544dc49",
+    "before_source_repair_net_return": -0.8633607201379258,
+    "after_source_repair_net_return": -0.8633607201379258,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_8895a645439ef55e",
+    "before_source_repair_net_return": -0.8670850127370114,
+    "after_source_repair_net_return": -0.8670850127370114,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_f5dd5c121bf3b456",
+    "before_source_repair_net_return": -0.28797257370940366,
+    "after_source_repair_net_return": -0.28797257370940366,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "RULE_DIAGNOSTIC_7a9e30797d01881c",
+    "before_source_repair_net_return": -0.28797257370940366,
+    "after_source_repair_net_return": -0.28797257370940366,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_PRIMARY_b1492ec6631d0d7f",
+    "before_source_repair_net_return": -0.9125743935260642,
+    "after_source_repair_net_return": -0.9125743935260642,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_2182188156e4c012",
+    "before_source_repair_net_return": -0.9822951800437174,
+    "after_source_repair_net_return": -0.9822951800437174,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_99b3aa691c674248",
+    "before_source_repair_net_return": -0.8508765877433742,
+    "after_source_repair_net_return": -0.8508765877433742,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_6c92160dfe582110",
+    "before_source_repair_net_return": -0.8341553393886625,
+    "after_source_repair_net_return": -0.8341553393886625,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_9711f7997080308f",
+    "before_source_repair_net_return": -0.3538987919256339,
+    "after_source_repair_net_return": -0.3538987919256339,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_4b7cd8de37d4da37",
+    "before_source_repair_net_return": 0.0005857126778163746,
+    "after_source_repair_net_return": 0.0005857126778163746,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_67e070dffc72ff30",
+    "before_source_repair_net_return": 0.19653579146486821,
+    "after_source_repair_net_return": 0.19653579146486821,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_80d22b76a5bd10f1",
+    "before_source_repair_net_return": -0.972678385507587,
+    "after_source_repair_net_return": -0.972678385507587,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_c5dae775b37da8f0",
+    "before_source_repair_net_return": 0.6626186673036831,
+    "after_source_repair_net_return": 0.6626186673036831,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_8a3e0fc4aff4186a",
+    "before_source_repair_net_return": -0.8823445553445952,
+    "after_source_repair_net_return": -0.8823445553445952,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_18866b892aef3fc2",
+    "before_source_repair_net_return": -0.12706944865228265,
+    "after_source_repair_net_return": -0.12706944865228265,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "TREND_DIAGNOSTIC_cca4b7cb59855bc8",
+    "before_source_repair_net_return": 0.3309238561857355,
+    "after_source_repair_net_return": 0.3309238561857355,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_PRIMARY_39c043c7c367f09d",
+    "before_source_repair_net_return": -0.10265801595340729,
+    "after_source_repair_net_return": -0.10265801595340729,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_9500ef938adfa0fe",
+    "before_source_repair_net_return": -0.10265801595340729,
+    "after_source_repair_net_return": -0.10265801595340729,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_917dc579c593103d",
+    "before_source_repair_net_return": -0.10265801595340729,
+    "after_source_repair_net_return": -0.10265801595340729,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_1d42b9ed3bcadd7f",
+    "before_source_repair_net_return": -0.05258575929765774,
+    "after_source_repair_net_return": -0.05258575929765774,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_1cba4c51daf95e81",
+    "before_source_repair_net_return": -0.05258575929765774,
+    "after_source_repair_net_return": -0.05258575929765774,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_6e9ff1ac26247b5c",
+    "before_source_repair_net_return": -0.05258575929765774,
+    "after_source_repair_net_return": -0.05258575929765774,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_c5c897e7e7240dd5",
+    "before_source_repair_net_return": -0.11034689580557677,
+    "after_source_repair_net_return": -0.11034689580557677,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_a5ef6e35e06b593b",
+    "before_source_repair_net_return": -0.11034689580557677,
+    "after_source_repair_net_return": -0.11034689580557677,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_aa5cdcb8e1b816cb",
+    "before_source_repair_net_return": -0.11034689580557677,
+    "after_source_repair_net_return": -0.11034689580557677,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_74f7b2b3b7ca5a27",
+    "before_source_repair_net_return": -0.05605259448371214,
+    "after_source_repair_net_return": -0.05605259448371214,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_8b44b514e5345784",
+    "before_source_repair_net_return": -0.05605259448371214,
+    "after_source_repair_net_return": -0.05605259448371214,
+    "source_configuration_unchanged": true
+  },
+  {
+    "case": "REVERSION_DIAGNOSTIC_108c96b1496538bf",
+    "before_source_repair_net_return": -0.05605259448371214,
+    "after_source_repair_net_return": -0.05605259448371214,
+    "source_configuration_unchanged": true
+  }
+]

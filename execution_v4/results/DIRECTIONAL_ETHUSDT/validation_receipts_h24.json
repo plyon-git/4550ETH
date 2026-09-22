@@ -1,0 +1,26 @@
+[
+  {
+    "file": "20230102_h24.json",
+    "sha256": "990ca682671ae164552d67f3be280d7d3ff1a56d04bfd1e6231ce1a93468f455",
+    "prediction_start": "2023-01-02T00:00:00+00:00",
+    "prediction_end": "2023-04-03T00:00:00+00:00",
+    "label_maturity_ms": 1672617600000,
+    "samples": 26136
+  },
+  {
+    "file": "20230403_h24.json",
+    "sha256": "d37a935aac2fe773120ea03c8a30063d7175651a843949200e5273cfe3651158",
+    "prediction_start": "2023-04-03T00:00:00+00:00",
+    "prediction_end": "2023-07-03T00:00:00+00:00",
+    "label_maturity_ms": 1680480000000,
+    "samples": 26256
+  },
+  {
+    "file": "20230703_h24.json",
+    "sha256": "211cccde4ceefb5eeee2eaa02b2bbc9e3ba05622025ec5e895edecf0e217d272",
+    "prediction_start": "2023-07-03T00:00:00+00:00",
+    "prediction_end": "2023-09-25T00:00:00+00:00",
+    "label_maturity_ms": 1688342400000,
+    "samples": 26256
+  }
+]

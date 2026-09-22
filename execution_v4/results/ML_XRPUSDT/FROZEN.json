@@ -1,0 +1,40 @@
+{
+  "horizon": 16,
+  "threshold": 0.45,
+  "metrics": {
+    "net_return": 0.28413019628377056,
+    "geometric_weekly": 0.006602797700709928,
+    "arithmetic_weekly": 0.008048926831046103,
+    "worst_week": -0.05449070766896491,
+    "best_week": 0.34146844216972005,
+    "complete_weeks": 38,
+    "weeks_at_10pct": 1,
+    "positive_weeks": 15,
+    "negative_weeks": 19,
+    "flat_weeks": 4,
+    "longest_losing_streak": 5,
+    "active_week_losing_streak": 5,
+    "trades": 58,
+    "win_rate": 0.3103448275862069,
+    "profit_factor": 1.6601399392999079,
+    "fees": 308.7544225500001,
+    "funding_paid": -13.904285387709482,
+    "liquidations": 0,
+    "max_entry_leverage": 2.1100958038318103,
+    "conservative_intrabar_drawdown": 0.12073569564903142,
+    "max_daily_entries": 2,
+    "initial_equity": 10000.0,
+    "final_equity": 12841.301962837706,
+    "gates": {
+      "geometric_weekly_at_least_10pct": false,
+      "every_week_at_least_10pct": false,
+      "worst_week_at_least_minus_5pct": false,
+      "max_3_losing_calendar_weeks": false,
+      "at_most_300_daily_entries": true,
+      "no_liquidation": true,
+      "at_least_52_complete_weeks": false
+    },
+    "passes_historical_average_target": false,
+    "cagr": 0.4097114941824067
+  }
+}

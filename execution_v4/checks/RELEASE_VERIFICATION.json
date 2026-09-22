@@ -1,0 +1,25 @@
+{
+  "source_replayed_on": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "python": "3.13.15",
+  "data": {
+    "ETHUSDT": {
+      "sha256": "b6a9f20924ad42d8ea802404f5640356fc42c6301b98ed64ad161a576c71e46d",
+      "bytes": 201104903
+    },
+    "BTCUSDT": {
+      "sha256": "2f6fc1e9ccb749e3e17793796d72ebd6c12a9c2f7d51e9c7e259cda8f97002a3",
+      "bytes": 199449546
+    },
+    "XRPUSDT": {
+      "sha256": "43678daef70287657734cf3eb6b6915ffa5df0b24d90d289d8892ee1d5f70859",
+      "bytes": 181728008
+    }
+  },
+  "independently_audited_cases": 150,
+  "trade_rows_across_distinct_simulations": 67420,
+  "each_case_minutes": 1532160,
+  "max_open_close_equity_discrepancy": 1.1641532182693481e-10,
+  "local_vs_published_primary_results_match": true,
+  "authenticated_exchange_orders_submitted": false,
+  "target_met": false
+}

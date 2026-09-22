@@ -1,0 +1,18 @@
+{
+  "symbol": "BTCUSDT",
+  "original_input_sha256": "3b7042fb81387eef420f887cd62da2aed6f50ece960f515ca229e2ed913d22ab",
+  "repaired_sha256": "2f6fc1e9ccb749e3e17793796d72ebd6c12a9c2f7d51e9c7e259cda8f97002a3",
+  "repaired_zero_minutes": 74,
+  "repair_source": "actual checksum-matching exchange aggregate trades",
+  "source_receipts": [
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-10-28.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-10-28.zip.CHECKSUM",
+      "sha256": "2911e8337d4203f706ae5fddb8ed9064c129cc7c6c11360cde22a6e6b23b6f6a",
+      "bytes": 17156334,
+      "receipt": "2911e8337d4203f706ae5fddb8ed9064c129cc7c6c11360cde22a6e6b23b6f6a  BTCUSDT-aggTrades-2024-10-28.zip"
+    }
+  ],
+  "raw_mark_gaps_preserved": true,
+  "no_unobserved_trades_invented": true
+}

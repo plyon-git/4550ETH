@@ -1,0 +1,98 @@
+[
+  {
+    "file": "20231002_h4.json",
+    "sha256": "255b57a85c1b22f6322b037652b8ae5bdbd8f827ab2bf61cfd22623094d59659",
+    "prediction_start": "2023-10-02T00:00:00+00:00",
+    "prediction_end": "2024-01-01T00:00:00+00:00",
+    "label_maturity_ms": 1696204800000,
+    "samples": 26276
+  },
+  {
+    "file": "20240101_h4.json",
+    "sha256": "efe342db658033c34d75859136a0354cbf534d5f8a50d1cec4124f7b80ce940e",
+    "prediction_start": "2024-01-01T00:00:00+00:00",
+    "prediction_end": "2024-04-01T00:00:00+00:00",
+    "label_maturity_ms": 1704067200000,
+    "samples": 26276
+  },
+  {
+    "file": "20240401_h4.json",
+    "sha256": "133c857f738d99d0aa0ccf1435f0bd8dac56fc6b5d39c3aaa26c197991294622",
+    "prediction_start": "2024-04-01T00:00:00+00:00",
+    "prediction_end": "2024-07-01T00:00:00+00:00",
+    "label_maturity_ms": 1711929600000,
+    "samples": 26276
+  },
+  {
+    "file": "20240701_h4.json",
+    "sha256": "9cdc4764ff08b53bf599fa747c289edec3b635a333ac150fd0dc470df6179c9e",
+    "prediction_start": "2024-07-01T00:00:00+00:00",
+    "prediction_end": "2024-09-30T00:00:00+00:00",
+    "label_maturity_ms": 1719792000000,
+    "samples": 26276
+  },
+  {
+    "file": "20240930_h4.json",
+    "sha256": "fa2e2b6369cebdab6b441df584d1d18fca0a3c3f5086bb4fa8782ab71ed8975b",
+    "prediction_start": "2024-09-30T00:00:00+00:00",
+    "prediction_end": "2024-12-30T00:00:00+00:00",
+    "label_maturity_ms": 1727654400000,
+    "samples": 26276
+  },
+  {
+    "file": "20241230_h4.json",
+    "sha256": "ab6c8180b9ca35a216f49c216ea2e6dce7dbfdb83a5223f33f08046f5cc6cefa",
+    "prediction_start": "2024-12-30T00:00:00+00:00",
+    "prediction_end": "2025-03-31T00:00:00+00:00",
+    "label_maturity_ms": 1735516800000,
+    "samples": 26276
+  },
+  {
+    "file": "20250331_h4.json",
+    "sha256": "7141a87bb886207de3a238ae495622d8ad9da608c3e4db9d6e7509b2bdc405d1",
+    "prediction_start": "2025-03-31T00:00:00+00:00",
+    "prediction_end": "2025-06-30T00:00:00+00:00",
+    "label_maturity_ms": 1743379200000,
+    "samples": 26276
+  },
+  {
+    "file": "20250630_h4.json",
+    "sha256": "4d165e43058b2ebd872ccece1da65b652851ad6dfb0e10b659a8b51371192809",
+    "prediction_start": "2025-06-30T00:00:00+00:00",
+    "prediction_end": "2025-09-29T00:00:00+00:00",
+    "label_maturity_ms": 1751241600000,
+    "samples": 26276
+  },
+  {
+    "file": "20250929_h4.json",
+    "sha256": "ba98414d797c5d9102e6c07daef6028c24843120434e44f55ec2103c7234bee7",
+    "prediction_start": "2025-09-29T00:00:00+00:00",
+    "prediction_end": "2025-12-29T00:00:00+00:00",
+    "label_maturity_ms": 1759104000000,
+    "samples": 26276
+  },
+  {
+    "file": "20251229_h4.json",
+    "sha256": "5485a68465373f7165555492b64dd083c82aef08b433104b8cb9a57936060d91",
+    "prediction_start": "2025-12-29T00:00:00+00:00",
+    "prediction_end": "2026-03-30T00:00:00+00:00",
+    "label_maturity_ms": 1766966400000,
+    "samples": 26276
+  },
+  {
+    "file": "20260330_h4.json",
+    "sha256": "0e5a4af5d701a1151bf0b84a6693332b1142a12dd53447684a1e9cf58c00cba8",
+    "prediction_start": "2026-03-30T00:00:00+00:00",
+    "prediction_end": "2026-06-29T00:00:00+00:00",
+    "label_maturity_ms": 1774828800000,
+    "samples": 26276
+  },
+  {
+    "file": "20260629_h4.json",
+    "sha256": "7528ed7c5fbafde4ff7288e68b01e1aa1dfd4fdf6e31d1cc798ced1d566287c4",
+    "prediction_start": "2026-06-29T00:00:00+00:00",
+    "prediction_end": "2026-08-31T00:00:00+00:00",
+    "label_maturity_ms": 1782691200000,
+    "samples": 26276
+  }
+]

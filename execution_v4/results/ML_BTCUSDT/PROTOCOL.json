@@ -1,0 +1,53 @@
+{
+  "saved_before_ml_evaluation": "2026-09-22T04:44:22.642997+00:00",
+  "base_strategy": {
+    "family": "breakout",
+    "timeframe_minutes": 60,
+    "lookback": 48,
+    "volume_multiple": 1.0,
+    "trend_span": 200,
+    "direction": "long",
+    "stop_atr": 1.5,
+    "target_r": 2.0,
+    "trail_r": 0.0,
+    "max_hold_hours": 72,
+    "minimum_price": 1000.0,
+    "risk_fraction": 0.06,
+    "exposure_cap": 5,
+    "daily_loss": 0.12,
+    "weekly_loss": 0.3,
+    "cooldown_minutes": 5,
+    "atr_span": 32,
+    "atr_min": 0.0005,
+    "atr_max": 0.1
+  },
+  "periods": {
+    "development": [
+      "2021-01-04",
+      "2023-01-02"
+    ],
+    "validation": [
+      "2023-01-02",
+      "2023-09-25"
+    ],
+    "evaluation": [
+      "2023-10-02",
+      "2026-08-31"
+    ]
+  },
+  "horizons": [
+    4,
+    16,
+    48
+  ],
+  "thresholds": [
+    0.45,
+    0.5,
+    0.55,
+    0.6
+  ],
+  "train_window_days": 1095,
+  "refit_weeks": 13,
+  "data_sha256": "2f6fc1e9ccb749e3e17793796d72ebd6c12a9c2f7d51e9c7e259cda8f97002a3",
+  "selection": "Highest validation CAGR, at least 30 validation trades; no evaluation re-selection. If no candidate qualifies, no ML primary. Proxy classification labels do not establish stop/target profitability."
+}

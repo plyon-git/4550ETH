@@ -1,0 +1,26 @@
+[
+  {
+    "cutoff_utc": "2023-01-02T00:00:00+00:00",
+    "prediction_end": "2023-04-03T00:00:00+00:00",
+    "model_file": "20230102_h48.json",
+    "model_sha256": "53dcf478c5d1eb6a0e55bd4466e1014a4deea20ba96120666f3f5682a9657948",
+    "samples": 614,
+    "label_maturity": 1672196400000
+  },
+  {
+    "cutoff_utc": "2023-04-03T00:00:00+00:00",
+    "prediction_end": "2023-07-03T00:00:00+00:00",
+    "model_file": "20230403_h48.json",
+    "model_sha256": "63cd9bb292926da820fd5c102d7e8bf416268b75dc01731e1f9dfd3d01d0c8ee",
+    "samples": 627,
+    "label_maturity": 1680318000000
+  },
+  {
+    "cutoff_utc": "2023-07-03T00:00:00+00:00",
+    "prediction_end": "2023-09-25T00:00:00+00:00",
+    "model_file": "20230703_h48.json",
+    "model_sha256": "b382c32945016e8f075bc61cedbd84c1b1c0334583d7cde436f9eeafd113cd1a",
+    "samples": 609,
+    "label_maturity": 1687708800000
+  }
+]

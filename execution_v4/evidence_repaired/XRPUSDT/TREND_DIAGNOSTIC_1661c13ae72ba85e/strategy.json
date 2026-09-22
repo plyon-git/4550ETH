@@ -1,0 +1,21 @@
+{
+  "family": "trend_state",
+  "timeframe_minutes": 30,
+  "lookback": 96,
+  "volume_multiple": 1.0,
+  "trend_span": 384,
+  "direction": "both",
+  "stop_atr": 5.0,
+  "target_r": 10.0,
+  "trail_r": 3.0,
+  "max_hold_hours": 72,
+  "minimum_price": 0.0,
+  "risk_fraction": 0.06,
+  "exposure_cap": 5,
+  "daily_loss": 0.2,
+  "weekly_loss": 0.5,
+  "cooldown_minutes": 5,
+  "atr_span": 32,
+  "atr_min": 0.0005,
+  "atr_max": 0.1
+}

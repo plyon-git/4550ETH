@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "trade_rows": 192,
+  "minute_rows": 1532160,
+  "equity_series_reconstructed": 2,
+  "largest_close_error": 1.5006662579253316e-11,
+  "largest_open_error": 1.5006662579253316e-11,
+  "gross_pnl": -6874.7298500000015,
+  "commissions": 994.1261132750001,
+  "funding_paid": 268.5589942758056,
+  "net_pnl": -8137.414957550811
+}

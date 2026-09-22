@@ -1,0 +1,18 @@
+{
+  "symbol": "XRPUSDT",
+  "original_input_sha256": "4c92eea1b61f29aa7b5d59738a69163a76886187b3f8a28df17a78a44197de3e",
+  "repaired_sha256": "43678daef70287657734cf3eb6b6915ffa5df0b24d90d289d8892ee1d5f70859",
+  "repaired_zero_minutes": 74,
+  "repair_source": "actual checksum-matching exchange aggregate trades",
+  "source_receipts": [
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/XRPUSDT/XRPUSDT-aggTrades-2024-10-28.zip",
+      "checksum_url": "https://data.binance.vision/data/futures/um/daily/aggTrades/XRPUSDT/XRPUSDT-aggTrades-2024-10-28.zip.CHECKSUM",
+      "sha256": "5c1f9e0642455d276b9dd5df8ce510e14e0de6dc23ab728cbf63415b03e52fd9",
+      "bytes": 1977159,
+      "receipt": "5c1f9e0642455d276b9dd5df8ce510e14e0de6dc23ab728cbf63415b03e52fd9  XRPUSDT-aggTrades-2024-10-28.zip"
+    }
+  ],
+  "raw_mark_gaps_preserved": true,
+  "no_unobserved_trades_invented": true
+}
