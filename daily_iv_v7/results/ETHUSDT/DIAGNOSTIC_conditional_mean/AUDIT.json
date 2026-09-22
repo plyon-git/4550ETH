@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "closed_trades_checked": 1821,
+  "days_checked": 1826,
+  "one_trade_per_day_verified": true,
+  "same_day_exits_verified": true,
+  "IV_publication_timing_verified": true,
+  "first_exit_crossing_checked_independently": true,
+  "daily_equity_cash_flow_max_error": 7.185008144006133e-11,
+  "gross_pnl": -1336.8991499999966,
+  "commissions": 2755.9393038350004,
+  "funding": 9.97906155888381,
+  "net_pnl_sum": -4102.817515393834,
+  "calculation_scope": "ledger identities, causal entry/IV references, quantity/capacity constraints and all daily account balances; not independent exchange fills or exact tick ordering"
+}

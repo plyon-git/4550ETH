@@ -1,0 +1,7348 @@
+{
+  "created_at_utc": "2026-09-22 20:35:50.365529+00:00",
+  "target_min_trades_per_market": 1000,
+  "calendar": "24/7, all UTC days including weekends",
+  "holding_horizon": "same UTC day only; no carry",
+  "periods": {
+    "development": [
+      "2021-05-01",
+      "2021-07-01"
+    ],
+    "validation": [
+      "2021-07-01",
+      "2021-08-25"
+    ],
+    "five_years": [
+      "2021-09-01",
+      "2026-09-01"
+    ],
+    "250_weeks": [
+      "2021-11-15",
+      "2026-08-31"
+    ]
+  },
+  "grid": [
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "long",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "momentum7",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal1",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "reversal3",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_rise_short",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "iv_regime",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "conditional_mean",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_momentum",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "opening_reversal",
+      "entry_minute": 482,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_rejection",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.15
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.75,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    },
+    {
+      "rule": "wall_continuation",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.5
+    }
+  ],
+  "selection": "Within each rule/wall model choose development top two (>=90% scheduled or >=60% wall-trigger entry days), validation risks .5/1/2%. Primary: scheduled 00:02 entry, >=90% validation days traded, highest validation log gain minus 0.5 daily drawdown. Wall-only winner reported separately. Selected before five-year evaluation. No global untouched holdout.",
+  "limitations": "Only several months of daily DVOL precede evaluation; development/validation short; formerly researched periods. Daily DVOL is 30-day annualized IV scaled by sqrt(365), not actual one-day-tenor IV or gamma/OI walls."
+}

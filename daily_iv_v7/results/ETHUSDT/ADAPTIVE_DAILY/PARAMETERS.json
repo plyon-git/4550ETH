@@ -1,0 +1,24 @@
+{
+  "owner": "Parrish Lyon",
+  "policy": {
+    "type": "causal_adaptive_selection",
+    "risk_fraction": 0.01,
+    "exposure_cap": 5.0,
+    "exact_daily_policies": "../adaptive_research/SELECTION_JOURNAL.json"
+  },
+  "entry_clock": "UTC",
+  "daily_horizon": 1,
+  "exit_deadline": "23:59 UTC same day",
+  "fee_bps_per_side": 5.0,
+  "slippage_bps_per_side": 2.0,
+  "entry_delay_minutes": 0,
+  "initial_equity": 10000.0,
+  "instrument_grid_assumptions": [
+    0.001,
+    0.01,
+    20.0
+  ],
+  "maintenance_assumption": 0.01,
+  "participation": 0.01,
+  "nominal_contract_leverage": "not an account return multiplier; backtest uses account exposure and a fixed maintenance approximation"
+}

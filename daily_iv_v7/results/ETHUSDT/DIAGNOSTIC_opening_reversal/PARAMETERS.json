@@ -1,0 +1,28 @@
+{
+  "owner": "Parrish Lyon",
+  "policy": {
+    "rule": "opening_reversal",
+    "entry_minute": 482,
+    "wall_model": "history_mean",
+    "stop_multiple": 1.5,
+    "target_multiple": 1.0,
+    "risk_fraction": 0.02,
+    "exposure_cap": 5.0,
+    "trigger_multiple": 0.25
+  },
+  "entry_clock": "UTC",
+  "daily_horizon": 1,
+  "exit_deadline": "23:59 UTC same day",
+  "fee_bps_per_side": 5.0,
+  "slippage_bps_per_side": 2.0,
+  "entry_delay_minutes": 0,
+  "initial_equity": 10000.0,
+  "instrument_grid_assumptions": [
+    0.001,
+    0.01,
+    20.0
+  ],
+  "maintenance_assumption": 0.01,
+  "participation": 0.01,
+  "nominal_contract_leverage": "not an account return multiplier; backtest uses account exposure and a fixed maintenance approximation"
+}

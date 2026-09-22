@@ -1,0 +1,1542 @@
+{
+  ".gitignore": {
+    "sha256": "a54cd1ea8ea091494e1fb931a00752ece0d63c25a5c1b0e8778463d441d6331b",
+    "bytes": 71
+  },
+  "ALL_CASES.csv": {
+    "sha256": "94921ea6016daf2f915a23ac53c122fcaa866de1aa4c9b409c8365f66cdd9916",
+    "bytes": 14658
+  },
+  "ASSESSMENT.json": {
+    "sha256": "c281b70fd8a584b89004b662b64fa4c8b0006f5b8ab94cb730bb1ab71df98547",
+    "bytes": 17479
+  },
+  "README.md": {
+    "sha256": "64ab04165446f24b8c0b355847f9c6eca75728f1c99ce741cc73194b17b39c13",
+    "bytes": 5943
+  },
+  "RESULTS.md": {
+    "sha256": "5f1ffbb322f57911e10b4e711b459debfd9c4f190a429fbee533a138ebb6018a",
+    "bytes": 4744
+  },
+  "USERINSTRUCTIONS.md": {
+    "sha256": "3b70b273214a5a4b506ee500d49fe7fa8b24dee6448f5528cfdd4d5035435289",
+    "bytes": 2659
+  },
+  "adaptive.py": {
+    "sha256": "c70d705e88672569c30bfdf28b6887ff7961fe64631e789e2c18d9ee886e0665",
+    "bytes": 4513
+  },
+  "checks/adaptive.txt": {
+    "sha256": "a127f3a68a13087e71fe368e2583fb909b1ffcab0e54890d73cd51fe7c0e6ef0",
+    "bytes": 125
+  },
+  "checks/research.txt": {
+    "sha256": "d161c6103e8b0468980dc70f2023c6a56473d6a8e73b4ba8a54e7f6ea6bd2ac6",
+    "bytes": 2168
+  },
+  "checks/tests.txt": {
+    "sha256": "f564d0f7a6476effc033aaa36a6467f142140169cc4ac774ac10fcb4c4a71cc2",
+    "bytes": 99
+  },
+  "checks/tests.xml": {
+    "sha256": "ddbe3017cbf5b4e628d71543a724544655694429825805d2c62570b39822d258",
+    "bytes": 3999
+  },
+  "context/iv_data/BTC_1D.csv": {
+    "sha256": "d55d308002a9cc9035d4122cdae40dba0d0d1427fec300c3926c8838a7c83837",
+    "bytes": 76982
+  },
+  "context/iv_data/BTC_1D_000.json": {
+    "sha256": "6fd073055106988c8f413a6a9cccd3f5fdd6cb97ef56f4f2fce9b3bfa7dcbd10",
+    "bytes": 39774
+  },
+  "context/iv_data/BTC_1D_001.json": {
+    "sha256": "d0098963123515e61a9b9ab6c18e91448fa053945135c1266107847e1241e3f9",
+    "bytes": 39487
+  },
+  "context/iv_data/ETH_1D.csv": {
+    "sha256": "2070bb20b006dc9187d20174fe937ac2329c1ee760a440a4bef06b59d4bb5892",
+    "bytes": 78061
+  },
+  "context/iv_data/ETH_1D_000.json": {
+    "sha256": "6f2f9cec91ba750fb5b0414768e254090faef6e910675a9ec46e2e84a65185bb",
+    "bytes": 39741
+  },
+  "context/iv_data/ETH_1D_001.json": {
+    "sha256": "adff7659852def77545a63b8255f728f738aa6228f498fac6c680912ea22f204",
+    "bytes": 40598
+  },
+  "context/iv_data/PROVENANCE.json": {
+    "sha256": "a347b019deaf25efefc99ba29164461199875b3f1bc9d93ae4cad37f0d74ce46",
+    "bytes": 47641
+  },
+  "core.py": {
+    "sha256": "4940669e7e67d90205e662f6314961017ff2ea2a7c4ed3530e643a743401ffa0",
+    "bytes": 15011
+  },
+  "finalize.py": {
+    "sha256": "5edd4537f0b8f08c598af8b3251e1bebd291c87d984feb927fdf3db95e4285ee",
+    "bytes": 9021
+  },
+  "requirements.txt": {
+    "sha256": "1ea85a6e5d8ae83ca724f6fbbc6918a7bb2b00c1695b6804b144de3521ccc994",
+    "bytes": 55
+  },
+  "research.py": {
+    "sha256": "abfb2e5066e1666ddd5e895b0262c09be4c6c0c91784a82c521ee48a9e6ee5fa",
+    "bytes": 20146
+  },
+  "results/BTCUSDT/ADAPTIVE_DAILY/AUDIT.json": {
+    "sha256": "40d39c209b48d83833008a0e2937c1ecafa99de5f50aeced7b90690ff6ca9cf6",
+    "bytes": 639
+  },
+  "results/BTCUSDT/ADAPTIVE_DAILY/EVERY_DAY.csv": {
+    "sha256": "794e8da41217c6ebb7c509dc3ec897d906e1bbbad8365303235cebc2a0d6d3a5",
+    "bytes": 210225
+  },
+  "results/BTCUSDT/ADAPTIVE_DAILY/EVERY_TRADE_UTC.csv": {
+    "sha256": "ee2221467bce701c09a9fb010589c5d9afeaf5c4a2d4aa283d86c4e2e4568c4b",
+    "bytes": 1104821
+  },
+  "results/BTCUSDT/ADAPTIVE_DAILY/METRICS.json": {
+    "sha256": "41e1ac49075cd92fa1bb181061e41233c3449b0081c95a143f75cd5f71944821",
+    "bytes": 1614
+  },
+  "results/BTCUSDT/ADAPTIVE_DAILY/MONTHLY_RETURNS.csv": {
+    "sha256": "7fbcd10ddf2a235fbc8b891f477c126e7cfffab40b16aa087dea9c3dd0030289",
+    "bytes": 4739
+  },
+  "results/BTCUSDT/ADAPTIVE_DAILY/PARAMETERS.json": {
+    "sha256": "f2156da8310157ba2edd89f160d6e8e144c3fc23b3e719f8b04b5368d37f4196",
+    "bytes": 685
+  },
+  "results/BTCUSDT/ADAPTIVE_DAILY/ROLLING_365DAY.csv": {
+    "sha256": "b1e7d78bb446da9efcebc751dd97ef87f068dd950dc3e087b40020d3cb26e647",
+    "bytes": 68122
+  },
+  "results/BTCUSDT/ADAPTIVE_DAILY/WEEKLY_RETURNS.csv": {
+    "sha256": "ee2776d9e55029db005a9ee9210271bc1bcc77ed993cda66316f7de6081e38c2",
+    "bytes": 20594
+  },
+  "results/BTCUSDT/DAILY_IV_AND_FEATURES.csv": {
+    "sha256": "3efbffb371a8a3174cda5006cadb6104274ad8387a46b64d5b43f19174b34e67",
+    "bytes": 795592
+  },
+  "results/BTCUSDT/DATA_IDENTITY.json": {
+    "sha256": "ff726a9a58a0155916ef6e9d9548bf833873c8a8a3912490980c6ae9044ea397",
+    "bytes": 1875
+  },
+  "results/BTCUSDT/DELAY_2MIN/AUDIT.json": {
+    "sha256": "8ec5adde15268e47ae82ed761674aeda1af1bdcd0e082ed334ba2dbe56ecfe20",
+    "bytes": 634
+  },
+  "results/BTCUSDT/DELAY_2MIN/EVERY_DAY.csv": {
+    "sha256": "22fb778a58085c19abb2d612a50f56d9b9eadfe00c66b133658a923a6ddb8715",
+    "bytes": 210427
+  },
+  "results/BTCUSDT/DELAY_2MIN/EVERY_TRADE_UTC.csv": {
+    "sha256": "6acdefde1866a9e8d1fd8b42349584c632c53e1d7001119ec13109be1ec58280",
+    "bytes": 1106807
+  },
+  "results/BTCUSDT/DELAY_2MIN/METRICS.json": {
+    "sha256": "8d818d61b778f227cef95792ed5c185dbd7b3ccc36fd2763a0a1a1211e9bba70",
+    "bytes": 1600
+  },
+  "results/BTCUSDT/DELAY_2MIN/MONTHLY_RETURNS.csv": {
+    "sha256": "2ad989f7f08772c85e158179b08fd02e14184e7bf8e9649f5a18ca5a75e98315",
+    "bytes": 4726
+  },
+  "results/BTCUSDT/DELAY_2MIN/PARAMETERS.json": {
+    "sha256": "7581b43d8ad378da69eddde08e94b0e71e18cd8d651022a0076aed12868e54b6",
+    "bytes": 742
+  },
+  "results/BTCUSDT/DELAY_2MIN/ROLLING_365DAY.csv": {
+    "sha256": "77c37aec686e2d1ed8ac93533788672dfa75a8d88e5f276db3c72cc6df3b9d8d",
+    "bytes": 67682
+  },
+  "results/BTCUSDT/DELAY_2MIN/WEEKLY_RETURNS.csv": {
+    "sha256": "49be6f490f4285d949f9073412af958ad39df1cc00ad1004f9d8a33fb6f18d4d",
+    "bytes": 20518
+  },
+  "results/BTCUSDT/DELAY_5MIN/AUDIT.json": {
+    "sha256": "1cf662558921b887f940bfb1387e5d47b219f28243fa034965e2d238303a7d9f",
+    "bytes": 633
+  },
+  "results/BTCUSDT/DELAY_5MIN/EVERY_DAY.csv": {
+    "sha256": "27661e2f28d749829de67c17cdb122a793319418a0d8cc4f185d8ef7bfb82d6d",
+    "bytes": 210263
+  },
+  "results/BTCUSDT/DELAY_5MIN/EVERY_TRADE_UTC.csv": {
+    "sha256": "8365d7eb193be06d8ad4495ec73eb0de752de1fc48bcd10baba577c7aac60b58",
+    "bytes": 1105060
+  },
+  "results/BTCUSDT/DELAY_5MIN/METRICS.json": {
+    "sha256": "1bdac605d197cbf5614f3896c352870c17b5e0b0d080f2067e3fcd67a8e42d06",
+    "bytes": 1599
+  },
+  "results/BTCUSDT/DELAY_5MIN/MONTHLY_RETURNS.csv": {
+    "sha256": "4f72010510aee2f7a3961f80ed5d06f0cfc24517a40d3444ec2661159b703a97",
+    "bytes": 4721
+  },
+  "results/BTCUSDT/DELAY_5MIN/PARAMETERS.json": {
+    "sha256": "221c713fa5d2581ee9dec29fdba2319101abfa52515d5c43c247bcb28da6266b",
+    "bytes": 742
+  },
+  "results/BTCUSDT/DELAY_5MIN/ROLLING_365DAY.csv": {
+    "sha256": "75a1e5b8e090b03931b1859e8eba1cd0623a250ffffe2a1ad72046f9a0472ad1",
+    "bytes": 67700
+  },
+  "results/BTCUSDT/DELAY_5MIN/WEEKLY_RETURNS.csv": {
+    "sha256": "1200570c7fd1c207efb95c329d586597c2c9597e5ed14bd7c8492aa9a212f72f",
+    "bytes": 20514
+  },
+  "results/BTCUSDT/DEVELOPMENT.json": {
+    "sha256": "e856a58b211be1eab33e0619e6002693d7ff2f243aee1ea6c227bb6f94f39184",
+    "bytes": 1292898
+  },
+  "results/BTCUSDT/DIAGNOSTIC_conditional_mean/AUDIT.json": {
+    "sha256": "08378803d16d01224339f576d00356860a51c9b8f698341f6166b3399ecdf637",
+    "bytes": 638
+  },
+  "results/BTCUSDT/DIAGNOSTIC_conditional_mean/EVERY_DAY.csv": {
+    "sha256": "6afcc56eff1fd1b20c261bc1cee4212e83aac826aaeaeb465b529cd76f81366c",
+    "bytes": 209537
+  },
+  "results/BTCUSDT/DIAGNOSTIC_conditional_mean/EVERY_TRADE_UTC.csv": {
+    "sha256": "30ed599fec7f1cc5dc45b5353d648c09e6cb50fb3102ebde4a358a275e809468",
+    "bytes": 1093607
+  },
+  "results/BTCUSDT/DIAGNOSTIC_conditional_mean/METRICS.json": {
+    "sha256": "b8cbfc1202db9ed728ee6dd47274384b79fab6d70d266fafd75967d3d3e760d0",
+    "bytes": 1634
+  },
+  "results/BTCUSDT/DIAGNOSTIC_conditional_mean/MONTHLY_RETURNS.csv": {
+    "sha256": "251b2a0b281092d06455c0129211e0d517131dbd60fd0a76e548bc494b8b05fc",
+    "bytes": 4782
+  },
+  "results/BTCUSDT/DIAGNOSTIC_conditional_mean/PARAMETERS.json": {
+    "sha256": "435575d1510427ce2a7eb2ec46c71135ce6d7c9bba65c765405af44285eb022c",
+    "bytes": 741
+  },
+  "results/BTCUSDT/DIAGNOSTIC_conditional_mean/ROLLING_365DAY.csv": {
+    "sha256": "7fd5d09e5e7238b29882e2859d3be1d4dd74ed0b285bd81e2b7d320dd977349c",
+    "bytes": 68832
+  },
+  "results/BTCUSDT/DIAGNOSTIC_conditional_mean/WEEKLY_RETURNS.csv": {
+    "sha256": "cc774f3e80a3c94013a5a4dd65dd1a2bbdadae96c9a62b143b5b1d395f2eca97",
+    "bytes": 20737
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_regime/AUDIT.json": {
+    "sha256": "726da7b868ce16b19ddfebddfd91bfd6cfdcbfa3f97decae7c4cc29e152795a6",
+    "bytes": 630
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_regime/EVERY_DAY.csv": {
+    "sha256": "6ab5d0f32f024cd7a3e1607003a7cb280960e5ab1d5f7494590fe7f2fd4dd7ff",
+    "bytes": 209592
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_regime/EVERY_TRADE_UTC.csv": {
+    "sha256": "6d955b2c2eda958034fc637e504cebdc8dc1003aff4970bdd8add73b0ca60f17",
+    "bytes": 1087447
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_regime/METRICS.json": {
+    "sha256": "c3cd1bc773259ab4df99ceec5f4de35023afe683778e981c67fa12452e5877b0",
+    "bytes": 1621
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_regime/MONTHLY_RETURNS.csv": {
+    "sha256": "c26865c749ce183cba279b3bed6c384c696e57f76843bee23e326ef8e669e39b",
+    "bytes": 4788
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_regime/PARAMETERS.json": {
+    "sha256": "b2b48af888bb33e5c4dbebfcf1740580921419fbb8670a17d6cffbfb0df6c173",
+    "bytes": 737
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_regime/ROLLING_365DAY.csv": {
+    "sha256": "ccc452e7521cb76dedcb51140b86818ff314646adbb6b56554711d3063579d1c",
+    "bytes": 68947
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_regime/WEEKLY_RETURNS.csv": {
+    "sha256": "55aff0b14adfd6573d18cc33b296a64fce427fd09f3e49435155161ffb337194",
+    "bytes": 20762
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_rise_short/AUDIT.json": {
+    "sha256": "77b9628eeb34d7f4f6a9174faff7b65e6eb7a40725ea2cd31f2da0b1386ba757",
+    "bytes": 637
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_rise_short/EVERY_DAY.csv": {
+    "sha256": "4e7baa64bf40a2d48aeec93e8f22e8399c69e836c5f708dd91bbface85f1100d",
+    "bytes": 210012
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_rise_short/EVERY_TRADE_UTC.csv": {
+    "sha256": "96a91abcb547805d68eaeea35fa02e5ebea49a6db41458bc2171406cc3f52687",
+    "bytes": 1095903
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_rise_short/METRICS.json": {
+    "sha256": "35ab611ab31c35846991f680d650b6438a385e9b536c94b1e1ec92164b5a8d98",
+    "bytes": 1618
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_rise_short/MONTHLY_RETURNS.csv": {
+    "sha256": "7da8af8a265dea52d225097e0fda407238e0d19494ad9e5041e10a4583d39c31",
+    "bytes": 4743
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_rise_short/PARAMETERS.json": {
+    "sha256": "5f80374e41b75f35bc25f548a093b0ecae079adf4c113c800edef5320c2cebe1",
+    "bytes": 737
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_rise_short/ROLLING_365DAY.csv": {
+    "sha256": "0ccaecbedcbe9df43564fa49c2b19dd97ed2952600fd18f98e53dc738a48cfbe",
+    "bytes": 67879
+  },
+  "results/BTCUSDT/DIAGNOSTIC_iv_rise_short/WEEKLY_RETURNS.csv": {
+    "sha256": "b237c68edf13995af71077389cc20c8ee57e7bec8ca1ff29c230c0beb324afea",
+    "bytes": 20596
+  },
+  "results/BTCUSDT/DIAGNOSTIC_long/AUDIT.json": {
+    "sha256": "5d6c386a34df142b27fedb8c47fe1c50870a7032a0939d1194d5037b2b55f0b7",
+    "bytes": 637
+  },
+  "results/BTCUSDT/DIAGNOSTIC_long/EVERY_DAY.csv": {
+    "sha256": "b01dd4167824986d501c703576b5dfc2ca5ff99eba485cf1ca50088e4d1d4923",
+    "bytes": 209388
+  },
+  "results/BTCUSDT/DIAGNOSTIC_long/EVERY_TRADE_UTC.csv": {
+    "sha256": "9ff8ae31e46ab1948e3122027f615c58b48e78121f4b2ec8990048230c3262f6",
+    "bytes": 1095365
+  },
+  "results/BTCUSDT/DIAGNOSTIC_long/METRICS.json": {
+    "sha256": "fef1c7876c3a3b39674678379b4da9f8e7fcfc2c51036934ff3bd615ba8512c5",
+    "bytes": 1612
+  },
+  "results/BTCUSDT/DIAGNOSTIC_long/MONTHLY_RETURNS.csv": {
+    "sha256": "3725ea8851f9017c39fc638d0ff117cf6ad9f15782eb40181f1750439ecc38c0",
+    "bytes": 4752
+  },
+  "results/BTCUSDT/DIAGNOSTIC_long/PARAMETERS.json": {
+    "sha256": "0e34f0600bd373f138b6d9f96ea729d29e593bc26f0bd1c05e86d184ebafffda",
+    "bytes": 727
+  },
+  "results/BTCUSDT/DIAGNOSTIC_long/ROLLING_365DAY.csv": {
+    "sha256": "5fde1f25977e264b4381a271cef158d40bb2c6a50cc9d22e0f24f695c8a3539f",
+    "bytes": 68288
+  },
+  "results/BTCUSDT/DIAGNOSTIC_long/WEEKLY_RETURNS.csv": {
+    "sha256": "d5ac5634b89b0cf0e8a67531b9ba91b99e172224b9b6908ebe83c44ba1628035",
+    "bytes": 20607
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum1/AUDIT.json": {
+    "sha256": "47248a628d37f4ff6d5fd6a334420665b399e73976e4abc10cc6b8de33bdfb1b",
+    "bytes": 639
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum1/EVERY_DAY.csv": {
+    "sha256": "8b93af07063b1d2d61b4cfb24e27f2c3e21617d569de4e5e9da65cfa6f881e8a",
+    "bytes": 209688
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum1/EVERY_TRADE_UTC.csv": {
+    "sha256": "ce9290ffafe246c28ea84d708d8f8e98be4dd7f97e9079ea3fc5198778839d67",
+    "bytes": 1096218
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum1/METRICS.json": {
+    "sha256": "abae8b84f8ec9b3027d3a9a8d7b91e6b9afc4099069cedd9f83afce46937c19a",
+    "bytes": 1629
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum1/MONTHLY_RETURNS.csv": {
+    "sha256": "f0a48dd6430c41c2083a000a65969d28e52077815a5511e763eae5ec6b63984b",
+    "bytes": 4774
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum1/PARAMETERS.json": {
+    "sha256": "5f82b74934f07a6c95f96916dd47e0ca866bb907c3078239d7ba97aaa3d6579d",
+    "bytes": 734
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum1/ROLLING_365DAY.csv": {
+    "sha256": "d283706f685aa94491df02a712f54322908094baf9bcebe715cf990e5ac5748b",
+    "bytes": 69033
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum1/WEEKLY_RETURNS.csv": {
+    "sha256": "7f58e546112b70fb000284bf5f43ab24d2d44297bf61dd07167c69e285b10a39",
+    "bytes": 20788
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum3/AUDIT.json": {
+    "sha256": "2902418fe68ab0546d09bc22c449d381f907bc485da35b3033ad9e96b116c4d8",
+    "bytes": 638
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum3/EVERY_DAY.csv": {
+    "sha256": "ea0e0dc8b83aa655f329998610544d7466113d94e851ae1957ff64ed8625a17c",
+    "bytes": 209476
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum3/EVERY_TRADE_UTC.csv": {
+    "sha256": "7b20e519135e29f5f8db0a971567132a66f669279a6463b2420821282c8efc07",
+    "bytes": 1094754
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum3/METRICS.json": {
+    "sha256": "6c8169509732d1fa88b9be4a6330deabcb30fecb73d360b41a2cbf5223e1d3b8",
+    "bytes": 1621
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum3/MONTHLY_RETURNS.csv": {
+    "sha256": "c3d66ce5c37f4c5f3c6ff27c747a6c320130c5db494fbe9af0608619b8a2665e",
+    "bytes": 4750
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum3/PARAMETERS.json": {
+    "sha256": "90ab9841642b3ad0c037aef55c3557907bd73a5eeec45b790137aa82c314aee6",
+    "bytes": 733
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum3/ROLLING_365DAY.csv": {
+    "sha256": "91a444dfbfa06e778746a19c2dd7bb0383085a00f0a3291c7038bd17f8897cda",
+    "bytes": 68136
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum3/WEEKLY_RETURNS.csv": {
+    "sha256": "d607318c524f705fadaae08c1bdb19f8b4439a3d99b9437e5d9044c7587fa07a",
+    "bytes": 20592
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum7/AUDIT.json": {
+    "sha256": "3ad969ad37a4e3503fbe0fb95d199672bc461c8c1e34a1ce0d779952e5d615a8",
+    "bytes": 633
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum7/EVERY_DAY.csv": {
+    "sha256": "80a75f2d16cee139afa63376747f75c8fab56a863837447403bea02204adc0e0",
+    "bytes": 209781
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum7/EVERY_TRADE_UTC.csv": {
+    "sha256": "c7f6f1b3942d8acf3d9458fa256d829bba0589aff6fddc5569a1897759f43ba0",
+    "bytes": 1088550
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum7/METRICS.json": {
+    "sha256": "98d6357f67114adc67afa675af1c3026312552a9e23f2682d54e1fedaf67799d",
+    "bytes": 1616
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum7/MONTHLY_RETURNS.csv": {
+    "sha256": "a7f13a9d56a554bcf84b16a60464865bb26107f7da052bda198386b0c30b575a",
+    "bytes": 4755
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum7/PARAMETERS.json": {
+    "sha256": "e404dc587781341c41704991c522ac51dc5426375ccb52a1a27951bbe789dd50",
+    "bytes": 736
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum7/ROLLING_365DAY.csv": {
+    "sha256": "3e3a345b4aacb50a94a1355d0903660828baf55afd191d9d63e3541310893a86",
+    "bytes": 68123
+  },
+  "results/BTCUSDT/DIAGNOSTIC_momentum7/WEEKLY_RETURNS.csv": {
+    "sha256": "235330ca163568f4600c7ef884058df01c1dd7d807dae122b51b096a57e35188",
+    "bytes": 20602
+  },
+  "results/BTCUSDT/DIAGNOSTIC_opening_reversal/AUDIT.json": {
+    "sha256": "f1a2bcf544ec77b95e9abc9014f28ddabd0a4d9059bbc09d87d2af8d6d034fb1",
+    "bytes": 639
+  },
+  "results/BTCUSDT/DIAGNOSTIC_opening_reversal/EVERY_DAY.csv": {
+    "sha256": "f2d1878b90bd3c94715ea1997fa5f45fb1b4befaf219259e8e847a7673d0e798",
+    "bytes": 209520
+  },
+  "results/BTCUSDT/DIAGNOSTIC_opening_reversal/EVERY_TRADE_UTC.csv": {
+    "sha256": "4dcd11cb66b236967d5d22fc4a69061c759d9aa4912b15979e254a486a73f964",
+    "bytes": 1090700
+  },
+  "results/BTCUSDT/DIAGNOSTIC_opening_reversal/METRICS.json": {
+    "sha256": "73c8b147e2c1b3b11ae377257195957562923bc34e78b6ebdba555fe64f0b7ca",
+    "bytes": 1635
+  },
+  "results/BTCUSDT/DIAGNOSTIC_opening_reversal/MONTHLY_RETURNS.csv": {
+    "sha256": "5db7eee6cba01cc18ab94b497fae6a8f342b66aa0a3777c9ffcb080bb7469fc8",
+    "bytes": 4782
+  },
+  "results/BTCUSDT/DIAGNOSTIC_opening_reversal/PARAMETERS.json": {
+    "sha256": "8ebb69af38842067d83c2c764119101ef76ffde61ec58e0537f457e14707188e",
+    "bytes": 744
+  },
+  "results/BTCUSDT/DIAGNOSTIC_opening_reversal/ROLLING_365DAY.csv": {
+    "sha256": "f427fa8ac2787360b69aa69b2c57268b7bec389d8a0a2259ced74f876f411eb0",
+    "bytes": 68731
+  },
+  "results/BTCUSDT/DIAGNOSTIC_opening_reversal/WEEKLY_RETURNS.csv": {
+    "sha256": "13777e0b898b030480d892b0b356e61374a362a0e3d2dabe5c9193530a81191c",
+    "bytes": 20760
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal1/AUDIT.json": {
+    "sha256": "51f5ce2b3e7e406fd089a18c2342a298bed580fdb0b71ffc8e8b897534457f7f",
+    "bytes": 637
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal1/EVERY_DAY.csv": {
+    "sha256": "bdd5bd376faec65d8cce97a89ee233c71c676a9bac104257cd94701a4802cfcf",
+    "bytes": 209702
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal1/EVERY_TRADE_UTC.csv": {
+    "sha256": "8cd4e7aad4ac908a10bc60d2aecaceab87703b41afe42480c41b03f9f7de39e4",
+    "bytes": 1107285
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal1/METRICS.json": {
+    "sha256": "a472c166109d8b8abbff206f00870ab22b42a39cafe71f495438382cceb10ffa",
+    "bytes": 1622
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal1/MONTHLY_RETURNS.csv": {
+    "sha256": "0129648273578a28e96eaed4b09de90dfc4682ac118b16ba7a69abb2b868c119",
+    "bytes": 4774
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal1/PARAMETERS.json": {
+    "sha256": "2c403eb3accda3a78d325a3eaa4f8b85714ed6384cd48373f184671c263e336a",
+    "bytes": 732
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal1/ROLLING_365DAY.csv": {
+    "sha256": "fdacb7aa7f5f54555c8e60da69b528c5018a204541fcd267ccbb8318abbbf18c",
+    "bytes": 68603
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal1/WEEKLY_RETURNS.csv": {
+    "sha256": "2850ce0acb11272b21c8a046621be7d7b79251ff11bf2374debe7fc2e2efa440",
+    "bytes": 20717
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal3/AUDIT.json": {
+    "sha256": "b0c2d39e8e8ba4853dc2a51d72fc211a3b41b75ba4bea561dd93d9108389db10",
+    "bytes": 641
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal3/EVERY_DAY.csv": {
+    "sha256": "ff42c523fc451881446b225cc5ec37b011b9c6ecf4f93cdbfb4e0d09eeb22ed6",
+    "bytes": 209897
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal3/EVERY_TRADE_UTC.csv": {
+    "sha256": "5dbc00c602ada9eb2c8428ea42366edc609d42720ec8f643fe2f1551a03f8c0e",
+    "bytes": 1115332
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal3/METRICS.json": {
+    "sha256": "ba746ef4ea73ed293b73a4afab72396c3ce17d433732c1ee2df78cb09843b41c",
+    "bytes": 1625
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal3/MONTHLY_RETURNS.csv": {
+    "sha256": "420909f33dbfcdd1aa0e9a18a6e72bf52cbd7cc355cc67296996e481b4547108",
+    "bytes": 4776
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal3/PARAMETERS.json": {
+    "sha256": "be2acc0a83e61459afeadc84d1a9285c3ea4fe319b706d0f9324cadb6e55ee0a",
+    "bytes": 732
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal3/ROLLING_365DAY.csv": {
+    "sha256": "a64ff48704cfeb372d8dfcb42874492e376761013c60665c9dce59bd3b7afed2",
+    "bytes": 68545
+  },
+  "results/BTCUSDT/DIAGNOSTIC_reversal3/WEEKLY_RETURNS.csv": {
+    "sha256": "17705d3c768fdc7fb09020f9b4fdd2bd9d8c1afd7122a9f19017510722d6b04d",
+    "bytes": 20740
+  },
+  "results/BTCUSDT/DIAGNOSTIC_short/AUDIT.json": {
+    "sha256": "5b6b2b12b17b7dffb84b5776097b303552f3d805d4dbd10975a0a352690068c0",
+    "bytes": 639
+  },
+  "results/BTCUSDT/DIAGNOSTIC_short/EVERY_DAY.csv": {
+    "sha256": "c72d5b8d203e4e522454db1cb3b2638ec54f4f2eda8f828709ec54e8965baa2e",
+    "bytes": 209593
+  },
+  "results/BTCUSDT/DIAGNOSTIC_short/EVERY_TRADE_UTC.csv": {
+    "sha256": "0751079cd9b5c0f6900a330c4874b2c444630bafcf77a0a6631be713eeb770ad",
+    "bytes": 1102161
+  },
+  "results/BTCUSDT/DIAGNOSTIC_short/METRICS.json": {
+    "sha256": "f6b15e63d07a9b6c9c68706ccd8cbf71cc8c3025820d542f465cc948b0b6ef2f",
+    "bytes": 1625
+  },
+  "results/BTCUSDT/DIAGNOSTIC_short/MONTHLY_RETURNS.csv": {
+    "sha256": "11ef749bdd4aa2f9f772e1d8a2de485be2516327564770899dadb3933c5fcc98",
+    "bytes": 4774
+  },
+  "results/BTCUSDT/DIAGNOSTIC_short/PARAMETERS.json": {
+    "sha256": "bd6bc889bd44786ce8eb117c75e082e643f2bd2f5182cafe74630c796407b3e0",
+    "bytes": 732
+  },
+  "results/BTCUSDT/DIAGNOSTIC_short/ROLLING_365DAY.csv": {
+    "sha256": "89453b19641b4e33e651da1553543430cf78aee996fb0693b23ff7d2d57e2f50",
+    "bytes": 68550
+  },
+  "results/BTCUSDT/DIAGNOSTIC_short/WEEKLY_RETURNS.csv": {
+    "sha256": "313422ea47710c7dcfdd330247de1f3afa3f98767ce65852dcd6007ee7b748ce",
+    "bytes": 20748
+  },
+  "results/BTCUSDT/DIAGNOSTIC_wall_continuation/AUDIT.json": {
+    "sha256": "72f2b08925abb9bc5306e1d6dfa0c65605c15b5c6ca494875703b0001c2a58b1",
+    "bytes": 638
+  },
+  "results/BTCUSDT/DIAGNOSTIC_wall_continuation/EVERY_DAY.csv": {
+    "sha256": "b36a9fdf907f582a4a2c6bdbb2cb21cc41701d362a93991c49132ae8fe910c36",
+    "bytes": 209952
+  },
+  "results/BTCUSDT/DIAGNOSTIC_wall_continuation/EVERY_TRADE_UTC.csv": {
+    "sha256": "3d091e173b96ecced3621c7b3d0b08bfd6f0fb0059146f5c4d2ca7a5e2f19b76",
+    "bytes": 1089029
+  },
+  "results/BTCUSDT/DIAGNOSTIC_wall_continuation/METRICS.json": {
+    "sha256": "0583ef949de583e2ba81770edee9f4d7004b2ea12e8f740ea32dddd51b326726",
+    "bytes": 1635
+  },
+  "results/BTCUSDT/DIAGNOSTIC_wall_continuation/MONTHLY_RETURNS.csv": {
+    "sha256": "272c3561831c4699e6cf0cec01f287aa44c1973308ca867d3b09c0427a67a152",
+    "bytes": 4783
+  },
+  "results/BTCUSDT/DIAGNOSTIC_wall_continuation/PARAMETERS.json": {
+    "sha256": "b38d612ad6b95e300bf3fb5ccf53785eb703bfc8372b3b9e266b4922d2301c2f",
+    "bytes": 744
+  },
+  "results/BTCUSDT/DIAGNOSTIC_wall_continuation/ROLLING_365DAY.csv": {
+    "sha256": "f601b85b465d128f6361b6a5a4333b7390785cfe2c235aa0c07076c8a3b9789f",
+    "bytes": 68488
+  },
+  "results/BTCUSDT/DIAGNOSTIC_wall_continuation/WEEKLY_RETURNS.csv": {
+    "sha256": "4eebf7e1168bb7beb779da39720734ca0fded8bf548d45f179b5c010684ed0cb",
+    "bytes": 20748
+  },
+  "results/BTCUSDT/DOUBLE_COST/AUDIT.json": {
+    "sha256": "982432cece886c3fa881f86fd0a0a05758c3f9631e03060c727b8b2c1b5d1fd9",
+    "bytes": 634
+  },
+  "results/BTCUSDT/DOUBLE_COST/EVERY_DAY.csv": {
+    "sha256": "f0f836d2f7fd5a184aec98dec395e86e1f5196bdf0acb1f2f0718bd068c96f30",
+    "bytes": 210055
+  },
+  "results/BTCUSDT/DOUBLE_COST/EVERY_TRADE_UTC.csv": {
+    "sha256": "3e8f746d7ff7b7e55906a68b071351128f71b3b62c7512dae3f355ace578b9c6",
+    "bytes": 1102238
+  },
+  "results/BTCUSDT/DOUBLE_COST/METRICS.json": {
+    "sha256": "765858fcc105e76a6094500bed9e46f550f8d651782bf2cf03f02f1531cfe7ed",
+    "bytes": 1603
+  },
+  "results/BTCUSDT/DOUBLE_COST/MONTHLY_RETURNS.csv": {
+    "sha256": "d893e0ae420c494203ad1d46bf8150671c7032a5941fb4e53ba603d61c7415ad",
+    "bytes": 4722
+  },
+  "results/BTCUSDT/DOUBLE_COST/PARAMETERS.json": {
+    "sha256": "39e5bcc5fcf5be40e14e80e354136dfd619c489f32961b58278cf344be34af8e",
+    "bytes": 743
+  },
+  "results/BTCUSDT/DOUBLE_COST/ROLLING_365DAY.csv": {
+    "sha256": "b067260f2dd6a07f477d4dbd5f9d1e0663959fb6a77f21eeb38372b4657560aa",
+    "bytes": 67334
+  },
+  "results/BTCUSDT/DOUBLE_COST/WEEKLY_RETURNS.csv": {
+    "sha256": "eee996a2c2bfd2e50fd58c0686fb5c17b9c7354d14ca056f5d82d463cc1cb955",
+    "bytes": 20542
+  },
+  "results/BTCUSDT/FINALISTS.json": {
+    "sha256": "e70a5b26a20b3539510ca2eebcce0c154bc47b771c7afe642237616ea3f23eb7",
+    "bytes": 24023
+  },
+  "results/BTCUSDT/FROZEN.json": {
+    "sha256": "7ddd17c56d49f259122020d3a929f0c16708e7a62963dd65355473e578e7f5d6",
+    "bytes": 30044
+  },
+  "results/BTCUSDT/NO_FEE_NO_SLIPPAGE/AUDIT.json": {
+    "sha256": "275b435a13b283fcd95345121eb963b5a2a17612d82853db9d0cf1110f0d6404",
+    "bytes": 623
+  },
+  "results/BTCUSDT/NO_FEE_NO_SLIPPAGE/EVERY_DAY.csv": {
+    "sha256": "cd0bda6b8003bc11165110f4786d0337bf54c9ac1f4785a55587a6681c17c679",
+    "bytes": 210147
+  },
+  "results/BTCUSDT/NO_FEE_NO_SLIPPAGE/EVERY_TRADE_UTC.csv": {
+    "sha256": "5b47b77be1d019bcbf9ab16220c2301b489ef407bb200a8fbc6da0502d1b66c9",
+    "bytes": 1060630
+  },
+  "results/BTCUSDT/NO_FEE_NO_SLIPPAGE/METRICS.json": {
+    "sha256": "438492bbf048cadbd62e3b2f711a7374a8a5562111aded5a3ae7846de4b78fc4",
+    "bytes": 1599
+  },
+  "results/BTCUSDT/NO_FEE_NO_SLIPPAGE/MONTHLY_RETURNS.csv": {
+    "sha256": "f07deaf435c0622e8abe5e39d242c8ef1c62ed8810ac5013c90100156d968270",
+    "bytes": 4707
+  },
+  "results/BTCUSDT/NO_FEE_NO_SLIPPAGE/PARAMETERS.json": {
+    "sha256": "ff533da204b8a6dad176d0b06f599d10977af0e9a6673e53e69030f1621d7052",
+    "bytes": 742
+  },
+  "results/BTCUSDT/NO_FEE_NO_SLIPPAGE/ROLLING_365DAY.csv": {
+    "sha256": "6f844e18e9d80a5fcd5e3b7814e60712e8de6699ba8bee142f7f802fd88c6e5b",
+    "bytes": 67604
+  },
+  "results/BTCUSDT/NO_FEE_NO_SLIPPAGE/WEEKLY_RETURNS.csv": {
+    "sha256": "fbe22de0a37ad2a36a33f19953c943438010082819ba2cfba5cbe8532f36900b",
+    "bytes": 20495
+  },
+  "results/BTCUSDT/PRIMARY_250_WEEKS/AUDIT.json": {
+    "sha256": "6afb2aba6753b0d26ea3f033cb5bec9bf74d542dddf7c19dfe34d08fd4bffc3e",
+    "bytes": 633
+  },
+  "results/BTCUSDT/PRIMARY_250_WEEKS/EVERY_DAY.csv": {
+    "sha256": "419267ffa9282a2baf0495bcff937006cf0c27519fb24b5b2a7949497fdd2f10",
+    "bytes": 202067
+  },
+  "results/BTCUSDT/PRIMARY_250_WEEKS/EVERY_TRADE_UTC.csv": {
+    "sha256": "f054abf852708d506d70662eb9cbeaee99ba3fd34e6a645ef9bb0f1ddba3ac7d",
+    "bytes": 1061620
+  },
+  "results/BTCUSDT/PRIMARY_250_WEEKS/METRICS.json": {
+    "sha256": "09a94b1b888aafbd7805c7fdd54f18f8d96535d909898a63771236de39695b16",
+    "bytes": 1564
+  },
+  "results/BTCUSDT/PRIMARY_250_WEEKS/MONTHLY_RETURNS.csv": {
+    "sha256": "57cb872e2f7054ab3c9287d791f7cefdb2ce49e2f04a82d9d064732990758d23",
+    "bytes": 4569
+  },
+  "results/BTCUSDT/PRIMARY_250_WEEKS/PARAMETERS.json": {
+    "sha256": "c11ba406048efc723a03af0bfd5817ae4c9ce7541e6c641eefac2770c5a17f12",
+    "bytes": 742
+  },
+  "results/BTCUSDT/PRIMARY_250_WEEKS/ROLLING_365DAY.csv": {
+    "sha256": "8156c0129e33f630bd78657a5ffae76036eaecd905a7de910e03a5cbd73f8e44",
+    "bytes": 64246
+  },
+  "results/BTCUSDT/PRIMARY_250_WEEKS/WEEKLY_RETURNS.csv": {
+    "sha256": "3a16b4d9231bef45777c58b03c460906cf5ffe9b7466686a40bddbb2e1e0d20f",
+    "bytes": 19548
+  },
+  "results/BTCUSDT/PRIMARY_250_WEEK_METRICS.json": {
+    "sha256": "09a94b1b888aafbd7805c7fdd54f18f8d96535d909898a63771236de39695b16",
+    "bytes": 1564
+  },
+  "results/BTCUSDT/PRIMARY_DAILY/AUDIT.json": {
+    "sha256": "5717441e142e76d8e939d7447bd183348c5db133067dc1a1fa33327403349d19",
+    "bytes": 638
+  },
+  "results/BTCUSDT/PRIMARY_DAILY/EVERY_DAY.csv": {
+    "sha256": "34aaf77dfd5e255908acf64da6d5d5f179dab1658fb41fe2e2b8d37512977c17",
+    "bytes": 210576
+  },
+  "results/BTCUSDT/PRIMARY_DAILY/EVERY_TRADE_UTC.csv": {
+    "sha256": "9dcd9bcc288d12a473fc342011282721240321665401f572dd843fab62b1b7c8",
+    "bytes": 1107611
+  },
+  "results/BTCUSDT/PRIMARY_DAILY/METRICS.json": {
+    "sha256": "e4fb05601136185aa87b50ff49d898d20b221f74b45077ab25a338d72a735081",
+    "bytes": 1611
+  },
+  "results/BTCUSDT/PRIMARY_DAILY/MONTHLY_RETURNS.csv": {
+    "sha256": "5e858c1195f500a5bfd8140a9c31876fbed1bf250fe6433bd6a2b2f1458b90b1",
+    "bytes": 4720
+  },
+  "results/BTCUSDT/PRIMARY_DAILY/PARAMETERS.json": {
+    "sha256": "c11ba406048efc723a03af0bfd5817ae4c9ce7541e6c641eefac2770c5a17f12",
+    "bytes": 742
+  },
+  "results/BTCUSDT/PRIMARY_DAILY/ROLLING_365DAY.csv": {
+    "sha256": "875b0302227ae7784a2342bbc20cf941e0eff05d2f4d4418b8eff60ead203dff",
+    "bytes": 67700
+  },
+  "results/BTCUSDT/PRIMARY_DAILY/WEEKLY_RETURNS.csv": {
+    "sha256": "f9aee25b502ed0904a425793ca8d84caba20ac36113ea32b1dfe9ab92f565853",
+    "bytes": 20515
+  },
+  "results/BTCUSDT/PROTOCOL.json": {
+    "sha256": "e793a8cd0c3b9c8f2ba6357b95f6cecce0cac0819a15d297ded2ca76a58ee2be",
+    "bytes": 181733
+  },
+  "results/BTCUSDT/STRESSES.json": {
+    "sha256": "142918eb86c89e91d6b1e82bf4c987f9f40809be4e2e5f35d708f81a62f714a4",
+    "bytes": 8491
+  },
+  "results/BTCUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/AUDIT.json": {
+    "sha256": "00c7b612752debf8c12f7ab3f9264cf8433912aafd545024a84875bfcb63cac9",
+    "bytes": 638
+  },
+  "results/BTCUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/EVERY_DAY.csv": {
+    "sha256": "8ec1a607a06ea64c6a084236992dcc4db258330fe26165ad5d202ef7fbb237ab",
+    "bytes": 209968
+  },
+  "results/BTCUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/EVERY_TRADE_UTC.csv": {
+    "sha256": "7fddc32b09357ed160aaccb355506804b808b4b2d8b6cacb5a11e1c7ec172c40",
+    "bytes": 1117428
+  },
+  "results/BTCUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/METRICS.json": {
+    "sha256": "7637088de1b42518d6aaeb5a899e78a45ba2f1814efea4ab13ef5b90c4d8120b",
+    "bytes": 1622
+  },
+  "results/BTCUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/MONTHLY_RETURNS.csv": {
+    "sha256": "5327ac33abe4df48f40ed44db53c3c6b466b26eb0eb8fe0cba135a56899df257",
+    "bytes": 4721
+  },
+  "results/BTCUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/PARAMETERS.json": {
+    "sha256": "db4371b4edf6633c3436ecdc1ee7933de0011be03d6df502b4537d13f6a3680f",
+    "bytes": 757
+  },
+  "results/BTCUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/ROLLING_365DAY.csv": {
+    "sha256": "72d09096e835d3bcc58ca7355288ef370f961a6c8aa9b3caace62066b6d13d50",
+    "bytes": 67767
+  },
+  "results/BTCUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/WEEKLY_RETURNS.csv": {
+    "sha256": "ebe54b0ceddb42d5c30ad01d2a47fdcf236b55f5e6ca27ddfa6f87a37685ac61",
+    "bytes": 20491
+  },
+  "results/BTCUSDT/VALIDATION.json": {
+    "sha256": "5696e6dc702c10af3effae3a6017511754593558eba70bf1f9de6aa1c9c6dcf5",
+    "bytes": 446046
+  },
+  "results/BTCUSDT/WALL_ONLY_PRIMARY/AUDIT.json": {
+    "sha256": "33008c43d4da02256adca00f486d74014e87ec7483c47712002ec96f0fdcac7e",
+    "bytes": 637
+  },
+  "results/BTCUSDT/WALL_ONLY_PRIMARY/EVERY_DAY.csv": {
+    "sha256": "38409b741fa71d99468bc790f2c46266aed02f5294496049a21487c98d684d71",
+    "bytes": 208231
+  },
+  "results/BTCUSDT/WALL_ONLY_PRIMARY/EVERY_TRADE_UTC.csv": {
+    "sha256": "27a773a875252255e7516a3e99272f6860b2cd37ce23473102f4f6ff0aa3d088",
+    "bytes": 985265
+  },
+  "results/BTCUSDT/WALL_ONLY_PRIMARY/METRICS.json": {
+    "sha256": "2b13879345fab293a5b54b37557efdce812e2b800d9be47b85bbf445f7f01bbd",
+    "bytes": 1614
+  },
+  "results/BTCUSDT/WALL_ONLY_PRIMARY/MONTHLY_RETURNS.csv": {
+    "sha256": "dec223e32f9660c2f9434f7cdbb6ff8bfc427cb8f12a3c983dfee918a3b6861d",
+    "bytes": 4721
+  },
+  "results/BTCUSDT/WALL_ONLY_PRIMARY/PARAMETERS.json": {
+    "sha256": "5278e88e9515c372fb2073bb4050730ea7c3ae8386f6688050fb222b6f7b04c1",
+    "bytes": 738
+  },
+  "results/BTCUSDT/WALL_ONLY_PRIMARY/ROLLING_365DAY.csv": {
+    "sha256": "9cab4f2903da37ee2fe1be00433d37aef551914e098ad8a988c5b23fb2ecbfb5",
+    "bytes": 67988
+  },
+  "results/BTCUSDT/WALL_ONLY_PRIMARY/WEEKLY_RETURNS.csv": {
+    "sha256": "cd761d440f4a0816cbe37a11c7c528be807d5065741160c2664c6c7271e269d4",
+    "bytes": 20509
+  },
+  "results/BTCUSDT/adaptive_research/METRICS.json": {
+    "sha256": "41e1ac49075cd92fa1bb181061e41233c3449b0081c95a143f75cd5f71944821",
+    "bytes": 1614
+  },
+  "results/BTCUSDT/adaptive_research/PROTOCOL.json": {
+    "sha256": "b7c369ad54ec589189637a0f8532d4b2e7854071b0df8526fb973168825f428d",
+    "bytes": 80022
+  },
+  "results/BTCUSDT/adaptive_research/SELECTION_INPUTS.npz": {
+    "sha256": "d6b517d638a3a74ec86a2622526b4dd5a5a84de680e7d1304801e8a726af2f69",
+    "bytes": 4442360
+  },
+  "results/BTCUSDT/adaptive_research/SELECTION_JOURNAL.json": {
+    "sha256": "376737e2822dbbcd7dbedd9d0e03891bc0774e4ae7f4a9d05c01c552fdd775e6",
+    "bytes": 146971
+  },
+  "results/ETHUSDT/ADAPTIVE_DAILY/AUDIT.json": {
+    "sha256": "fc83be1cdfdbae0480a5d805d83d5efa8c4ed94c69931db9c758977857bd6643",
+    "bytes": 636
+  },
+  "results/ETHUSDT/ADAPTIVE_DAILY/EVERY_DAY.csv": {
+    "sha256": "95a4668196f305b27e86369baf8dbec4d794a218839eeabdba9b1849b45fa797",
+    "bytes": 209755
+  },
+  "results/ETHUSDT/ADAPTIVE_DAILY/EVERY_TRADE_UTC.csv": {
+    "sha256": "61d219a1b37eaa060803a6cbe5fa0b32fff49f04429a1ac59447b4126e5c20f1",
+    "bytes": 1094680
+  },
+  "results/ETHUSDT/ADAPTIVE_DAILY/METRICS.json": {
+    "sha256": "a57d977b4c7cff21f21c93d1a72e7067e91b456ae101e7f277446acdcd495a6c",
+    "bytes": 1608
+  },
+  "results/ETHUSDT/ADAPTIVE_DAILY/MONTHLY_RETURNS.csv": {
+    "sha256": "4b4dc66ae14f917207458f2d88b123eb4870a2794e6aa238ef7ca0ba577f8d53",
+    "bytes": 4738
+  },
+  "results/ETHUSDT/ADAPTIVE_DAILY/PARAMETERS.json": {
+    "sha256": "3237ef6f40601f68590459c52e9887c26ed4252041ea592e0d0dc90e93f4bf3b",
+    "bytes": 685
+  },
+  "results/ETHUSDT/ADAPTIVE_DAILY/ROLLING_365DAY.csv": {
+    "sha256": "2e6f832cc8362bf157a550c14a55b849e4d66df1b047e4fe10ddb4e3773b105e",
+    "bytes": 68161
+  },
+  "results/ETHUSDT/ADAPTIVE_DAILY/WEEKLY_RETURNS.csv": {
+    "sha256": "3bbbff5fdd0c056123ba76271c5da39713064a3593918156ffba677fbfb69d28",
+    "bytes": 20609
+  },
+  "results/ETHUSDT/DAILY_IV_AND_FEATURES.csv": {
+    "sha256": "089b4bba07fc3c4acce20925422e83271ea9356e8b200a7f165aace31b191923",
+    "bytes": 786200
+  },
+  "results/ETHUSDT/DATA_IDENTITY.json": {
+    "sha256": "1d0d300455cdd62a98e6040cd1667a597f49808a4b38633a271f5af7378aeaa5",
+    "bytes": 1875
+  },
+  "results/ETHUSDT/DELAY_2MIN/AUDIT.json": {
+    "sha256": "c67649efb1309c7f1a7df6ff403632bdfae9d7f42105eb0a04263402f92ea107",
+    "bytes": 640
+  },
+  "results/ETHUSDT/DELAY_2MIN/EVERY_DAY.csv": {
+    "sha256": "acce1c55b4bb8d2a2ca1f28d9f74cae47eb3e5c6b7c24f120231a09e1a10f6a2",
+    "bytes": 209809
+  },
+  "results/ETHUSDT/DELAY_2MIN/EVERY_TRADE_UTC.csv": {
+    "sha256": "8bc1fc1b495b08724987d028bb7e4c8f5fb8fd42a3bd3227d08415b91f0903c0",
+    "bytes": 1107372
+  },
+  "results/ETHUSDT/DELAY_2MIN/METRICS.json": {
+    "sha256": "f0b9e93b8bd361807e9441c6d79d06c7ec2ec19b7067188cb1afb1dc5ad7ea59",
+    "bytes": 1608
+  },
+  "results/ETHUSDT/DELAY_2MIN/MONTHLY_RETURNS.csv": {
+    "sha256": "c7646a1a475741e888e4ea7a9efb523aca03736c2d27b22e2270f0c5b2e8e604",
+    "bytes": 4731
+  },
+  "results/ETHUSDT/DELAY_2MIN/PARAMETERS.json": {
+    "sha256": "8b9260e3740c57a83b7a72b77d85a01efc2e1ccc77e32d011d2685ecfe2836fa",
+    "bytes": 731
+  },
+  "results/ETHUSDT/DELAY_2MIN/ROLLING_365DAY.csv": {
+    "sha256": "edd7dfe01ee99230e6d7bb228916321701c260b2c9949819b107139c116b1fe0",
+    "bytes": 68073
+  },
+  "results/ETHUSDT/DELAY_2MIN/WEEKLY_RETURNS.csv": {
+    "sha256": "217f47ce69be72f6eb6715ca0e414582b9caeee73cf901bafbe5fc4dedf724cc",
+    "bytes": 20537
+  },
+  "results/ETHUSDT/DELAY_5MIN/AUDIT.json": {
+    "sha256": "3adedab1ee17e4b72c414b1948aa2fe044fd1102eec35da5796d9c0c07347d59",
+    "bytes": 635
+  },
+  "results/ETHUSDT/DELAY_5MIN/EVERY_DAY.csv": {
+    "sha256": "a4f1b088a2f8cd4be21cc8da7eb0d3c1929aa6a3b45b544ecf3e32eb6d18cd56",
+    "bytes": 209795
+  },
+  "results/ETHUSDT/DELAY_5MIN/EVERY_TRADE_UTC.csv": {
+    "sha256": "6108c8d433468d3acc3d9bab933f2a378c7e9ad4ceb39d79be0d7a65373f7f65",
+    "bytes": 1106380
+  },
+  "results/ETHUSDT/DELAY_5MIN/METRICS.json": {
+    "sha256": "2117b65ec785a83967490ae8a3798ef73ee999a4394f44ed6c2dbc6e96a0282f",
+    "bytes": 1606
+  },
+  "results/ETHUSDT/DELAY_5MIN/MONTHLY_RETURNS.csv": {
+    "sha256": "41932c69c2a402c7dfe8a6590ab7a8dc41bff247ddebbe9fdd0c896984d086bb",
+    "bytes": 4723
+  },
+  "results/ETHUSDT/DELAY_5MIN/PARAMETERS.json": {
+    "sha256": "dc9decab21f5161b009e495e8969eaca0e08fa9c862e7f9725764cafd83a6c14",
+    "bytes": 731
+  },
+  "results/ETHUSDT/DELAY_5MIN/ROLLING_365DAY.csv": {
+    "sha256": "4925e0da07e38beecd0fc1e40d9c2ad08089ba9e3508dde60b49c94e1c368abd",
+    "bytes": 68110
+  },
+  "results/ETHUSDT/DELAY_5MIN/WEEKLY_RETURNS.csv": {
+    "sha256": "5f3baa8073021db85e6086ab26d717a64055af8a4371fe7e0a78b151e7963dfd",
+    "bytes": 20519
+  },
+  "results/ETHUSDT/DEVELOPMENT.json": {
+    "sha256": "3cfe63139a8847f0f6df28f9ce4cd29cfe29ee20c843b37e69b01d85699b24e1",
+    "bytes": 1293452
+  },
+  "results/ETHUSDT/DIAGNOSTIC_conditional_mean/AUDIT.json": {
+    "sha256": "857dc08b7e4b1635a58e8f4e758a175fd316c5ccf05234d32cee81f1cb8fe1d7",
+    "bytes": 637
+  },
+  "results/ETHUSDT/DIAGNOSTIC_conditional_mean/EVERY_DAY.csv": {
+    "sha256": "1a05dcbacfa0927213371f3fd5ed1e4037ab4c6a91917f5fd9bd7811dfd95df7",
+    "bytes": 209725
+  },
+  "results/ETHUSDT/DIAGNOSTIC_conditional_mean/EVERY_TRADE_UTC.csv": {
+    "sha256": "85406216383f2d662641bc7e82512996b5b7bb51d508a4537a4ba5e3c98a4c76",
+    "bytes": 1073455
+  },
+  "results/ETHUSDT/DIAGNOSTIC_conditional_mean/METRICS.json": {
+    "sha256": "37150101ad2a3ebf86ad977f62c0187fa04f95982f046864d974fd45f4a42e1a",
+    "bytes": 1630
+  },
+  "results/ETHUSDT/DIAGNOSTIC_conditional_mean/MONTHLY_RETURNS.csv": {
+    "sha256": "a37c0be4a532468777975a926823e778315e4bbcc1b4db882113e49a6ba02b07",
+    "bytes": 4772
+  },
+  "results/ETHUSDT/DIAGNOSTIC_conditional_mean/PARAMETERS.json": {
+    "sha256": "ac8d775a1a8ec08f9f28d11fb3522752b78ff7055486527091970e55f1007256",
+    "bytes": 744
+  },
+  "results/ETHUSDT/DIAGNOSTIC_conditional_mean/ROLLING_365DAY.csv": {
+    "sha256": "9c26e18231a4fad440a46727e43c62d516414f420a6da39c8d09d4baf7aca5a2",
+    "bytes": 68634
+  },
+  "results/ETHUSDT/DIAGNOSTIC_conditional_mean/WEEKLY_RETURNS.csv": {
+    "sha256": "29004e0ab44fef7943f01c75ec7fd971af869dea985864862a3b00534a57030c",
+    "bytes": 20711
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_regime/AUDIT.json": {
+    "sha256": "24db3bcb390674a03dcc0441b8c9fac967daae8f47d029ea605a9296442d45c3",
+    "bytes": 638
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_regime/EVERY_DAY.csv": {
+    "sha256": "b9bc1f668b4104af042281ab7d20bc46d78ad764e1bfb120c3b45e840c508af7",
+    "bytes": 209874
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_regime/EVERY_TRADE_UTC.csv": {
+    "sha256": "cbb4e5986b2bdd1f70c74b03ac1f80695534a8e5ce71dceb8a3707eabd539a74",
+    "bytes": 1114479
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_regime/METRICS.json": {
+    "sha256": "5cc6c1e3b6b5796f8cd73d7180eb4d71fadf4a7bf58646d1632ab111ae55bf34",
+    "bytes": 1632
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_regime/MONTHLY_RETURNS.csv": {
+    "sha256": "9b5451ea6b2a6e9c85a2a4041dc5d7604c9ebd48c281367f9df136200a3e0a04",
+    "bytes": 4766
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_regime/PARAMETERS.json": {
+    "sha256": "2c1c7154d3ac043fb8d43ae236ff9b6a6a5acf49f79be9d4d52150e275c3af94",
+    "bytes": 732
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_regime/ROLLING_365DAY.csv": {
+    "sha256": "1bc86fc8792e3ee86044f4de75db74e222fb0c3e9437d2b41c45f62f9562e9e3",
+    "bytes": 69391
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_regime/WEEKLY_RETURNS.csv": {
+    "sha256": "a11121c6552a050b47aa8fd9d2e3c047fe89052be9a830a4e8aa79e5847b812f",
+    "bytes": 20714
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_rise_short/AUDIT.json": {
+    "sha256": "4162cf8ab2513703a2ba12b7e4ab0ecbfbffcb77c7ca000c07cced7b27d0e256",
+    "bytes": 635
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_rise_short/EVERY_DAY.csv": {
+    "sha256": "1448c194217bbe203a5e2746ac310c67490563d60ea8f1873cfabb50e4571fa8",
+    "bytes": 209791
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_rise_short/EVERY_TRADE_UTC.csv": {
+    "sha256": "b1dede88f6c2547e77c5bb4902d7ff0e367024b8a601c5da2296cd956e4ffb59",
+    "bytes": 1104269
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_rise_short/METRICS.json": {
+    "sha256": "64d8d24a5258cf57653599beed9687b3df91ed3503cf0dfbb2db4c6fa2cd3da5",
+    "bytes": 1620
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_rise_short/MONTHLY_RETURNS.csv": {
+    "sha256": "1eb5c09ae5013cf59523fc6d8723bfd76d9190d5da5e4fc685183b939a546533",
+    "bytes": 4754
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_rise_short/PARAMETERS.json": {
+    "sha256": "2336bdb1e9fc986fa673ea91cbd8811043fa01580abf8bc77365a56a4a8ea51b",
+    "bytes": 739
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_rise_short/ROLLING_365DAY.csv": {
+    "sha256": "76432429145b4ff85a04bdfba6c19db71dfb31265817fbc964157b7b21f87eb9",
+    "bytes": 68269
+  },
+  "results/ETHUSDT/DIAGNOSTIC_iv_rise_short/WEEKLY_RETURNS.csv": {
+    "sha256": "29e567d59559caefe037aefda234994a9faba221ed770d63cf0a9c2253d93bb1",
+    "bytes": 20636
+  },
+  "results/ETHUSDT/DIAGNOSTIC_long/AUDIT.json": {
+    "sha256": "268b2ddff2539f5568f2804b8a810d6a0513a90d18ec4535a057118c80d7d57f",
+    "bytes": 636
+  },
+  "results/ETHUSDT/DIAGNOSTIC_long/EVERY_DAY.csv": {
+    "sha256": "81df68a845060ed1969f69f70e5035b924fc27898e5827b3f9c9f0e5ee733808",
+    "bytes": 209380
+  },
+  "results/ETHUSDT/DIAGNOSTIC_long/EVERY_TRADE_UTC.csv": {
+    "sha256": "7f4b3e299f729ef428f1544bdae31aa2b34b84a2542c521422c020c07d676566",
+    "bytes": 1099353
+  },
+  "results/ETHUSDT/DIAGNOSTIC_long/METRICS.json": {
+    "sha256": "784713b531a5d638e10723f3ad4c9a255f702c18d3b55bb9acd5f42e36a90d40",
+    "bytes": 1609
+  },
+  "results/ETHUSDT/DIAGNOSTIC_long/MONTHLY_RETURNS.csv": {
+    "sha256": "e21ce387bde4307e626ae6e3f06a2552f5c28036c644f7d01b978f3309fce8ee",
+    "bytes": 4739
+  },
+  "results/ETHUSDT/DIAGNOSTIC_long/PARAMETERS.json": {
+    "sha256": "94c269a44d860d5db0e172a6ba2d8a4714830eada09a4903dc3f902d7fd7d943",
+    "bytes": 726
+  },
+  "results/ETHUSDT/DIAGNOSTIC_long/ROLLING_365DAY.csv": {
+    "sha256": "db402338362f1a753923a7401d85ec144d23c840cc83e26f544995451fe1a8e3",
+    "bytes": 68308
+  },
+  "results/ETHUSDT/DIAGNOSTIC_long/WEEKLY_RETURNS.csv": {
+    "sha256": "5ad9322ce64574ab5b236ee8e9dbf1b5cff321b3e3ed8644abf541823a1243df",
+    "bytes": 20558
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum1/AUDIT.json": {
+    "sha256": "24393b9863615c21672a2d6c40ce44e310f8e33a997e15c0cde0079cd82293da",
+    "bytes": 637
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum1/EVERY_DAY.csv": {
+    "sha256": "ca0b2e8e38ac22201e4522a6c04b46f974a685c5f1be01d14891f39d00ab1df2",
+    "bytes": 210017
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum1/EVERY_TRADE_UTC.csv": {
+    "sha256": "42d8994e8bdeab5533e3f43242e271165fb0027aeebfd90ad0dee7889e29fd2f",
+    "bytes": 1104642
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum1/METRICS.json": {
+    "sha256": "b4ce61f1de272920bb40db06545681d89525f60f2c6b90d9e372e707e73f702a",
+    "bytes": 1628
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum1/MONTHLY_RETURNS.csv": {
+    "sha256": "9df176e22f30bd17980aebcaa33471872337756f6d1c64398865e0391f731e67",
+    "bytes": 4774
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum1/PARAMETERS.json": {
+    "sha256": "7c6aac9c2a439dcc6a4f967112826fe6962fd5806330e228ecf88e05b858236e",
+    "bytes": 732
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum1/ROLLING_365DAY.csv": {
+    "sha256": "ec4154decc6faa7d983e1c3a714d854b78f15d2c40d9ea37289ae8df5a3d5115",
+    "bytes": 69124
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum1/WEEKLY_RETURNS.csv": {
+    "sha256": "b296cac4800cb117de5f8f06669f68eca3f285bf80992f28e71e2543d13cd80f",
+    "bytes": 20713
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum3/AUDIT.json": {
+    "sha256": "3d091edefa613f3c74e9c29083a3db3886b3b84d590bdcc877a97de4e00570e0",
+    "bytes": 635
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum3/EVERY_DAY.csv": {
+    "sha256": "5b7ac5c00125ee2d98c067d7368cbf8dd8d36dbc11f7db246a85da7bb06d88f5",
+    "bytes": 211103
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum3/EVERY_TRADE_UTC.csv": {
+    "sha256": "909ee728dcfa28cd16bb0bf025da738824d77347b9f1d37bb04737a5f861bba3",
+    "bytes": 1070650
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum3/METRICS.json": {
+    "sha256": "8d8d3b1f51cac88d3c8d90bce0269977813d65f416ba264e89eaceb56f242839",
+    "bytes": 1614
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum3/MONTHLY_RETURNS.csv": {
+    "sha256": "7ab3e0d5a6f4a6df26f9d08b8427f0afaee4a3be8ab618f6643e744b0c207df2",
+    "bytes": 4749
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum3/PARAMETERS.json": {
+    "sha256": "0736e117450246b7c16a7f914b175069663b21bbf5958148be89ee1e4ba927d5",
+    "bytes": 733
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum3/ROLLING_365DAY.csv": {
+    "sha256": "dff2619c46aa749fe35b54c1a23066ea2f535e3874987ff5a5f71f2d47da9cdf",
+    "bytes": 68121
+  },
+  "results/ETHUSDT/DIAGNOSTIC_momentum3/WEEKLY_RETURNS.csv": {
+    "sha256": "51b10d8fc6ccffecd44fa1e4a30d8f3b6c2e242ef145890f25bcb7e332d51102",
+    "bytes": 20580
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_momentum/AUDIT.json": {
+    "sha256": "378bced59e44afaa160c7c067f2c6f91ead3276a110a3105cfdb43cfd713932c",
+    "bytes": 638
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_momentum/EVERY_DAY.csv": {
+    "sha256": "2ae1b1b1a4d7acf0104a81ed97b0025955ad035e620c50d56c7968221ef90b0a",
+    "bytes": 209671
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_momentum/EVERY_TRADE_UTC.csv": {
+    "sha256": "5747c8eabbe117d15ca263ab1ae414d3414f1cb619246e8cbc312b5a7475d994",
+    "bytes": 1095687
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_momentum/METRICS.json": {
+    "sha256": "920ae8bf0adc2f92e4092573699dfecf53c77eb5e103d22fd68d15ae17b2b904",
+    "bytes": 1625
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_momentum/MONTHLY_RETURNS.csv": {
+    "sha256": "1d1f898c09e7dbbb17452ee32289a4ef2980f7198d1c0bdb88d0e09615044790",
+    "bytes": 4732
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_momentum/PARAMETERS.json": {
+    "sha256": "42a4d526b9ac042ab24b1533848c43e74f86400c5ccffe740d93b545f785d3ac",
+    "bytes": 738
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_momentum/ROLLING_365DAY.csv": {
+    "sha256": "281414f17f440e1d0fd7ec8d6d19c1bee07bfa61573f14ddf7948eb9be19c699",
+    "bytes": 68039
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_momentum/WEEKLY_RETURNS.csv": {
+    "sha256": "14aaffdeff5198c4824613332fcb95c2c227750a9a481605feb1373bfce4ecfd",
+    "bytes": 20559
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_reversal/AUDIT.json": {
+    "sha256": "98eac5887a00d4565ed41af1f3dea1f5c48592c14776bc036fdf01459d7f15e6",
+    "bytes": 633
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_reversal/EVERY_DAY.csv": {
+    "sha256": "2a01b692f18fffce4bde008293108618bb98acb27afbd276967b5ca2542e2f9b",
+    "bytes": 210680
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_reversal/EVERY_TRADE_UTC.csv": {
+    "sha256": "b8b5059394f1bc775e6cb44d766a3564dd0787b9a0c0436752458902994946f2",
+    "bytes": 1067276
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_reversal/METRICS.json": {
+    "sha256": "7b711738b216639e4a9a571970a2d14e29a8f17330c1d734c552598c780ba11a",
+    "bytes": 1618
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_reversal/MONTHLY_RETURNS.csv": {
+    "sha256": "582f82f44f5ec0b780de291aa97c9f34959912ed08f2475ef4145ed96f15483d",
+    "bytes": 4717
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_reversal/PARAMETERS.json": {
+    "sha256": "ab043df27a6903f5e327d5353520e1ef469c20f1bcdec71a3dde01827c2e5a23",
+    "bytes": 744
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_reversal/ROLLING_365DAY.csv": {
+    "sha256": "8f5afa8b0128b12a671df45b870decdc9c946e029efb24574e029d5c5b9a46cf",
+    "bytes": 67503
+  },
+  "results/ETHUSDT/DIAGNOSTIC_opening_reversal/WEEKLY_RETURNS.csv": {
+    "sha256": "6c061b3053250336d050e7d4027c24b3898126a0720668fc7fef6a84011caeb7",
+    "bytes": 20522
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal1/AUDIT.json": {
+    "sha256": "ac70003faa7b3200a867833eaf064b1554caf2382a56ee022724f18b7ec89903",
+    "bytes": 633
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal1/EVERY_DAY.csv": {
+    "sha256": "c037c4b0aa394e4b5f94b90acc77eb7e910d8614d9d72c385d9dce8f80157293",
+    "bytes": 209394
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal1/EVERY_TRADE_UTC.csv": {
+    "sha256": "b5b8042210a38f6d8b32d358edbe556523e5d91a3d14b0d4fa7c57014018beea",
+    "bytes": 1086461
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal1/METRICS.json": {
+    "sha256": "6448687271a737df28897fa43cbb983bdbafb0185bc383c4b73563b821ed6838",
+    "bytes": 1619
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal1/MONTHLY_RETURNS.csv": {
+    "sha256": "1fefc7714ec115d27df25b6b39e337fee0413d6919b8ed29fb7fb0529941be16",
+    "bytes": 4747
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal1/PARAMETERS.json": {
+    "sha256": "93ebb94f4ef9a85407a57435bdae804fa02114a1312465d574fc474d2b2ddfcc",
+    "bytes": 732
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal1/ROLLING_365DAY.csv": {
+    "sha256": "fcc23e3f055e1fa70e7a2d08543fa54959ae59265c0044cf9aed527588111950",
+    "bytes": 68366
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal1/WEEKLY_RETURNS.csv": {
+    "sha256": "f63ee12a13eed6c25cdfafa464a78a6dcd1ec96ec89fe0790c1c2d48f6c5c698",
+    "bytes": 20601
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal3/AUDIT.json": {
+    "sha256": "858783092b3055c557b02b0372bf376793d09251d2eabe3e238a307a6128c222",
+    "bytes": 635
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal3/EVERY_DAY.csv": {
+    "sha256": "1d8a309d7095b1a8a45857a694a16e5e8fb4668caf4de3046fc90ac91f8c563f",
+    "bytes": 209755
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal3/EVERY_TRADE_UTC.csv": {
+    "sha256": "5495c26edb41b590ec38dabe511d7b2d9af187fbddbc7d4aa080667c13445914",
+    "bytes": 1078112
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal3/METRICS.json": {
+    "sha256": "b1c0e3a98b729f1478ac88f505855420aef7cf61b8197de776f148b10a16c242",
+    "bytes": 1611
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal3/MONTHLY_RETURNS.csv": {
+    "sha256": "62f28f633e368570a23f8ddc5593bb34263f073e5ad86a41906b47e959cc21d9",
+    "bytes": 4719
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal3/PARAMETERS.json": {
+    "sha256": "aa6c2e1a39b0353dd7f49e40e3606a00ed4dba7c130489277d25f92ed19bdce9",
+    "bytes": 735
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal3/ROLLING_365DAY.csv": {
+    "sha256": "f0ba3fdc851aaf634abb34896531eadbf587adddddd8201fcb9ed9cce4a7f0bc",
+    "bytes": 67237
+  },
+  "results/ETHUSDT/DIAGNOSTIC_reversal3/WEEKLY_RETURNS.csv": {
+    "sha256": "3e1512578c105df1baf52af4bf962d7947db237b323189b8de14262238f17be6",
+    "bytes": 20504
+  },
+  "results/ETHUSDT/DIAGNOSTIC_short/AUDIT.json": {
+    "sha256": "bfc15469823df22e444396080e23984d3fdc751877ac177ff2c7a29b9346f7f6",
+    "bytes": 634
+  },
+  "results/ETHUSDT/DIAGNOSTIC_short/EVERY_DAY.csv": {
+    "sha256": "e4492d0ff79b567a31ef101736f5d0ffc49bc7db89b753f6e0a4519becc3bbc2",
+    "bytes": 209894
+  },
+  "results/ETHUSDT/DIAGNOSTIC_short/EVERY_TRADE_UTC.csv": {
+    "sha256": "a55b8f2cf09c7b97cc02874eba6d1081268b9ac68562b0e207d09312b38188cf",
+    "bytes": 1105279
+  },
+  "results/ETHUSDT/DIAGNOSTIC_short/METRICS.json": {
+    "sha256": "0d762516adfa213e0fd6f35d918329f2fdbea0565302f3fce19e46c334fb887b",
+    "bytes": 1621
+  },
+  "results/ETHUSDT/DIAGNOSTIC_short/MONTHLY_RETURNS.csv": {
+    "sha256": "bec28dece4a30dfcc72faf9dff77e6585cc764d5f01c6cb8b7f086deb40e7d7c",
+    "bytes": 4774
+  },
+  "results/ETHUSDT/DIAGNOSTIC_short/PARAMETERS.json": {
+    "sha256": "e9f2b1b69952df43b3c6d995128ddf7a4a97e42e190e8e8ab9997514fd417db7",
+    "bytes": 728
+  },
+  "results/ETHUSDT/DIAGNOSTIC_short/ROLLING_365DAY.csv": {
+    "sha256": "18ead4e03249356c33dd6a4589d241f12c941e24d02527538c807b1f3e3f7b56",
+    "bytes": 69098
+  },
+  "results/ETHUSDT/DIAGNOSTIC_short/WEEKLY_RETURNS.csv": {
+    "sha256": "68bba102390f502cd4d6261841f0fd5d18f9161f9305839dbcb7da8473cfcf1e",
+    "bytes": 20732
+  },
+  "results/ETHUSDT/DIAGNOSTIC_wall_continuation/AUDIT.json": {
+    "sha256": "2269100e7d61e0ebdc8ed0d450be8d3925a94a76ead742ad060a286fe18d87fc",
+    "bytes": 639
+  },
+  "results/ETHUSDT/DIAGNOSTIC_wall_continuation/EVERY_DAY.csv": {
+    "sha256": "72bc36186f5c6a2dc0cb8ccfde232f6e17958c5790d84f28e1fc485921a57364",
+    "bytes": 210111
+  },
+  "results/ETHUSDT/DIAGNOSTIC_wall_continuation/EVERY_TRADE_UTC.csv": {
+    "sha256": "8b4f0d73740bc8eeb427500969243548b12c79c285335f69d5c6bc1c4c642431",
+    "bytes": 1086514
+  },
+  "results/ETHUSDT/DIAGNOSTIC_wall_continuation/METRICS.json": {
+    "sha256": "d5aa878ac213fab75cdf7d07997bb630f317016330e0fae9e97364ae18775d80",
+    "bytes": 1634
+  },
+  "results/ETHUSDT/DIAGNOSTIC_wall_continuation/MONTHLY_RETURNS.csv": {
+    "sha256": "33ecf80662f01d05206eaf5d22aef212b152ed9c0389707abb02d3041fd8ea9d",
+    "bytes": 4788
+  },
+  "results/ETHUSDT/DIAGNOSTIC_wall_continuation/PARAMETERS.json": {
+    "sha256": "dd54c040c289d8578bba0d8d8f5adac116a9e0172d7f70a6d990613fa46f0eba",
+    "bytes": 741
+  },
+  "results/ETHUSDT/DIAGNOSTIC_wall_continuation/ROLLING_365DAY.csv": {
+    "sha256": "2c76369201a5057503861f3e67e3fbce4f1381fdef05efe0807f2b160b1a94b0",
+    "bytes": 68800
+  },
+  "results/ETHUSDT/DIAGNOSTIC_wall_continuation/WEEKLY_RETURNS.csv": {
+    "sha256": "97aba391d175915f416ea0e907c76c30f44f3a42de85df27c129ddc7b601b19a",
+    "bytes": 20765
+  },
+  "results/ETHUSDT/DOUBLE_COST/AUDIT.json": {
+    "sha256": "626a2c3622813c98cf549748dc7325dd0d71e93c3e3649d9dc3ebe6dc7b878e7",
+    "bytes": 629
+  },
+  "results/ETHUSDT/DOUBLE_COST/EVERY_DAY.csv": {
+    "sha256": "93896f3544701a7f6956eaaefd8df225a895ba0f1143e9b5ef7c9612e9cf3e2e",
+    "bytes": 210260
+  },
+  "results/ETHUSDT/DOUBLE_COST/EVERY_TRADE_UTC.csv": {
+    "sha256": "8a63d4f92a289577fe8457d3f76500a48d37eb7b0fa9c027eec8dd7f11434e72",
+    "bytes": 1107909
+  },
+  "results/ETHUSDT/DOUBLE_COST/METRICS.json": {
+    "sha256": "a32af9101dc236561ad596897716c3830e34756712b5a9c66807b33b66565cc1",
+    "bytes": 1596
+  },
+  "results/ETHUSDT/DOUBLE_COST/MONTHLY_RETURNS.csv": {
+    "sha256": "b99a4e7c0f3ccc1ce64cfe3f51d7376c4be4793e99f1c9d8e600b85bc49f0def",
+    "bytes": 4731
+  },
+  "results/ETHUSDT/DOUBLE_COST/PARAMETERS.json": {
+    "sha256": "5a902a0a83524e4c0ecd58bad61c1d70b07ae419c27cc45b49372fbe9bf61cb8",
+    "bytes": 732
+  },
+  "results/ETHUSDT/DOUBLE_COST/ROLLING_365DAY.csv": {
+    "sha256": "d4a2dd30f45f2f958a0336cae17b26e74ed6231ddafbf419c1f1eab118cadb28",
+    "bytes": 67647
+  },
+  "results/ETHUSDT/DOUBLE_COST/WEEKLY_RETURNS.csv": {
+    "sha256": "198512266ffd1686905b879a131d6f06bbfa9cf1494c358ef2349d7450c3a86c",
+    "bytes": 20542
+  },
+  "results/ETHUSDT/FINALISTS.json": {
+    "sha256": "a492cd02b0342f673fa8e0252cc1bd2d90943e03df9400dfb48d1ac89479041b",
+    "bytes": 23991
+  },
+  "results/ETHUSDT/FROZEN.json": {
+    "sha256": "9630cd403a4856a992689fc7dbcc0c5320ac8df182b650fe26a0652a0f61ca78",
+    "bytes": 29963
+  },
+  "results/ETHUSDT/NO_FEE_NO_SLIPPAGE/AUDIT.json": {
+    "sha256": "c96d9b11f37d1232526ce4172cb0aea9cd05644fed6222722d56721663848f24",
+    "bytes": 620
+  },
+  "results/ETHUSDT/NO_FEE_NO_SLIPPAGE/EVERY_DAY.csv": {
+    "sha256": "677d4414bc1a261fdebb6b5bcdb4922368ce82b50eecc5ad7a5e8ffff7cb1910",
+    "bytes": 209823
+  },
+  "results/ETHUSDT/NO_FEE_NO_SLIPPAGE/EVERY_TRADE_UTC.csv": {
+    "sha256": "48f3f3e9ad371341703462b1926168030242f1a44a3c1aa4c2eabe5c5d9f55e9",
+    "bytes": 1065795
+  },
+  "results/ETHUSDT/NO_FEE_NO_SLIPPAGE/METRICS.json": {
+    "sha256": "9e31069d3d190606e64568803e6fa127bfa6e170e486935935fd26d2f23f1e68",
+    "bytes": 1600
+  },
+  "results/ETHUSDT/NO_FEE_NO_SLIPPAGE/MONTHLY_RETURNS.csv": {
+    "sha256": "f241953d61db8a6979f915391833e26415902b1bf19e690ce890e3c28de4b6a4",
+    "bytes": 4718
+  },
+  "results/ETHUSDT/NO_FEE_NO_SLIPPAGE/PARAMETERS.json": {
+    "sha256": "df345f596d7956241aafe8f31f7652cebc77235ed44d8e4306b471dc32096f6d",
+    "bytes": 731
+  },
+  "results/ETHUSDT/NO_FEE_NO_SLIPPAGE/ROLLING_365DAY.csv": {
+    "sha256": "9c84be6da409c840d78b94ee63ae563482c9d80dfb6dac5ca1cbb2e6afb6c05b",
+    "bytes": 68203
+  },
+  "results/ETHUSDT/NO_FEE_NO_SLIPPAGE/WEEKLY_RETURNS.csv": {
+    "sha256": "19e3a924f66d2c8a73f48114e051e50a501efbf862982c9ab7b9228626752ce2",
+    "bytes": 20513
+  },
+  "results/ETHUSDT/PRIMARY_250_WEEKS/AUDIT.json": {
+    "sha256": "fda856cd6eecb85dee2484e8cf5baed8eeb92f56e5118c5630d53805599dabf2",
+    "bytes": 634
+  },
+  "results/ETHUSDT/PRIMARY_250_WEEKS/EVERY_DAY.csv": {
+    "sha256": "ccd7736c914aee9698d357c4a12ffb0a8280dd4d7ebb454ef6d887f858b65244",
+    "bytes": 201100
+  },
+  "results/ETHUSDT/PRIMARY_250_WEEKS/EVERY_TRADE_UTC.csv": {
+    "sha256": "60e02f0a9ec559659f29af001a4dd4492a221976fc4405cc460a7971907dcd18",
+    "bytes": 1061880
+  },
+  "results/ETHUSDT/PRIMARY_250_WEEKS/METRICS.json": {
+    "sha256": "033f045f6516f17a44599b01daa9e8fe2c9fa2ecd0a43b3901b816615a7de2e2",
+    "bytes": 1570
+  },
+  "results/ETHUSDT/PRIMARY_250_WEEKS/MONTHLY_RETURNS.csv": {
+    "sha256": "73867aa628814e4e8a5df9ddd9b17009b34a243407e912007c0b7379d8e09185",
+    "bytes": 4566
+  },
+  "results/ETHUSDT/PRIMARY_250_WEEKS/PARAMETERS.json": {
+    "sha256": "9d5f63a0c47c84d213700f5ff647b3376ec3cab026e263f866485172661e86c6",
+    "bytes": 731
+  },
+  "results/ETHUSDT/PRIMARY_250_WEEKS/ROLLING_365DAY.csv": {
+    "sha256": "a7478c5f7ccf75f7a0517d577da9a86e0e70afe770c0fb27f56fa90c5e1aaa7f",
+    "bytes": 64554
+  },
+  "results/ETHUSDT/PRIMARY_250_WEEKS/WEEKLY_RETURNS.csv": {
+    "sha256": "3b6ab90db1e93889d5c21bebb202c0fbe0c33e1b7cf6c525e11e7fed530166d2",
+    "bytes": 19586
+  },
+  "results/ETHUSDT/PRIMARY_250_WEEK_METRICS.json": {
+    "sha256": "033f045f6516f17a44599b01daa9e8fe2c9fa2ecd0a43b3901b816615a7de2e2",
+    "bytes": 1570
+  },
+  "results/ETHUSDT/PRIMARY_DAILY/AUDIT.json": {
+    "sha256": "f539e16ae1ed3b6f7f2ea7a7aa7d689d7122e5c00db9ee0fa4f9d05220569a03",
+    "bytes": 638
+  },
+  "results/ETHUSDT/PRIMARY_DAILY/EVERY_DAY.csv": {
+    "sha256": "dd531f49edf1b0464d7818f47a9bda2cf244e8e4d6de60cefde9ca12e94c17a8",
+    "bytes": 209856
+  },
+  "results/ETHUSDT/PRIMARY_DAILY/EVERY_TRADE_UTC.csv": {
+    "sha256": "32a9bdb674c8219cf7c5a9c8339f91f64b4fa32b9a2d7db5a937da84c596078b",
+    "bytes": 1107897
+  },
+  "results/ETHUSDT/PRIMARY_DAILY/METRICS.json": {
+    "sha256": "0031657991d4daf483304ea05c5a6446c277069b0e0fff68fb93571eb01da6fe",
+    "bytes": 1614
+  },
+  "results/ETHUSDT/PRIMARY_DAILY/MONTHLY_RETURNS.csv": {
+    "sha256": "ea6653e1522ae356f14204923bfd69981febef3e1c09d8f038fa070b8f8a8bb0",
+    "bytes": 4723
+  },
+  "results/ETHUSDT/PRIMARY_DAILY/PARAMETERS.json": {
+    "sha256": "9d5f63a0c47c84d213700f5ff647b3376ec3cab026e263f866485172661e86c6",
+    "bytes": 731
+  },
+  "results/ETHUSDT/PRIMARY_DAILY/ROLLING_365DAY.csv": {
+    "sha256": "0f2a438bf2373618621055d142080a11158438222595a7a94a3c79a659119d52",
+    "bytes": 68057
+  },
+  "results/ETHUSDT/PRIMARY_DAILY/WEEKLY_RETURNS.csv": {
+    "sha256": "2a3329279d328a2c48fd3bb4799e4bce6554bb2b38aa787c6775225115e744a4",
+    "bytes": 20517
+  },
+  "results/ETHUSDT/PROTOCOL.json": {
+    "sha256": "e797e38e0d60814da55332c9c78dc7b0475becd79f5ae17960fa6108ba48dade",
+    "bytes": 181733
+  },
+  "results/ETHUSDT/STRESSES.json": {
+    "sha256": "4fad2381e88011b74604f4223df40faa15dbcfa2986356f427d70549641a138b",
+    "bytes": 8510
+  },
+  "results/ETHUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/AUDIT.json": {
+    "sha256": "6dd52da10228efb9235d2d68f1448209f1daf9a352ccd751972db668ec9ccf4a",
+    "bytes": 638
+  },
+  "results/ETHUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/EVERY_DAY.csv": {
+    "sha256": "0411def9daa7287f973eed6f0690bfcc303d12ad95a6423ee15b60dcf537deb6",
+    "bytes": 209239
+  },
+  "results/ETHUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/EVERY_TRADE_UTC.csv": {
+    "sha256": "86256e6b5fb5b5a08a098896469e5abdd8e1b4be3bc809d3be26e088895c6f4f",
+    "bytes": 1120089
+  },
+  "results/ETHUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/METRICS.json": {
+    "sha256": "3100c9e25017124034e7598f883797e753d5b1086f598f8afc91ce6c8506ea1e",
+    "bytes": 1632
+  },
+  "results/ETHUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/MONTHLY_RETURNS.csv": {
+    "sha256": "44ab4e250436f467d88bb087f61260c18f57af881f536712a077caaaa6f7069c",
+    "bytes": 4724
+  },
+  "results/ETHUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/PARAMETERS.json": {
+    "sha256": "774a9e268e9241ec529b28a1c9e9b62e70eada656814cb7ad8b774b2ed22ef95",
+    "bytes": 746
+  },
+  "results/ETHUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/ROLLING_365DAY.csv": {
+    "sha256": "0ab67e93fd9535da15725941d0f1af29953895313c48cc40c5a5ca6003d31f60",
+    "bytes": 68300
+  },
+  "results/ETHUSDT/USER_5USD_ROUNDTRIP_EQUIVALENT/WEEKLY_RETURNS.csv": {
+    "sha256": "fbc3c287f1ef6f3c2fa4a1aceb2439ffa0f177d319eebbc429f17772a6dbe48e",
+    "bytes": 20500
+  },
+  "results/ETHUSDT/VALIDATION.json": {
+    "sha256": "f24ce2a74065e2624bb455e57d198fd26298e008f091e214cbf9e8b23b131ee6",
+    "bytes": 446116
+  },
+  "results/ETHUSDT/WALL_ONLY_PRIMARY/AUDIT.json": {
+    "sha256": "271ce071ca096d96fc2714a63acdbd96f5e944fa3f3ce7a9d9fd9184d74557e4",
+    "bytes": 633
+  },
+  "results/ETHUSDT/WALL_ONLY_PRIMARY/EVERY_DAY.csv": {
+    "sha256": "2d86110cf881773c5115760189f3925392cb93d5391a9bf25a50c5a98c8fd2c4",
+    "bytes": 206049
+  },
+  "results/ETHUSDT/WALL_ONLY_PRIMARY/EVERY_TRADE_UTC.csv": {
+    "sha256": "30dd39979c746175265616ef24e8e28e0d4e6c67f9d85d22f14b656f430b13e0",
+    "bytes": 805747
+  },
+  "results/ETHUSDT/WALL_ONLY_PRIMARY/METRICS.json": {
+    "sha256": "d2c474bea407bfb01386b1356e946e71cdc418df61bf72bcdc8c741cb84748fa",
+    "bytes": 1611
+  },
+  "results/ETHUSDT/WALL_ONLY_PRIMARY/MONTHLY_RETURNS.csv": {
+    "sha256": "107552025445df2d7d761aa1801a8a352504fa05728b58a50218101a13803d4c",
+    "bytes": 4720
+  },
+  "results/ETHUSDT/WALL_ONLY_PRIMARY/PARAMETERS.json": {
+    "sha256": "c4e12aa6e4cf67cbf84c964deba14e0117c0a15a1f8c75c1b942a90f60208947",
+    "bytes": 737
+  },
+  "results/ETHUSDT/WALL_ONLY_PRIMARY/ROLLING_365DAY.csv": {
+    "sha256": "1f161cd099de115f93ed97e9a775dc3d4409df530d8571b97fe46bc6825b8587",
+    "bytes": 67372
+  },
+  "results/ETHUSDT/WALL_ONLY_PRIMARY/WEEKLY_RETURNS.csv": {
+    "sha256": "d1ef598def79bfcbfa8026646a4945f8b050982cd4073be7fb7661e4714ce1a0",
+    "bytes": 20465
+  },
+  "results/ETHUSDT/adaptive_research/METRICS.json": {
+    "sha256": "a57d977b4c7cff21f21c93d1a72e7067e91b456ae101e7f277446acdcd495a6c",
+    "bytes": 1608
+  },
+  "results/ETHUSDT/adaptive_research/PROTOCOL.json": {
+    "sha256": "068a049e02d3f32e4f76ea0d6e52392370b97fef73604cf4fcb75965d83c5133",
+    "bytes": 80022
+  },
+  "results/ETHUSDT/adaptive_research/SELECTION_INPUTS.npz": {
+    "sha256": "2d31a6ea31ac67352742096e3d69dc1cd6920960ded63f561d08b4ceab352164",
+    "bytes": 4394606
+  },
+  "results/ETHUSDT/adaptive_research/SELECTION_JOURNAL.json": {
+    "sha256": "36eaa3ea4017d7d4a8d12b2cd33447038692270cedbe8eb50d8e80555e806d1f",
+    "bytes": 146551
+  },
+  "test_daily_iv.py": {
+    "sha256": "96663802bd272c404cc409550ea680d65b9a948add5953cafbec67521bf52c08",
+    "bytes": 7335
+  }
+}

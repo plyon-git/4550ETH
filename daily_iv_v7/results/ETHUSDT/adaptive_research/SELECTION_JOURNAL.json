@@ -1,0 +1,4961 @@
+[
+  {
+    "decision_day": "2021-09-01 00:00:00+00:00",
+    "latest_outcome_day": "2021-08-31 00:00:00+00:00",
+    "sample_start_day": "2021-05-01 00:00:00+00:00",
+    "matured_training_days": 123,
+    "selected_index": 113,
+    "selection_score": 0.11550557742464446,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "04efdfe74769014c"
+  },
+  {
+    "decision_day": "2021-09-08 00:00:00+00:00",
+    "latest_outcome_day": "2021-09-07 00:00:00+00:00",
+    "sample_start_day": "2021-05-05 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 113,
+    "selection_score": 0.11217269550711256,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "04efdfe74769014c"
+  },
+  {
+    "decision_day": "2021-09-15 00:00:00+00:00",
+    "latest_outcome_day": "2021-09-14 00:00:00+00:00",
+    "sample_start_day": "2021-05-12 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 113,
+    "selection_score": 0.06270276534922917,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "04efdfe74769014c"
+  },
+  {
+    "decision_day": "2021-09-22 00:00:00+00:00",
+    "latest_outcome_day": "2021-09-21 00:00:00+00:00",
+    "sample_start_day": "2021-05-19 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 113,
+    "selection_score": 0.0785013177128546,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "04efdfe74769014c"
+  },
+  {
+    "decision_day": "2021-09-29 00:00:00+00:00",
+    "latest_outcome_day": "2021-09-28 00:00:00+00:00",
+    "sample_start_day": "2021-05-26 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 36,
+    "selection_score": 0.06165418044148824,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "56ef7679008c0629"
+  },
+  {
+    "decision_day": "2021-10-06 00:00:00+00:00",
+    "latest_outcome_day": "2021-10-05 00:00:00+00:00",
+    "sample_start_day": "2021-06-02 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 86,
+    "selection_score": 0.045910157355764716,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "3997c8efc30cb594"
+  },
+  {
+    "decision_day": "2021-10-13 00:00:00+00:00",
+    "latest_outcome_day": "2021-10-12 00:00:00+00:00",
+    "sample_start_day": "2021-06-09 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 36,
+    "selection_score": 0.0668345062198753,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "56ef7679008c0629"
+  },
+  {
+    "decision_day": "2021-10-20 00:00:00+00:00",
+    "latest_outcome_day": "2021-10-19 00:00:00+00:00",
+    "sample_start_day": "2021-06-16 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 275,
+    "selection_score": 0.05419447629256502,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "053a771a5cfe37de"
+  },
+  {
+    "decision_day": "2021-10-27 00:00:00+00:00",
+    "latest_outcome_day": "2021-10-26 00:00:00+00:00",
+    "sample_start_day": "2021-06-23 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 26,
+    "selection_score": 0.07232127443502792,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "1916d1db734da814"
+  },
+  {
+    "decision_day": "2021-11-03 00:00:00+00:00",
+    "latest_outcome_day": "2021-11-02 00:00:00+00:00",
+    "sample_start_day": "2021-06-30 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 26,
+    "selection_score": 0.07285670175530717,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "1916d1db734da814"
+  },
+  {
+    "decision_day": "2021-11-10 00:00:00+00:00",
+    "latest_outcome_day": "2021-11-09 00:00:00+00:00",
+    "sample_start_day": "2021-07-07 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 26,
+    "selection_score": 0.0709359456804343,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "1916d1db734da814"
+  },
+  {
+    "decision_day": "2021-11-17 00:00:00+00:00",
+    "latest_outcome_day": "2021-11-16 00:00:00+00:00",
+    "sample_start_day": "2021-07-14 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 26,
+    "selection_score": 0.07676516415924746,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "1916d1db734da814"
+  },
+  {
+    "decision_day": "2021-11-24 00:00:00+00:00",
+    "latest_outcome_day": "2021-11-23 00:00:00+00:00",
+    "sample_start_day": "2021-07-21 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 293,
+    "selection_score": 0.08126156660656914,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b38001edb900e855"
+  },
+  {
+    "decision_day": "2021-12-01 00:00:00+00:00",
+    "latest_outcome_day": "2021-11-30 00:00:00+00:00",
+    "sample_start_day": "2021-07-28 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 293,
+    "selection_score": 0.088320783475197,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b38001edb900e855"
+  },
+  {
+    "decision_day": "2021-12-08 00:00:00+00:00",
+    "latest_outcome_day": "2021-12-07 00:00:00+00:00",
+    "sample_start_day": "2021-08-04 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 293,
+    "selection_score": 0.14205489319854905,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b38001edb900e855"
+  },
+  {
+    "decision_day": "2021-12-15 00:00:00+00:00",
+    "latest_outcome_day": "2021-12-14 00:00:00+00:00",
+    "sample_start_day": "2021-08-11 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 293,
+    "selection_score": 0.09706431598007334,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b38001edb900e855"
+  },
+  {
+    "decision_day": "2021-12-22 00:00:00+00:00",
+    "latest_outcome_day": "2021-12-21 00:00:00+00:00",
+    "sample_start_day": "2021-08-18 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 293,
+    "selection_score": 0.11496601791103198,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b38001edb900e855"
+  },
+  {
+    "decision_day": "2021-12-29 00:00:00+00:00",
+    "latest_outcome_day": "2021-12-28 00:00:00+00:00",
+    "sample_start_day": "2021-08-25 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 293,
+    "selection_score": 0.1182311445813169,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b38001edb900e855"
+  },
+  {
+    "decision_day": "2022-01-05 00:00:00+00:00",
+    "latest_outcome_day": "2022-01-04 00:00:00+00:00",
+    "sample_start_day": "2021-09-01 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 293,
+    "selection_score": 0.11567288255967464,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b38001edb900e855"
+  },
+  {
+    "decision_day": "2022-01-12 00:00:00+00:00",
+    "latest_outcome_day": "2022-01-11 00:00:00+00:00",
+    "sample_start_day": "2021-09-08 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 293,
+    "selection_score": 0.09727042590415606,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b38001edb900e855"
+  },
+  {
+    "decision_day": "2022-01-19 00:00:00+00:00",
+    "latest_outcome_day": "2022-01-18 00:00:00+00:00",
+    "sample_start_day": "2021-09-15 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 280,
+    "selection_score": 0.08261828151789316,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "aa155e26ac73931a"
+  },
+  {
+    "decision_day": "2022-01-26 00:00:00+00:00",
+    "latest_outcome_day": "2022-01-25 00:00:00+00:00",
+    "sample_start_day": "2021-09-22 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 280,
+    "selection_score": 0.05044147068963403,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "aa155e26ac73931a"
+  },
+  {
+    "decision_day": "2022-02-02 00:00:00+00:00",
+    "latest_outcome_day": "2022-02-01 00:00:00+00:00",
+    "sample_start_day": "2021-09-29 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 280,
+    "selection_score": 0.06851508055202782,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "aa155e26ac73931a"
+  },
+  {
+    "decision_day": "2022-02-09 00:00:00+00:00",
+    "latest_outcome_day": "2022-02-08 00:00:00+00:00",
+    "sample_start_day": "2021-10-06 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 157,
+    "selection_score": 0.06248301961423747,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "eeb4b7ac86d93a0b"
+  },
+  {
+    "decision_day": "2022-02-16 00:00:00+00:00",
+    "latest_outcome_day": "2022-02-15 00:00:00+00:00",
+    "sample_start_day": "2021-10-13 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 49,
+    "selection_score": 0.045092351481830634,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "0a2529c53c793095"
+  },
+  {
+    "decision_day": "2022-02-23 00:00:00+00:00",
+    "latest_outcome_day": "2022-02-22 00:00:00+00:00",
+    "sample_start_day": "2021-10-20 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 49,
+    "selection_score": 0.07961656768206812,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "0a2529c53c793095"
+  },
+  {
+    "decision_day": "2022-03-02 00:00:00+00:00",
+    "latest_outcome_day": "2022-03-01 00:00:00+00:00",
+    "sample_start_day": "2021-10-27 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 49,
+    "selection_score": 0.09779134941748913,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "0a2529c53c793095"
+  },
+  {
+    "decision_day": "2022-03-09 00:00:00+00:00",
+    "latest_outcome_day": "2022-03-08 00:00:00+00:00",
+    "sample_start_day": "2021-11-03 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 49,
+    "selection_score": 0.12690416673213284,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "0a2529c53c793095"
+  },
+  {
+    "decision_day": "2022-03-16 00:00:00+00:00",
+    "latest_outcome_day": "2022-03-15 00:00:00+00:00",
+    "sample_start_day": "2021-11-10 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 49,
+    "selection_score": 0.12186411145798964,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "0a2529c53c793095"
+  },
+  {
+    "decision_day": "2022-03-23 00:00:00+00:00",
+    "latest_outcome_day": "2022-03-22 00:00:00+00:00",
+    "sample_start_day": "2021-11-17 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 49,
+    "selection_score": 0.08467767305876313,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "0a2529c53c793095"
+  },
+  {
+    "decision_day": "2022-03-30 00:00:00+00:00",
+    "latest_outcome_day": "2022-03-29 00:00:00+00:00",
+    "sample_start_day": "2021-11-24 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 83,
+    "selection_score": 0.17721319300639174,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "a92e3cc24fc58ff1"
+  },
+  {
+    "decision_day": "2022-04-06 00:00:00+00:00",
+    "latest_outcome_day": "2022-04-05 00:00:00+00:00",
+    "sample_start_day": "2021-12-01 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 83,
+    "selection_score": 0.14138679308021376,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "a92e3cc24fc58ff1"
+  },
+  {
+    "decision_day": "2022-04-13 00:00:00+00:00",
+    "latest_outcome_day": "2022-04-12 00:00:00+00:00",
+    "sample_start_day": "2021-12-08 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 83,
+    "selection_score": 0.12601676940834086,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "a92e3cc24fc58ff1"
+  },
+  {
+    "decision_day": "2022-04-20 00:00:00+00:00",
+    "latest_outcome_day": "2022-04-19 00:00:00+00:00",
+    "sample_start_day": "2021-12-15 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 83,
+    "selection_score": 0.2119426459416595,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "a92e3cc24fc58ff1"
+  },
+  {
+    "decision_day": "2022-04-27 00:00:00+00:00",
+    "latest_outcome_day": "2022-04-26 00:00:00+00:00",
+    "sample_start_day": "2021-12-22 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 83,
+    "selection_score": 0.1895915871759698,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "a92e3cc24fc58ff1"
+  },
+  {
+    "decision_day": "2022-05-04 00:00:00+00:00",
+    "latest_outcome_day": "2022-05-03 00:00:00+00:00",
+    "sample_start_day": "2021-12-29 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 83,
+    "selection_score": 0.12989940203282863,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "a92e3cc24fc58ff1"
+  },
+  {
+    "decision_day": "2022-05-11 00:00:00+00:00",
+    "latest_outcome_day": "2022-05-10 00:00:00+00:00",
+    "sample_start_day": "2022-01-05 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 83,
+    "selection_score": 0.2135290981104791,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "a92e3cc24fc58ff1"
+  },
+  {
+    "decision_day": "2022-05-18 00:00:00+00:00",
+    "latest_outcome_day": "2022-05-17 00:00:00+00:00",
+    "sample_start_day": "2022-01-12 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 83,
+    "selection_score": 0.12296923148816005,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "a92e3cc24fc58ff1"
+  },
+  {
+    "decision_day": "2022-05-25 00:00:00+00:00",
+    "latest_outcome_day": "2022-05-24 00:00:00+00:00",
+    "sample_start_day": "2022-01-19 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 83,
+    "selection_score": 0.07933499049156953,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "a92e3cc24fc58ff1"
+  },
+  {
+    "decision_day": "2022-06-01 00:00:00+00:00",
+    "latest_outcome_day": "2022-05-31 00:00:00+00:00",
+    "sample_start_day": "2022-01-26 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 92,
+    "selection_score": 0.08553760718429684,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c264ac7dfe0c9193"
+  },
+  {
+    "decision_day": "2022-06-08 00:00:00+00:00",
+    "latest_outcome_day": "2022-06-07 00:00:00+00:00",
+    "sample_start_day": "2022-02-02 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 281,
+    "selection_score": 0.05835891896840523,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "e07ffeb4ab6cc70c"
+  },
+  {
+    "decision_day": "2022-06-15 00:00:00+00:00",
+    "latest_outcome_day": "2022-06-14 00:00:00+00:00",
+    "sample_start_day": "2022-02-09 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 281,
+    "selection_score": 0.15229721548248187,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "e07ffeb4ab6cc70c"
+  },
+  {
+    "decision_day": "2022-06-22 00:00:00+00:00",
+    "latest_outcome_day": "2022-06-21 00:00:00+00:00",
+    "sample_start_day": "2022-02-16 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 281,
+    "selection_score": 0.1426709584669715,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "e07ffeb4ab6cc70c"
+  },
+  {
+    "decision_day": "2022-06-29 00:00:00+00:00",
+    "latest_outcome_day": "2022-06-28 00:00:00+00:00",
+    "sample_start_day": "2022-02-23 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 281,
+    "selection_score": 0.13432790896032368,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "e07ffeb4ab6cc70c"
+  },
+  {
+    "decision_day": "2022-07-06 00:00:00+00:00",
+    "latest_outcome_day": "2022-07-05 00:00:00+00:00",
+    "sample_start_day": "2022-03-02 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 281,
+    "selection_score": 0.16872259521867333,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "e07ffeb4ab6cc70c"
+  },
+  {
+    "decision_day": "2022-07-13 00:00:00+00:00",
+    "latest_outcome_day": "2022-07-12 00:00:00+00:00",
+    "sample_start_day": "2022-03-09 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 281,
+    "selection_score": 0.23035317625574692,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "e07ffeb4ab6cc70c"
+  },
+  {
+    "decision_day": "2022-07-20 00:00:00+00:00",
+    "latest_outcome_day": "2022-07-19 00:00:00+00:00",
+    "sample_start_day": "2022-03-16 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 245,
+    "selection_score": 0.18659024924342016,
+    "policy": {
+      "rule": "conditional_mean",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "3ca7f4d2e77f29e5"
+  },
+  {
+    "decision_day": "2022-07-27 00:00:00+00:00",
+    "latest_outcome_day": "2022-07-26 00:00:00+00:00",
+    "sample_start_day": "2022-03-23 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 101,
+    "selection_score": 0.163706762146013,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "04c0fd90c0f6fa86"
+  },
+  {
+    "decision_day": "2022-08-03 00:00:00+00:00",
+    "latest_outcome_day": "2022-08-02 00:00:00+00:00",
+    "sample_start_day": "2022-03-30 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 29,
+    "selection_score": 0.13653479056330636,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fdbca7eebbb88592"
+  },
+  {
+    "decision_day": "2022-08-10 00:00:00+00:00",
+    "latest_outcome_day": "2022-08-09 00:00:00+00:00",
+    "sample_start_day": "2022-04-06 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 38,
+    "selection_score": 0.1166518622844335,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "31ae98a1caa9ecc1"
+  },
+  {
+    "decision_day": "2022-08-17 00:00:00+00:00",
+    "latest_outcome_day": "2022-08-16 00:00:00+00:00",
+    "sample_start_day": "2022-04-13 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 101,
+    "selection_score": 0.12050132699994048,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "04c0fd90c0f6fa86"
+  },
+  {
+    "decision_day": "2022-08-24 00:00:00+00:00",
+    "latest_outcome_day": "2022-08-23 00:00:00+00:00",
+    "sample_start_day": "2022-04-20 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 52,
+    "selection_score": 0.047582415333757636,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "60f3fb45f459c5cd"
+  },
+  {
+    "decision_day": "2022-08-31 00:00:00+00:00",
+    "latest_outcome_day": "2022-08-30 00:00:00+00:00",
+    "sample_start_day": "2022-04-27 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 52,
+    "selection_score": 0.04131637797432353,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "60f3fb45f459c5cd"
+  },
+  {
+    "decision_day": "2022-09-07 00:00:00+00:00",
+    "latest_outcome_day": "2022-09-06 00:00:00+00:00",
+    "sample_start_day": "2022-05-04 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 100,
+    "selection_score": 0.06917215153369893,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "6f19766ce4a0ccce"
+  },
+  {
+    "decision_day": "2022-09-14 00:00:00+00:00",
+    "latest_outcome_day": "2022-09-13 00:00:00+00:00",
+    "sample_start_day": "2022-05-11 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 295,
+    "selection_score": 0.0645553293226048,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "eb1459edce00dd65"
+  },
+  {
+    "decision_day": "2022-09-21 00:00:00+00:00",
+    "latest_outcome_day": "2022-09-20 00:00:00+00:00",
+    "sample_start_day": "2022-05-18 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 100,
+    "selection_score": 0.12429739355364874,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "6f19766ce4a0ccce"
+  },
+  {
+    "decision_day": "2022-09-28 00:00:00+00:00",
+    "latest_outcome_day": "2022-09-27 00:00:00+00:00",
+    "sample_start_day": "2022-05-25 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 100,
+    "selection_score": 0.11444663748057232,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "6f19766ce4a0ccce"
+  },
+  {
+    "decision_day": "2022-10-05 00:00:00+00:00",
+    "latest_outcome_day": "2022-10-04 00:00:00+00:00",
+    "sample_start_day": "2022-06-01 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 107,
+    "selection_score": 0.06324607985259349,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "563edd18a900d180"
+  },
+  {
+    "decision_day": "2022-10-12 00:00:00+00:00",
+    "latest_outcome_day": "2022-10-11 00:00:00+00:00",
+    "sample_start_day": "2022-06-08 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 100,
+    "selection_score": 0.08930445967543679,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "6f19766ce4a0ccce"
+  },
+  {
+    "decision_day": "2022-10-19 00:00:00+00:00",
+    "latest_outcome_day": "2022-10-18 00:00:00+00:00",
+    "sample_start_day": "2022-06-15 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 148,
+    "selection_score": 0.06328513260880611,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "23a59eb371993d06"
+  },
+  {
+    "decision_day": "2022-10-26 00:00:00+00:00",
+    "latest_outcome_day": "2022-10-25 00:00:00+00:00",
+    "sample_start_day": "2022-06-22 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 316,
+    "selection_score": 0.04817587956328487,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5fc4d04614a1f492"
+  },
+  {
+    "decision_day": "2022-11-02 00:00:00+00:00",
+    "latest_outcome_day": "2022-11-01 00:00:00+00:00",
+    "sample_start_day": "2022-06-29 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 316,
+    "selection_score": 0.11305396794958295,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5fc4d04614a1f492"
+  },
+  {
+    "decision_day": "2022-11-09 00:00:00+00:00",
+    "latest_outcome_day": "2022-11-08 00:00:00+00:00",
+    "sample_start_day": "2022-07-06 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 148,
+    "selection_score": 0.05786717793781619,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "23a59eb371993d06"
+  },
+  {
+    "decision_day": "2022-11-16 00:00:00+00:00",
+    "latest_outcome_day": "2022-11-15 00:00:00+00:00",
+    "sample_start_day": "2022-07-13 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 316,
+    "selection_score": 0.10133147282507496,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5fc4d04614a1f492"
+  },
+  {
+    "decision_day": "2022-11-23 00:00:00+00:00",
+    "latest_outcome_day": "2022-11-22 00:00:00+00:00",
+    "sample_start_day": "2022-07-20 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 320,
+    "selection_score": 0.06322808172277594,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9337cb43a1ecb110"
+  },
+  {
+    "decision_day": "2022-11-30 00:00:00+00:00",
+    "latest_outcome_day": "2022-11-29 00:00:00+00:00",
+    "sample_start_day": "2022-07-27 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 148,
+    "selection_score": 0.053327729047493166,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "23a59eb371993d06"
+  },
+  {
+    "decision_day": "2022-12-07 00:00:00+00:00",
+    "latest_outcome_day": "2022-12-06 00:00:00+00:00",
+    "sample_start_day": "2022-08-03 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 161,
+    "selection_score": 0.08613749941963209,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "2ae84bc7e1623135"
+  },
+  {
+    "decision_day": "2022-12-14 00:00:00+00:00",
+    "latest_outcome_day": "2022-12-13 00:00:00+00:00",
+    "sample_start_day": "2022-08-10 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 161,
+    "selection_score": 0.08748710205729665,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "2ae84bc7e1623135"
+  },
+  {
+    "decision_day": "2022-12-21 00:00:00+00:00",
+    "latest_outcome_day": "2022-12-20 00:00:00+00:00",
+    "sample_start_day": "2022-08-17 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 149,
+    "selection_score": 0.07882801986939175,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b6976665ff7cd5ce"
+  },
+  {
+    "decision_day": "2022-12-28 00:00:00+00:00",
+    "latest_outcome_day": "2022-12-27 00:00:00+00:00",
+    "sample_start_day": "2022-08-24 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 149,
+    "selection_score": 0.08437304558100173,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b6976665ff7cd5ce"
+  },
+  {
+    "decision_day": "2023-01-04 00:00:00+00:00",
+    "latest_outcome_day": "2023-01-03 00:00:00+00:00",
+    "sample_start_day": "2022-08-31 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 317,
+    "selection_score": 0.08968227664531311,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9788b24b6d31c9a5"
+  },
+  {
+    "decision_day": "2023-01-11 00:00:00+00:00",
+    "latest_outcome_day": "2023-01-10 00:00:00+00:00",
+    "sample_start_day": "2022-09-07 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 317,
+    "selection_score": 0.1200306429203063,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9788b24b6d31c9a5"
+  },
+  {
+    "decision_day": "2023-01-18 00:00:00+00:00",
+    "latest_outcome_day": "2023-01-17 00:00:00+00:00",
+    "sample_start_day": "2022-09-14 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 316,
+    "selection_score": 0.14607045853047138,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5fc4d04614a1f492"
+  },
+  {
+    "decision_day": "2023-01-25 00:00:00+00:00",
+    "latest_outcome_day": "2023-01-24 00:00:00+00:00",
+    "sample_start_day": "2022-09-21 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 316,
+    "selection_score": 0.0973705780369307,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5fc4d04614a1f492"
+  },
+  {
+    "decision_day": "2023-02-01 00:00:00+00:00",
+    "latest_outcome_day": "2023-01-31 00:00:00+00:00",
+    "sample_start_day": "2022-09-28 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 316,
+    "selection_score": 0.07732692468982504,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5fc4d04614a1f492"
+  },
+  {
+    "decision_day": "2023-02-08 00:00:00+00:00",
+    "latest_outcome_day": "2023-02-07 00:00:00+00:00",
+    "sample_start_day": "2022-10-05 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 316,
+    "selection_score": 0.0315985789886047,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5fc4d04614a1f492"
+  },
+  {
+    "decision_day": "2023-02-15 00:00:00+00:00",
+    "latest_outcome_day": "2023-02-14 00:00:00+00:00",
+    "sample_start_day": "2022-10-12 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 239,
+    "selection_score": 0.03663481093938946,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dd73236a6406e526"
+  },
+  {
+    "decision_day": "2023-02-22 00:00:00+00:00",
+    "latest_outcome_day": "2023-02-21 00:00:00+00:00",
+    "sample_start_day": "2022-10-19 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 239,
+    "selection_score": 0.027395918654972463,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dd73236a6406e526"
+  },
+  {
+    "decision_day": "2023-03-01 00:00:00+00:00",
+    "latest_outcome_day": "2023-02-28 00:00:00+00:00",
+    "sample_start_day": "2022-10-26 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 239,
+    "selection_score": 0.03868133583314606,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dd73236a6406e526"
+  },
+  {
+    "decision_day": "2023-03-08 00:00:00+00:00",
+    "latest_outcome_day": "2023-03-07 00:00:00+00:00",
+    "sample_start_day": "2022-11-02 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 239,
+    "selection_score": 0.044154500468782706,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dd73236a6406e526"
+  },
+  {
+    "decision_day": "2023-03-15 00:00:00+00:00",
+    "latest_outcome_day": "2023-03-14 00:00:00+00:00",
+    "sample_start_day": "2022-11-09 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 316,
+    "selection_score": 0.027058539929350464,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5fc4d04614a1f492"
+  },
+  {
+    "decision_day": "2023-03-22 00:00:00+00:00",
+    "latest_outcome_day": "2023-03-21 00:00:00+00:00",
+    "sample_start_day": "2022-11-16 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 239,
+    "selection_score": 0.06380734218292683,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dd73236a6406e526"
+  },
+  {
+    "decision_day": "2023-03-29 00:00:00+00:00",
+    "latest_outcome_day": "2023-03-28 00:00:00+00:00",
+    "sample_start_day": "2022-11-23 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 306,
+    "selection_score": 0.02866128884612417,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dcb020770c8cb462"
+  },
+  {
+    "decision_day": "2023-04-05 00:00:00+00:00",
+    "latest_outcome_day": "2023-04-04 00:00:00+00:00",
+    "sample_start_day": "2022-11-30 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 306,
+    "selection_score": 0.041296023740483266,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dcb020770c8cb462"
+  },
+  {
+    "decision_day": "2023-04-12 00:00:00+00:00",
+    "latest_outcome_day": "2023-04-11 00:00:00+00:00",
+    "sample_start_day": "2022-12-07 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 306,
+    "selection_score": 0.05345448752039786,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dcb020770c8cb462"
+  },
+  {
+    "decision_day": "2023-04-19 00:00:00+00:00",
+    "latest_outcome_day": "2023-04-18 00:00:00+00:00",
+    "sample_start_day": "2022-12-14 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 306,
+    "selection_score": 0.05308526007712393,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dcb020770c8cb462"
+  },
+  {
+    "decision_day": "2023-04-26 00:00:00+00:00",
+    "latest_outcome_day": "2023-04-25 00:00:00+00:00",
+    "sample_start_day": "2022-12-21 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 131,
+    "selection_score": 0.06789483164071462,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "923b84416cdbd0ca"
+  },
+  {
+    "decision_day": "2023-05-03 00:00:00+00:00",
+    "latest_outcome_day": "2023-05-02 00:00:00+00:00",
+    "sample_start_day": "2022-12-28 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 239,
+    "selection_score": 0.06623435879944338,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dd73236a6406e526"
+  },
+  {
+    "decision_day": "2023-05-10 00:00:00+00:00",
+    "latest_outcome_day": "2023-05-09 00:00:00+00:00",
+    "sample_start_day": "2023-01-04 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 226,
+    "selection_score": 0.08827576881311572,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cacd5dde86ac09ba"
+  },
+  {
+    "decision_day": "2023-05-17 00:00:00+00:00",
+    "latest_outcome_day": "2023-05-16 00:00:00+00:00",
+    "sample_start_day": "2023-01-11 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 226,
+    "selection_score": 0.0771855400261002,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cacd5dde86ac09ba"
+  },
+  {
+    "decision_day": "2023-05-24 00:00:00+00:00",
+    "latest_outcome_day": "2023-05-23 00:00:00+00:00",
+    "sample_start_day": "2023-01-18 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 226,
+    "selection_score": 0.07708463785552154,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cacd5dde86ac09ba"
+  },
+  {
+    "decision_day": "2023-05-31 00:00:00+00:00",
+    "latest_outcome_day": "2023-05-30 00:00:00+00:00",
+    "sample_start_day": "2023-01-25 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 312,
+    "selection_score": -0.0002057279358715948,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9eb240e248633242"
+  },
+  {
+    "decision_day": "2023-06-07 00:00:00+00:00",
+    "latest_outcome_day": "2023-06-06 00:00:00+00:00",
+    "sample_start_day": "2023-02-01 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 312,
+    "selection_score": -0.002955465110491119,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9eb240e248633242"
+  },
+  {
+    "decision_day": "2023-06-14 00:00:00+00:00",
+    "latest_outcome_day": "2023-06-13 00:00:00+00:00",
+    "sample_start_day": "2023-02-08 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 158,
+    "selection_score": 0.007580023467384275,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "593b5cc6b76631cc"
+  },
+  {
+    "decision_day": "2023-06-21 00:00:00+00:00",
+    "latest_outcome_day": "2023-06-20 00:00:00+00:00",
+    "sample_start_day": "2023-02-15 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 312,
+    "selection_score": 0.0023385971421401204,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9eb240e248633242"
+  },
+  {
+    "decision_day": "2023-06-28 00:00:00+00:00",
+    "latest_outcome_day": "2023-06-27 00:00:00+00:00",
+    "sample_start_day": "2023-02-22 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 226,
+    "selection_score": -0.001574171322781051,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cacd5dde86ac09ba"
+  },
+  {
+    "decision_day": "2023-07-05 00:00:00+00:00",
+    "latest_outcome_day": "2023-07-04 00:00:00+00:00",
+    "sample_start_day": "2023-03-01 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 185,
+    "selection_score": -0.0033644696643249337,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5d444ddb74bd1e33"
+  },
+  {
+    "decision_day": "2023-07-12 00:00:00+00:00",
+    "latest_outcome_day": "2023-07-11 00:00:00+00:00",
+    "sample_start_day": "2023-03-08 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 185,
+    "selection_score": 0.01851945434449114,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5d444ddb74bd1e33"
+  },
+  {
+    "decision_day": "2023-07-19 00:00:00+00:00",
+    "latest_outcome_day": "2023-07-18 00:00:00+00:00",
+    "sample_start_day": "2023-03-15 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 142,
+    "selection_score": 0.04300687834192418,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9eaed21617d337a7"
+  },
+  {
+    "decision_day": "2023-07-26 00:00:00+00:00",
+    "latest_outcome_day": "2023-07-25 00:00:00+00:00",
+    "sample_start_day": "2023-03-22 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 142,
+    "selection_score": 0.05120775251294997,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9eaed21617d337a7"
+  },
+  {
+    "decision_day": "2023-08-02 00:00:00+00:00",
+    "latest_outcome_day": "2023-08-01 00:00:00+00:00",
+    "sample_start_day": "2023-03-29 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 142,
+    "selection_score": 0.03847939988727696,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9eaed21617d337a7"
+  },
+  {
+    "decision_day": "2023-08-09 00:00:00+00:00",
+    "latest_outcome_day": "2023-08-08 00:00:00+00:00",
+    "sample_start_day": "2023-04-05 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 145,
+    "selection_score": 0.08915587051723087,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4576ae98be43ffd8"
+  },
+  {
+    "decision_day": "2023-08-16 00:00:00+00:00",
+    "latest_outcome_day": "2023-08-15 00:00:00+00:00",
+    "sample_start_day": "2023-04-12 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 145,
+    "selection_score": 0.11864192502875884,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4576ae98be43ffd8"
+  },
+  {
+    "decision_day": "2023-08-23 00:00:00+00:00",
+    "latest_outcome_day": "2023-08-22 00:00:00+00:00",
+    "sample_start_day": "2023-04-19 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 145,
+    "selection_score": 0.1033297626672357,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4576ae98be43ffd8"
+  },
+  {
+    "decision_day": "2023-08-30 00:00:00+00:00",
+    "latest_outcome_day": "2023-08-29 00:00:00+00:00",
+    "sample_start_day": "2023-04-26 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 145,
+    "selection_score": 0.08309477645708926,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4576ae98be43ffd8"
+  },
+  {
+    "decision_day": "2023-09-06 00:00:00+00:00",
+    "latest_outcome_day": "2023-09-05 00:00:00+00:00",
+    "sample_start_day": "2023-05-03 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 145,
+    "selection_score": 0.0748741354359547,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4576ae98be43ffd8"
+  },
+  {
+    "decision_day": "2023-09-13 00:00:00+00:00",
+    "latest_outcome_day": "2023-09-12 00:00:00+00:00",
+    "sample_start_day": "2023-05-10 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 145,
+    "selection_score": 0.07316881751592738,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4576ae98be43ffd8"
+  },
+  {
+    "decision_day": "2023-09-20 00:00:00+00:00",
+    "latest_outcome_day": "2023-09-19 00:00:00+00:00",
+    "sample_start_day": "2023-05-17 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 278,
+    "selection_score": 0.049970394666274245,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fc395fc685ae2dbc"
+  },
+  {
+    "decision_day": "2023-09-27 00:00:00+00:00",
+    "latest_outcome_day": "2023-09-26 00:00:00+00:00",
+    "sample_start_day": "2023-05-24 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 278,
+    "selection_score": 0.04434643644109038,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fc395fc685ae2dbc"
+  },
+  {
+    "decision_day": "2023-10-04 00:00:00+00:00",
+    "latest_outcome_day": "2023-10-03 00:00:00+00:00",
+    "sample_start_day": "2023-05-31 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 278,
+    "selection_score": 0.03556584748438001,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fc395fc685ae2dbc"
+  },
+  {
+    "decision_day": "2023-10-11 00:00:00+00:00",
+    "latest_outcome_day": "2023-10-10 00:00:00+00:00",
+    "sample_start_day": "2023-06-07 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 278,
+    "selection_score": 0.002719317018201873,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fc395fc685ae2dbc"
+  },
+  {
+    "decision_day": "2023-10-18 00:00:00+00:00",
+    "latest_outcome_day": "2023-10-17 00:00:00+00:00",
+    "sample_start_day": "2023-06-14 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 278,
+    "selection_score": 0.005275586176330897,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fc395fc685ae2dbc"
+  },
+  {
+    "decision_day": "2023-10-25 00:00:00+00:00",
+    "latest_outcome_day": "2023-10-24 00:00:00+00:00",
+    "sample_start_day": "2023-06-21 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 278,
+    "selection_score": 0.011423652046385,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fc395fc685ae2dbc"
+  },
+  {
+    "decision_day": "2023-11-01 00:00:00+00:00",
+    "latest_outcome_day": "2023-10-31 00:00:00+00:00",
+    "sample_start_day": "2023-06-28 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 278,
+    "selection_score": -0.013050069973278238,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fc395fc685ae2dbc"
+  },
+  {
+    "decision_day": "2023-11-08 00:00:00+00:00",
+    "latest_outcome_day": "2023-11-07 00:00:00+00:00",
+    "sample_start_day": "2023-07-05 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 278,
+    "selection_score": -0.029537465836522177,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fc395fc685ae2dbc"
+  },
+  {
+    "decision_day": "2023-11-15 00:00:00+00:00",
+    "latest_outcome_day": "2023-11-14 00:00:00+00:00",
+    "sample_start_day": "2023-07-12 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 278,
+    "selection_score": -0.030463939778060736,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fc395fc685ae2dbc"
+  },
+  {
+    "decision_day": "2023-11-22 00:00:00+00:00",
+    "latest_outcome_day": "2023-11-21 00:00:00+00:00",
+    "sample_start_day": "2023-07-19 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 71,
+    "selection_score": -0.050511981915268615,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "164c782ceaf0531b"
+  },
+  {
+    "decision_day": "2023-11-29 00:00:00+00:00",
+    "latest_outcome_day": "2023-11-28 00:00:00+00:00",
+    "sample_start_day": "2023-07-26 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 71,
+    "selection_score": -0.038259595845143476,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "164c782ceaf0531b"
+  },
+  {
+    "decision_day": "2023-12-06 00:00:00+00:00",
+    "latest_outcome_day": "2023-12-05 00:00:00+00:00",
+    "sample_start_day": "2023-08-02 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 71,
+    "selection_score": -0.01661799927924014,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "164c782ceaf0531b"
+  },
+  {
+    "decision_day": "2023-12-13 00:00:00+00:00",
+    "latest_outcome_day": "2023-12-12 00:00:00+00:00",
+    "sample_start_day": "2023-08-09 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 70,
+    "selection_score": -0.02341815217702214,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "a9d97dc049728ca0"
+  },
+  {
+    "decision_day": "2023-12-20 00:00:00+00:00",
+    "latest_outcome_day": "2023-12-19 00:00:00+00:00",
+    "sample_start_day": "2023-08-16 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 74,
+    "selection_score": -0.00803758388821467,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7baa85b40e96bbcc"
+  },
+  {
+    "decision_day": "2023-12-27 00:00:00+00:00",
+    "latest_outcome_day": "2023-12-26 00:00:00+00:00",
+    "sample_start_day": "2023-08-23 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 17,
+    "selection_score": -0.0032568007930601356,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "31fb4c1559e08152"
+  },
+  {
+    "decision_day": "2024-01-03 00:00:00+00:00",
+    "latest_outcome_day": "2024-01-02 00:00:00+00:00",
+    "sample_start_day": "2023-08-30 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 74,
+    "selection_score": 0.027424351374524786,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7baa85b40e96bbcc"
+  },
+  {
+    "decision_day": "2024-01-10 00:00:00+00:00",
+    "latest_outcome_day": "2024-01-09 00:00:00+00:00",
+    "sample_start_day": "2023-09-06 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 14,
+    "selection_score": 0.012617644344481427,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "75945dec8fd62489"
+  },
+  {
+    "decision_day": "2024-01-17 00:00:00+00:00",
+    "latest_outcome_day": "2024-01-16 00:00:00+00:00",
+    "sample_start_day": "2023-09-13 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 5,
+    "selection_score": 0.05529021041151651,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fdf8df314f04eac4"
+  },
+  {
+    "decision_day": "2024-01-24 00:00:00+00:00",
+    "latest_outcome_day": "2024-01-23 00:00:00+00:00",
+    "sample_start_day": "2023-09-20 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 128,
+    "selection_score": 0.03820366162961365,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "3316a20d1330540b"
+  },
+  {
+    "decision_day": "2024-01-31 00:00:00+00:00",
+    "latest_outcome_day": "2024-01-30 00:00:00+00:00",
+    "sample_start_day": "2023-09-27 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 128,
+    "selection_score": 0.06554252943933098,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "3316a20d1330540b"
+  },
+  {
+    "decision_day": "2024-02-07 00:00:00+00:00",
+    "latest_outcome_day": "2024-02-06 00:00:00+00:00",
+    "sample_start_day": "2023-10-04 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 17,
+    "selection_score": 0.014315172043866217,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "31fb4c1559e08152"
+  },
+  {
+    "decision_day": "2024-02-14 00:00:00+00:00",
+    "latest_outcome_day": "2024-02-13 00:00:00+00:00",
+    "sample_start_day": "2023-10-11 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 5,
+    "selection_score": 0.07444975163397581,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fdf8df314f04eac4"
+  },
+  {
+    "decision_day": "2024-02-21 00:00:00+00:00",
+    "latest_outcome_day": "2024-02-20 00:00:00+00:00",
+    "sample_start_day": "2023-10-18 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 5,
+    "selection_score": 0.10366113359085449,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fdf8df314f04eac4"
+  },
+  {
+    "decision_day": "2024-02-28 00:00:00+00:00",
+    "latest_outcome_day": "2024-02-27 00:00:00+00:00",
+    "sample_start_day": "2023-10-25 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 5,
+    "selection_score": 0.07490384648490574,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fdf8df314f04eac4"
+  },
+  {
+    "decision_day": "2024-03-06 00:00:00+00:00",
+    "latest_outcome_day": "2024-03-05 00:00:00+00:00",
+    "sample_start_day": "2023-11-01 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 5,
+    "selection_score": 0.11888283403296493,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fdf8df314f04eac4"
+  },
+  {
+    "decision_day": "2024-03-13 00:00:00+00:00",
+    "latest_outcome_day": "2024-03-12 00:00:00+00:00",
+    "sample_start_day": "2023-11-08 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 5,
+    "selection_score": 0.09539143957878266,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fdf8df314f04eac4"
+  },
+  {
+    "decision_day": "2024-03-20 00:00:00+00:00",
+    "latest_outcome_day": "2024-03-19 00:00:00+00:00",
+    "sample_start_day": "2023-11-15 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 224,
+    "selection_score": 0.09878572122010014,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "8c8790d3463474b0"
+  },
+  {
+    "decision_day": "2024-03-27 00:00:00+00:00",
+    "latest_outcome_day": "2024-03-26 00:00:00+00:00",
+    "sample_start_day": "2023-11-22 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 107,
+    "selection_score": 0.08797697981608575,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "563edd18a900d180"
+  },
+  {
+    "decision_day": "2024-04-03 00:00:00+00:00",
+    "latest_outcome_day": "2024-04-02 00:00:00+00:00",
+    "sample_start_day": "2023-11-29 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 104,
+    "selection_score": 0.10368061488593594,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c4bba510df3deaa5"
+  },
+  {
+    "decision_day": "2024-04-10 00:00:00+00:00",
+    "latest_outcome_day": "2024-04-09 00:00:00+00:00",
+    "sample_start_day": "2023-12-06 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 104,
+    "selection_score": 0.09123510231181535,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c4bba510df3deaa5"
+  },
+  {
+    "decision_day": "2024-04-17 00:00:00+00:00",
+    "latest_outcome_day": "2024-04-16 00:00:00+00:00",
+    "sample_start_day": "2023-12-13 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 104,
+    "selection_score": 0.10117834914960003,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c4bba510df3deaa5"
+  },
+  {
+    "decision_day": "2024-04-24 00:00:00+00:00",
+    "latest_outcome_day": "2024-04-23 00:00:00+00:00",
+    "sample_start_day": "2023-12-20 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 107,
+    "selection_score": 0.08081487977331102,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "563edd18a900d180"
+  },
+  {
+    "decision_day": "2024-05-01 00:00:00+00:00",
+    "latest_outcome_day": "2024-04-30 00:00:00+00:00",
+    "sample_start_day": "2023-12-27 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 81,
+    "selection_score": 0.0734491769339764,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "79cacea6999d7dea"
+  },
+  {
+    "decision_day": "2024-05-08 00:00:00+00:00",
+    "latest_outcome_day": "2024-05-07 00:00:00+00:00",
+    "sample_start_day": "2024-01-03 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 81,
+    "selection_score": 0.08916617107811745,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "79cacea6999d7dea"
+  },
+  {
+    "decision_day": "2024-05-15 00:00:00+00:00",
+    "latest_outcome_day": "2024-05-14 00:00:00+00:00",
+    "sample_start_day": "2024-01-10 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 81,
+    "selection_score": 0.0923890448805749,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "79cacea6999d7dea"
+  },
+  {
+    "decision_day": "2024-05-22 00:00:00+00:00",
+    "latest_outcome_day": "2024-05-21 00:00:00+00:00",
+    "sample_start_day": "2024-01-17 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 81,
+    "selection_score": 0.06425593902308356,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "79cacea6999d7dea"
+  },
+  {
+    "decision_day": "2024-05-29 00:00:00+00:00",
+    "latest_outcome_day": "2024-05-28 00:00:00+00:00",
+    "sample_start_day": "2024-01-24 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 242,
+    "selection_score": 0.06643385895803942,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "567ea11dbcd566c3"
+  },
+  {
+    "decision_day": "2024-06-05 00:00:00+00:00",
+    "latest_outcome_day": "2024-06-04 00:00:00+00:00",
+    "sample_start_day": "2024-01-31 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 242,
+    "selection_score": 0.06477899196094547,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "567ea11dbcd566c3"
+  },
+  {
+    "decision_day": "2024-06-12 00:00:00+00:00",
+    "latest_outcome_day": "2024-06-11 00:00:00+00:00",
+    "sample_start_day": "2024-02-07 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 242,
+    "selection_score": 0.05941838472807029,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "567ea11dbcd566c3"
+  },
+  {
+    "decision_day": "2024-06-19 00:00:00+00:00",
+    "latest_outcome_day": "2024-06-18 00:00:00+00:00",
+    "sample_start_day": "2024-02-14 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 132,
+    "selection_score": 0.018295547606017995,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cb59d342ac489186"
+  },
+  {
+    "decision_day": "2024-06-26 00:00:00+00:00",
+    "latest_outcome_day": "2024-06-25 00:00:00+00:00",
+    "sample_start_day": "2024-02-21 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 284,
+    "selection_score": 0.03338901180848019,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "63bedb9cfa680dc1"
+  },
+  {
+    "decision_day": "2024-07-03 00:00:00+00:00",
+    "latest_outcome_day": "2024-07-02 00:00:00+00:00",
+    "sample_start_day": "2024-02-28 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 321,
+    "selection_score": 0.01723348380981511,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9fcc83d4b96f4f11"
+  },
+  {
+    "decision_day": "2024-07-10 00:00:00+00:00",
+    "latest_outcome_day": "2024-07-09 00:00:00+00:00",
+    "sample_start_day": "2024-03-06 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 50,
+    "selection_score": 0.05151446896857724,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "1ccf068aab132624"
+  },
+  {
+    "decision_day": "2024-07-17 00:00:00+00:00",
+    "latest_outcome_day": "2024-07-16 00:00:00+00:00",
+    "sample_start_day": "2024-03-13 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 306,
+    "selection_score": 0.024420218328313065,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "dcb020770c8cb462"
+  },
+  {
+    "decision_day": "2024-07-24 00:00:00+00:00",
+    "latest_outcome_day": "2024-07-23 00:00:00+00:00",
+    "sample_start_day": "2024-03-20 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 321,
+    "selection_score": 0.011057726398857787,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "9fcc83d4b96f4f11"
+  },
+  {
+    "decision_day": "2024-07-31 00:00:00+00:00",
+    "latest_outcome_day": "2024-07-30 00:00:00+00:00",
+    "sample_start_day": "2024-03-27 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 35,
+    "selection_score": 0.012907007428019687,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "783a773921f4c6e9"
+  },
+  {
+    "decision_day": "2024-08-07 00:00:00+00:00",
+    "latest_outcome_day": "2024-08-06 00:00:00+00:00",
+    "sample_start_day": "2024-04-03 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 35,
+    "selection_score": 0.03499259495525052,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "783a773921f4c6e9"
+  },
+  {
+    "decision_day": "2024-08-14 00:00:00+00:00",
+    "latest_outcome_day": "2024-08-13 00:00:00+00:00",
+    "sample_start_day": "2024-04-10 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 35,
+    "selection_score": 0.04812832002973654,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "783a773921f4c6e9"
+  },
+  {
+    "decision_day": "2024-08-21 00:00:00+00:00",
+    "latest_outcome_day": "2024-08-20 00:00:00+00:00",
+    "sample_start_day": "2024-04-17 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 35,
+    "selection_score": 0.04148840973500711,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "783a773921f4c6e9"
+  },
+  {
+    "decision_day": "2024-08-28 00:00:00+00:00",
+    "latest_outcome_day": "2024-08-27 00:00:00+00:00",
+    "sample_start_day": "2024-04-24 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 35,
+    "selection_score": 0.042265647626753784,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "783a773921f4c6e9"
+  },
+  {
+    "decision_day": "2024-09-04 00:00:00+00:00",
+    "latest_outcome_day": "2024-09-03 00:00:00+00:00",
+    "sample_start_day": "2024-05-01 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 35,
+    "selection_score": 0.03610452308555409,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "783a773921f4c6e9"
+  },
+  {
+    "decision_day": "2024-09-11 00:00:00+00:00",
+    "latest_outcome_day": "2024-09-10 00:00:00+00:00",
+    "sample_start_day": "2024-05-08 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 182,
+    "selection_score": 0.06883493129084947,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "13a7e996394d1087"
+  },
+  {
+    "decision_day": "2024-09-18 00:00:00+00:00",
+    "latest_outcome_day": "2024-09-17 00:00:00+00:00",
+    "sample_start_day": "2024-05-15 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.1000976368208023,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-09-25 00:00:00+00:00",
+    "latest_outcome_day": "2024-09-24 00:00:00+00:00",
+    "sample_start_day": "2024-05-22 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.0371147603896282,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-10-02 00:00:00+00:00",
+    "latest_outcome_day": "2024-10-01 00:00:00+00:00",
+    "sample_start_day": "2024-05-29 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.0934405158438383,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-10-09 00:00:00+00:00",
+    "latest_outcome_day": "2024-10-08 00:00:00+00:00",
+    "sample_start_day": "2024-06-05 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.059731994625701196,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-10-16 00:00:00+00:00",
+    "latest_outcome_day": "2024-10-15 00:00:00+00:00",
+    "sample_start_day": "2024-06-12 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.0654147384093025,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-10-23 00:00:00+00:00",
+    "latest_outcome_day": "2024-10-22 00:00:00+00:00",
+    "sample_start_day": "2024-06-19 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 172,
+    "selection_score": 0.05179987277825657,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "e7a48cff0d4604d6"
+  },
+  {
+    "decision_day": "2024-10-30 00:00:00+00:00",
+    "latest_outcome_day": "2024-10-29 00:00:00+00:00",
+    "sample_start_day": "2024-06-26 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.05698987929854443,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-11-06 00:00:00+00:00",
+    "latest_outcome_day": "2024-11-05 00:00:00+00:00",
+    "sample_start_day": "2024-07-03 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 65,
+    "selection_score": 0.022470447257832732,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "2a39a2fb0fe10981"
+  },
+  {
+    "decision_day": "2024-11-13 00:00:00+00:00",
+    "latest_outcome_day": "2024-11-12 00:00:00+00:00",
+    "sample_start_day": "2024-07-10 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 65,
+    "selection_score": 0.052320861032658525,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "2a39a2fb0fe10981"
+  },
+  {
+    "decision_day": "2024-11-20 00:00:00+00:00",
+    "latest_outcome_day": "2024-11-19 00:00:00+00:00",
+    "sample_start_day": "2024-07-17 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.12566579218804122,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-11-27 00:00:00+00:00",
+    "latest_outcome_day": "2024-11-26 00:00:00+00:00",
+    "sample_start_day": "2024-07-24 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.12099303435311215,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-12-04 00:00:00+00:00",
+    "latest_outcome_day": "2024-12-03 00:00:00+00:00",
+    "sample_start_day": "2024-07-31 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.181372693609284,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-12-11 00:00:00+00:00",
+    "latest_outcome_day": "2024-12-10 00:00:00+00:00",
+    "sample_start_day": "2024-08-07 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.22524032776553798,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-12-18 00:00:00+00:00",
+    "latest_outcome_day": "2024-12-17 00:00:00+00:00",
+    "sample_start_day": "2024-08-14 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.2074534005087741,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2024-12-25 00:00:00+00:00",
+    "latest_outcome_day": "2024-12-24 00:00:00+00:00",
+    "sample_start_day": "2024-08-21 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.1877772332955771,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2025-01-01 00:00:00+00:00",
+    "latest_outcome_day": "2024-12-31 00:00:00+00:00",
+    "sample_start_day": "2024-08-28 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.14933469436824995,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2025-01-08 00:00:00+00:00",
+    "latest_outcome_day": "2025-01-07 00:00:00+00:00",
+    "sample_start_day": "2024-09-04 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 308,
+    "selection_score": 0.12499432842116545,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "1cedf43544f6eac1"
+  },
+  {
+    "decision_day": "2025-01-15 00:00:00+00:00",
+    "latest_outcome_day": "2025-01-14 00:00:00+00:00",
+    "sample_start_day": "2024-09-11 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 308,
+    "selection_score": 0.10269051761243575,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "1cedf43544f6eac1"
+  },
+  {
+    "decision_day": "2025-01-22 00:00:00+00:00",
+    "latest_outcome_day": "2025-01-21 00:00:00+00:00",
+    "sample_start_day": "2024-09-18 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 308,
+    "selection_score": 0.13853229057319963,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "1cedf43544f6eac1"
+  },
+  {
+    "decision_day": "2025-01-29 00:00:00+00:00",
+    "latest_outcome_day": "2025-01-28 00:00:00+00:00",
+    "sample_start_day": "2024-09-25 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 308,
+    "selection_score": 0.1416533985717058,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "1cedf43544f6eac1"
+  },
+  {
+    "decision_day": "2025-02-05 00:00:00+00:00",
+    "latest_outcome_day": "2025-02-04 00:00:00+00:00",
+    "sample_start_day": "2024-10-02 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 319,
+    "selection_score": 0.05582675713508818,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "6ddeecc48a586b38"
+  },
+  {
+    "decision_day": "2025-02-12 00:00:00+00:00",
+    "latest_outcome_day": "2025-02-11 00:00:00+00:00",
+    "sample_start_day": "2024-10-09 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 157,
+    "selection_score": 0.06362386823669909,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "eeb4b7ac86d93a0b"
+  },
+  {
+    "decision_day": "2025-02-19 00:00:00+00:00",
+    "latest_outcome_day": "2025-02-18 00:00:00+00:00",
+    "sample_start_day": "2024-10-16 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 157,
+    "selection_score": 0.08773727892900826,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "eeb4b7ac86d93a0b"
+  },
+  {
+    "decision_day": "2025-02-26 00:00:00+00:00",
+    "latest_outcome_day": "2025-02-25 00:00:00+00:00",
+    "sample_start_day": "2024-10-23 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 316,
+    "selection_score": 0.09810615469907213,
+    "policy": {
+      "rule": "opening_reversal",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "5fc4d04614a1f492"
+  },
+  {
+    "decision_day": "2025-03-05 00:00:00+00:00",
+    "latest_outcome_day": "2025-03-04 00:00:00+00:00",
+    "sample_start_day": "2024-10-30 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 157,
+    "selection_score": 0.06782766474030952,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "eeb4b7ac86d93a0b"
+  },
+  {
+    "decision_day": "2025-03-12 00:00:00+00:00",
+    "latest_outcome_day": "2025-03-11 00:00:00+00:00",
+    "sample_start_day": "2024-11-06 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 164,
+    "selection_score": 0.08378984622480747,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "caa78413b1477a09"
+  },
+  {
+    "decision_day": "2025-03-19 00:00:00+00:00",
+    "latest_outcome_day": "2025-03-18 00:00:00+00:00",
+    "sample_start_day": "2024-11-13 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 137,
+    "selection_score": 0.13940705579520027,
+    "policy": {
+      "rule": "reversal1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "42b9ad87bb7b6d1c"
+  },
+  {
+    "decision_day": "2025-03-26 00:00:00+00:00",
+    "latest_outcome_day": "2025-03-25 00:00:00+00:00",
+    "sample_start_day": "2024-11-20 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 164,
+    "selection_score": 0.11075056616567433,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "caa78413b1477a09"
+  },
+  {
+    "decision_day": "2025-04-02 00:00:00+00:00",
+    "latest_outcome_day": "2025-04-01 00:00:00+00:00",
+    "sample_start_day": "2024-11-27 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 164,
+    "selection_score": 0.11905784314419915,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "caa78413b1477a09"
+  },
+  {
+    "decision_day": "2025-04-09 00:00:00+00:00",
+    "latest_outcome_day": "2025-04-08 00:00:00+00:00",
+    "sample_start_day": "2024-12-04 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 164,
+    "selection_score": 0.0650680944052294,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "caa78413b1477a09"
+  },
+  {
+    "decision_day": "2025-04-16 00:00:00+00:00",
+    "latest_outcome_day": "2025-04-15 00:00:00+00:00",
+    "sample_start_day": "2024-12-11 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 41,
+    "selection_score": 0.059064654037710385,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7a242621f819fa35"
+  },
+  {
+    "decision_day": "2025-04-23 00:00:00+00:00",
+    "latest_outcome_day": "2025-04-22 00:00:00+00:00",
+    "sample_start_day": "2024-12-18 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 44,
+    "selection_score": 0.06148285510223864,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fe9491d1ae73caee"
+  },
+  {
+    "decision_day": "2025-04-30 00:00:00+00:00",
+    "latest_outcome_day": "2025-04-29 00:00:00+00:00",
+    "sample_start_day": "2024-12-25 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 44,
+    "selection_score": 0.04359307829003628,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fe9491d1ae73caee"
+  },
+  {
+    "decision_day": "2025-05-07 00:00:00+00:00",
+    "latest_outcome_day": "2025-05-06 00:00:00+00:00",
+    "sample_start_day": "2025-01-01 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 44,
+    "selection_score": 0.048219469212768776,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fe9491d1ae73caee"
+  },
+  {
+    "decision_day": "2025-05-14 00:00:00+00:00",
+    "latest_outcome_day": "2025-05-13 00:00:00+00:00",
+    "sample_start_day": "2025-01-08 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 44,
+    "selection_score": 0.024000260959377587,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fe9491d1ae73caee"
+  },
+  {
+    "decision_day": "2025-05-21 00:00:00+00:00",
+    "latest_outcome_day": "2025-05-20 00:00:00+00:00",
+    "sample_start_day": "2025-01-15 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 44,
+    "selection_score": 0.041854222878008995,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fe9491d1ae73caee"
+  },
+  {
+    "decision_day": "2025-05-28 00:00:00+00:00",
+    "latest_outcome_day": "2025-05-27 00:00:00+00:00",
+    "sample_start_day": "2025-01-22 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 44,
+    "selection_score": 0.04213358878390329,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "fe9491d1ae73caee"
+  },
+  {
+    "decision_day": "2025-06-04 00:00:00+00:00",
+    "latest_outcome_day": "2025-06-03 00:00:00+00:00",
+    "sample_start_day": "2025-01-29 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 116,
+    "selection_score": 0.05615389932226042,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "028a4fba02e3d8fc"
+  },
+  {
+    "decision_day": "2025-06-11 00:00:00+00:00",
+    "latest_outcome_day": "2025-06-10 00:00:00+00:00",
+    "sample_start_day": "2025-02-05 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 125,
+    "selection_score": 0.050584843832873844,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "015184ac8c2d7e29"
+  },
+  {
+    "decision_day": "2025-06-18 00:00:00+00:00",
+    "latest_outcome_day": "2025-06-17 00:00:00+00:00",
+    "sample_start_day": "2025-02-12 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 116,
+    "selection_score": 0.005520938199648474,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "028a4fba02e3d8fc"
+  },
+  {
+    "decision_day": "2025-06-25 00:00:00+00:00",
+    "latest_outcome_day": "2025-06-24 00:00:00+00:00",
+    "sample_start_day": "2025-02-19 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 116,
+    "selection_score": 0.021615649632165015,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "028a4fba02e3d8fc"
+  },
+  {
+    "decision_day": "2025-07-02 00:00:00+00:00",
+    "latest_outcome_day": "2025-07-01 00:00:00+00:00",
+    "sample_start_day": "2025-02-26 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 276,
+    "selection_score": 0.030777728167348854,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "f4be5a67cc51d05a"
+  },
+  {
+    "decision_day": "2025-07-09 00:00:00+00:00",
+    "latest_outcome_day": "2025-07-08 00:00:00+00:00",
+    "sample_start_day": "2025-03-05 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 60,
+    "selection_score": 0.021164938361610847,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "b107230fd103482d"
+  },
+  {
+    "decision_day": "2025-07-16 00:00:00+00:00",
+    "latest_outcome_day": "2025-07-15 00:00:00+00:00",
+    "sample_start_day": "2025-03-12 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 104,
+    "selection_score": 0.047039471922172935,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c4bba510df3deaa5"
+  },
+  {
+    "decision_day": "2025-07-23 00:00:00+00:00",
+    "latest_outcome_day": "2025-07-22 00:00:00+00:00",
+    "sample_start_day": "2025-03-19 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 92,
+    "selection_score": 0.09818979474204406,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c264ac7dfe0c9193"
+  },
+  {
+    "decision_day": "2025-07-30 00:00:00+00:00",
+    "latest_outcome_day": "2025-07-29 00:00:00+00:00",
+    "sample_start_day": "2025-03-26 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 92,
+    "selection_score": 0.10881616282128484,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c264ac7dfe0c9193"
+  },
+  {
+    "decision_day": "2025-08-06 00:00:00+00:00",
+    "latest_outcome_day": "2025-08-05 00:00:00+00:00",
+    "sample_start_day": "2025-04-02 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 104,
+    "selection_score": 0.10150965901598144,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c4bba510df3deaa5"
+  },
+  {
+    "decision_day": "2025-08-13 00:00:00+00:00",
+    "latest_outcome_day": "2025-08-12 00:00:00+00:00",
+    "sample_start_day": "2025-04-09 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 92,
+    "selection_score": 0.18764495599332756,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c264ac7dfe0c9193"
+  },
+  {
+    "decision_day": "2025-08-20 00:00:00+00:00",
+    "latest_outcome_day": "2025-08-19 00:00:00+00:00",
+    "sample_start_day": "2025-04-16 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 92,
+    "selection_score": 0.17249573270472487,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c264ac7dfe0c9193"
+  },
+  {
+    "decision_day": "2025-08-27 00:00:00+00:00",
+    "latest_outcome_day": "2025-08-26 00:00:00+00:00",
+    "sample_start_day": "2025-04-23 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 92,
+    "selection_score": 0.1709263502903493,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c264ac7dfe0c9193"
+  },
+  {
+    "decision_day": "2025-09-03 00:00:00+00:00",
+    "latest_outcome_day": "2025-09-02 00:00:00+00:00",
+    "sample_start_day": "2025-04-30 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 92,
+    "selection_score": 0.12571215772257507,
+    "policy": {
+      "rule": "momentum3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "c264ac7dfe0c9193"
+  },
+  {
+    "decision_day": "2025-09-10 00:00:00+00:00",
+    "latest_outcome_day": "2025-09-09 00:00:00+00:00",
+    "sample_start_day": "2025-05-07 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 11,
+    "selection_score": 0.1153853754976589,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "de3511a2aa773771"
+  },
+  {
+    "decision_day": "2025-09-17 00:00:00+00:00",
+    "latest_outcome_day": "2025-09-16 00:00:00+00:00",
+    "sample_start_day": "2025-05-14 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 11,
+    "selection_score": 0.053980950972679576,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "de3511a2aa773771"
+  },
+  {
+    "decision_day": "2025-09-24 00:00:00+00:00",
+    "latest_outcome_day": "2025-09-23 00:00:00+00:00",
+    "sample_start_day": "2025-05-21 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 235,
+    "selection_score": 0.07566490243585838,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "acd9903f64894010"
+  },
+  {
+    "decision_day": "2025-10-01 00:00:00+00:00",
+    "latest_outcome_day": "2025-09-30 00:00:00+00:00",
+    "sample_start_day": "2025-05-28 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 11,
+    "selection_score": 0.035486125358398776,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "de3511a2aa773771"
+  },
+  {
+    "decision_day": "2025-10-08 00:00:00+00:00",
+    "latest_outcome_day": "2025-10-07 00:00:00+00:00",
+    "sample_start_day": "2025-06-04 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 227,
+    "selection_score": 0.1391303362233321,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cd2886c289a96a1d"
+  },
+  {
+    "decision_day": "2025-10-15 00:00:00+00:00",
+    "latest_outcome_day": "2025-10-14 00:00:00+00:00",
+    "sample_start_day": "2025-06-11 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 227,
+    "selection_score": 0.16936770793910963,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cd2886c289a96a1d"
+  },
+  {
+    "decision_day": "2025-10-22 00:00:00+00:00",
+    "latest_outcome_day": "2025-10-21 00:00:00+00:00",
+    "sample_start_day": "2025-06-18 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 227,
+    "selection_score": 0.16738326740525428,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cd2886c289a96a1d"
+  },
+  {
+    "decision_day": "2025-10-29 00:00:00+00:00",
+    "latest_outcome_day": "2025-10-28 00:00:00+00:00",
+    "sample_start_day": "2025-06-25 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 227,
+    "selection_score": 0.11897093875390077,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cd2886c289a96a1d"
+  },
+  {
+    "decision_day": "2025-11-05 00:00:00+00:00",
+    "latest_outcome_day": "2025-11-04 00:00:00+00:00",
+    "sample_start_day": "2025-07-02 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 227,
+    "selection_score": 0.15957501334990506,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cd2886c289a96a1d"
+  },
+  {
+    "decision_day": "2025-11-12 00:00:00+00:00",
+    "latest_outcome_day": "2025-11-11 00:00:00+00:00",
+    "sample_start_day": "2025-07-09 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 226,
+    "selection_score": 0.12060110807838048,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cacd5dde86ac09ba"
+  },
+  {
+    "decision_day": "2025-11-19 00:00:00+00:00",
+    "latest_outcome_day": "2025-11-18 00:00:00+00:00",
+    "sample_start_day": "2025-07-16 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 226,
+    "selection_score": 0.13313067883379184,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cacd5dde86ac09ba"
+  },
+  {
+    "decision_day": "2025-11-26 00:00:00+00:00",
+    "latest_outcome_day": "2025-11-25 00:00:00+00:00",
+    "sample_start_day": "2025-07-23 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 226,
+    "selection_score": 0.1037312005952552,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cacd5dde86ac09ba"
+  },
+  {
+    "decision_day": "2025-12-03 00:00:00+00:00",
+    "latest_outcome_day": "2025-12-02 00:00:00+00:00",
+    "sample_start_day": "2025-07-30 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 217,
+    "selection_score": 0.13968614542715532,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "07779c4a893ec7a4"
+  },
+  {
+    "decision_day": "2025-12-10 00:00:00+00:00",
+    "latest_outcome_day": "2025-12-09 00:00:00+00:00",
+    "sample_start_day": "2025-08-06 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 217,
+    "selection_score": 0.15111578625422833,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "07779c4a893ec7a4"
+  },
+  {
+    "decision_day": "2025-12-17 00:00:00+00:00",
+    "latest_outcome_day": "2025-12-16 00:00:00+00:00",
+    "sample_start_day": "2025-08-13 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 217,
+    "selection_score": 0.10566130861346959,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "07779c4a893ec7a4"
+  },
+  {
+    "decision_day": "2025-12-24 00:00:00+00:00",
+    "latest_outcome_day": "2025-12-23 00:00:00+00:00",
+    "sample_start_day": "2025-08-20 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 217,
+    "selection_score": 0.09242444962340984,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "07779c4a893ec7a4"
+  },
+  {
+    "decision_day": "2025-12-31 00:00:00+00:00",
+    "latest_outcome_day": "2025-12-30 00:00:00+00:00",
+    "sample_start_day": "2025-08-27 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 217,
+    "selection_score": 0.09526820650695017,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "07779c4a893ec7a4"
+  },
+  {
+    "decision_day": "2026-01-07 00:00:00+00:00",
+    "latest_outcome_day": "2026-01-06 00:00:00+00:00",
+    "sample_start_day": "2025-09-03 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 217,
+    "selection_score": 0.08330493804313303,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "07779c4a893ec7a4"
+  },
+  {
+    "decision_day": "2026-01-14 00:00:00+00:00",
+    "latest_outcome_day": "2026-01-13 00:00:00+00:00",
+    "sample_start_day": "2025-09-10 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 226,
+    "selection_score": 0.07575919871685331,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cacd5dde86ac09ba"
+  },
+  {
+    "decision_day": "2026-01-21 00:00:00+00:00",
+    "latest_outcome_day": "2026-01-20 00:00:00+00:00",
+    "sample_start_day": "2025-09-17 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 226,
+    "selection_score": 0.07907692388303621,
+    "policy": {
+      "rule": "iv_regime",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "cacd5dde86ac09ba"
+  },
+  {
+    "decision_day": "2026-01-28 00:00:00+00:00",
+    "latest_outcome_day": "2026-01-27 00:00:00+00:00",
+    "sample_start_day": "2025-09-24 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 19,
+    "selection_score": 0.06479889204924327,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4f39b74476eb16cb"
+  },
+  {
+    "decision_day": "2026-02-04 00:00:00+00:00",
+    "latest_outcome_day": "2026-02-03 00:00:00+00:00",
+    "sample_start_day": "2025-10-01 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 19,
+    "selection_score": 0.08155311102955447,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4f39b74476eb16cb"
+  },
+  {
+    "decision_day": "2026-02-11 00:00:00+00:00",
+    "latest_outcome_day": "2026-02-10 00:00:00+00:00",
+    "sample_start_day": "2025-10-08 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 53,
+    "selection_score": 0.05515974018522801,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "2c47646fa843cfeb"
+  },
+  {
+    "decision_day": "2026-02-18 00:00:00+00:00",
+    "latest_outcome_day": "2026-02-17 00:00:00+00:00",
+    "sample_start_day": "2025-10-15 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 296,
+    "selection_score": 0.08067482550188135,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "ff6badf67e6a134c"
+  },
+  {
+    "decision_day": "2026-02-25 00:00:00+00:00",
+    "latest_outcome_day": "2026-02-24 00:00:00+00:00",
+    "sample_start_day": "2025-10-22 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 296,
+    "selection_score": 0.08099390229547641,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "ff6badf67e6a134c"
+  },
+  {
+    "decision_day": "2026-03-04 00:00:00+00:00",
+    "latest_outcome_day": "2026-03-03 00:00:00+00:00",
+    "sample_start_day": "2025-10-29 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 296,
+    "selection_score": 0.05816002662899378,
+    "policy": {
+      "rule": "opening_momentum",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "ff6badf67e6a134c"
+  },
+  {
+    "decision_day": "2026-03-11 00:00:00+00:00",
+    "latest_outcome_day": "2026-03-10 00:00:00+00:00",
+    "sample_start_day": "2025-11-05 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 53,
+    "selection_score": 0.025345349922983193,
+    "policy": {
+      "rule": "short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "2c47646fa843cfeb"
+  },
+  {
+    "decision_day": "2026-03-18 00:00:00+00:00",
+    "latest_outcome_day": "2026-03-17 00:00:00+00:00",
+    "sample_start_day": "2025-11-12 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 71,
+    "selection_score": 0.021582891126655526,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "164c782ceaf0531b"
+  },
+  {
+    "decision_day": "2026-03-25 00:00:00+00:00",
+    "latest_outcome_day": "2026-03-24 00:00:00+00:00",
+    "sample_start_day": "2025-11-19 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 59,
+    "selection_score": 0.04594933149225659,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "458a6820cb2c816f"
+  },
+  {
+    "decision_day": "2026-04-01 00:00:00+00:00",
+    "latest_outcome_day": "2026-03-31 00:00:00+00:00",
+    "sample_start_day": "2025-11-26 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 19,
+    "selection_score": 0.057066033413356296,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4f39b74476eb16cb"
+  },
+  {
+    "decision_day": "2026-04-08 00:00:00+00:00",
+    "latest_outcome_day": "2026-04-07 00:00:00+00:00",
+    "sample_start_day": "2025-12-03 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 19,
+    "selection_score": 0.06240417070373712,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4f39b74476eb16cb"
+  },
+  {
+    "decision_day": "2026-04-15 00:00:00+00:00",
+    "latest_outcome_day": "2026-04-14 00:00:00+00:00",
+    "sample_start_day": "2025-12-10 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 19,
+    "selection_score": 0.03473429224937233,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4f39b74476eb16cb"
+  },
+  {
+    "decision_day": "2026-04-22 00:00:00+00:00",
+    "latest_outcome_day": "2026-04-21 00:00:00+00:00",
+    "sample_start_day": "2025-12-17 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 19,
+    "selection_score": 0.04774950216445864,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4f39b74476eb16cb"
+  },
+  {
+    "decision_day": "2026-04-29 00:00:00+00:00",
+    "latest_outcome_day": "2026-04-28 00:00:00+00:00",
+    "sample_start_day": "2025-12-24 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 19,
+    "selection_score": 0.03426523084068818,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4f39b74476eb16cb"
+  },
+  {
+    "decision_day": "2026-05-06 00:00:00+00:00",
+    "latest_outcome_day": "2026-05-05 00:00:00+00:00",
+    "sample_start_day": "2025-12-31 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 19,
+    "selection_score": 0.07289674338948941,
+    "policy": {
+      "rule": "long",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.5,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4f39b74476eb16cb"
+  },
+  {
+    "decision_day": "2026-05-13 00:00:00+00:00",
+    "latest_outcome_day": "2026-05-12 00:00:00+00:00",
+    "sample_start_day": "2026-01-07 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 173,
+    "selection_score": 0.058482368822528843,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "7df2604efe1fc8a1"
+  },
+  {
+    "decision_day": "2026-05-20 00:00:00+00:00",
+    "latest_outcome_day": "2026-05-19 00:00:00+00:00",
+    "sample_start_day": "2026-01-14 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 65,
+    "selection_score": 0.04316949378404532,
+    "policy": {
+      "rule": "momentum1",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "2a39a2fb0fe10981"
+  },
+  {
+    "decision_day": "2026-05-27 00:00:00+00:00",
+    "latest_outcome_day": "2026-05-26 00:00:00+00:00",
+    "sample_start_day": "2026-01-21 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 200,
+    "selection_score": 0.07428948824078942,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "05c6b441a8cd23f6"
+  },
+  {
+    "decision_day": "2026-06-03 00:00:00+00:00",
+    "latest_outcome_day": "2026-06-02 00:00:00+00:00",
+    "sample_start_day": "2026-01-28 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 200,
+    "selection_score": 0.12047811856971896,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "05c6b441a8cd23f6"
+  },
+  {
+    "decision_day": "2026-06-10 00:00:00+00:00",
+    "latest_outcome_day": "2026-06-09 00:00:00+00:00",
+    "sample_start_day": "2026-02-04 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 200,
+    "selection_score": 0.1108741571598311,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "05c6b441a8cd23f6"
+  },
+  {
+    "decision_day": "2026-06-17 00:00:00+00:00",
+    "latest_outcome_day": "2026-06-16 00:00:00+00:00",
+    "sample_start_day": "2026-02-11 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 191,
+    "selection_score": 0.14831656217933897,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "56c3c97f4bc640f5"
+  },
+  {
+    "decision_day": "2026-06-24 00:00:00+00:00",
+    "latest_outcome_day": "2026-06-23 00:00:00+00:00",
+    "sample_start_day": "2026-02-18 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 191,
+    "selection_score": 0.13161364275362653,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "latest_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "56c3c97f4bc640f5"
+  },
+  {
+    "decision_day": "2026-07-01 00:00:00+00:00",
+    "latest_outcome_day": "2026-06-30 00:00:00+00:00",
+    "sample_start_day": "2026-02-25 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 212,
+    "selection_score": 0.0872930189987891,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "db69d35bc548a21a"
+  },
+  {
+    "decision_day": "2026-07-08 00:00:00+00:00",
+    "latest_outcome_day": "2026-07-07 00:00:00+00:00",
+    "sample_start_day": "2026-03-04 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 212,
+    "selection_score": 0.0862817547852061,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "db69d35bc548a21a"
+  },
+  {
+    "decision_day": "2026-07-15 00:00:00+00:00",
+    "latest_outcome_day": "2026-07-14 00:00:00+00:00",
+    "sample_start_day": "2026-03-11 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 209,
+    "selection_score": 0.06568258884430794,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "d1891b3c8547dfad"
+  },
+  {
+    "decision_day": "2026-07-22 00:00:00+00:00",
+    "latest_outcome_day": "2026-07-21 00:00:00+00:00",
+    "sample_start_day": "2026-03-18 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 212,
+    "selection_score": 0.07245308284800164,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "db69d35bc548a21a"
+  },
+  {
+    "decision_day": "2026-07-29 00:00:00+00:00",
+    "latest_outcome_day": "2026-07-28 00:00:00+00:00",
+    "sample_start_day": "2026-03-25 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 209,
+    "selection_score": 0.07922215654230437,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 0.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "d1891b3c8547dfad"
+  },
+  {
+    "decision_day": "2026-08-05 00:00:00+00:00",
+    "latest_outcome_day": "2026-08-04 00:00:00+00:00",
+    "sample_start_day": "2026-04-01 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 134,
+    "selection_score": 0.047577960155294724,
+    "policy": {
+      "rule": "momentum7",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.5,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "4ec7683f7f0aa5b3"
+  },
+  {
+    "decision_day": "2026-08-12 00:00:00+00:00",
+    "latest_outcome_day": "2026-08-11 00:00:00+00:00",
+    "sample_start_day": "2026-04-08 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 212,
+    "selection_score": 0.06969309403654662,
+    "policy": {
+      "rule": "iv_rise_short",
+      "entry_minute": 2,
+      "wall_model": "history_mean",
+      "stop_multiple": 1.0,
+      "target_multiple": 1.0,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "db69d35bc548a21a"
+  },
+  {
+    "decision_day": "2026-08-19 00:00:00+00:00",
+    "latest_outcome_day": "2026-08-18 00:00:00+00:00",
+    "sample_start_day": "2026-04-15 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 171,
+    "selection_score": 0.07133275418813367,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "df7a7bb5f6765f5f"
+  },
+  {
+    "decision_day": "2026-08-26 00:00:00+00:00",
+    "latest_outcome_day": "2026-08-25 00:00:00+00:00",
+    "sample_start_day": "2026-04-22 00:00:00+00:00",
+    "matured_training_days": 126,
+    "selected_index": 171,
+    "selection_score": 0.08541088598268692,
+    "policy": {
+      "rule": "reversal3",
+      "entry_minute": 2,
+      "wall_model": "mean5_iv",
+      "stop_multiple": 0.5,
+      "target_multiple": 0.25,
+      "risk_fraction": 0.01,
+      "exposure_cap": 5.0,
+      "trigger_multiple": 0.25
+    },
+    "policy_id": "df7a7bb5f6765f5f"
+  }
+]
