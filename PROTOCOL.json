@@ -1,0 +1,63 @@
+{
+  "version": "3.1",
+  "status": "frozen_before_new_candidate_return_evaluation",
+  "instrument_scope": "any pair permitted; actual retrieved instruments must be reported",
+  "initial_available_instrument": "ETHUSDT Binance USD-M perpetual",
+  "development": [
+    "2024-09-02T00:00:00Z",
+    "2025-03-03T00:00:00Z"
+  ],
+  "validation": [
+    "2025-03-03T00:00:00Z",
+    "2025-05-26T00:00:00Z"
+  ],
+  "evaluation": [
+    "2025-06-02T00:00:00Z",
+    "2026-06-01T00:00:00Z"
+  ],
+  "evaluation_note": "52 complete Monday weeks. Data predates cutoff and overlaps earlier project research. Not a globally untouched holdout.",
+  "selection": "Choose each family's top development candidate, then choose overall non-cash candidate by validation geometric weekly return. Freeze before evaluation. Cash if no candidate has positive validation return. Report rejected positive development candidates too.",
+  "target": {
+    "geometric_weekly_minimum": 0.1,
+    "every_week_10pct_separate_test": true,
+    "worst_week_minimum": -0.05,
+    "maximum_consecutive_losing_weeks": 3,
+    "maximum_daily_entries": 300,
+    "leverage_cap": 20
+  },
+  "sizing": "0.25%, 0.5%, 1% planned equity risk per trade; 20x gross entry cap; modeled fees/slippage included in risk; no martingale",
+  "risk": {
+    "weekly_account_stop": 0.04,
+    "daily_account_stop": 0.015,
+    "no_artificial_streak_reset": true,
+    "no_loss_clamping": true,
+    "maximum_prior_bar_volume_participation": 0.01
+  },
+  "execution": {
+    "entry": "next minute open after completed signal",
+    "fee_bps_per_side": 5,
+    "adverse_slippage_bps_per_side": 2,
+    "funding": "actual observed historical settlements",
+    "maintenance_ratio_approximation": 0.01,
+    "liquidation_fee_bps": 100,
+    "same_bar_ambiguity": "liquidation then stop then target",
+    "book_impact": "unavailable, volume cap is an approximation"
+  },
+  "subminute": "Four historical trade-sample days only. Sample diagnostics must not be annualized or described as a full-year 1s test.",
+  "live_orders": "disabled; no accounts or credentials required",
+  "created_at_utc": "2026-09-21T23:44:16.220807+00:00",
+  "purge_before_evaluation": "7 days",
+  "initial_equity": 10000,
+  "capacity_stress_initial_equities": [
+    100000,
+    1000000,
+    100000000
+  ],
+  "instrument_grid_assumptions": {
+    "quantity_step_ETH": 0.001,
+    "price_tick_USDT": 0.01,
+    "minimum_order_notional_USDT": 20,
+    "verification": "Conservative modeling assumptions, not independently verified historical exchange filters. New instruments need instrument-specific verified filters."
+  },
+  "revision_note": "Order-grid and minimum-order execution correctness repair after V3.0 evaluation, not outcome-driven parameter optimization. Original definitions, source, frozen choices and results retained in revisions/pre_order_grid. All outputs rerun, prior test exposure disclosed."
+}

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.env
+.env.*
+!*.example
+data/aligned_data.npz
+results/breakout_equity.csv.gz
+results/breakout_trades.csv.gz
+reproduced/*.npz
+reproduced/*.csv.gz

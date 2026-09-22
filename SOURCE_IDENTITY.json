@@ -1,0 +1,16 @@
+{
+  "owner": "Parrish Lyon",
+  "original_archive": "ETH_Breakout_Diagnostic_Saved.zip",
+  "exact_original_git_blob_shas": {
+    "v3/engine.py": "5bed81a4a128fadd933b8f51cf548d931a6d4ea1",
+    "v3/signals.py": "81e09b02967e876345cbdd40f3f1567bceb19956",
+    "v3/__init__.py": "ad5cfd40b9fc3faab8a316e06d54340c1013e07e",
+    "reproduce_saved.py": "8a9c33abb905a1d7dad368d98045f9eced2581a9",
+    "SAVED_DIAGNOSTIC.json": "e40bc65aaabc364e0c21cf5e0f73331be6af901c",
+    "PROTOCOL.json": "bc198d3b56a1b67db9852b39c121b701b7309d40",
+    "results/breakout_weeks.csv": "d60b480adc543569db55d421833c60dbfe218355"
+  },
+  "data_sha256": "cdecadabcd6152bca34bf322c3e140924ec13b51fdfc88e42b8ab650984ed6aa",
+  "data_location": "Original full diagnostic archive provided to owner; not duplicated in public Git tree",
+  "recorded_reproduction": {"matched": true, "trades": 222, "minute_equity_rows": 524160, "equity_series": 3, "weeks": 52, "maximum_trade_cell_error": 1.8189894035458565e-12}
+}

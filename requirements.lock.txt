@@ -1,0 +1,9 @@
+# Actual versions used for the included run on Linux, Python 3.13.5.
+# This is an environment snapshot, not a guarantee of wheel availability on every OS.
+numpy==2.3.5
+pandas==2.2.3
+numba==0.65.1
+scipy==1.17.0
+scikit-learn==1.8.0
+joblib==1.5.3
+threadpoolctl==3.6.0
