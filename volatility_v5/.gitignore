@@ -1,0 +1,10 @@
+data/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.nbc
+*.nbi
+*.log
+.env
+.env.*
